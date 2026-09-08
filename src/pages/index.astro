@@ -1,9 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { airlines, aircraftConfigs, layoutString } from '../data';
+import { airlines, aircraftConfigs, layoutString, getAircraftByAirline } from '../data';
 import { aircraftUrlParam } from '../lib/resolve';
+import guides from '../data/guides.json';
 
-const featured = aircraftConfigs.slice(0, 6);
+const featured = aircraftConfigs.slice(0, 8);
+const airlineCards = airlines.map((a) => ({
+  ...a,
+  count: getAircraftByAirline(a.slug).length,
+}));
 ---
 <BaseLayout
   title="Pick Your Row — airline seat maps & cabin guides"
@@ -18,16 +23,47 @@ const featured = aircraftConfigs.slice(0, 6);
     </p>
     <div class="btn-row">
       <a class="btn" href="/airlines/">Browse airlines</a>
-      <a class="btn secondary" href="/guides/how-to-read-a-seat-map/">How to read a seat map</a>
+      <a class="btn secondary" href="/guides/">Seat-selection guides</a>
+      <a class="btn secondary" href="/aircraft/">Aircraft types</a>
     </div>
     <p class="note info">
       Configurations vary by aircraft registration and retrofit. Treat every map as an illustrative schematic and
-      confirm seats with your airline.
+      confirm seats with your airline. We are not affiliated with any carrier.
     </p>
   </section>
 
   <section class="wrap" style="margin-bottom:2rem">
-    <h2>Featured cabin schematics</h2>
+    <div class="section-head">
+      <h2>Browse by airline</h2>
+      <label class="filter-label" for="airline-filter">
+        Filter
+        <input
+          id="airline-filter"
+          class="filter-input"
+          type="search"
+          placeholder="Name or IATA (e.g. DL, Emirates)"
+          autocomplete="off"
+        />
+      </label>
+    </div>
+    <div class="grid cols-3" style="margin-top:1rem" id="airline-grid">
+      {airlineCards.map((a) => (
+        <article class="card airline-card" data-filter={`${a.name} ${a.iata} ${a.country} ${a.slug}`.toLowerCase()}>
+          <span class="badge">{a.iata}</span>
+          <h3><a class="stretched" href={`/airlines/${a.slug}/`}>{a.name}</a></h3>
+          <p>{a.blurb}</p>
+          <p class="muted" style="margin-top:0.45rem">{a.count} schematic config{a.count === 1 ? '' : 's'}</p>
+        </article>
+      ))}
+    </div>
+    <p id="filter-empty" class="muted" hidden style="margin-top:1rem">No airlines match that filter.</p>
+  </section>
+
+  <section class="wrap" style="margin-bottom:2rem">
+    <div class="section-head">
+      <h2>Featured cabin schematics</h2>
+      <a href="/airlines/">See all airlines →</a>
+    </div>
     <div class="grid cols-2" style="margin-top:1rem">
       {featured.map((c) => {
         const airline = airlines.find((a) => a.slug === c.airlineSlug)!;
@@ -37,8 +73,11 @@ const featured = aircraftConfigs.slice(0, 6);
             <span class="badge">{airline.name}</span>
             <h3><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>{c.aircraftType}</a></h3>
             <p>
-              ~{c.totalSeatsApprox} seats · economy layout {layoutString(c)} ·
-              {' '}<a href={`/best-seats/${airline.slug}/${ap}/`}>best seats</a>
+              ~{c.totalSeatsApprox} seats · economy layout {layoutString(c)}
+            </p>
+            <p class="btn-row" style="margin-bottom:0">
+              <a class="btn secondary" href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a>
+              <a class="btn" href={`/best-seats/${airline.slug}/${ap}/`}>Best seats</a>
             </p>
           </article>
         );
@@ -46,15 +85,35 @@ const featured = aircraftConfigs.slice(0, 6);
     </div>
   </section>
 
-  <section class="wrap" style="margin-bottom:2rem">
-    <h2>Airlines</h2>
-    <div class="grid cols-3" style="margin-top:1rem">
-      {airlines.map((a) => (
+  <section class="wrap" style="margin-bottom:2.5rem">
+    <div class="section-head">
+      <h2>Guides</h2>
+      <a href="/guides/">All guides →</a>
+    </div>
+    <div class="grid cols-2" style="margin-top:1rem">
+      {guides.slice(0, 4).map((g) => (
         <article class="card">
-          <h3><a class="stretched" href={`/airlines/${a.slug}/`}>{a.name} <span class="muted">({a.iata})</span></a></h3>
-          <p>{a.blurb}</p>
+          <h3><a href={`/guides/${g.slug}/`}>{g.title}</a></h3>
+          <p>{g.description}</p>
         </article>
       ))}
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  const input = document.getElementById('airline-filter');
+  const cards = Array.from(document.querySelectorAll('.airline-card'));
+  const empty = document.getElementById('filter-empty');
+  input?.addEventListener('input', () => {
+    const q = (input).value.trim().toLowerCase();
+    let shown = 0;
+    for (const card of cards) {
+      const hay = card.getAttribute('data-filter') || '';
+      const match = !q || hay.includes(q);
+      card.toggleAttribute('hidden', !match);
+      if (match) shown += 1;
+    }
+    if (empty) empty.hidden = shown > 0;
+  });
+</script>

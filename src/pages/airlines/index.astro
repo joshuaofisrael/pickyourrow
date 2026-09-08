@@ -5,20 +5,53 @@ import { airlines, getAircraftByAirline } from '../../data';
 <BaseLayout title="Airlines" description="Browse airline cabin schematics on Pick Your Row.">
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / Airlines</nav>
-    <h1 class="page-title">Airlines</h1>
+    <div class="section-head">
+      <h1 class="page-title" style="margin:0">Airlines</h1>
+      <label class="filter-label" for="airline-filter">
+        Filter
+        <input
+          id="airline-filter"
+          class="filter-input"
+          type="search"
+          placeholder="Name or IATA"
+          autocomplete="off"
+        />
+      </label>
+    </div>
     <p class="lede">Select a carrier to see illustrative aircraft configs. Names are used factually; we are not affiliated with any airline.</p>
-    <div class="grid cols-2">
+    <div class="grid cols-2" id="airline-grid">
       {airlines.map((a) => {
         const n = getAircraftByAirline(a.slug).length;
         return (
-          <article class="card">
+          <article class="card airline-card" data-filter={`${a.name} ${a.iata} ${a.country} ${a.slug}`.toLowerCase()}>
             <span class="badge">{a.iata}</span>
             <h2><a href={`/airlines/${a.slug}/`}>{a.name}</a></h2>
             <p>{a.blurb}</p>
             <p class="muted" style="margin-top:0.5rem">{n} schematic config{n === 1 ? '' : 's'}</p>
+            <p class="btn-row" style="margin-bottom:0">
+              <a href={`/airlines/${a.slug}/`}>View configs</a>
+            </p>
           </article>
         );
       })}
     </div>
+    <p id="filter-empty" class="muted" hidden style="margin-top:1rem">No airlines match that filter.</p>
   </div>
 </BaseLayout>
+
+<script>
+  const input = document.getElementById('airline-filter');
+  const cards = Array.from(document.querySelectorAll('.airline-card'));
+  const empty = document.getElementById('filter-empty');
+  input?.addEventListener('input', () => {
+    const q = (input).value.trim().toLowerCase();
+    let shown = 0;
+    for (const card of cards) {
+      const hay = card.getAttribute('data-filter') || '';
+      const match = !q || hay.includes(q);
+      card.toggleAttribute('hidden', !match);
+      if (match) shown += 1;
+    }
+    if (empty) empty.hidden = shown > 0;
+  });
+</script>

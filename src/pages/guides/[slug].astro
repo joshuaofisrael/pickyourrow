@@ -8,6 +8,7 @@ export function getStaticPaths() {
 
 const { slug } = Astro.params;
 const guide = guides.find((g) => g.slug === slug)!;
+const related = guides.filter((g) => g.slug !== slug).slice(0, 3);
 ---
 <BaseLayout title={guide.title} description={guide.description}>
   <div class="wrap prose">
@@ -15,6 +16,19 @@ const guide = guides.find((g) => g.slug === slug)!;
     <h1 class="page-title">{guide.title}</h1>
     <p class="lede">{guide.description}</p>
     {guide.body.map((p) => <p>{p}</p>)}
-    <p class="btn-row"><a class="btn secondary" href="/airlines/">Browse airlines</a></p>
+    <p class="btn-row">
+      <a class="btn" href="/airlines/">Browse airline seat maps</a>
+      <a class="btn secondary" href="/guides/">More guides</a>
+    </p>
+    {related.length > 0 && (
+      <>
+        <h2>Related guides</h2>
+        <ul class="clean">
+          {related.map((g) => (
+            <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
+          ))}
+        </ul>
+      </>
+    )}
   </div>
 </BaseLayout>

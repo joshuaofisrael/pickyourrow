@@ -33,5 +33,61 @@
     "iata": "U2",
     "country": "United Kingdom",
     "blurb": "European low-cost carrier operating an all-Airbus A320-family fleet with largely single-cabin layouts."
+  },
+  {
+    "slug": "southwest",
+    "name": "Southwest Airlines",
+    "iata": "WN",
+    "country": "United States",
+    "blurb": "U.S. low-cost carrier with an all-Boeing 737 fleet and primarily single-cabin layouts. Configurations vary by subfleet."
+  },
+  {
+    "slug": "jetblue",
+    "name": "JetBlue",
+    "iata": "B6",
+    "country": "United States",
+    "blurb": "U.S. carrier known for A320-family aircraft and select Mint premium cabins. Layouts differ by route and retrofit."
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska Airlines",
+    "iata": "AS",
+    "country": "United States",
+    "blurb": "U.S. carrier operating mainly Boeing 737s. First, Premium, and Main cabin products vary across the fleet."
+  },
+  {
+    "slug": "lufthansa",
+    "name": "Lufthansa",
+    "iata": "LH",
+    "country": "Germany",
+    "blurb": "German network carrier with short-haul A320-family and long-haul wide-body fleets. Cabin products differ by aircraft."
+  },
+  {
+    "slug": "air-france",
+    "name": "Air France",
+    "iata": "AF",
+    "country": "France",
+    "blurb": "French flag carrier operating short-haul narrow-bodies and long-haul wide-bodies. Schematics below are typical public layouts only."
+  },
+  {
+    "slug": "ryanair",
+    "name": "Ryanair",
+    "iata": "FR",
+    "country": "Ireland",
+    "blurb": "European ultra-low-cost carrier with a high-density Boeing 737 fleet. Single-cabin layouts are typical."
+  },
+  {
+    "slug": "emirates",
+    "name": "Emirates",
+    "iata": "EK",
+    "country": "United Arab Emirates",
+    "blurb": "Dubai-based long-haul carrier operating large wide-body fleets. Multi-cabin products vary substantially by aircraft and retrofit."
+  },
+  {
+    "slug": "qatar",
+    "name": "Qatar Airways",
+    "iata": "QR",
+    "country": "Qatar",
+    "blurb": "Doha-based network carrier with modern wide-body fleets. Business and economy layouts differ by subfleet."
   }
 ]

@@ -23,5 +23,53 @@
       "Window vs aisle is personal: window for rest and views, aisle for easy access. Middles score lower unless you are traveling as a group of three.",
       "Our scores are editorial opinions for planning, not guarantees. Aircraft change; your booking tools and the airline remain the source of truth."
     ]
+  },
+  {
+    "slug": "exit-row-tips",
+    "title": "Exit row tips before you select",
+    "description": "What exit-row seats usually mean for space, rules, storage, and who should skip them.",
+    "body": [
+      "Exit-row seats sit beside doors used in an evacuation. Airlines typically require passengers who can assist — which often excludes infants, some mobility needs, and sometimes pets in cabin.",
+      "Pitch is often better than standard rows. Trade-offs can include armrest tray tables, limited under-seat bags for takeoff/landing, and a cooler feel near the door seals.",
+      "On our schematics, exit rows are marked explicitly and usually score higher in the editorial heuristic for space — but only if you meet the airline’s criteria.",
+      "Double-check the airline’s exit-row briefing rules at booking time. Policies differ and change.",
+      "Pick Your Row maps are original schematics, not airline manuals. Confirm your exact aircraft with the carrier."
+    ]
+  },
+  {
+    "slug": "window-alignment",
+    "title": "Window seats and window alignment",
+    "description": "Why some “window” seats have a poor view — and how to think about alignment on schematics.",
+    "body": [
+      "Not every window-letter seat lines up with a window. Overwing areas, door plugs, and structural sections can leave you facing a wall or a partial pane.",
+      "Our maps mark window letters by cabin geometry, not by pane survey. Treat them as letter positions, not guaranteed views.",
+      "If scenery matters, prefer window letters away from wing box rows when you can identify them — often near mid-cabin exits on narrow-bodies.",
+      "Aisle seats trade the view for easier access. Middles sit between both trade-offs and usually score lower in our heuristic.",
+      "Always verify on the airline’s seat map for your flight: registration-specific interiors can shift window alignment."
+    ]
+  },
+  {
+    "slug": "bulkhead-seats",
+    "title": "Bulkhead seats: pros and cons",
+    "description": "First-row cabin seats explained — bassinet notes, foot space, and common surprises.",
+    "body": [
+      "Bulkhead seats are the first row of a cabin, facing a wall or curtain. Nobody reclines into you, which many travelers love.",
+      "Under-seat storage may be limited or unavailable for takeoff and landing. Carry-on often has to go in the overhead sooner.",
+      "Some bulkheads have bassinet mounts — quieter for some, busier for others. Check your airline’s family seating notes if that matters.",
+      "Tray tables may fold from the armrest. Seat width can feel tighter when armrests contain the table mechanism.",
+      "Our editorial scores often boost bulkheads for space and then deduct if they sit next to galleys or lavatories."
+    ]
+  },
+  {
+    "slug": "quiet-vs-convenient",
+    "title": "Quiet seats vs convenient seats",
+    "description": "How to weigh rear boarding convenience, lavatory traffic, and mid-cabin calm when picking a row.",
+    "body": [
+      "Rear cabin seats can board and deplane later on many jets, but they are often closer to lavatories and galleys — more foot traffic and noise.",
+      "Forward economy is usually quieter and faster to leave, yet may cost more or be tagged as preferred seating.",
+      "Our heuristic tags near-lav and near-galley seats as caution and rear seats as lower priority unless they are exits or bulkheads.",
+      "If you need the restroom often, sitting close can be convenient — just expect traffic. If you need sleep, prioritize mid-cabin window seats away from service centers.",
+      "Use the seat map page together with the best-seats list: the map shows location; the scores summarize editorial trade-offs."
+    ]
   }
 ]
