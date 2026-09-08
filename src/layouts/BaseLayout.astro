@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonicalPath?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description = 'Original airline cabin schematics and editorial best-seat guidance. Not affiliated with any airline.',
+  canonicalPath = Astro.url.pathname,
+  jsonLd,
+} = Astro.props;
+
+const site = 'https://pickyourrow.com';
+const canonical = new URL(canonicalPath, site).toString();
+const fullTitle = title.includes('Pick Your Row') ? title : `${title} · Pick Your Row`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="/">Pick Your Row <span>pickyourrow.com</span></a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/airlines/">Airlines</a>
+          <a href="/aircraft/">Aircraft</a>
+          <a href="/guides/">Guides</a>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          © {new Date().getFullYear()} Joshua Israel Ventures LLC. Pick Your Row / pickyourrow.com.
+        </p>
+        <p>
+          Not affiliated with, endorsed by, or sponsored by any airline. Seat maps are original schematic
+          reconstructions from publicly known typical configuration facts. Layouts vary by aircraft registration —
+          always confirm with your airline.
+        </p>
+        <p>
+          <a href="/disclosure/">Affiliate disclosure</a>
+          ·
+          <a href="/about/">About</a>
+          ·
+          <a href="/guides/">Guides</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

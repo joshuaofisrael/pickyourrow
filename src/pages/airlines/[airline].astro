@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { airlines, getAircraftByAirline, layoutString } from '../../data';
+import { aircraftUrlParam } from '../../lib/resolve';
+
+export function getStaticPaths() {
+  return airlines.map((a) => ({ params: { airline: a.slug } }));
+}
+
+const { airline: slug } = Astro.params;
+const airline = airlines.find((a) => a.slug === slug)!;
+const configs = getAircraftByAirline(slug!);
+---
+<BaseLayout
+  title={`${airline.name} seat maps`}
+  description={`Original schematic cabin maps for typical ${airline.name} aircraft. Not affiliated with ${airline.name}.`}
+>
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="/">Home</a> / <a href="/airlines/">Airlines</a> / {airline.name}</nav>
+    <h1 class="page-title">{airline.name} <span class="muted">({airline.iata})</span></h1>
+    <p class="lede">{airline.blurb}</p>
+    <p class="note">
+      Pick Your Row is not affiliated with, endorsed by, or sponsored by {airline.name}. Maps are original schematics.
+    </p>
+    <div class="grid cols-2">
+      {configs.map((c) => {
+        const ap = aircraftUrlParam(c);
+        return (
+          <article class="card">
+            <h2><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>{c.aircraftType}</a></h2>
+            <p>~{c.totalSeatsApprox} seats · layout {layoutString(c)}</p>
+            <p class="btn-row">
+              <a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a>
+              ·
+              <a href={`/best-seats/${airline.slug}/${ap}/`}>Best seats</a>
+            </p>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+</BaseLayout>

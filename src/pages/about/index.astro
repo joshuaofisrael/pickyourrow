@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="About Pick Your Row"
+  description="About Pick Your Row — original airline cabin schematics by Joshua Israel Ventures LLC."
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / About</nav>
+    <h1 class="page-title">About Pick Your Row</h1>
+    <p>
+      <strong>Pick Your Row</strong> (pickyourrow.com) is a lean cabin-guide project from
+      <strong>Joshua Israel Ventures LLC</strong>. We publish original SVG seat-map schematics and editorial
+      “best seat” notes so travelers can plan more confidently.
+    </p>
+    <h2>What we are (and are not)</h2>
+    <ul class="clean">
+      <li>We draw our own schematics from publicly known typical configuration facts (seat counts, layout strings like 3-3-3, published exit-row notes).</li>
+      <li>We do not scrape or copy SeatGuru, AeroLOPA, airline PDFs/diagrams, or competitor HTML/JSON.</li>
+      <li>Airline names appear factually. We never imply affiliation, endorsement, or sponsorship.</li>
+      <li>Configs vary by registration — every map says so.</li>
+    </ul>
+    <h2>Editorial scores</h2>
+    <p>
+      Best-seat scores are heuristic opinions (exit row, bulkhead, near lav = caution, and similar rules).
+      They are documented as editorial in the UI and are not airline recommendations.
+    </p>
+    <p><a href="/disclosure/">Affiliate disclosure</a></p>
+  </div>
+</BaseLayout>

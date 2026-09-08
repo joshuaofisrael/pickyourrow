@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { airlines, getUniqueAircraftTypes, layoutString } from '../../data';
+import { aircraftUrlParam } from '../../lib/resolve';
+
+export function getStaticPaths() {
+  return getUniqueAircraftTypes().map((t) => ({ params: { type: t.typeSlug } }));
+}
+
+const { type } = Astro.params;
+const entry = getUniqueAircraftTypes().find((t) => t.typeSlug === type)!;
+---
+<BaseLayout
+  title={`${entry.label} seat maps`}
+  description={`Original schematic cabin maps for ${entry.label} configurations on Pick Your Row.`}
+>
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="/">Home</a> / <a href="/aircraft/">Aircraft</a> / {entry.label}</nav>
+    <h1 class="page-title">{entry.label}</h1>
+    <p class="note info">Illustrative schematics only. The same type often flies with different interiors by airline and registration.</p>
+    <div class="grid cols-2">
+      {entry.configs.map((c) => {
+        const airline = airlines.find((a) => a.slug === c.airlineSlug)!;
+        const ap = aircraftUrlParam(c);
+        return (
+          <article class="card">
+            <span class="badge">{airline.name}</span>
+            <h2><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>{c.name}</a></h2>
+            <p>~{c.totalSeatsApprox} seats · layout {layoutString(c)}</p>
+            <p><a href={`/best-seats/${airline.slug}/${ap}/`}>Best seats</a></p>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+</BaseLayout>

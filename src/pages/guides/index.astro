@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import guides from '../../data/guides.json';
+---
+<BaseLayout title="Guides" description="Short guides to reading seat maps and choosing exit-row vs bulkhead seats.">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="/">Home</a> / Guides</nav>
+    <h1 class="page-title">Guides</h1>
+    <div class="grid cols-2">
+      {guides.map((g) => (
+        <article class="card">
+          <h2><a href={`/guides/${g.slug}/`}>{g.title}</a></h2>
+          <p>{g.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

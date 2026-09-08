@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import SeatMap from '../../../../../components/SeatMap.astro';
+import { airlines, aircraftConfigs, layoutString } from '../../../../../data';
+import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../../lib/resolve';
+import { topSeats } from '../../../../../lib/scoring';
+
+export function getStaticPaths() {
+  return aircraftConfigs.map((c) => ({
+    params: {
+      airline: c.airlineSlug,
+      aircraft: aircraftUrlParam(c),
+    },
+  }));
+}
+
+const { airline: aSlug, aircraft: acParam } = Astro.params;
+const resolved = resolveAirlineAircraft(aSlug!, acParam!);
+if (!resolved) throw new Error('Config not found');
+const { airline, config } = resolved;
+const tops = topSeats(config, 5);
+---
+<BaseLayout
+  title={`${airline.name} ${config.aircraftType} seat map`}
+  description={`Original schematic seat map for a typical ${airline.name} ${config.aircraftType}. Illustrative — configs vary by registration.`}
+>
+  <div class="wrap">
+    <nav class="breadcrumb">
+      <a href="/">Home</a> /
+      <a href="/airlines/">Airlines</a> /
+      <a href={`/airlines/${airline.slug}/`}>{airline.name}</a> /
+      Seat map
+    </nav>
+    <h1 class="page-title">{config.name}</h1>
+    <p class="lede">
+      ~{config.totalSeatsApprox} seats · economy-style layout {layoutString(config)} ·
+      exit rows {config.exitRows.join(', ') || 'n/a'}
+    </p>
+    <p class="note">{config.configNote}</p>
+
+    <SeatMap config={config} highlight={tops.map((s) => s.seatId)} />
+
+    <div class="btn-row">
+      <a class="btn" href={`/best-seats/${airline.slug}/${acParam}/`}>Editorial best seats</a>
+      <a class="btn secondary" href={`/airlines/${airline.slug}/`}>All {airline.name} aircraft</a>
+    </div>
+
+    <h2>Cabin sections</h2>
+    <ul class="clean">
+      {config.cabins.map((cab) => (
+        <li>
+          <strong>{cab.label}</strong> — rows {cab.startRow}–{cab.endRow}, layout{' '}
+          {cab.layout.map((b) => b.letters.length).join('-')} ({cab.layout.map((b) => b.letters.join('')).join(' | ')})
+        </li>
+      ))}
+    </ul>
+
+    {config.notes.length > 0 && (
+      <>
+        <h2>Notes</h2>
+        <ul class="clean">
+          {config.notes.map((n) => <li>{n}</li>)}
+        </ul>
+      </>
+    )}
+  </div>
+</BaseLayout>

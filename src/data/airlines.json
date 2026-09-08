@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "delta",
+    "name": "Delta Air Lines",
+    "iata": "DL",
+    "country": "United States",
+    "blurb": "Major U.S. carrier with a large narrow-body and wide-body fleet. Configurations vary by registration and retrofit status."
+  },
+  {
+    "slug": "united",
+    "name": "United Airlines",
+    "iata": "UA",
+    "country": "United States",
+    "blurb": "U.S. network carrier operating domestic and long-haul fleets. Cabin layouts differ across subfleets."
+  },
+  {
+    "slug": "american",
+    "name": "American Airlines",
+    "iata": "AA",
+    "country": "United States",
+    "blurb": "U.S. carrier with extensive A321 and 737 fleets. Seat maps below are schematic reconstructions of typical public layouts."
+  },
+  {
+    "slug": "british-airways",
+    "name": "British Airways",
+    "iata": "BA",
+    "country": "United Kingdom",
+    "blurb": "UK flag carrier. Short-haul A320-family and long-haul wide-body configs vary by aircraft and route."
+  },
+  {
+    "slug": "easyjet",
+    "name": "easyJet",
+    "iata": "U2",
+    "country": "United Kingdom",
+    "blurb": "European low-cost carrier operating an all-Airbus A320-family fleet with largely single-cabin layouts."
+  }
+]

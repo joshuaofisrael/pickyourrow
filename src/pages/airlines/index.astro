@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { airlines, getAircraftByAirline } from '../../data';
+---
+<BaseLayout title="Airlines" description="Browse airline cabin schematics on Pick Your Row.">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="/">Home</a> / Airlines</nav>
+    <h1 class="page-title">Airlines</h1>
+    <p class="lede">Select a carrier to see illustrative aircraft configs. Names are used factually; we are not affiliated with any airline.</p>
+    <div class="grid cols-2">
+      {airlines.map((a) => {
+        const n = getAircraftByAirline(a.slug).length;
+        return (
+          <article class="card">
+            <span class="badge">{a.iata}</span>
+            <h2><a href={`/airlines/${a.slug}/`}>{a.name}</a></h2>
+            <p>{a.blurb}</p>
+            <p class="muted" style="margin-top:0.5rem">{n} schematic config{n === 1 ? '' : 's'}</p>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { airlines, aircraftConfigs, layoutString } from '../data';
+import { aircraftUrlParam } from '../lib/resolve';
+
+const featured = aircraftConfigs.slice(0, 6);
+---
+<BaseLayout
+  title="Pick Your Row — airline seat maps & cabin guides"
+  description="Original schematic seat maps and editorial best-seat tips for popular airline aircraft. Not affiliated with any airline."
+>
+  <section class="hero wrap">
+    <p class="badge">Original schematics · editorial guidance</p>
+    <h1>Pick a better row before you board</h1>
+    <p class="lede">
+      Pick Your Row publishes original SVG cabin schematics and plain-English seat notes for common airline
+      configurations — rebuilt from publicly known layout facts, not scraped competitor maps.
+    </p>
+    <div class="btn-row">
+      <a class="btn" href="/airlines/">Browse airlines</a>
+      <a class="btn secondary" href="/guides/how-to-read-a-seat-map/">How to read a seat map</a>
+    </div>
+    <p class="note info">
+      Configurations vary by aircraft registration and retrofit. Treat every map as an illustrative schematic and
+      confirm seats with your airline.
+    </p>
+  </section>
+
+  <section class="wrap" style="margin-bottom:2rem">
+    <h2>Featured cabin schematics</h2>
+    <div class="grid cols-2" style="margin-top:1rem">
+      {featured.map((c) => {
+        const airline = airlines.find((a) => a.slug === c.airlineSlug)!;
+        const ap = aircraftUrlParam(c);
+        return (
+          <article class="card">
+            <span class="badge">{airline.name}</span>
+            <h3><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>{c.aircraftType}</a></h3>
+            <p>
+              ~{c.totalSeatsApprox} seats · economy layout {layoutString(c)} ·
+              {' '}<a href={`/best-seats/${airline.slug}/${ap}/`}>best seats</a>
+            </p>
+          </article>
+        );
+      })}
+    </div>
+  </section>
+
+  <section class="wrap" style="margin-bottom:2rem">
+    <h2>Airlines</h2>
+    <div class="grid cols-3" style="margin-top:1rem">
+      {airlines.map((a) => (
+        <article class="card">
+          <h3><a class="stretched" href={`/airlines/${a.slug}/`}>{a.name} <span class="muted">({a.iata})</span></a></h3>
+          <p>{a.blurb}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

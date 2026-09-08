@@ -1,0 +1,1424 @@
+[
+  {
+    "slug": "delta-737-900er",
+    "airlineSlug": "delta",
+    "aircraftType": "Boeing 737-900ER",
+    "aircraftFamily": "737",
+    "name": "Delta 737-900ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "fc",
+        "cabinClass": "first",
+        "label": "First / Delta One (narrow-body)",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comfort",
+        "cabinClass": "premium",
+        "label": "Comfort+",
+        "startRow": 10,
+        "endRow": 15,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 16,
+        "endRow": 38,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ],
+        "missingRows": [
+          29
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid/aft lavatories typical"
+      },
+      {
+        "afterRow": 38,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 38,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Economy layout typically 3-3.",
+      "Exit-row economy often marketed with extra legroom.",
+      "Configs vary widely across the 737-900ER subfleet."
+    ]
+  },
+  {
+    "slug": "delta-a321",
+    "airlineSlug": "delta",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A320",
+    "name": "Delta A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Configurations vary by registration.",
+    "totalSeatsApprox": 192,
+    "cabins": [
+      {
+        "id": "fc",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comfort",
+        "cabinClass": "premium",
+        "label": "Comfort+",
+        "startRow": 10,
+        "endRow": 18,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 19,
+        "endRow": 40,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      19,
+      20
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 18,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 19,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical A321 narrow-body 3-3 economy.",
+      "Overwing exit rows commonly around mid-cabin."
+    ]
+  },
+  {
+    "slug": "united-777-200",
+    "airlineSlug": "united",
+    "aircraftType": "Boeing 777-200",
+    "aircraftFamily": "777",
+    "name": "United 777-200 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts (e.g. 3-3-3 economy). Subfleets differ substantially.",
+    "totalSeatsApprox": 276,
+    "cabins": [
+      {
+        "id": "polaris",
+        "cabinClass": "business",
+        "label": "Polaris / Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "L"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "premium",
+        "cabinClass": "premium",
+        "label": "Premium Plus",
+        "startRow": 16,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economy",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 45,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Economy often configured 3-3-3 on many 777-200s.",
+      "Business/Polaris layouts are highly retrofit-dependent.",
+      "This map is a simplified schematic, not a certified seating plan."
+    ]
+  },
+  {
+    "slug": "united-737-800",
+    "airlineSlug": "united",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "United 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual configs vary.",
+    "totalSeatsApprox": 166,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "United First",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economy-plus",
+        "cabinClass": "premium",
+        "label": "Economy Plus",
+        "startRow": 7,
+        "endRow": 16,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economy",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 17,
+        "endRow": 33,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical domestic 737-800 3-3 economy.",
+      "Exit rows often coincide with Economy Plus / extra-legroom marketing."
+    ]
+  },
+  {
+    "slug": "american-a321",
+    "airlineSlug": "american",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A320",
+    "name": "American A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Domestic A321 configs vary (including Flagship variants).",
+    "totalSeatsApprox": 181,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main-extra",
+        "cabinClass": "premium",
+        "label": "Main Cabin Extra",
+        "startRow": 8,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 15,
+        "endRow": 35,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      10,
+      11,
+      25
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A321 domestic layouts commonly use 3-3 economy.",
+      "Multiple exit-row positions are typical on longer A321 fuselages."
+    ]
+  },
+  {
+    "slug": "american-737-800",
+    "airlineSlug": "american",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "American 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts.",
+    "totalSeatsApprox": 172,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mce",
+        "cabinClass": "premium",
+        "label": "Main Cabin Extra",
+        "startRow": 8,
+        "endRow": 13,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 14,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      13,
+      14
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical 737-800 3-3 main cabin.",
+      "Exit-row seats often sold as Main Cabin Extra."
+    ]
+  },
+  {
+    "slug": "british-airways-a320",
+    "airlineSlug": "british-airways",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "British Airways A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical short-haul layout facts. Club Europe / Euro Traveller seat counts vary by aircraft.",
+    "totalSeatsApprox": 168,
+    "cabins": [
+      {
+        "id": "club",
+        "cabinClass": "business",
+        "label": "Club Europe",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "euro",
+        "cabinClass": "economy",
+        "label": "Euro Traveller",
+        "startRow": 7,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      11,
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Club Europe is often a movable curtain zone on short-haul BA A320s.",
+      "Economy is typically 3-3.",
+      "Exact Club row count changes with demand and aircraft."
+    ]
+  },
+  {
+    "slug": "british-airways-777-200",
+    "airlineSlug": "british-airways",
+    "aircraftType": "Boeing 777-200",
+    "aircraftFamily": "777",
+    "name": "British Airways 777-200 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical long-haul layout facts. Club World / World Traveller Plus layouts vary heavily by retrofit.",
+    "totalSeatsApprox": 280,
+    "cabins": [
+      {
+        "id": "club",
+        "cabinClass": "business",
+        "label": "Club World",
+        "startRow": 1,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "E"
+            ]
+          },
+          {
+            "letters": [
+              "F",
+              "J"
+            ]
+          },
+          {
+            "letters": [
+              "K",
+              "L"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wtp",
+        "cabinClass": "premium",
+        "label": "World Traveller Plus",
+        "startRow": 20,
+        "endRow": 24,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wt",
+        "cabinClass": "economy",
+        "label": "World Traveller",
+        "startRow": 25,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      25,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Economy commonly 3-3-3 on many BA 777-200s.",
+      "Business cabin geometry is stylized here as simple blocks for schematic clarity."
+    ]
+  },
+  {
+    "slug": "easyjet-a320",
+    "airlineSlug": "easyjet",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "easyJet A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical single-cabin A320 layout facts (~186 seats common on many airframes).",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both",
+        "note": "Forward doors / bulkhead row"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Single-cabin 3-3 layout typical of LCC A320 operations.",
+      "Row 1 and overwing exits often carry extra-legroom / paid seat fees.",
+      "Seat pitch and exact row count vary by aircraft."
+    ]
+  },
+  {
+    "slug": "easyjet-a321neo",
+    "airlineSlug": "easyjet",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A320",
+    "name": "easyJet A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical high-density A321neo layout facts.",
+    "totalSeatsApprox": 235,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 40,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17,
+      26
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "High-density single cabin; multiple exit pairs on longer fuselage.",
+      "Exact exit-row numbers can differ by certification and interior."
+    ]
+  },
+  {
+    "slug": "delta-a220-100",
+    "airlineSlug": "delta",
+    "aircraftType": "Airbus A220-100",
+    "aircraftFamily": "A220",
+    "name": "Delta A220-100 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical A220 2-3 economy layout facts.",
+    "totalSeatsApprox": 109,
+    "cabins": [
+      {
+        "id": "fc",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comfort",
+        "cabinClass": "premium",
+        "label": "Comfort+",
+        "startRow": 7,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D",
+              "E"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 13,
+        "endRow": 25,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D",
+              "E"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A220 economy is characteristically 2-3 (not 3-3).",
+      "Window seats on the 2-seat side are popular for couples."
+    ]
+  },
+  {
+    "slug": "united-a320",
+    "airlineSlug": "united",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "United A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts.",
+    "totalSeatsApprox": 150,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "United First",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ep",
+        "cabinClass": "premium",
+        "label": "Economy Plus",
+        "startRow": 7,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 13,
+        "endRow": 27,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical United A320 3-3 economy with forward First cabin."
+    ]
+  }
+]

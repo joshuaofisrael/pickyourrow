@@ -1,0 +1,26 @@
+---
+import type { AircraftConfig } from '../data/types';
+import { buildSeatMapSvg } from '../lib/seatMapSvg';
+
+interface Props {
+  config: AircraftConfig;
+  highlight?: string[];
+}
+
+const { config, highlight } = Astro.props;
+const svg = buildSeatMapSvg(config, {
+  highlight: highlight ? new Set(highlight) : undefined,
+  title: config.name,
+});
+---
+<figure class="map-frame">
+  <Fragment set:html={svg} />
+  <figcaption class="legend">
+    <span><i class="swatch" style="background:#1e3a5f"></i>First / Business</span>
+    <span><i class="swatch" style="background:#2f6f6a"></i>Premium</span>
+    <span><i class="swatch" style="background:#3d5a80"></i>Economy</span>
+    <span><i class="swatch" style="background:#0ea5e9"></i>Exit row</span>
+    <span><i class="swatch" style="background:#16a34a"></i>Highlighted</span>
+    <span><i class="swatch" style="background:#94a3b8"></i>Lav / galley markers</span>
+  </figcaption>
+</figure>

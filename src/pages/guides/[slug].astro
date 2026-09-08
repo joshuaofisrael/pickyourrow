@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import guides from '../../data/guides.json';
+
+export function getStaticPaths() {
+  return guides.map((g) => ({ params: { slug: g.slug } }));
+}
+
+const { slug } = Astro.params;
+const guide = guides.find((g) => g.slug === slug)!;
+---
+<BaseLayout title={guide.title} description={guide.description}>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / {guide.title}</nav>
+    <h1 class="page-title">{guide.title}</h1>
+    <p class="lede">{guide.description}</p>
+    {guide.body.map((p) => <p>{p}</p>)}
+    <p class="btn-row"><a class="btn secondary" href="/airlines/">Browse airlines</a></p>
+  </div>
+</BaseLayout>

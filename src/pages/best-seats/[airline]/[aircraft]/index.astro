@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import SeatMap from '../../../../components/SeatMap.astro';
+import { aircraftConfigs } from '../../../../data';
+import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../lib/resolve';
+import { topSeats, cautionSeats } from '../../../../lib/scoring';
+
+export function getStaticPaths() {
+  return aircraftConfigs.map((c) => ({
+    params: {
+      airline: c.airlineSlug,
+      aircraft: aircraftUrlParam(c),
+    },
+  }));
+}
+
+const { airline: aSlug, aircraft: acParam } = Astro.params;
+const resolved = resolveAirlineAircraft(aSlug!, acParam!);
+if (!resolved) throw new Error('Config not found');
+const { airline, config } = resolved;
+const tops = topSeats(config, 10);
+const cautions = cautionSeats(config, 6);
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `What are the best seats on a ${airline.name} ${config.aircraftType}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Our editorial heuristic often favors exit-row and bulkhead seats away from lavatories. On this illustrative ${config.aircraftType} schematic, top-ranked examples include ${tops
+          .slice(0, 5)
+          .map((s) => s.seatId)
+          .join(', ')}. Scores are opinions for planning only — confirm with the airline.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Are Pick Your Row seat scores official?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Scores are editorial heuristics (exit row, bulkhead, near lav = caution, etc.). Pick Your Row is not affiliated with any airline.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do all aircraft of this type share the same map?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: config.configNote,
+      },
+    },
+  ],
+};
+---
+<BaseLayout
+  title={`Best seats: ${airline.name} ${config.aircraftType}`}
+  description={`Editorial best-seat picks for a typical ${airline.name} ${config.aircraftType}. Heuristic scores — not airline official.`}
+  jsonLd={faqLd}
+>
+  <div class="wrap">
+    <nav class="breadcrumb">
+      <a href="/">Home</a> /
+      <a href={`/airlines/${airline.slug}/`}>{airline.name}</a> /
+      Best seats
+    </nav>
+    <h1 class="page-title">Best seats — {airline.name} {config.aircraftType}</h1>
+    <p class="lede">
+      Editorial heuristic scores (1–10). Higher usually means more space or quieter location on this schematic.
+      Not airline advice and not a guarantee.
+    </p>
+    <p class="note">
+      <strong>How we score (editorial):</strong> exit row and bulkhead tend to score higher; middle seats, rear cabin,
+      and seats near lavatories/galleys score lower. Your preferences may differ.
+    </p>
+
+    <SeatMap config={config} highlight={tops.slice(0, 6).map((s) => s.seatId)} />
+
+    <p class="btn-row">
+      <a class="btn secondary" href={`/airlines/${airline.slug}/${acParam}/seat-map/`}>Full seat map</a>
+    </p>
+
+    <h2>Top-ranked seats (editorial)</h2>
+    <table class="seats">
+      <thead>
+        <tr><th>Seat</th><th>Score</th><th>Tags</th><th>Note</th></tr>
+      </thead>
+      <tbody>
+        {tops.map((s) => (
+          <tr>
+            <td><strong>{s.seatId}</strong></td>
+            <td class="score">{s.score}</td>
+            <td><div class="tags">{s.tags.map((t) => <span class="tag">{t}</span>)}</div></td>
+            <td>{s.summary}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    <h2>Caution seats</h2>
+    <table class="seats">
+      <thead>
+        <tr><th>Seat</th><th>Score</th><th>Tags</th><th>Note</th></tr>
+      </thead>
+      <tbody>
+        {cautions.map((s) => (
+          <tr>
+            <td><strong>{s.seatId}</strong></td>
+            <td class="score">{s.score}</td>
+            <td><div class="tags">{s.tags.map((t) => <span class="tag">{t}</span>)}</div></td>
+            <td>{s.summary}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    <h2>FAQ</h2>
+    <div class="prose">
+      <h3>Are these the official best seats?</h3>
+      <p>No. They are editorial opinions based on a simple heuristic applied to our original schematic.</p>
+      <h3>Will my aircraft match this map?</h3>
+      <p>{config.configNote}</p>
+    </div>
+  </div>
+</BaseLayout>

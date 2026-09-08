@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getUniqueAircraftTypes } from '../../data';
+
+const types = getUniqueAircraftTypes().sort((a, b) => a.label.localeCompare(b.label));
+---
+<BaseLayout title="Aircraft types" description="Browse aircraft families and typical cabin schematics on Pick Your Row.">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="/">Home</a> / Aircraft</nav>
+    <h1 class="page-title">Aircraft types</h1>
+    <p class="lede">Each type page lists airline-specific illustrative configs we have reconstructed as original schematics.</p>
+    <div class="grid cols-2">
+      {types.map((t) => (
+        <article class="card">
+          <h2><a href={`/aircraft/${t.typeSlug}/`}>{t.label}</a></h2>
+          <p>{t.configs.length} config{t.configs.length === 1 ? '' : 's'} across {new Set(t.configs.map((c) => c.airlineSlug)).size} airline(s)</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

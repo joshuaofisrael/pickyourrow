@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "how-to-read-a-seat-map",
+    "title": "How to read a seat map",
+    "description": "A plain-English guide to aisles, exit rows, bulkheads, and cabin codes on Pick Your Row schematics.",
+    "body": [
+      "Pick Your Row seat maps are original schematic drawings. They are not airline official diagrams and not copies of competitor maps.",
+      "Rows run front-to-back (nose at the top). Seat letters run left-to-right across the cabin as viewed looking forward.",
+      "Gaps between letter groups are aisles. A 3-3 layout means three seats, an aisle, then three seats.",
+      "Exit-row markers highlight doors used in an evacuation. Those seats often have more legroom and sometimes stricter passenger rules.",
+      "Lavatory and galley symbols are abstract markers. Sitting next to them can mean noise, foot traffic, or odors — our scores flag that as caution, not a ban.",
+      "Every config page notes that layouts vary by registration. Always confirm with your airline before you buy a seat."
+    ]
+  },
+  {
+    "slug": "exit-row-vs-bulkhead",
+    "title": "Exit row vs bulkhead: which is better?",
+    "description": "Editorial comparison of two popular 'extra space' seat types — and when to avoid each.",
+    "body": [
+      "Exit-row seats usually trade armrest tray tables and under-seat storage for more pitch. Great for taller travelers if you meet the airline's exit-row criteria.",
+      "Bulkhead seats (first row of a cabin) often have solid walls ahead — no one reclining into you, sometimes bassinet mounts, and occasionally limited under-seat space.",
+      "Near-lav seats score lower in our editorial heuristic because of traffic and noise, even when pitch looks good on paper.",
+      "Window vs aisle is personal: window for rest and views, aisle for easy access. Middles score lower unless you are traveling as a group of three.",
+      "Our scores are editorial opinions for planning, not guarantees. Aircraft change; your booking tools and the airline remain the source of truth."
+    ]
+  }
+]
