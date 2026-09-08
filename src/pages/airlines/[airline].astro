@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline, layoutString } from '../../data';
 import { aircraftUrlParam } from '../../lib/resolve';
+import guides from '../../data/guides.json';
 
 export function getStaticPaths() {
   return airlines.map((a) => ({ params: { airline: a.slug } }));
@@ -38,5 +39,17 @@ const configs = getAircraftByAirline(slug!);
         );
       })}
     </div>
+
+    <section style="margin-top:2rem">
+      <h2>Helpful seat guides</h2>
+      <p class="muted">Original Pick Your Row articles — useful alongside these {airline.name} schematics.</p>
+      <ul class="clean">
+        {guides.slice(0, 4).map((g) => (
+          <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
+        ))}
+      </ul>
+      <p><a href="/guides/">All guides →</a></p>
+    </section>
+
   </div>
 </BaseLayout>

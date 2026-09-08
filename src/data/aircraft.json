@@ -1499,7 +1499,7 @@
     ],
     "notes": [
       "Single-cabin 3-3 layout typical of Southwest 737-700 operations.",
-      "Open seating / boarding groups mean seat choice is often day-of — this schematic is for orientation only.",
+      "Open seating / boarding groups mean seat choice is often day-of \u2014 this schematic is for orientation only.",
       "Exact row count varies by aircraft."
     ]
   },
@@ -1683,7 +1683,7 @@
     ],
     "notes": [
       "Typical non-Mint A320: 3-3 throughout with forward Even More Space rows.",
-      "Some A320s carry Mint — those layouts differ and are not shown here."
+      "Some A320s carry Mint \u2014 those layouts differ and are not shown here."
     ]
   },
   {
@@ -1819,7 +1819,7 @@
       }
     ],
     "notes": [
-      "Mint is stylized as single seats for schematic clarity — real suite geometry differs.",
+      "Mint is stylized as single seats for schematic clarity \u2014 real suite geometry differs.",
       "Core remains 3-3; exit pairs appear mid-cabin on longer A321 fuselages."
     ]
   },
@@ -2160,7 +2160,7 @@
       }
     ],
     "notes": [
-      "Short-haul Business is often a blocked middle-seat product within a 3-3 frame — shown here as 2-2 for clarity.",
+      "Short-haul Business is often a blocked middle-seat product within a 3-3 frame \u2014 shown here as 2-2 for clarity.",
       "Economy typically 3-3; curtain position can move with demand."
     ]
   },
@@ -2722,7 +2722,7 @@
     ],
     "notes": [
       "MAX-family high-density single cabin; seat count often slightly above classic 737-800.",
-      "Exit-row numbering can differ by certification — treat as schematic."
+      "Exit-row numbering can differ by certification \u2014 treat as schematic."
     ]
   },
   {
@@ -2871,7 +2871,7 @@
     ],
     "notes": [
       "Emirates 777-300ER interiors vary (with/without First, different Business generations).",
-      "Economy commonly published as 3-4-3 on many frames — shown here as a schematic."
+      "Economy commonly published as 3-4-3 on many frames \u2014 shown here as a schematic."
     ]
   },
   {
@@ -3027,7 +3027,7 @@
     ],
     "notes": [
       "A380 has two decks; this schematic focuses on a simplified lower-deck economy + business zone for orientation.",
-      "First / onboard lounge products are omitted — real layouts are far more complex.",
+      "First / onboard lounge products are omitted \u2014 real layouts are far more complex.",
       "Treat as a high-level reconstruction only."
     ]
   },
@@ -3146,7 +3146,7 @@
     ],
     "notes": [
       "Economy commonly 3-3-3 on Qatar 787-8s.",
-      "Business Qsuite / older products differ — blocks here are schematic only."
+      "Business Qsuite / older products differ \u2014 blocks here are schematic only."
     ]
   },
   {
@@ -3264,7 +3264,7 @@
     ],
     "notes": [
       "Typical published A350-900 pattern: Business forward, 3-3-3 economy aft.",
-      "Some frames include Premium Economy — not shown on this schematic."
+      "Some frames include Premium Economy \u2014 not shown on this schematic."
     ]
   },
   {
@@ -3416,7 +3416,7 @@
       }
     ],
     "notes": [
-      "Wide-body economy often 2-4-2 on older A330s or 3-3-3 on denser fits — this schematic uses 3-3-3 for a common published pattern.",
+      "Wide-body economy often 2-4-2 on older A330s or 3-3-3 on denser fits \u2014 this schematic uses 3-3-3 for a common published pattern.",
       "Delta One and Comfort+ counts vary by registration."
     ]
   },
@@ -3872,7 +3872,7 @@
     ],
     "notes": [
       "BA A350-1000 typically publishes dense Club World plus WT+ and WT.",
-      "Economy often 3-3-3; shown here as 3-4-3 schematic for denser published fits — confirm your aircraft."
+      "Economy often 3-3-3; shown here as 3-4-3 schematic for denser published fits \u2014 confirm your aircraft."
     ]
   },
   {
@@ -3953,6 +3953,1884 @@
     "notes": [
       "Shorter A319 single-cabin 3-3 layout.",
       "Front and overwing rows often carry Up Front / Extra Legroom fees."
+    ]
+  },
+  {
+    "slug": "delta-757-200",
+    "airlineSlug": "delta",
+    "aircraftType": "Boeing 757-200",
+    "aircraftFamily": "757",
+    "name": "Delta 757-200 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 199,
+    "cabins": [
+      {
+        "id": "fc",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comfort",
+        "cabinClass": "premium",
+        "label": "Comfort+",
+        "startRow": 10,
+        "endRow": 19,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 20,
+        "endRow": 41,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      21
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 19,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 41,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 41,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Typical domestic 757-200 economy layout is 3-3.",
+      "Exit-row Main Cabin often marketed with extra legroom.",
+      "Subfleets and international configs differ substantially."
+    ]
+  },
+  {
+    "slug": "united-737-900",
+    "airlineSlug": "united",
+    "aircraftType": "Boeing 737-900",
+    "aircraftFamily": "737",
+    "name": "United 737-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 179,
+    "cabins": [
+      {
+        "id": "fc",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "econplus",
+        "cabinClass": "premium",
+        "label": "Economy Plus",
+        "startRow": 7,
+        "endRow": 16,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 17,
+        "endRow": 36,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatory area (typical)"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 36,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Economy layout typically 3-3 on United 737-900 subfleets.",
+      "Economy Plus pitch and row counts vary by aircraft.",
+      "Confirm exact layout for your flight with the airline."
+    ]
+  },
+  {
+    "slug": "american-777-200er",
+    "airlineSlug": "american",
+    "aircraftType": "Boeing 777-200ER",
+    "aircraftFamily": "777",
+    "name": "American 777-200ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 273,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business / Flagship Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pe",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 21,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid/aft lavatories typical"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Typical long-haul economy layout is 3-3-3 on many AA 777-200ER aircraft.",
+      "Business and premium products differ by retrofit wave.",
+      "Wide-body door/exit placement varies; treat exit markers as schematic."
+    ]
+  },
+  {
+    "slug": "british-airways-787-9",
+    "airlineSlug": "british-airways",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "British Airways 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 216,
+    "cabins": [
+      {
+        "id": "club",
+        "cabinClass": "business",
+        "label": "Club World",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wt+",
+        "cabinClass": "premium",
+        "label": "World Traveller Plus",
+        "startRow": 16,
+        "endRow": 21,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wt",
+        "cabinClass": "economy",
+        "label": "World Traveller",
+        "startRow": 22,
+        "endRow": 40,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      22,
+      32
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 22,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatories typical"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 40,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Typical BA 787-9 economy is often published as 3-3-3.",
+      "Club World seat products vary by aircraft and route.",
+      "Schematic only \u2014 confirm your flight's registration with BA."
+    ]
+  },
+  {
+    "slug": "southwest-737-8",
+    "airlineSlug": "southwest",
+    "aircraftType": "Boeing 737-8",
+    "aircraftFamily": "737",
+    "name": "Southwest 737-8 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 175,
+    "cabins": [
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 1,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      15,
+      16
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both",
+        "note": "Forward doors"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Southwest typically operates single-cabin 3-3 layouts on 737-8 aircraft.",
+      "Open seating / boarding policies change over time \u2014 check the airline.",
+      "Exit-row locations are schematic approximations."
+    ]
+  },
+  {
+    "slug": "jetblue-a220-300",
+    "airlineSlug": "jetblue",
+    "aircraftType": "Airbus A220-300",
+    "aircraftFamily": "A220",
+    "name": "JetBlue A220-300 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 140,
+    "cabins": [
+      {
+        "id": "core",
+        "cabinClass": "premium",
+        "label": "Even More Space / forward",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Core",
+        "startRow": 7,
+        "endRow": 26,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both",
+        "note": "Forward doors"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 26,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "A220 cabins are typically 2-3, not 3-3.",
+      "Even More Space row counts and branding vary by route.",
+      "Window alignment and door plugs differ from A320-family aircraft."
+    ]
+  },
+  {
+    "slug": "alaska-737-9",
+    "airlineSlug": "alaska",
+    "aircraftType": "Boeing 737-9",
+    "aircraftFamily": "737",
+    "name": "Alaska 737-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 178,
+    "cabins": [
+      {
+        "id": "fc",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Class",
+        "startRow": 6,
+        "endRow": 15,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 16,
+        "endRow": 36,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 36,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Typical Alaska 737-9 economy layout is 3-3.",
+      "Premium Class pitch and row span vary by aircraft.",
+      "MAX-series interiors differ from classic 737-900s \u2014 confirm with Alaska."
+    ]
+  },
+  {
+    "slug": "lufthansa-a330-300",
+    "airlineSlug": "lufthansa",
+    "aircraftType": "Airbus A330-300",
+    "aircraftFamily": "A330",
+    "name": "Lufthansa A330-300 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 255,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      33
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatories typical"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Many LH A330-300 aircraft use a 2-2-2 business and 3-4-3 economy pattern.",
+      "Premium Economy presence and density vary by subfleet.",
+      "Schematic only \u2014 LH long-haul products change with retrofits."
+    ]
+  },
+  {
+    "slug": "air-france-a350-900",
+    "airlineSlug": "air-france",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Air France A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 324,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 10,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 21,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 22,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      22,
+      36
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 22,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatories typical"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Typical AF A350-900 economy is often described as 3-4-3.",
+      "Business cabin density and suite products vary by aircraft.",
+      "Always verify the aircraft type assigned to your flight."
+    ]
+  },
+  {
+    "slug": "qatar-777-300er",
+    "airlineSlug": "qatar",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Qatar Airways 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 358,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 10,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 50,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      32
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatories typical"
+      },
+      {
+        "afterRow": 50,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 50,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Qatar 777-300ER economy is commonly published as 3-4-3.",
+      "Business seat products differ across older and newer cabin fits.",
+      "Some aircraft include Qsuite-style business; this schematic is a simplified public layout."
+    ]
+  },
+  {
+    "slug": "emirates-a350-900",
+    "airlineSlug": "emirates",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Emirates A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 306,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 46,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      30
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatories typical"
+      },
+      {
+        "afterRow": 46,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 46,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Emirates A350 economy is often described as 3-4-3 on published typical layouts.",
+      "Premium cabin products evolve; this is a conservative schematic.",
+      "Not affiliated with Emirates \u2014 confirm seats with the airline."
+    ]
+  },
+  {
+    "slug": "delta-a350-900",
+    "airlineSlug": "delta",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Delta A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 306,
+    "cabins": [
+      {
+        "id": "d1",
+        "cabinClass": "business",
+        "label": "Delta One",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ps",
+        "cabinClass": "premium",
+        "label": "Premium Select",
+        "startRow": 16,
+        "endRow": 23,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c+",
+        "cabinClass": "premium",
+        "label": "Comfort+",
+        "startRow": 24,
+        "endRow": 29,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "cabinClass": "economy",
+        "label": "Main Cabin",
+        "startRow": 30,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      30,
+      40
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 23,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatories typical"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Delta A350-900 typically publishes a multi-cabin layout with Delta One up front.",
+      "Economy is commonly 3-4-3; Premium Select often 2-4-2.",
+      "Row numbering and Comfort+ blocks vary \u2014 schematic only."
+    ]
+  },
+  {
+    "slug": "turkish-a321",
+    "airlineSlug": "turkish",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A320",
+    "name": "Turkish Airlines A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 182,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 35,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      8,
+      9,
+      24
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 9,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "lav",
+        "side": "both",
+        "note": "Overwing / mid lavatories typical"
+      },
+      {
+        "afterRow": 35,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 35,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Turkish A321 short-/medium-haul economy is typically 3-3.",
+      "Business cabin size and conversion rows vary by aircraft.",
+      "Some A321neo long-haul products differ \u2014 verify aircraft type."
+    ]
+  },
+  {
+    "slug": "turkish-777-300er",
+    "airlineSlug": "turkish",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Turkish Airlines 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 349,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 10,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 50,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      32
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both",
+        "note": "Forward galley"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both",
+        "note": "Mid cabin lavatories typical"
+      },
+      {
+        "afterRow": 50,
+        "type": "lav",
+        "side": "both",
+        "note": "Aft lavatories"
+      },
+      {
+        "afterRow": 50,
+        "type": "galley",
+        "side": "center",
+        "note": "Aft galley"
+      }
+    ],
+    "notes": [
+      "Turkish 777-300ER economy is commonly published as 3-4-3.",
+      "Business products and densities vary across the subfleet.",
+      "Schematic reconstruction only \u2014 not an airline diagram."
     ]
   }
 ]

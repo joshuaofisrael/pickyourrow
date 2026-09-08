@@ -89,5 +89,12 @@
     "iata": "QR",
     "country": "Qatar",
     "blurb": "Doha-based network carrier with modern wide-body fleets. Business and economy layouts differ by subfleet."
+  },
+  {
+    "slug": "turkish",
+    "name": "Turkish Airlines",
+    "iata": "TK",
+    "country": "Turkey",
+    "blurb": "Istanbul-based network carrier with a large narrow-body and wide-body fleet. Cabin products and densities vary by aircraft and route."
   }
 ]

@@ -4,6 +4,7 @@ import SeatMap from '../../../../components/SeatMap.astro';
 import { aircraftConfigs } from '../../../../data';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../lib/resolve';
 import { topSeats, cautionSeats } from '../../../../lib/scoring';
+import guides from '../../../../data/guides.json';
 
 export function getStaticPaths() {
   return aircraftConfigs.map((c) => ({
@@ -123,5 +124,12 @@ const faqLd = {
       <h3>Will my aircraft match this map?</h3>
       <p>{config.configNote}</p>
     </div>
+
+    <h2>More seat-selection advice</h2>
+    <ul class="clean">
+      {guides.filter((g) => ['aisle-vs-window', 'premium-economy-tips', 'exit-row-tips', 'quiet-vs-convenient'].includes(g.slug)).map((g) => (
+        <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
+      ))}
+    </ul>
   </div>
 </BaseLayout>

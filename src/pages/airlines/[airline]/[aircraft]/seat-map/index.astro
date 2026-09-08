@@ -4,6 +4,7 @@ import SeatMap from '../../../../../components/SeatMap.astro';
 import { airlines, aircraftConfigs, layoutString } from '../../../../../data';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../../lib/resolve';
 import { topSeats } from '../../../../../lib/scoring';
+import guides from '../../../../../data/guides.json';
 
 export function getStaticPaths() {
   return aircraftConfigs.map((c) => ({
@@ -63,5 +64,16 @@ const tops = topSeats(config, 5);
         </ul>
       </>
     )}
+
+    <h2>Related reading</h2>
+    <ul class="clean">
+      {guides.slice(0, 4).map((g) => (
+        <li><a href={`/guides/${g.slug}/`}>{g.title}</a></li>
+      ))}
+    </ul>
+    <p class="btn-row">
+      <a class="btn secondary" href="/guides/">All guides</a>
+      <a class="btn secondary" href={`/airlines/${airline.slug}/`}>More {airline.name} maps</a>
+    </p>
   </div>
 </BaseLayout>

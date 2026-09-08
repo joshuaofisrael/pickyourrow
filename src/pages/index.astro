@@ -4,7 +4,10 @@ import { airlines, aircraftConfigs, layoutString, getAircraftByAirline } from '.
 import { aircraftUrlParam } from '../lib/resolve';
 import guides from '../data/guides.json';
 
-const featured = aircraftConfigs.slice(0, 8);
+const featured = [
+  ...aircraftConfigs.slice(-6),
+  ...aircraftConfigs.slice(0, 2),
+].filter((c, i, arr) => arr.findIndex((x) => x.slug === c.slug) === i).slice(0, 8);
 const airlineCards = airlines.map((a) => ({
   ...a,
   count: getAircraftByAirline(a.slug).length,
@@ -91,7 +94,7 @@ const airlineCards = airlines.map((a) => ({
       <a href="/guides/">All guides →</a>
     </div>
     <div class="grid cols-2" style="margin-top:1rem">
-      {guides.slice(0, 4).map((g) => (
+      {guides.slice(0, 6).map((g) => (
         <article class="card">
           <h3><a href={`/guides/${g.slug}/`}>{g.title}</a></h3>
           <p>{g.description}</p>
