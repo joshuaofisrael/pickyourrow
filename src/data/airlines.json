@@ -96,5 +96,47 @@
     "iata": "TK",
     "country": "Turkey",
     "blurb": "Istanbul-based network carrier with a large narrow-body and wide-body fleet. Cabin products and densities vary by aircraft and route."
+  },
+  {
+    "slug": "air-canada",
+    "name": "Air Canada",
+    "iata": "AC",
+    "country": "Canada",
+    "blurb": "Canadian network carrier with narrow-body domestic fleets and long-haul wide-bodies. Cabin products and densities vary by aircraft and retrofit."
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore Airlines",
+    "iata": "SQ",
+    "country": "Singapore",
+    "blurb": "Singapore-based long-haul carrier known for premium-heavy wide-body fleets. Layouts differ substantially by aircraft and cabin product generation."
+  },
+  {
+    "slug": "cathay-pacific",
+    "name": "Cathay Pacific",
+    "iata": "CX",
+    "country": "Hong Kong",
+    "blurb": "Hong Kong network carrier operating A350, 777, and A330 fleets. Business and economy layouts vary by subfleet."
+  },
+  {
+    "slug": "klm",
+    "name": "KLM Royal Dutch Airlines",
+    "iata": "KL",
+    "country": "Netherlands",
+    "blurb": "Dutch flag carrier with short-haul narrow-bodies and long-haul 787/777/A330 fleets. Schematics below are typical public layouts only."
+  },
+  {
+    "slug": "virgin-atlantic",
+    "name": "Virgin Atlantic",
+    "iata": "VS",
+    "country": "United Kingdom",
+    "blurb": "UK long-haul carrier operating A350 and 787 fleets. Premium and economy products differ by aircraft."
+  },
+  {
+    "slug": "iberia",
+    "name": "Iberia",
+    "iata": "IB",
+    "country": "Spain",
+    "blurb": "Spanish network carrier with short-haul A320-family and long-haul A330/A350 fleets. Cabin layouts vary by registration."
   }
 ]

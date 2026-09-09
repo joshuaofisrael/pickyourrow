@@ -8,17 +8,17 @@
       "Rows run front-to-back (nose at the top). Seat letters run left-to-right across the cabin as viewed looking forward.",
       "Gaps between letter groups are aisles. A 3-3 layout means three seats, an aisle, then three seats.",
       "Exit-row markers highlight doors used in an evacuation. Those seats often have more legroom and sometimes stricter passenger rules.",
-      "Lavatory and galley symbols are abstract markers. Sitting next to them can mean noise, foot traffic, or odors \u2014 our scores flag that as caution, not a ban.",
+      "Lavatory and galley symbols are abstract markers. Sitting next to them can mean noise, foot traffic, or odors — our scores flag that as caution, not a ban.",
       "Every config page notes that layouts vary by registration. Always confirm with your airline before you buy a seat."
     ]
   },
   {
     "slug": "exit-row-vs-bulkhead",
     "title": "Exit row vs bulkhead: which is better?",
-    "description": "Editorial comparison of two popular 'extra space' seat types \u2014 and when to avoid each.",
+    "description": "Editorial comparison of two popular 'extra space' seat types — and when to avoid each.",
     "body": [
       "Exit-row seats usually trade armrest tray tables and under-seat storage for more pitch. Great for taller travelers if you meet the airline's exit-row criteria.",
-      "Bulkhead seats (first row of a cabin) often have solid walls ahead \u2014 no one reclining into you, sometimes bassinet mounts, and occasionally limited under-seat space.",
+      "Bulkhead seats (first row of a cabin) often have solid walls ahead — no one reclining into you, sometimes bassinet mounts, and occasionally limited under-seat space.",
       "Near-lav seats score lower in our editorial heuristic because of traffic and noise, even when pitch looks good on paper.",
       "Window vs aisle is personal: window for rest and views, aisle for easy access. Middles score lower unless you are traveling as a group of three.",
       "Our scores are editorial opinions for planning, not guarantees. Aircraft change; your booking tools and the airline remain the source of truth."
@@ -29,33 +29,33 @@
     "title": "Exit row tips before you select",
     "description": "What exit-row seats usually mean for space, rules, storage, and who should skip them.",
     "body": [
-      "Exit-row seats sit beside doors used in an evacuation. Airlines typically require passengers who can assist \u2014 which often excludes infants, some mobility needs, and sometimes pets in cabin.",
+      "Exit-row seats sit beside doors used in an evacuation. Airlines typically require passengers who can assist — which often excludes infants, some mobility needs, and sometimes pets in cabin.",
       "Pitch is often better than standard rows. Trade-offs can include armrest tray tables, limited under-seat bags for takeoff/landing, and a cooler feel near the door seals.",
-      "On our schematics, exit rows are marked explicitly and usually score higher in the editorial heuristic for space \u2014 but only if you meet the airline\u2019s criteria.",
-      "Double-check the airline\u2019s exit-row briefing rules at booking time. Policies differ and change.",
+      "On our schematics, exit rows are marked explicitly and usually score higher in the editorial heuristic for space — but only if you meet the airline’s criteria.",
+      "Double-check the airline’s exit-row briefing rules at booking time. Policies differ and change.",
       "Pick Your Row maps are original schematics, not airline manuals. Confirm your exact aircraft with the carrier."
     ]
   },
   {
     "slug": "window-alignment",
     "title": "Window seats and window alignment",
-    "description": "Why some \u201cwindow\u201d seats have a poor view \u2014 and how to think about alignment on schematics.",
+    "description": "Why some “window” seats have a poor view — and how to think about alignment on schematics.",
     "body": [
       "Not every window-letter seat lines up with a window. Overwing areas, door plugs, and structural sections can leave you facing a wall or a partial pane.",
       "Our maps mark window letters by cabin geometry, not by pane survey. Treat them as letter positions, not guaranteed views.",
-      "If scenery matters, prefer window letters away from wing box rows when you can identify them \u2014 often near mid-cabin exits on narrow-bodies.",
+      "If scenery matters, prefer window letters away from wing box rows when you can identify them — often near mid-cabin exits on narrow-bodies.",
       "Aisle seats trade the view for easier access. Middles sit between both trade-offs and usually score lower in our heuristic.",
-      "Always verify on the airline\u2019s seat map for your flight: registration-specific interiors can shift window alignment."
+      "Always verify on the airline’s seat map for your flight: registration-specific interiors can shift window alignment."
     ]
   },
   {
     "slug": "bulkhead-seats",
     "title": "Bulkhead seats: pros and cons",
-    "description": "First-row cabin seats explained \u2014 bassinet notes, foot space, and common surprises.",
+    "description": "First-row cabin seats explained — bassinet notes, foot space, and common surprises.",
     "body": [
       "Bulkhead seats are the first row of a cabin, facing a wall or curtain. Nobody reclines into you, which many travelers love.",
       "Under-seat storage may be limited or unavailable for takeoff and landing. Carry-on often has to go in the overhead sooner.",
-      "Some bulkheads have bassinet mounts \u2014 quieter for some, busier for others. Check your airline\u2019s family seating notes if that matters.",
+      "Some bulkheads have bassinet mounts — quieter for some, busier for others. Check your airline’s family seating notes if that matters.",
       "Tray tables may fold from the armrest. Seat width can feel tighter when armrests contain the table mechanism.",
       "Our editorial scores often boost bulkheads for space and then deduct if they sit next to galleys or lavatories."
     ]
@@ -65,37 +65,92 @@
     "title": "Quiet seats vs convenient seats",
     "description": "How to weigh rear boarding convenience, lavatory traffic, and mid-cabin calm when picking a row.",
     "body": [
-      "Rear cabin seats can board and deplane later on many jets, but they are often closer to lavatories and galleys \u2014 more foot traffic and noise.",
+      "Rear cabin seats can board and deplane later on many jets, but they are often closer to lavatories and galleys — more foot traffic and noise.",
       "Forward economy is usually quieter and faster to leave, yet may cost more or be tagged as preferred seating.",
       "Our heuristic tags near-lav and near-galley seats as caution and rear seats as lower priority unless they are exits or bulkheads.",
-      "If you need the restroom often, sitting close can be convenient \u2014 just expect traffic. If you need sleep, prioritize mid-cabin window seats away from service centers.",
+      "If you need the restroom often, sitting close can be convenient — just expect traffic. If you need sleep, prioritize mid-cabin window seats away from service centers.",
       "Use the seat map page together with the best-seats list: the map shows location; the scores summarize editorial trade-offs."
     ]
   },
   {
     "slug": "aisle-vs-window",
     "title": "Aisle vs window: how to choose",
-    "description": "A practical comparison of aisle and window seats \u2014 access, rest, views, and when a middle seat is still fine.",
+    "description": "A practical comparison of aisle and window seats — access, rest, views, and when a middle seat is still fine.",
     "body": [
       "Window seats favor rest and a view: you can lean on the sidewall, control the shade, and avoid being climbed over. The trade-off is needing neighbors to stand when you leave.",
       "Aisle seats favor mobility: easier lavatory trips, faster deplaning on many narrow-bodies, and less trapped feeling. You also absorb more cart bumps and foot traffic.",
       "Middle seats usually score lower in our editorial heuristic unless you are traveling as a pair-plus-one and want to sit together. On 2-3 A220 layouts, the middle of the triple is still a compromise.",
       "For overnight flights, many travelers pick window for uninterrupted sleep. For short hops or tight connections, aisle often wins.",
-      "Our schematics mark letter positions, not guaranteed window panes. Overwing rows and structural sections can spoil a \u201cwindow\u201d view \u2014 confirm on the airline\u2019s map for your flight.",
+      "Our schematics mark letter positions, not guaranteed window panes. Overwing rows and structural sections can spoil a “window” view — confirm on the airline’s map for your flight.",
       "Pick Your Row scores are editorial opinions on original schematics. We are not affiliated with any airline; always verify seats with the carrier."
     ]
   },
   {
     "slug": "premium-economy-tips",
     "title": "Premium economy tips before you pay",
-    "description": "What premium economy usually buys you \u2014 pitch, cabin position, and when standard exit-row economy is the smarter spend.",
+    "description": "What premium economy usually buys you — pitch, cabin position, and when standard exit-row economy is the smarter spend.",
     "body": [
       "Premium economy (and similar branded cabins) typically sits between business and main cabin: wider seats or better pitch, a quieter forward cabin, and sometimes better meal or baggage perks.",
-      "You are still in a multi-seat row on most airlines \u2014 not a lie-flat suite. Compare the airline\u2019s published pitch and width against a standard exit-row economy seat before you pay up.",
+      "You are still in a multi-seat row on most airlines — not a lie-flat suite. Compare the airline’s published pitch and width against a standard exit-row economy seat before you pay up.",
       "Bulkhead premium rows can feel roomier ahead but may lose under-seat storage. Mid-cabin premium rows can be quieter if they sit away from galleys and lavatories.",
       "On our schematics, premium sections are drawn as their own cabin blocks. Scores often favor aisle/window in those blocks unless they sit next to service centers.",
       "If the fare difference is large, check whether Main Cabin Extra / Economy Plus / Even More Space exit rows deliver most of the legroom you care about for less.",
       "Layouts and amenity kits change by aircraft and route. Use Pick Your Row maps for orientation, then confirm the exact product on your booking."
+    ]
+  },
+  {
+    "slug": "choosing-seats-with-kids",
+    "title": "Choosing seats with kids",
+    "description": "Practical seat strategy for families: bulkheads, bassinets, lavatory distance, and when to split across an aisle.",
+    "body": [
+      "Traveling with children changes what a “good” seat looks like. Legroom still matters, but so do proximity to lavatories, bassinet options, and whether you can sit together without relying on a middle seat stranger.",
+      "Bulkhead rows are popular with families because some have bassinet mounts and nobody reclines into you. Trade-offs include limited under-seat storage for takeoff and landing, and sometimes a busier cabin feel if multiple families share the same wall.",
+      "Exit rows are usually the wrong pick with young kids. Airlines often restrict who may sit there, and you may be asked to move if you do not meet the briefing criteria. Prefer standard or bulkhead rows instead.",
+      "Sitting across an aisle as two-and-two (or window-aisle pairs facing each other) can be easier than trapping a child in a middle. On 3-3 narrow-bodies, a window-aisle-aisle-window split across the aisle keeps adults on the aisle for bathroom trips.",
+      "Near-lav seats score lower in our editorial heuristic for noise and foot traffic, but for toddlers they can be convenient. Decide based on age: infants may need bassinets more than quiet; older kids may sleep better mid-cabin.",
+      "Our maps mark bulkheads, exits, and lavatories so you can plan — they are original schematics, not airline manuals. Always confirm family seating and bassinet rules with the carrier for your exact flight.",
+      "If the airline’s seat map shows scattered seats, message the airline or check in early. Paid seat selection is often cheaper than hoping gate agents can reunite a family of four at the last minute."
+    ]
+  },
+  {
+    "slug": "overnight-long-haul-seat-strategy",
+    "title": "Overnight long-haul seat strategy",
+    "description": "How to pick a row for sleep on red-eyes: window vs aisle, wing noise, galley traffic, and when premium economy is worth it.",
+    "body": [
+      "On overnight long-haul flights, the goal is usually uninterrupted sleep. That pushes many travelers toward a window seat mid-cabin, away from galleys and lavatories, so you are not climbed over and can lean on the sidewall.",
+      "Aisle seats win if you wake often or need frequent walks. The cost is cart bumps, boarding traffic, and neighbors waking you to get out. For deep sleepers, window usually wins; for restless flyers, aisle often does.",
+      "Avoid the last few rows when you can. Rear cabins are closer to lavatories and galleys on many wide-bodies, which means light, noise, and queues during the overnight service lull — exactly when you want quiet.",
+      "Overwing rows can feel slightly noisier from engine and airflow vibration, but they are often away from lavatory clusters. If sleep matters more than the view, prioritize distance from service centers over perfect window alignment.",
+      "Premium economy (or similar) can be worth it when the pitch gain and quieter forward cabin buy you real sleep — not just a nicer meal. Compare the fare delta against a standard exit-row economy seat before you pay up.",
+      "Our editorial scores boost quiet mid-cabin windows and discount near-lav and rear seats. Use the seat-map page for location and the best-seats list for a quick shortlist, then verify the registration on your booking.",
+      "Layouts and cabin products change by aircraft. Pick Your Row schematics are illustrative reconstructions from publicly known typical patterns — always confirm with the airline."
+    ]
+  },
+  {
+    "slug": "low-cost-carrier-seat-fees",
+    "title": "Low-cost carrier seat fees explained",
+    "description": "Why LCCs charge for seats, what “priority” and exit-row fees usually buy, and how to decide whether paying is worth it.",
+    "body": [
+      "Low-cost carriers often unbundle the seat from the fare. The base ticket may assign a seat at check-in; anything earlier — a specific row, extra legroom, or sitting together — is usually a paid add-on.",
+      "Exit-row and front-cabin fees typically buy pitch or faster deplaning, not a different cabin class. Read the fine print: some “preferred” seats are standard pitch closer to the front, while true extra-legroom rows sit at exits or bulkheads.",
+      "Groups should decide early whether sitting together is worth the fee. Random assignment can split couples and families across the cabin. Paying for two aisle seats across from each other is often cheaper than four random middles.",
+      "If you travel light and board late, a free random seat can be fine on short hops. On longer LCC sectors, an exit row or front seat can be the difference between tolerable and miserable — especially if you are tall.",
+      "Our LCC schematics (for example easyJet and Ryanair configs) mark exits, lavatories, and bulkheads so you can see what you are paying for. Scores are editorial opinions on original drawings, not airline rankings.",
+      "Fees and product names change constantly. Use Pick Your Row maps for orientation, then compare the carrier’s live seat map and price before you click pay. We are not affiliated with any airline."
+    ]
+  },
+  {
+    "slug": "how-pickyourrow-scores-work",
+    "title": "How Pick Your Row scores work",
+    "description": "What our 1–10 editorial seat scores mean, which tags we apply, and why they are planning tools — not guarantees.",
+    "body": [
+      "Every scored seat on Pick Your Row gets a 1–10 editorial heuristic. Higher usually means more space, a better position for rest or access, and fewer obvious annoyances like lavatory queues.",
+      "Tags explain the score at a glance: exit and extra-legroom for pitch, bulkhead for the first cabin row, window / aisle / middle for letter position, near-lav and near-galley for traffic, rear for aft cabin location, and quiet for mid-cabin calm.",
+      "Scores are opinions on our original schematics. They are not airline ratings, not scraped competitor data, and not a promise that your flight will match the drawing. Aircraft change by registration and retrofit.",
+      "We deliberately discount middle seats and seats next to lavatories or galleys in most cases. We boost clear exit-row and bulkhead space when the geometry suggests more pitch — while noting airline eligibility rules separately in guides.",
+      "Use scores to shortlist, then look at the map. A high-scoring exit row is useless if you cannot sit there with an infant. A lower-scoring aisle near a lavatory might still be right if mobility matters more than quiet.",
+      "Best-seats pages sort the editorial list for each config. Seat-map pages show the full cabin geometry with the same tags. Together they are a planning aid — the airline’s booking tools remain the source of truth.",
+      "If a score looks wrong for your priorities, trust your use case. Our heuristic optimizes for a typical leisure traveler who wants space and sleep; business travelers chasing fast deplanes may prefer different rows."
     ]
   }
 ]
