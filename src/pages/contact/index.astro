@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Contact Us"
+  description="Contact Pick Your Row / Joshua Israel Ventures LLC about cabin schematics, corrections, or partnerships."
+  canonicalPath="/contact/"
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Contact</nav>
+    <h1 class="page-title">Contact us</h1>
+    <p class="muted">
+      Questions, corrections, or partnership notes for <strong>Pick Your Row</strong> (Joshua Israel Ventures LLC).
+      We are not an airline and cannot change seat assignments.
+    </p>
+
+    <form
+      class="contact-form"
+      action="https://formsubmit.co/joshuaofisrael@gmail.com"
+      method="POST"
+    >
+      <input type="hidden" name="_subject" value="[Contact: pickyourrow.com]" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://pickyourrow.com/contact/thanks/" />
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+      <label>
+        Name
+        <input type="text" name="name" required maxlength="120" autocomplete="name" />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required maxlength="200" autocomplete="email" />
+      </label>
+      <label>
+        Phone <span class="opt">(optional)</span>
+        <input type="tel" name="phone" maxlength="40" autocomplete="tel" />
+      </label>
+      <label>
+        Message
+        <textarea name="message" required rows="6" maxlength="5000"></textarea>
+      </label>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </div>
+</BaseLayout>
