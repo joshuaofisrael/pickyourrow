@@ -1,13 +1,44 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import guides from '../../data/guides.json';
+
+const featuredSlugs = ['seat-map-glossary', 'cabin-class-primer', 'how-pickyourrow-scores-work', 'exit-row-tips'];
+const featured = featuredSlugs.map((s) => guides.find((g) => g.slug === s)).filter(Boolean);
+const rest = guides.filter((g) => !featuredSlugs.includes(g.slug));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://pickyourrow.com/guides/' },
+  ],
+};
 ---
-<BaseLayout title="Guides" description="Evergreen guides on family seating, overnight long-haul strategy, LCC seat fees, Pick Your Row scores, exit rows, bulkheads, and how to read schematics.">
+<BaseLayout
+  title="Guides"
+  description="Evergreen guides on seat-map terms, cabin classes, family seating, overnight strategy, LCC fees, Pick Your Row scores, exit rows, and bulkheads."
+  jsonLd={jsonLd}
+>
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / Guides</nav>
     <h1 class="page-title">Guides</h1>
-    <div class="grid cols-2">
-      {guides.map((g) => (
+    <p class="lede">
+      Original Pick Your Row articles. For scoring rules and outbound citations to public authorities, see
+      <a href="/methodology/">Methodology &amp; sources</a>.
+    </p>
+    <h2 class="section-head" style="margin-top:1.25rem">Start here</h2>
+    <div class="grid cols-2" style="margin-top:0.75rem">
+      {featured.map((g) => (
+        <article class="card">
+          <h2><a href={`/guides/${g!.slug}/`}>{g!.title}</a></h2>
+          <p>{g!.description}</p>
+        </article>
+      ))}
+    </div>
+    <h2 class="section-head" style="margin-top:2rem">All guides</h2>
+    <div class="grid cols-2" style="margin-top:0.75rem">
+      {rest.map((g) => (
         <article class="card">
           <h2><a href={`/guides/${g.slug}/`}>{g.title}</a></h2>
           <p>{g.description}</p>

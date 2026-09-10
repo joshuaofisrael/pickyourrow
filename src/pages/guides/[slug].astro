@@ -8,16 +8,85 @@ export function getStaticPaths() {
 
 const { slug } = Astro.params;
 const guide = guides.find((g) => g.slug === slug)!;
-const related = guides.filter((g) => g.slug !== slug).slice(0, 3);
+type Source = { label: string; url: string; note?: string };
+const sources = ((guide as { sources?: Source[] }).sources ?? []) as Source[];
+
+const relatedPriority = [
+  'seat-map-glossary',
+  'cabin-class-primer',
+  'how-pickyourrow-scores-work',
+  'exit-row-tips',
+  'aisle-vs-window',
+  'bulkhead-seats',
+];
+const related = [
+  ...guides.filter((g) => g.slug !== slug && relatedPriority.includes(g.slug)),
+  ...guides.filter((g) => g.slug !== slug && !relatedPriority.includes(g.slug)),
+].slice(0, 4);
+
+const pagePath = `/guides/${guide.slug}/`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: guide.title,
+    description: guide.description,
+    url: `https://pickyourrow.com${pagePath}`,
+    author: {
+      '@type': 'Organization',
+      name: 'Joshua Israel Ventures LLC',
+      url: 'https://pickyourrow.com/',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pick Your Row',
+      url: 'https://pickyourrow.com/',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://pickyourrow.com${pagePath}`,
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://pickyourrow.com/guides/' },
+      { '@type': 'ListItem', position: 3, name: guide.title, item: `https://pickyourrow.com${pagePath}` },
+    ],
+  },
+];
 ---
-<BaseLayout title={guide.title} description={guide.description}>
+<BaseLayout title={guide.title} description={guide.description} canonicalPath={pagePath} jsonLd={jsonLd}>
   <div class="wrap prose">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / {guide.title}</nav>
     <h1 class="page-title">{guide.title}</h1>
     <p class="lede">{guide.description}</p>
     {guide.body.map((p) => <p>{p}</p>)}
+
+    {sources.length > 0 && (
+      <>
+        <h2>Sources &amp; references</h2>
+        <p class="muted">
+          Outbound links to authoritative public pages. Regulatory and consumer-rights material is <strong>fact</strong>;
+          our seat scores remain <strong>editorial</strong>. See also the
+          {' '}<a href="/methodology/">Methodology &amp; sources</a> page.
+        </p>
+        <ol class="sources">
+          {sources.map((s) => (
+            <li>
+              <a href={s.url} rel="noopener noreferrer">{s.label}</a>
+              {s.note ? ` — ${s.note}` : ''}
+            </li>
+          ))}
+        </ol>
+      </>
+    )}
+
     <p class="btn-row">
       <a class="btn" href="/airlines/">Browse airline seat maps</a>
+      <a class="btn secondary" href="/methodology/">Methodology</a>
       <a class="btn secondary" href="/guides/">More guides</a>
     </p>
     {related.length > 0 && (

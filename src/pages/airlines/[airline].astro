@@ -44,11 +44,11 @@ const configs = getAircraftByAirline(slug!);
       <h2>Helpful seat guides</h2>
       <p class="muted">Original Pick Your Row articles — useful alongside these {airline.name} schematics.</p>
       <ul class="clean">
-        {guides.slice(0, 4).map((g) => (
+        {guides.filter((g) => ['seat-map-glossary', 'cabin-class-primer', 'exit-row-tips', 'how-pickyourrow-scores-work'].includes(g.slug)).map((g) => (
           <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
         ))}
       </ul>
-      <p><a href="/guides/">All guides →</a></p>
+      <p><a href="/guides/">All guides →</a> · <a href="/methodology/">Methodology &amp; sources →</a></p>
     </section>
 
   </div>

@@ -1,0 +1,170 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pagePath = '/methodology/';
+const sources = [
+  {
+    label: 'U.S. eCFR — 14 CFR § 121.585 Exit seating',
+    url: 'https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585',
+    kind: 'fact',
+    note: 'Defines exit seats and passenger suitability criteria for U.S. part 121 carriers.',
+  },
+  {
+    label: 'FAA — Travelers',
+    url: 'https://www.faa.gov/travelers',
+    kind: 'fact',
+    note: 'Public FAA traveler safety and consumer information hub.',
+  },
+  {
+    label: 'U.S. DOT — Fly Rights',
+    url: 'https://www.transportation.gov/airconsumer/fly-rights',
+    kind: 'fact',
+    note: 'Department of Transportation aviation consumer protection overview.',
+  },
+  {
+    label: 'Your Europe — Air passenger rights',
+    url: 'https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm',
+    kind: 'fact',
+    note: 'Official EU consumer summary of Regulation (EC) No 261/2004.',
+  },
+  {
+    label: 'EASA — EU Air Passenger Rights (European Commission)',
+    url: 'https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission',
+    kind: 'fact',
+    note: 'EASA topic page directing readers to Commission-managed passenger rights.',
+  },
+  {
+    label: 'IATA — Save a Life, Not a Bag (evacuation safety)',
+    url: 'https://www.iata.org/en/youandiata/travelers/evacuation-safety/',
+    kind: 'fact',
+    note: 'Industry passenger education on evacuation behavior (leave bags; follow crew).',
+  },
+  {
+    label: 'ICAO — Safety',
+    url: 'https://www.icao.int/safety',
+    kind: 'fact',
+    note: 'International standards and safety framework portal — not seat-map data.',
+  },
+  {
+    label: 'TSA — TSA Cares',
+    url: 'https://www.tsa.gov/travel/tsa-cares',
+    kind: 'fact',
+    note: 'Screening assistance context for travelers who need extra help.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'TechArticle',
+    headline: 'Methodology & sources — how Pick Your Row scores seats',
+    description:
+      'How Pick Your Row builds original cabin schematics and editorial seat scores, with outbound citations to public regulatory and industry sources.',
+    url: `https://pickyourrow.com${pagePath}`,
+    author: {
+      '@type': 'Organization',
+      name: 'Joshua Israel Ventures LLC',
+      url: 'https://pickyourrow.com/',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pick Your Row',
+      url: 'https://pickyourrow.com/',
+    },
+    about: ['airline seat maps', 'editorial seat scoring', 'aviation passenger information'],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Methodology & sources', item: `https://pickyourrow.com${pagePath}` },
+    ],
+  },
+];
+---
+<BaseLayout
+  title="Methodology & sources"
+  description="How Pick Your Row builds original cabin schematics and editorial seat scores — with citations to FAA, DOT, EU, IATA, ICAO, and related public sources. Editorial vs facts labeled."
+  canonicalPath={pagePath}
+  jsonLd={jsonLd}
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Methodology &amp; sources</nav>
+    <h1 class="page-title">Methodology &amp; sources</h1>
+    <p class="lede">
+      This page explains what Pick Your Row publishes, how editorial scores work, which public authorities we cite,
+      and what we deliberately do <em>not</em> scrape. It is meant to be linkable and checkable.
+    </p>
+
+    <h2>Editorial vs facts</h2>
+    <ul class="clean">
+      <li>
+        <strong>Facts:</strong> regulatory definitions (for example U.S. exit-seat rules), official passenger-rights
+        summaries, and industry safety education pages. We link out; we do not rewrite the law.
+      </li>
+      <li>
+        <strong>Editorial:</strong> 1–10 seat scores, tags (quiet, near-lav, extra-legroom), and “best seats” shortlists
+        on our original schematics. These are planning opinions for a typical leisure traveler — not airline advice.
+      </li>
+    </ul>
+
+    <h2>How we draw seat maps</h2>
+    <p>
+      Every map is an <strong>original SVG schematic</strong> reconstructed from publicly known typical configuration
+      patterns: approximate seat counts, common layout strings (3-3, 2-4-2, 3-3-3), and widely discussed exit-row /
+      bulkhead positions. We label each config as illustrative. Aircraft change by registration and retrofit — always
+      confirm with the airline for your flight.
+    </p>
+    <p>
+      We do <strong>not</strong> scrape or copy SeatGuru, AeroLOPA, airline PDF diagrams, or competitor HTML/JSON.
+      Airline names appear factually; we never imply affiliation or endorsement.
+    </p>
+
+    <h2>How editorial scores work</h2>
+    <p>
+      Scores start near the middle of a 1–10 scale, then adjust with simple, transparent heuristics applied to our
+      geometry:
+    </p>
+    <ul class="clean">
+      <li>Exit rows and bulkheads usually gain points for space (editorial).</li>
+      <li>Window and aisle letters gain a small preference over middle seats (editorial).</li>
+      <li>Seats next to lavatory or galley markers lose points for traffic and noise (editorial).</li>
+      <li>Rear-cabin rows lose a little for later deplaning / proximity to aft service areas on many types (editorial).</li>
+    </ul>
+    <p>
+      Exit-row <em>eligibility</em> is a separate fact problem. U.S. carriers operating under part 121 follow federal
+      exit-seating rules; other jurisdictions and airline policies differ. If you cannot or should not assist in an
+      evacuation, pick a different row — regardless of our score. See also
+      <a href="/guides/how-pickyourrow-scores-work/">How Pick Your Row scores work</a> and
+      <a href="/guides/exit-row-tips/">Exit row tips</a>.
+    </p>
+
+    <h2>Public sources we cite</h2>
+    <p>
+      Guides link to these (and related) pages when a claim touches regulation, consumer rights, or safety education.
+      Labels below mark each as a <strong>fact source</strong> we point to — not as content we copied.
+    </p>
+    <ol>
+      {sources.map((s) => (
+        <li>
+          <a href={s.url} rel="noopener noreferrer">{s.label}</a>
+          <span class="badge" style="margin-left:0.35rem">{s.kind}</span>
+          — {s.note}
+        </li>
+      ))}
+    </ol>
+
+    <h2>What this site is for</h2>
+    <p>
+      Use seat-map pages for cabin geometry, best-seats pages for an editorial shortlist, and guides for decision
+      frameworks (families, overnight flights, LCC fees, aisle vs window). Then book on the airline’s tools.
+    </p>
+    <p class="btn-row">
+      <a class="btn" href="/guides/seat-map-glossary/">Seat-map glossary</a>
+      <a class="btn secondary" href="/guides/cabin-class-primer/">Cabin class primer</a>
+      <a class="btn secondary" href="/airlines/">Browse airlines</a>
+      <a class="btn secondary" href="/guides/">All guides</a>
+    </p>
+  </div>
+</BaseLayout>

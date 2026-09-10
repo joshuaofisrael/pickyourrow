@@ -10,6 +10,28 @@
       "Exit-row markers highlight doors used in an evacuation. Those seats often have more legroom and sometimes stricter passenger rules.",
       "Lavatory and galley symbols are abstract markers. Sitting next to them can mean noise, foot traffic, or odors — our scores flag that as caution, not a ban.",
       "Every config page notes that layouts vary by registration. Always confirm with your airline before you buy a seat."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      },
+      {
+        "label": "ICAO — Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
+      },
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      }
     ]
   },
   {
@@ -22,6 +44,28 @@
       "Near-lav seats score lower in our editorial heuristic because of traffic and noise, even when pitch looks good on paper.",
       "Window vs aisle is personal: window for rest and views, aisle for easy access. Middles score lower unless you are traveling as a group of three.",
       "Our scores are editorial opinions for planning, not guarantees. Aircraft change; your booking tools and the airline remain the source of truth."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      }
     ]
   },
   {
@@ -34,6 +78,28 @@
       "On our schematics, exit rows are marked explicitly and usually score higher in the editorial heuristic for space — but only if you meet the airline’s criteria.",
       "Double-check the airline’s exit-row briefing rules at booking time. Policies differ and change.",
       "Pick Your Row maps are original schematics, not airline manuals. Confirm your exact aircraft with the carrier."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
+        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
+        "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
+      }
     ]
   },
   {
@@ -46,6 +112,23 @@
       "If scenery matters, prefer window letters away from wing box rows when you can identify them — often near mid-cabin exits on narrow-bodies.",
       "Aisle seats trade the view for easier access. Middles sit between both trade-offs and usually score lower in our heuristic.",
       "Always verify on the airline’s seat map for your flight: registration-specific interiors can shift window alignment."
+    ],
+    "sources": [
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      },
+      {
+        "label": "ICAO — Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      }
     ]
   },
   {
@@ -58,6 +141,28 @@
       "Some bulkheads have bassinet mounts — quieter for some, busier for others. Check your airline’s family seating notes if that matters.",
       "Tray tables may fold from the armrest. Seat width can feel tighter when armrests contain the table mechanism.",
       "Our editorial scores often boost bulkheads for space and then deduct if they sit next to galleys or lavatories."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "TSA — TSA Cares (passengers who need assistance)",
+        "url": "https://www.tsa.gov/travel/tsa-cares",
+        "note": "U.S. TSA program and guidance for travelers who need screening assistance (mobility and medical context)."
+      }
     ]
   },
   {
@@ -70,6 +175,23 @@
       "Our heuristic tags near-lav and near-galley seats as caution and rear seats as lower priority unless they are exits or bulkheads.",
       "If you need the restroom often, sitting close can be convenient — just expect traffic. If you need sleep, prioritize mid-cabin window seats away from service centers.",
       "Use the seat map page together with the best-seats list: the map shows location; the scores summarize editorial trade-offs."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      }
     ]
   },
   {
@@ -83,6 +205,23 @@
       "For overnight flights, many travelers pick window for uninterrupted sleep. For short hops or tight connections, aisle often wins.",
       "Our schematics mark letter positions, not guaranteed window panes. Overwing rows and structural sections can spoil a “window” view — confirm on the airline’s map for your flight.",
       "Pick Your Row scores are editorial opinions on original schematics. We are not affiliated with any airline; always verify seats with the carrier."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      }
     ]
   },
   {
@@ -96,6 +235,23 @@
       "On our schematics, premium sections are drawn as their own cabin blocks. Scores often favor aisle/window in those blocks unless they sit next to service centers.",
       "If the fare difference is large, check whether Main Cabin Extra / Economy Plus / Even More Space exit rows deliver most of the legroom you care about for less.",
       "Layouts and amenity kits change by aircraft and route. Use Pick Your Row maps for orientation, then confirm the exact product on your booking."
+    ],
+    "sources": [
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      }
     ]
   },
   {
@@ -110,6 +266,28 @@
       "Near-lav seats score lower in our editorial heuristic for noise and foot traffic, but for toddlers they can be convenient. Decide based on age: infants may need bassinets more than quiet; older kids may sleep better mid-cabin.",
       "Our maps mark bulkheads, exits, and lavatories so you can plan — they are original schematics, not airline manuals. Always confirm family seating and bassinet rules with the carrier for your exact flight.",
       "If the airline’s seat map shows scattered seats, message the airline or check in early. Paid seat selection is often cheaper than hoping gate agents can reunite a family of four at the last minute."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "TSA — TSA Cares (passengers who need assistance)",
+        "url": "https://www.tsa.gov/travel/tsa-cares",
+        "note": "U.S. TSA program and guidance for travelers who need screening assistance (mobility and medical context)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      }
     ]
   },
   {
@@ -124,6 +302,28 @@
       "Premium economy (or similar) can be worth it when the pitch gain and quieter forward cabin buy you real sleep — not just a nicer meal. Compare the fare delta against a standard exit-row economy seat before you pay up.",
       "Our editorial scores boost quiet mid-cabin windows and discount near-lav and rear seats. Use the seat-map page for location and the best-seats list for a quick shortlist, then verify the registration on your booking.",
       "Layouts and cabin products change by aircraft. Pick Your Row schematics are illustrative reconstructions from publicly known typical patterns — always confirm with the airline."
+    ],
+    "sources": [
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      }
     ]
   },
   {
@@ -137,20 +337,66 @@
       "If you travel light and board late, a free random seat can be fine on short hops. On longer LCC sectors, an exit row or front seat can be the difference between tolerable and miserable — especially if you are tall.",
       "Our LCC schematics (for example easyJet and Ryanair configs) mark exits, lavatories, and bulkheads so you can see what you are paying for. Scores are editorial opinions on original drawings, not airline rankings.",
       "Fees and product names change constantly. Use Pick Your Row maps for orientation, then compare the carrier’s live seat map and price before you click pay. We are not affiliated with any airline."
+    ],
+    "sources": [
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
+        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
+        "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
+      }
     ]
   },
   {
     "slug": "how-pickyourrow-scores-work",
     "title": "How Pick Your Row scores work",
-    "description": "What our 1–10 editorial seat scores mean, which tags we apply, and why they are planning tools — not guarantees.",
+    "description": "What our 1–10 editorial seat scores mean, which tags we apply, how we separate editorial opinions from regulatory facts, and why scores are planning tools — not guarantees.",
     "body": [
+      "Editorial vs facts: our 1–10 scores and tags are editorial opinions about comfort and location on original schematics. Exit-row eligibility rules, passenger rights, and safety briefings are facts set by regulators and airlines — we cite public sources below and on our methodology page; we do not invent legal rules.",
       "Every scored seat on Pick Your Row gets a 1–10 editorial heuristic. Higher usually means more space, a better position for rest or access, and fewer obvious annoyances like lavatory queues.",
       "Tags explain the score at a glance: exit and extra-legroom for pitch, bulkhead for the first cabin row, window / aisle / middle for letter position, near-lav and near-galley for traffic, rear for aft cabin location, and quiet for mid-cabin calm.",
       "Scores are opinions on our original schematics. They are not airline ratings, not scraped competitor data, and not a promise that your flight will match the drawing. Aircraft change by registration and retrofit.",
       "We deliberately discount middle seats and seats next to lavatories or galleys in most cases. We boost clear exit-row and bulkhead space when the geometry suggests more pitch — while noting airline eligibility rules separately in guides.",
       "Use scores to shortlist, then look at the map. A high-scoring exit row is useless if you cannot sit there with an infant. A lower-scoring aisle near a lavatory might still be right if mobility matters more than quiet.",
       "Best-seats pages sort the editorial list for each config. Seat-map pages show the full cabin geometry with the same tags. Together they are a planning aid — the airline’s booking tools remain the source of truth.",
-      "If a score looks wrong for your priorities, trust your use case. Our heuristic optimizes for a typical leisure traveler who wants space and sleep; business travelers chasing fast deplanes may prefer different rows."
+      "If a score looks wrong for your priorities, trust your use case. Our heuristic optimizes for a typical leisure traveler who wants space and sleep; business travelers chasing fast deplanes may prefer different rows.",
+      "For a fuller walkthrough of public data we use, scoring weights, and what we never scrape, see the Methodology & sources page."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "ICAO — Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      }
     ]
   },
   {
@@ -164,6 +410,28 @@
       "Exit rows are usually the wrong choice with a lap infant. Airlines typically restrict who may sit there, and you may be reseated. Prefer bassinet bulkheads or standard rows where you can sit together.",
       "On wide-bodies, bulkheads at the start of economy or premium economy are the usual bassinet zones. Our schematics mark bulkheads so you can spot candidates — then confirm bassinet icons on the airline’s live map.",
       "Pick Your Row maps are original illustrative schematics, not airline manuals. Always verify bassinet rules and seat availability with the carrier for your exact flight."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "TSA — TSA Cares (passengers who need assistance)",
+        "url": "https://www.tsa.gov/travel/tsa-cares",
+        "note": "U.S. TSA program and guidance for travelers who need screening assistance (mobility and medical context)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      }
     ]
   },
   {
@@ -177,6 +445,23 @@
       "Avoid leaving a single empty middle between two window seats you do not own — another passenger will likely take it. If you must split, prefer aisle-aisle across rather than window-window with a gap.",
       "Paid seat selection is often cheaper than hoping random assignment keeps you together, especially on low-cost carriers. Decide before check-in closes.",
       "Our schematics show letter blocks so you can see pair geometry at a glance. Scores are editorial opinions on original drawings — confirm the live map and fees with your airline."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      }
     ]
   },
   {
@@ -190,6 +475,23 @@
       "Our maps mark window letters by cabin geometry, not by a pane-by-pane survey. Treat “window” as a letter position. Structural sections and door plugs can still spoil a view.",
       "If the view is the priority, prefer window letters away from marked exit/overwing clusters when the schematic suggests it — then double-check the airline’s map for your registration.",
       "Pick Your Row drawings are illustrative reconstructions from publicly known typical layouts. We are not affiliated with any airline; always verify before you fly."
+    ],
+    "sources": [
+      {
+        "label": "FAA — Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA public traveler safety and consumer information hub."
+      },
+      {
+        "label": "ICAO — Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
+      },
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      }
     ]
   },
   {
@@ -203,6 +505,109 @@
       "Exit-row and preferred forward seats may be worth the fee when the alternative is missing a once-a-day international connection. Compare the seat fee against change fees and hotel risk.",
       "If you travel with a carry-on that must be overhead, board early enough to keep it near you — a forward seat does not help if your bag is ten rows back.",
       "Use Pick Your Row seat maps to spot forward vs rear geometry, then pick on the airline’s booking tool for the exact flight. Layouts vary by registration; our scores are editorial planning aids only."
+    ],
+    "sources": [
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
+        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
+        "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
+      }
+    ]
+  },
+  {
+    "slug": "seat-map-glossary",
+    "title": "Seat-map glossary: cabin terms explained",
+    "description": "Original plain-English definitions of exit row, bulkhead, pitch, layout codes, and other seat-map terms — with citations to public aviation sources.",
+    "body": [
+      "This glossary is original Pick Your Row commentary. It explains how we use cabin terms on our schematics. Where a term touches regulation or industry safety education, we cite a public authority. Editorial comfort advice is labeled as such.",
+      "Exit row / exit seat (fact + editorial): On U.S. part 121 airlines, federal rules define exit seats and who may sit there — including mobility, age, and willingness to help in an evacuation. Editorial note: we often score marked exit rows higher for pitch, but only travelers who meet the airline’s criteria should select them.",
+      "Bulkhead (editorial geometry term): The first row of a cabin facing a wall or curtain. Nobody reclines into you; under-seat storage and tray-table design often differ. Some bulkheads support bassinets — confirm on the airline’s live map.",
+      "Pitch (editorial / industry usage): Common industry shorthand for the distance from one seat’s point to the same point on the seat ahead — a rough proxy for legroom. Airlines publish or advertise pitch differently; our maps do not claim certified measurements.",
+      "Layout string (e.g. 3-3, 2-4-2, 3-3-3): Counts of seats in each block separated by aisles, left-to-right looking forward. A “3-3” narrow-body has two triples; a “3-3-3” wide-body has three triples.",
+      "Window / aisle / middle letters: Window letters are the outermost letters in a cabin’s letter set on our schematic; aisle letters touch an aisle gap; middles sit between. “Window” means letter position — not a guaranteed pane alignment.",
+      "Galley and lavatory markers: Abstract symbols for service and restroom zones. Editorial heuristic: nearby seats often mean more light, noise, and foot traffic.",
+      "Cabin class labels (first, business, premium, economy): Product names differ by airline (Mint, Club World, Premium Select, Main Cabin Extra, and so on). Our blocks are schematic zones for orientation, not branded product contracts.",
+      "Registration / subfleet caveat: Two aircraft of the same type can have different interiors. Every Pick Your Row map is an illustrative reconstruction of a typical public layout pattern — always confirm with the carrier for your flight.",
+      "Passenger rights vs seat choice: Delay, cancellation, and denied-boarding rules are separate from which row feels comfortable. Know your consumer rights from official sources, then use maps to plan the seat you actually want."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      },
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "ICAO — Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
+      }
+    ]
+  },
+  {
+    "slug": "cabin-class-primer",
+    "title": "Cabin class primer: economy to first",
+    "description": "A concise, original primer on economy, premium economy, business, and first — what usually changes, what does not, and how to read schematics without marketing fluff.",
+    "body": [
+      "Airlines sell cabin “classes” that bundle seat product, service, and sometimes baggage. Names vary wildly. This primer is original editorial orientation for reading Pick Your Row schematics — not a fare rule book.",
+      "Economy / main cabin (editorial): The densest cabin on most aircraft. Layout strings like 3-3 or 3-3-3 dominate. Exit rows and some bulkheads may add pitch inside the same cabin class. Paid “preferred” seats are often standard pitch closer to the front.",
+      "Premium economy (editorial): Usually sits between business and economy: better pitch or width, a quieter forward zone, and sometimes improved meals or baggage. You are typically still in a multi-seat row, not a lie-flat suite. Compare the fare delta to a strong economy exit row before you upgrade.",
+      "Business / long-haul premium (editorial): Often lie-flat or deep-recline seats with more personal space. Our schematics stylize suites as simple blocks for clarity — real suite geometry and privacy doors differ by product.",
+      "First class (editorial): On many carriers, “first” is rare or merged into a flagship business product. Where drawn, treat it as the most forward, lowest-density block on the schematic.",
+      "Downgrade rights (fact context): If you are moved to a lower cabin against your will on flights covered by EU air passenger rules, official consumer guidance describes percentage reimbursements by distance. That is a rights issue — separate from which seat looked good on a map.",
+      "Safety is cabin-wide (fact context): Evacuation education from industry bodies applies in every cabin: follow crew instructions and leave bags behind. Exit-seat suitability rules still matter most in marked exit rows, which can appear in economy or other cabins depending on the type.",
+      "How to use our maps: Find your cabin block, note exits, lavatories, and bulkheads, then open the matching best-seats list for an editorial shortlist. Confirm the live product name and seat map on your booking."
+    ],
+    "sources": [
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+      },
+      {
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
+        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
+        "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
+      }
     ]
   }
 ]

@@ -22,44 +22,57 @@ const { airline, config } = resolved;
 const tops = topSeats(config, 10);
 const cautions = cautionSeats(config, 6);
 
-const faqLd = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: `What are the best seats on a ${airline.name} ${config.aircraftType}?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Our editorial heuristic often favors exit-row and bulkhead seats away from lavatories. On this illustrative ${config.aircraftType} schematic, top-ranked examples include ${tops
-          .slice(0, 5)
-          .map((s) => s.seatId)
-          .join(', ')}. Scores are opinions for planning only — confirm with the airline.`,
+const pagePath = `/best-seats/${airline.slug}/${acParam}/`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What are the best seats on a ${airline.name} ${config.aircraftType}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Our editorial heuristic often favors exit-row and bulkhead seats away from lavatories. On this illustrative ${config.aircraftType} schematic, top-ranked examples include ${tops
+            .slice(0, 5)
+            .map((s) => s.seatId)
+            .join(', ')}. Scores are opinions for planning only — confirm with the airline.`,
+        },
       },
-    },
-    {
-      '@type': 'Question',
-      name: 'Are Pick Your Row seat scores official?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'No. Scores are editorial heuristics (exit row, bulkhead, near lav = caution, etc.). Pick Your Row is not affiliated with any airline.',
+      {
+        '@type': 'Question',
+        name: 'Are Pick Your Row seat scores official?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'No. Scores are editorial heuristics (exit row, bulkhead, near lav = caution, etc.). Pick Your Row is not affiliated with any airline.',
+        },
       },
-    },
-    {
-      '@type': 'Question',
-      name: 'Do all aircraft of this type share the same map?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: config.configNote,
+      {
+        '@type': 'Question',
+        name: 'Do all aircraft of this type share the same map?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: config.configNote,
+        },
       },
-    },
-  ],
-};
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: airline.name, item: `https://pickyourrow.com/airlines/${airline.slug}/` },
+      { '@type': 'ListItem', position: 3, name: `Best seats — ${config.aircraftType}`, item: `https://pickyourrow.com${pagePath}` },
+    ],
+  },
+];
 ---
 <BaseLayout
   title={`Best seats: ${airline.name} ${config.aircraftType}`}
   description={`Editorial best-seat picks for a typical ${airline.name} ${config.aircraftType}. Heuristic scores — not airline official.`}
-  jsonLd={faqLd}
+  canonicalPath={pagePath}
+  jsonLd={jsonLd}
 >
   <div class="wrap">
     <nav class="breadcrumb">
@@ -75,6 +88,7 @@ const faqLd = {
     <p class="note">
       <strong>How we score (editorial):</strong> exit row and bulkhead tend to score higher; middle seats, rear cabin,
       and seats near lavatories/galleys score lower. Your preferences may differ.
+      Full detail: <a href="/methodology/">Methodology &amp; sources</a>.
     </p>
 
     <SeatMap config={config} highlight={tops.slice(0, 6).map((s) => s.seatId)} />
@@ -127,7 +141,7 @@ const faqLd = {
 
     <h2>More seat-selection advice</h2>
     <ul class="clean">
-      {guides.filter((g) => ['aisle-vs-window', 'premium-economy-tips', 'exit-row-tips', 'quiet-vs-convenient'].includes(g.slug)).map((g) => (
+      {guides.filter((g) => ['how-pickyourrow-scores-work', 'seat-map-glossary', 'exit-row-tips', 'aisle-vs-window'].includes(g.slug)).map((g) => (
         <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
       ))}
     </ul>

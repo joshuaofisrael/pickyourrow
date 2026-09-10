@@ -1,9 +1,19 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+    { '@type': 'ListItem', position: 2, name: 'About', item: 'https://pickyourrow.com/about/' },
+  ],
+};
 ---
 <BaseLayout
   title="About Pick Your Row"
   description="About Pick Your Row — original airline cabin schematics by Joshua Israel Ventures LLC."
+  jsonLd={jsonLd}
 >
   <div class="wrap prose">
     <nav class="breadcrumb"><a href="/">Home</a> / About</nav>
@@ -23,8 +33,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <h2>Editorial scores</h2>
     <p>
       Best-seat scores are heuristic opinions (exit row, bulkhead, near lav = caution, and similar rules).
-      They are documented as editorial in the UI and are not airline recommendations.
+      They are documented as editorial in the UI and are not airline recommendations. Regulatory exit-seat
+      rules and passenger-rights summaries are cited separately as facts.
     </p>
-    <p><a href="/disclosure/">Affiliate disclosure</a></p>
+    <p>
+      Full detail: <a href="/methodology/">Methodology &amp; sources</a> ·
+      <a href="/guides/how-pickyourrow-scores-work/">How scores work</a> ·
+      <a href="/disclosure/">Affiliate disclosure</a>
+    </p>
   </div>
 </BaseLayout>

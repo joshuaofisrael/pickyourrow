@@ -428,3 +428,10 @@ ul.clean li {
   width: 0;
   overflow: hidden;
 }
+
+.sources {
+  padding-left: 1.25rem;
+}
+.sources li {
+  margin-bottom: 0.55rem;
+}

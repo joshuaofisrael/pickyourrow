@@ -13,10 +13,56 @@ const airlineCards = airlines.map((a) => ({
   count: getAircraftByAirline(a.slug).length,
 }));
 const inventoryLine = `${airlines.length} airlines · ${aircraftConfigs.length} aircraft configs · ${guides.length} guides`;
+
+const linkable = [
+  {
+    href: '/methodology/',
+    title: 'Methodology & sources',
+    description: 'How we score seats, what is editorial vs fact, and the public authorities we cite.',
+  },
+  {
+    href: '/guides/seat-map-glossary/',
+    title: 'Seat-map glossary',
+    description: 'Exit row, bulkhead, pitch, layout codes, and other cabin terms — with citations.',
+  },
+  {
+    href: '/guides/cabin-class-primer/',
+    title: 'Cabin class primer',
+    description: 'Economy through first, without marketing fluff — and when rights rules matter.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Pick Your Row',
+    legalName: 'Joshua Israel Ventures LLC',
+    url: 'https://pickyourrow.com/',
+    email: 'joshuaofisrael@gmail.com',
+    description:
+      'Original airline cabin schematics and editorial best-seat guidance. Not affiliated with any airline.',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Pick Your Row',
+    url: 'https://pickyourrow.com/',
+    description:
+      'Original schematic seat maps and editorial best-seat tips for popular airline aircraft.',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Joshua Israel Ventures LLC',
+      url: 'https://pickyourrow.com/',
+    },
+  },
+];
 ---
 <BaseLayout
   title="Pick Your Row — airline seat maps & cabin guides"
   description="Original schematic seat maps and editorial best-seat tips for popular airline aircraft. Not affiliated with any airline."
+  canonicalPath="/"
+  jsonLd={jsonLd}
 >
   <section class="hero wrap">
     <p class="badge">Original schematics · editorial guidance</p>
@@ -29,12 +75,27 @@ const inventoryLine = `${airlines.length} airlines · ${aircraftConfigs.length} 
     <div class="btn-row">
       <a class="btn" href="/airlines/">Browse airlines</a>
       <a class="btn secondary" href="/guides/">Seat-selection guides</a>
-      <a class="btn secondary" href="/aircraft/">Aircraft types</a>
+      <a class="btn secondary" href="/methodology/">Methodology &amp; sources</a>
     </div>
     <p class="note info">
       Configurations vary by aircraft registration and retrofit. Treat every map as an illustrative schematic and
       confirm seats with your airline. We are not affiliated with any carrier.
     </p>
+  </section>
+
+  <section class="wrap" style="margin-bottom:2rem">
+    <div class="section-head">
+      <h2>Linkable references</h2>
+      <a href="/methodology/">How we work →</a>
+    </div>
+    <div class="grid cols-3" style="margin-top:1rem">
+      {linkable.map((item) => (
+        <article class="card">
+          <h3><a href={item.href}>{item.title}</a></h3>
+          <p>{item.description}</p>
+        </article>
+      ))}
+    </div>
   </section>
 
   <section class="wrap" style="margin-bottom:2rem">
@@ -96,7 +157,10 @@ const inventoryLine = `${airlines.length} airlines · ${aircraftConfigs.length} 
       <a href="/guides/">All guides →</a>
     </div>
     <div class="grid cols-2" style="margin-top:1rem">
-      {[...guides.slice(-4), ...guides.slice(0, 2)].map((g) => (
+      {[
+        ...guides.filter((g) => ['seat-map-glossary', 'cabin-class-primer', 'how-pickyourrow-scores-work', 'exit-row-tips'].includes(g.slug)),
+        ...guides.filter((g) => !['seat-map-glossary', 'cabin-class-primer', 'how-pickyourrow-scores-work', 'exit-row-tips'].includes(g.slug)),
+      ].slice(0, 6).map((g) => (
         <article class="card">
           <h3><a href={`/guides/${g.slug}/`}>{g.title}</a></h3>
           <p>{g.description}</p>
