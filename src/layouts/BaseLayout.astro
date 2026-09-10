@@ -5,6 +5,7 @@ interface Props {
   title: string;
   description?: string;
   canonicalPath?: string;
+  ogImage?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
@@ -12,6 +13,7 @@ const {
   title,
   description = 'Original airline cabin schematics and editorial best-seat guidance. Not affiliated with any airline.',
   canonicalPath = Astro.url.pathname,
+  ogImage,
   jsonLd,
 } = Astro.props;
 
@@ -31,7 +33,14 @@ const fullTitle = title.includes('Pick Your Row') ? title : `${title} · Pick Yo
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
-    <meta name="twitter:card" content="summary" />
+    {ogImage && (
+      <>
+        <meta property="og:image" content={new URL(ogImage, site).toString()} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={new URL(ogImage, site).toString()} />
+      </>
+    )}
+    {!ogImage && <meta name="twitter:card" content="summary" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     {jsonLd && (
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

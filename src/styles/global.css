@@ -435,3 +435,33 @@ ul.clean li {
 .sources li {
   margin-bottom: 0.55rem;
 }
+
+
+.guide-hero,
+.guide-figure {
+  margin: 1.25rem 0 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #0f172a;
+}
+.guide-hero img,
+.guide-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.guide-hero figcaption,
+.guide-figure figcaption {
+  padding: 0.65rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: #fff;
+}
+.ai-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  border-left: 3px solid var(--brand);
+  padding-left: 0.75rem;
+  margin: 0.75rem 0 1.25rem;
+}

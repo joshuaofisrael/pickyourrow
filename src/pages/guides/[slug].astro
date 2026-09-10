@@ -10,6 +10,9 @@ const { slug } = Astro.params;
 const guide = guides.find((g) => g.slug === slug)!;
 type Source = { label: string; url: string; note?: string };
 const sources = ((guide as { sources?: Source[] }).sources ?? []) as Source[];
+type Fig = { src: string; alt: string; caption?: string };
+const heroImage = (guide as { heroImage?: Fig }).heroImage;
+const figures = ((guide as { figures?: Fig[] }).figures ?? []) as Fig[];
 
 const relatedPriority = [
   'seat-map-glossary',
@@ -58,12 +61,24 @@ const jsonLd = [
   },
 ];
 ---
-<BaseLayout title={guide.title} description={guide.description} canonicalPath={pagePath} jsonLd={jsonLd}>
+<BaseLayout title={guide.title} description={guide.description} canonicalPath={pagePath} ogImage={heroImage?.src} jsonLd={jsonLd}>
   <div class="wrap prose">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / {guide.title}</nav>
     <h1 class="page-title">{guide.title}</h1>
     <p class="lede">{guide.description}</p>
+    {heroImage && (
+      <figure class="guide-hero">
+        <img src={heroImage.src} alt={heroImage.alt} width="1200" height="675" loading="eager" />
+        {heroImage.caption && <figcaption>{heroImage.caption}</figcaption>}
+      </figure>
+    )}
     {guide.body.map((p) => <p>{p}</p>)}
+    {figures.map((f) => (
+      <figure class="guide-figure">
+        <img src={f.src} alt={f.alt} width="900" height="675" loading="lazy" />
+        {f.caption && <figcaption>{f.caption}</figcaption>}
+      </figure>
+    ))}
 
     {sources.length > 0 && (
       <>
