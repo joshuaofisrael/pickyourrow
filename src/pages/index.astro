@@ -12,6 +12,7 @@ const airlineCards = airlines.map((a) => ({
   ...a,
   count: getAircraftByAirline(a.slug).length,
 }));
+const inventoryLine = `${airlines.length} airlines · ${aircraftConfigs.length} aircraft configs · ${guides.length} guides`;
 ---
 <BaseLayout
   title="Pick Your Row — airline seat maps & cabin guides"
@@ -23,6 +24,7 @@ const airlineCards = airlines.map((a) => ({
     <p class="lede">
       Pick Your Row publishes original SVG cabin schematics and plain-English seat notes for common airline
       configurations — rebuilt from publicly known layout facts, not scraped competitor maps.
+      Currently covering {inventoryLine}.
     </p>
     <div class="btn-row">
       <a class="btn" href="/airlines/">Browse airlines</a>
@@ -94,7 +96,7 @@ const airlineCards = airlines.map((a) => ({
       <a href="/guides/">All guides →</a>
     </div>
     <div class="grid cols-2" style="margin-top:1rem">
-      {guides.slice(0, 6).map((g) => (
+      {[...guides.slice(-4), ...guides.slice(0, 2)].map((g) => (
         <article class="card">
           <h3><a href={`/guides/${g.slug}/`}>{g.title}</a></h3>
           <p>{g.description}</p>

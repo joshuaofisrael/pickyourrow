@@ -138,5 +138,47 @@
     "iata": "IB",
     "country": "Spain",
     "blurb": "Spanish network carrier with short-haul A320-family and long-haul A330/A350 fleets. Cabin layouts vary by registration."
+  },
+  {
+    "slug": "qantas",
+    "name": "Qantas",
+    "iata": "QF",
+    "country": "Australia",
+    "blurb": "Australian flag carrier with domestic 737 fleets and long-haul wide-bodies. Cabin products and densities vary by aircraft and route."
+  },
+  {
+    "slug": "etihad",
+    "name": "Etihad Airways",
+    "iata": "EY",
+    "country": "United Arab Emirates",
+    "blurb": "Abu Dhabi-based long-haul carrier operating A380, 787, and narrow-body fleets. Multi-cabin layouts differ by subfleet and retrofit."
+  },
+  {
+    "slug": "hawaiian",
+    "name": "Hawaiian Airlines",
+    "iata": "HA",
+    "country": "United States",
+    "blurb": "Hawaii-based carrier with A321neo interisland/US mainland hops and long-haul A330/787 wide-bodies. Schematics below are typical public layouts only."
+  },
+  {
+    "slug": "spirit",
+    "name": "Spirit Airlines",
+    "iata": "NK",
+    "country": "United States",
+    "blurb": "U.S. ultra-low-cost carrier with a high-density A320-family fleet. Single-cabin layouts and paid seat selection are typical."
+  },
+  {
+    "slug": "swiss",
+    "name": "SWISS",
+    "iata": "LX",
+    "country": "Switzerland",
+    "blurb": "Swiss flag carrier (Lufthansa Group) with short-haul A320-family and long-haul A330/777 fleets. Cabin products vary by aircraft."
+  },
+  {
+    "slug": "ana",
+    "name": "ANA (All Nippon Airways)",
+    "iata": "NH",
+    "country": "Japan",
+    "blurb": "Japanese network carrier with domestic narrow-bodies and long-haul 787/777 fleets. Business and economy layouts differ by subfleet."
   }
 ]

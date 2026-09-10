@@ -20,10 +20,50 @@ const resolved = resolveAirlineAircraft(aSlug!, acParam!);
 if (!resolved) throw new Error('Config not found');
 const { airline, config } = resolved;
 const tops = topSeats(config, 5);
+
+const pagePath = `/airlines/${airline.slug}/${acParam}/seat-map/`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: `${airline.name} ${config.aircraftType} seat map`,
+    description: `Original schematic seat map for a typical ${airline.name} ${config.aircraftType}. Illustrative — configs vary by registration.`,
+    url: `https://pickyourrow.com${pagePath}`,
+    isPartOf: { '@type': 'WebSite', name: 'Pick Your Row', url: 'https://pickyourrow.com/' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Airlines', item: 'https://pickyourrow.com/airlines/' },
+      { '@type': 'ListItem', position: 3, name: airline.name, item: `https://pickyourrow.com/airlines/${airline.slug}/` },
+      { '@type': 'ListItem', position: 4, name: `${config.aircraftType} seat map`, item: `https://pickyourrow.com${pagePath}` },
+    ],
+  },
+];
+
+/** Stable variety of related guides (not always the first four). */
+function relatedGuides(seed: string, count = 4) {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+  const scored = guides.map((g, i) => {
+    const slugBoost =
+      (config.exitRows.length && /exit|bulkhead|legroom/i.test(g.slug) ? 3 : 0) +
+      (config.cabins.some((c) => c.cabinClass === 'premium') && /premium/i.test(g.slug) ? 2 : 0) +
+      (config.cabins.length === 1 && /low-cost|lcc|fee/i.test(g.slug) ? 2 : 0) +
+      (/window|wing|aisle|couple|connect|bassinet|overnight|kid/i.test(g.slug) ? 1 : 0);
+    return { g, score: slugBoost * 100 + ((h + i * 17) % 97) };
+  });
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, count).map((x) => x.g);
+}
+const related = relatedGuides(config.slug);
 ---
 <BaseLayout
   title={`${airline.name} ${config.aircraftType} seat map`}
   description={`Original schematic seat map for a typical ${airline.name} ${config.aircraftType}. Illustrative — configs vary by registration.`}
+  jsonLd={jsonLd}
 >
   <div class="wrap">
     <nav class="breadcrumb">
@@ -67,7 +107,7 @@ const tops = topSeats(config, 5);
 
     <h2>Related reading</h2>
     <ul class="clean">
-      {guides.slice(0, 4).map((g) => (
+      {related.map((g) => (
         <li><a href={`/guides/${g.slug}/`}>{g.title}</a></li>
       ))}
     </ul>

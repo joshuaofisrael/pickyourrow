@@ -8712,5 +8712,2646 @@
       "Business often uses blocked middles on short-haul; shown as 2-2.",
       "Seat counts vary widely across the A321 subfleet."
     ]
+  },
+  {
+    "slug": "qantas-737-800",
+    "airlineSlug": "qantas",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "Qantas 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 4,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      14,
+      15
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical dual-cabin domestic/short-haul 3-3 economy with a small forward business section.",
+      "Overwing exit rows often marketed as extra legroom — confirm eligibility with the airline."
+    ]
+  },
+  {
+    "slug": "qantas-a330-200",
+    "airlineSlug": "qantas",
+    "aircraftType": "Airbus A330-200",
+    "aircraftFamily": "A330",
+    "name": "Qantas A330-200 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 271,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 16,
+        "endRow": 22,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 23,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          35
+        ]
+      }
+    ],
+    "exitRows": [
+      23,
+      36
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 23,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Illustrative 2-4-2 economy common on many A330-200s; premium and business densities vary by retrofit.",
+      "Treat row numbering as schematic — registrations differ."
+    ]
+  },
+  {
+    "slug": "qantas-787-9",
+    "airlineSlug": "qantas",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Qantas 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 236,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul Dreamliner schematic with business, premium economy, and 3-3-3 economy.",
+      "Business suite layouts are highly product-dependent — this is a simplified letter block only."
+    ]
+  },
+  {
+    "slug": "etihad-a380",
+    "airlineSlug": "etihad",
+    "aircraftType": "Airbus A380",
+    "aircraftFamily": "A380",
+    "name": "Etihad A380 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 498,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 10,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco-fwd",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 40,
+        "endRow": 55,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco-aft",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 56,
+        "endRow": 78,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      40,
+      56,
+      67
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 55,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 56,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 67,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 78,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 78,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Very high-capacity double-deck schematic simplified to main-deck-style letter blocks for readability.",
+      "First/business products and upper-deck layouts vary enormously — confirm on your booking."
+    ]
+  },
+  {
+    "slug": "etihad-787-9",
+    "airlineSlug": "etihad",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Etihad 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 290,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 45,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Two-cabin Dreamliner schematic common on many long-haul 787-9s; some subfleets add premium economy.",
+      "Exit-row and bulkhead seats often carry selection fees."
+    ]
+  },
+  {
+    "slug": "etihad-a321neo",
+    "airlineSlug": "etihad",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Etihad A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 215,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 6,
+        "endRow": 40,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Higher-density narrow-body used on regional and leisure routes; layouts vary by cabin product.",
+      "Overwing exits are typical extra-legroom candidates on A321-family jets."
+    ]
+  },
+  {
+    "slug": "hawaiian-a321neo",
+    "airlineSlug": "hawaiian",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Hawaiian A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 189,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "Extra Comfort / Forward",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 5,
+        "endRow": 35,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical A321neo used on US mainland and interisland-adjacent sectors; forward Extra Comfort branding varies.",
+      "Single-aisle 3-3 economy with overwing exits."
+    ]
+  },
+  {
+    "slug": "hawaiian-a330-200",
+    "airlineSlug": "hawaiian",
+    "aircraftType": "Airbus A330-200",
+    "aircraftFamily": "A330",
+    "name": "Hawaiian A330-200 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 278,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business / Lie-flat",
+        "startRow": 1,
+        "endRow": 5,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 5,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 5,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul A330 schematic with 2-4-2 economy pairs popular with couples.",
+      "Business cabin density and lie-flat products vary by retrofit generation."
+    ]
+  },
+  {
+    "slug": "hawaiian-787-9",
+    "airlineSlug": "hawaiian",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Hawaiian 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 300,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          32
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      33
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Dreamliner schematic for long Pacific sectors; economy often 3-3-3.",
+      "Illustrative only — Hawaiian cabin products continue to evolve."
+    ]
+  },
+  {
+    "slug": "spirit-a320neo",
+    "airlineSlug": "spirit",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Spirit A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 182,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      11,
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "High-density single-cabin ULCC layout; almost all seats are paid selection.",
+      "Front and exit rows typically cost more (Big Front Seat / Extra Legroom branding varies)."
+    ]
+  },
+  {
+    "slug": "spirit-a321neo",
+    "airlineSlug": "spirit",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Spirit A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 228,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 39,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Higher-capacity A321neo ULCC schematic with dense 3-3 seating.",
+      "Confirm Big Front Seat / exit-row fees on the airline’s live map for your flight."
+    ]
+  },
+  {
+    "slug": "swiss-a320",
+    "airlineSlug": "swiss",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "SWISS A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      11,
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Short-haul European dual-cabin schematic; business may convert to economy on leisure flights.",
+      "Overwing exits are the usual extra-legroom rows."
+    ]
+  },
+  {
+    "slug": "swiss-a330-300",
+    "airlineSlug": "swiss",
+    "aircraftType": "Airbus A330-300",
+    "aircraftFamily": "A330",
+    "name": "SWISS A330-300 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 236,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 16,
+        "endRow": 21,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 22,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          32
+        ]
+      }
+    ],
+    "exitRows": [
+      22,
+      33
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 22,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul A330 with business, premium economy, and 2-4-2 economy pairs.",
+      "Seat counts and premium density vary across the SWISS A330 fleet."
+    ]
+  },
+  {
+    "slug": "swiss-777-300er",
+    "airlineSlug": "swiss",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "SWISS 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 340,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F",
+              "L"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 5,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 20,
+        "endRow": 26,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 27,
+        "endRow": 55,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          40
+        ]
+      }
+    ],
+    "exitRows": [
+      27,
+      41
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 19,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 41,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 55,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 55,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Four-cabin 777-300ER schematic; first and business products are highly retrofit-specific.",
+      "Economy often 3-3-3 on many SWISS 777s — treat as illustrative."
+    ]
+  },
+  {
+    "slug": "ana-a321",
+    "airlineSlug": "ana",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "ANA A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 194,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 38,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Domestic/regional A321 schematic with a small forward business cabin and 3-3 economy.",
+      "Japanese domestic densities can be higher on some registrations."
+    ]
+  },
+  {
+    "slug": "ana-787-9",
+    "airlineSlug": "ana",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "ANA 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 246,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul Dreamliner with business, premium economy, and 3-3-3 economy.",
+      "ANA operates multiple 787 cabin products — this is one typical schematic."
+    ]
+  },
+  {
+    "slug": "ana-777-300er",
+    "airlineSlug": "ana",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "ANA 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 212,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F",
+              "L"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 5,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 20,
+        "endRow": 25,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 26,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      26,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 19,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Premium-heavy long-haul 777 schematic; some ANA 777s have fewer total seats than high-density peers.",
+      "First and business suite geometries are simplified letter blocks only."
+    ]
+  },
+  {
+    "slug": "virgin-atlantic-a330-300",
+    "airlineSlug": "virgin-atlantic",
+    "aircraftType": "Airbus A330-300",
+    "aircraftFamily": "A330",
+    "name": "Virgin Atlantic A330-300 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 262,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Upper Class",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium",
+        "startRow": 16,
+        "endRow": 22,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 23,
+        "endRow": 45,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      23,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 23,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Illustrative A330-300 schematic in the Virgin Atlantic cabin style (Upper Class / Premium / Economy).",
+      "Fleet mix changes over time — verify the aircraft type on your booking."
+    ]
+  },
+  {
+    "slug": "iberia-a321",
+    "airlineSlug": "iberia",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "Iberia A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 201,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 38,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Short/medium-haul A321 with a small business cabin and dense 3-3 economy.",
+      "Some leisure flights may open business as economy — schematic remains dual-cabin for orientation."
+    ]
+  },
+  {
+    "slug": "iberia-a330-200",
+    "airlineSlug": "iberia",
+    "aircraftType": "Airbus A330-200",
+    "aircraftFamily": "A330",
+    "name": "Iberia A330-200 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 288,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 50,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 50,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 50,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul A330-200 schematic with 2-4-2 economy; some subfleets add premium economy.",
+      "Business cabin layout is simplified — lie-flat products vary."
+    ]
+  },
+  {
+    "slug": "klm-a321neo",
+    "airlineSlug": "klm",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "KLM A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 220,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "World Business Class / Europe",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 40,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Newer A321neo schematic for European and medium-haul flying; cabin branding differs by route.",
+      "Overwing exits are typical extra-legroom rows on this family."
+    ]
   }
 ]
