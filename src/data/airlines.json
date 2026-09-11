@@ -180,5 +180,47 @@
     "iata": "NH",
     "country": "Japan",
     "blurb": "Japanese network carrier with domestic narrow-bodies and long-haul 787/777 fleets. Business and economy layouts differ by subfleet."
+  },
+  {
+    "slug": "japan-airlines",
+    "name": "Japan Airlines",
+    "iata": "JL",
+    "country": "Japan",
+    "blurb": "Japanese network carrier with domestic narrow-bodies and long-haul 787/777/A350 fleets. Cabin products and densities vary by aircraft and retrofit."
+  },
+  {
+    "slug": "korean-air",
+    "name": "Korean Air",
+    "iata": "KE",
+    "country": "South Korea",
+    "blurb": "South Korean flag carrier operating narrow-body regional fleets and long-haul 777/787 wide-bodies. Schematics below are typical public layouts only."
+  },
+  {
+    "slug": "air-new-zealand",
+    "name": "Air New Zealand",
+    "iata": "NZ",
+    "country": "New Zealand",
+    "blurb": "New Zealand flag carrier with Pacific narrow-body flying and long-haul 787/777 fleets. Layouts differ by subfleet and route."
+  },
+  {
+    "slug": "norwegian",
+    "name": "Norwegian",
+    "iata": "DY",
+    "country": "Norway",
+    "blurb": "Norwegian low-cost carrier focused on narrow-body 737 and A320-family flying. Single-cabin high-density layouts are typical."
+  },
+  {
+    "slug": "sas",
+    "name": "Scandinavian Airlines (SAS)",
+    "iata": "SK",
+    "country": "Sweden",
+    "blurb": "Scandinavian network carrier with short-haul A320-family and 737 fleets plus select long-haul types. Cabin products vary by aircraft and route."
+  },
+  {
+    "slug": "frontier",
+    "name": "Frontier Airlines",
+    "iata": "F9",
+    "country": "United States",
+    "blurb": "U.S. ultra-low-cost carrier with a high-density A320-family fleet. Single-cabin layouts and paid seat selection are typical."
   }
 ]

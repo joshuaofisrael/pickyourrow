@@ -11353,5 +11353,2225 @@
       "Newer A321neo schematic for European and medium-haul flying; cabin branding differs by route.",
       "Overwing exits are typical extra-legroom rows on this family."
     ]
+  },
+  {
+    "slug": "japan-airlines-787-9",
+    "airlineSlug": "japan-airlines",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Japan Airlines 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 240,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business Class",
+        "startRow": 1,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul Dreamliner schematic with business, premium economy, and 3-3-3 economy.",
+      "Confirm exact product (including seat pitch and IFE) on JAL’s live map for your flight."
+    ]
+  },
+  {
+    "slug": "japan-airlines-777-300er",
+    "airlineSlug": "japan-airlines",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Japan Airlines 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 244,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "First Class",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F",
+              "L"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business Class",
+        "startRow": 5,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 20,
+        "endRow": 25,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 26,
+        "endRow": 44,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      26,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 19,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 44,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 44,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Premium-heavy long-haul 777 schematic; some JL 777s have fewer total seats than high-density peers.",
+      "First and business products differ by retrofit generation — treat this as planning geometry only."
+    ]
+  },
+  {
+    "slug": "japan-airlines-a350-900",
+    "airlineSlug": "japan-airlines",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Japan Airlines A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 369,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business Class",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 15,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          28
+        ]
+      }
+    ],
+    "exitRows": [
+      15,
+      29
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Higher-density A350 schematic often associated with domestic/regional high-capacity JL flying; international A350s may be premium-heavier.",
+      "Economy shown as 3-4-3 style blocks — confirm live map for your registration."
+    ]
+  },
+  {
+    "slug": "japan-airlines-737-800",
+    "airlineSlug": "japan-airlines",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "Japan Airlines 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 165,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Class J / Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 33,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Domestic-style narrow-body schematic with a small forward cabin and 3-3 economy.",
+      "Overwing exits are typical extra-legroom candidates on this family."
+    ]
+  },
+  {
+    "slug": "korean-air-777-300er",
+    "airlineSlug": "korean-air",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Korean Air 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 291,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "First / Prestige Suite forward",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F",
+              "L"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Prestige / Business",
+        "startRow": 5,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 20,
+        "endRow": 24,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 25,
+        "endRow": 46,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      25,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 19,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 46,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 46,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul 777 schematic with multi-cabin products; densities vary across KE subfleets.",
+      "Prestige Suite vs older business hardware differs by retrofit — use as geometry only."
+    ]
+  },
+  {
+    "slug": "korean-air-a321neo",
+    "airlineSlug": "korean-air",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Korean Air A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 194,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Prestige / Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 36,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Medium-haul A321neo schematic with a small forward cabin and 3-3 economy.",
+      "Overwing exits are typical extra-legroom rows on this family."
+    ]
+  },
+  {
+    "slug": "korean-air-787-9",
+    "airlineSlug": "korean-air",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Korean Air 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 269,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Prestige / Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 19,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Dreamliner schematic with business, premium economy, and 3-3-3 economy blocks.",
+      "Seat counts differ by KE 787 subfleet — confirm on the airline booking map."
+    ]
+  },
+  {
+    "slug": "air-new-zealand-787-9",
+    "airlineSlug": "air-new-zealand",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Air New Zealand 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 275,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business Premier",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 14,
+        "endRow": 19,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 43,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          29
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      30
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 43,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 43,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul Dreamliner schematic with Business Premier, premium economy, and 3-3-3 economy.",
+      "Skycouch / Economy Skycouch products may occupy specific rows — check live inventory."
+    ]
+  },
+  {
+    "slug": "air-new-zealand-a321neo",
+    "airlineSlug": "air-new-zealand",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Air New Zealand A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 214,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business / Space+",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 7,
+        "endRow": 38,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Pacific narrow-body schematic with a small forward cabin and dense 3-3 economy.",
+      "Overwing exits are typical extra-legroom rows on this family."
+    ]
+  },
+  {
+    "slug": "air-new-zealand-777-300er",
+    "airlineSlug": "air-new-zealand",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Air New Zealand 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 332,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business Premier",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "C",
+              "D"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 16,
+        "endRow": 22,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 23,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "G",
+              "H",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          33
+        ]
+      }
+    ],
+    "exitRows": [
+      23,
+      34
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 23,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul 777 schematic; NZ 777 densities and premium counts have varied by retrofit.",
+      "Economy shown as 3-3-3 — confirm your flight’s live map before paying for a seat."
+    ]
+  },
+  {
+    "slug": "norwegian-737-800",
+    "airlineSlug": "norwegian",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "Norwegian 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 33,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "High-density single-cabin LCC schematic; almost all seats may be paid selection.",
+      "Forward and overwing exit rows are the usual extra-legroom candidates."
+    ]
+  },
+  {
+    "slug": "norwegian-737-max-8",
+    "airlineSlug": "norwegian",
+    "aircraftType": "Boeing 737 MAX 8",
+    "aircraftFamily": "737",
+    "name": "Norwegian 737 MAX 8 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 189,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 33,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "MAX 8 single-cabin schematic similar to dense 737-800 LCC layouts.",
+      "Confirm row numbering and exit placement on the airline’s live map for your flight."
+    ]
+  },
+  {
+    "slug": "norwegian-a320neo",
+    "airlineSlug": "norwegian",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Norwegian A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A320neo LCC schematic with dense 3-3 seating and overwing exits mid-cabin.",
+      "Seat fees and branding differ by market — treat scores as editorial planning aids."
+    ]
+  },
+  {
+    "slug": "sas-a320neo",
+    "airlineSlug": "sas",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "SAS A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "SAS Plus / Business Europe",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "SAS Go / Economy",
+        "startRow": 8,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "European short-haul schematic with a small forward Plus cabin and 3-3 economy.",
+      "Cabin branding (Plus vs Go) and curtain positions vary by flight."
+    ]
+  },
+  {
+    "slug": "sas-a321lr",
+    "airlineSlug": "sas",
+    "aircraftType": "Airbus A321LR",
+    "aircraftFamily": "A321",
+    "name": "SAS A321LR (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 157,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "SAS Business",
+        "startRow": 1,
+        "endRow": 5,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "SAS Plus",
+        "startRow": 8,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "SAS Go / Economy",
+        "startRow": 15,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 5,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Longer-range A321LR schematic with business, Plus, and Go sections — denser than many wide-bodies but premium-heavier than short-haul A321s.",
+      "Confirm exact cabin splits on the SAS booking map for your city pair."
+    ]
+  },
+  {
+    "slug": "sas-737-800",
+    "airlineSlug": "sas",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "SAS 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 183,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "SAS Plus / Business Europe",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "SAS Go / Economy",
+        "startRow": 7,
+        "endRow": 33,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Classic 737-800 short-haul schematic; Plus cabin size varies by schedule.",
+      "Overwing exits are typical extra-legroom rows on this family."
+    ]
+  },
+  {
+    "slug": "frontier-a320neo",
+    "airlineSlug": "frontier",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Frontier A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "High-density ULCC single-cabin schematic; almost all seats are paid selection.",
+      "Stretch / Exit Row / Front branding differs by fare bundle — confirm on Frontier’s live map."
+    ]
+  },
+  {
+    "slug": "frontier-a321neo",
+    "airlineSlug": "frontier",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Frontier A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 230,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 39,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Higher-capacity A321neo ULCC schematic with dense 3-3 seating.",
+      "Forward and overwing rows are the usual premium-seat upsells."
+    ]
+  },
+  {
+    "slug": "frontier-a321",
+    "airlineSlug": "frontier",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "Frontier A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 230,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 39,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Legacy A321 high-density ULCC schematic similar to A321neo density.",
+      "Row numbering and Stretch inventory can differ by registration."
+    ]
   }
 ]
