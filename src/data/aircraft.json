@@ -13573,5 +13573,2172 @@
       "Legacy A321 high-density ULCC schematic similar to A321neo density.",
       "Row numbering and Stretch inventory can differ by registration."
     ]
+  },
+  {
+    "slug": "wizz-air-a320",
+    "airlineSlug": "wizz-air",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "Wizz Air A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "High-density ULCC single-cabin schematic (~180 seats on many A320s per public fleet tables).",
+      "Public refs: Wizz Air About Us fleet section (wizzair.com); Wikipedia — Wizz Air fleet table.",
+      "Paid seat selection is the norm — confirm exit-row eligibility on the live booking map."
+    ]
+  },
+  {
+    "slug": "wizz-air-a321",
+    "airlineSlug": "wizz-air",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "Wizz Air A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 230,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 38,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "High-density A321ceo schematic (~230 seats in public Wizz fleet summaries).",
+      "Public refs: Wizz Air About Us; Wikipedia — Wizz Air.",
+      "Forward and overwing rows are the usual paid upsells."
+    ]
+  },
+  {
+    "slug": "wizz-air-a321neo",
+    "airlineSlug": "wizz-air",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Wizz Air A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 239,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 40,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 40,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Ultra-dense A321neo schematic (~239 seats — Wizz’s primary neo density in public fleet data).",
+      "Public refs: Wizz Air About Us; Wikipedia — Wizz Air fleet.",
+      "Almost every seat is a paid selection; treat scores as planning heuristics only."
+    ]
+  },
+  {
+    "slug": "aer-lingus-a320",
+    "airlineSlug": "aer-lingus",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "Aer Lingus A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Short-haul single-cabin schematic (~174Y per Aer Lingus public fleet / Wikipedia fleet table).",
+      "Public refs: Wikipedia — Aer Lingus fleet; aerlingus.com fleet information.",
+      "Preferred / extra-legroom rows are sold as ancillaries — confirm on the EI map."
+    ]
+  },
+  {
+    "slug": "aer-lingus-a321lr",
+    "airlineSlug": "aer-lingus",
+    "aircraftType": "Airbus A321LR",
+    "aircraftFamily": "A321",
+    "name": "Aer Lingus A321LR (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 184,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Transatlantic-capable A321LR schematic (~16J / 168Y = 184 total in public Aer Lingus fleet tables).",
+      "Public refs: Wikipedia — Aer Lingus; Aer Lingus fleet seat information.",
+      "Business block size is small; economy still dominates — confirm curtain position on your flight."
+    ]
+  },
+  {
+    "slug": "aer-lingus-a330-300",
+    "airlineSlug": "aer-lingus",
+    "aircraftType": "Airbus A330-300",
+    "aircraftFamily": "A330",
+    "name": "Aer Lingus A330-300 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 313,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "AerSpace / Premium",
+        "startRow": 11,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 15,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          27
+        ]
+      }
+    ],
+    "exitRows": [
+      15,
+      28
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul A330-300 schematic (~30J / ~283Y ≈ 313 in common public Aer Lingus configs).",
+      "Public refs: Wikipedia — Aer Lingus fleet; Aer Lingus A330 product pages.",
+      "Subfleets differ (313 vs 317 totals) — always match the booking map."
+    ]
+  },
+  {
+    "slug": "finnair-a320",
+    "airlineSlug": "finnair",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "Finnair A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business (dynamic)",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      11,
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Short-haul schematic (~174 seats per Finnair public fleet pages); business often uses blocked middles.",
+      "Public refs: Finnair fleet — A320 (finnair.com); Wikipedia — Finnair.",
+      "Confirm exact business block size; Finnair sizes short-haul business dynamically."
+    ]
+  },
+  {
+    "slug": "finnair-a321",
+    "airlineSlug": "finnair",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "Finnair A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 209,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business (dynamic)",
+        "startRow": 1,
+        "endRow": 5,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 9,
+        "endRow": 36,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      11,
+      24
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 5,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A321 schematic (~209 seats per Finnair public fleet specifications).",
+      "Public refs: Finnair fleet — A321; Wikipedia — Finnair.",
+      "Exit-row and forward rows are the usual comfort picks when business is not needed."
+    ]
+  },
+  {
+    "slug": "finnair-a350-900",
+    "airlineSlug": "finnair",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Finnair A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 297,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business (AirLounge)",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 11,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "letters": [
+              "J",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Flagship A350 schematic; Finnair publicly lists 278 or 321 seat variants — this map is a mid-density illustrative blend (~297).",
+      "Public refs: Finnair A350-900 product page (finnair.com); Wikipedia — Finnair fleet.",
+      "Confirm which A350 subfleet you have before locking overnight seats."
+    ]
+  },
+  {
+    "slug": "westjet-737-800",
+    "airlineSlug": "westjet",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "WestJet 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premium",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Extended Comfort",
+        "startRow": 4,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy / Extended Comfort",
+        "startRow": 8,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Two-cabin 737-800 schematic (~12 Premium + economy totaling ~174 in common WestJet public configs).",
+      "Public refs: Wikipedia — WestJet fleet; WestJet aircraft information.",
+      "Some ex-Swoop/Sunwing frames remain denser all-economy — verify the live map."
+    ]
+  },
+  {
+    "slug": "westjet-737-max-8",
+    "airlineSlug": "westjet",
+    "aircraftType": "Boeing 737 MAX 8",
+    "aircraftFamily": "737",
+    "name": "WestJet 737 MAX 8 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premium",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Extended Comfort",
+        "startRow": 4,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy / Extended Comfort",
+        "startRow": 8,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical two-cabin MAX 8 schematic (~174 with Premium 2-2); denser 189Y subfleets also exist.",
+      "Public refs: Wikipedia — WestJet fleet table; WestJet fleet pages.",
+      "Premium is a true 2-2 product on many frames — do not assume blocked-middle economy."
+    ]
+  },
+  {
+    "slug": "westjet-787-9",
+    "airlineSlug": "westjet",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "WestJet 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 320,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 5,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium",
+        "startRow": 10,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          33
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      34
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 5,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 5,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 9,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul 787-9 schematic (~16J / 28W / 276Y = 320 per public WestJet fleet data).",
+      "Public refs: Wikipedia — WestJet; Boeing 787 product overview (boeing.com/commercial/787).",
+      "Business is 1-2-1 style on the Dreamliner — economy remains 3-3-3."
+    ]
+  },
+  {
+    "slug": "austrian-a320",
+    "airlineSlug": "austrian",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "Austrian A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Short-haul A320 schematic (~174 seats in Austrian public fleet summaries).",
+      "Public refs: Wikipedia — Austrian Airlines fleet; austrian.com A320 product pages.",
+      "Short-haul business typically leaves the middle empty — confirm on OS booking."
+    ]
+  },
+  {
+    "slug": "austrian-a320neo",
+    "airlineSlug": "austrian",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Austrian A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A320neo schematic (~180 seats per Austrian public neo product information).",
+      "Public refs: Austrian Airlines A320neo page; Wikipedia — Austrian Airlines.",
+      "Airspace cabin and bins differ from older A320s, but layout geometry is still 3-3 behind business."
+    ]
+  },
+  {
+    "slug": "austrian-787-9",
+    "airlineSlug": "austrian",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Austrian 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 294,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 8,
+        "endRow": 10,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 11,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          13,
+          17
+        ]
+      }
+    ],
+    "exitRows": [
+      11,
+      30
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Long-haul 787-9 schematic (~26J / 21W / 247Y = 294 in Austrian public fleet tables).",
+      "Public refs: Wikipedia — Austrian Airlines fleet; Boeing 787 overview.",
+      "Economy lettering often skips F/I on 787s (A-C / D-E-G / H-J-K) — match the airline map."
+    ]
+  },
+  {
+    "slug": "eva-air-a321",
+    "airlineSlug": "eva-air",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "EVA Air A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 184,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 34,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      27
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Regional A321-200 schematic (illustrative two-cabin); EVA publicly operates A321-200s with business + economy.",
+      "Public refs: EVA Air fleet overview (evaair.com); Wikipedia — EVA Air.",
+      "A321neo deliveries are future — this map reflects current A321-200-style regional flying."
+    ]
+  },
+  {
+    "slug": "eva-air-777-300er",
+    "airlineSlug": "eva-air",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "EVA Air 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 333,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Royal Laurel / Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 22,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 30,
+        "endRow": 55,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          43
+        ]
+      }
+    ],
+    "exitRows": [
+      30,
+      44
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 22,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 44,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 55,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 55,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "777-300ER schematic approximating a mid public config (~39J / 56W / 238Y = 333 on EVA’s published 77A-style totals).",
+      "Public refs: EVA Air 777-300ER fleet page (evaair.com); Wikipedia — EVA Air.",
+      "EVA also publishes denser 353 and premium-heavier 323 variants — confirm your registration."
+    ]
+  },
+  {
+    "slug": "eva-air-787-9",
+    "airlineSlug": "eva-air",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "EVA Air 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially — confirm with your airline.",
+    "totalSeatsApprox": 278,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Royal Laurel / Business",
+        "startRow": 1,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 18,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 25,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          35
+        ]
+      }
+    ],
+    "exitRows": [
+      25,
+      36
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 18,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-9 three-class schematic (~26J / 28W / 224Y = 278 per EVA Air public 787-9 page).",
+      "Public refs: EVA Air 787-9 fleet page; Boeing 787 commercial overview.",
+      "Older denser 787 fits may still appear on some routes — trust the booking map."
+    ]
   }
 ]

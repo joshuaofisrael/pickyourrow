@@ -222,5 +222,47 @@
     "iata": "F9",
     "country": "United States",
     "blurb": "U.S. ultra-low-cost carrier with a high-density A320-family fleet. Single-cabin layouts and paid seat selection are typical."
+  },
+  {
+    "slug": "wizz-air",
+    "name": "Wizz Air",
+    "iata": "W6",
+    "country": "Hungary",
+    "blurb": "Hungarian ultra-low-cost carrier with an all-Airbus A320-family fleet. High-density single-cabin layouts and paid seat selection are typical."
+  },
+  {
+    "slug": "aer-lingus",
+    "name": "Aer Lingus",
+    "iata": "EI",
+    "country": "Ireland",
+    "blurb": "Irish flag carrier (IAG) with short-haul A320-family flying and transatlantic A321LR/A330 services. Cabin products and densities vary by aircraft and route."
+  },
+  {
+    "slug": "finnair",
+    "name": "Finnair",
+    "iata": "AY",
+    "country": "Finland",
+    "blurb": "Finnish flag carrier hubbed at Helsinki with A320-family short-haul and A350 long-haul fleets. Business is often dynamically sized on narrow-bodies."
+  },
+  {
+    "slug": "westjet",
+    "name": "WestJet",
+    "iata": "WS",
+    "country": "Canada",
+    "blurb": "Canadian carrier with a large Boeing 737 fleet plus 787-9 long-haul aircraft. Premium and all-economy subfleets coexist after network changes."
+  },
+  {
+    "slug": "austrian",
+    "name": "Austrian Airlines",
+    "iata": "OS",
+    "country": "Austria",
+    "blurb": "Austrian flag carrier (Lufthansa Group) with short-haul A320-family flying and long-haul 787/777 fleets. Schematics below are typical public layouts only."
+  },
+  {
+    "slug": "eva-air",
+    "name": "EVA Air",
+    "iata": "BR",
+    "country": "Taiwan",
+    "blurb": "Taiwanese network carrier known for Royal Laurel business and strong premium-economy products on 777/787 fleets, plus A321 narrow-bodies for regional flying."
   }
 ]

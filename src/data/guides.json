@@ -801,5 +801,149 @@
         "note": "IATA cabin operations program hub (industry-level; not per-seat power maps)."
       }
     ]
+  },
+  {
+    "slug": "forward-vs-aft-cabin",
+    "title": "Forward vs aft cabin: where to sit on purpose",
+    "description": "Noise, boarding, lav queues, and turbulence feel different by cabin zone — how to choose forward vs aft without myths.",
+    "body": [
+      "Seat maps are not only about exit rows and windows. The same economy seat letter feels different in row 8 than in row 38 because galleys, lavatories, boarding flow, and wing structure change along the fuselage.",
+      "Forward cabins usually mean earlier deplaning on narrow-bodies, shorter walks to the door you boarded, and sometimes a quieter zone if the rear galley is busy. The tradeoff is proximity to premium cabins (service traffic) and, on some aircraft, a tighter connection to the forward lav.",
+      "Aft cabins can feel more motion in turbulence, especially behind the wing on narrow-bodies, and you may wait longer to get off. They can also be less foot-traffic heavy mid-flight if the mid lav is the busy one — or worse if the only lavs are behind you.",
+      "Overwing rows sit near structure and exits. That can mean extra legroom (good) or immovable armrests and colder walls (mixed). Window alignment over the wing often shows more metal than sky — see our wing-vs-overwing guide.",
+      "Use airline and manufacturer public fleet pages for which doors and exit pairs exist on the type, then apply Pick Your Row tags (near-lav, near-galley, rear, quiet) as planning heuristics. We do not invent your registration’s exact galley placement.",
+      "If you connect tightly, bias forward. If you sleep and hate galley light, bias mid-cabin away from both galleys. If you travel with kids who need lav access, mid-cabin near a lav can beat a “quiet” tail seat.",
+      "Always re-check the live seat map: retrofit programs move curtains and lav modules. Our schematics illustrate typical public patterns for airlines such as Wizz Air, Aer Lingus, Finnair, WestJet, Austrian, and EVA Air — not a guaranteed row inventory."
+    ],
+    "sources": [
+      {
+        "label": "Airbus — A320 Family overview",
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
+        "note": "Manufacturer public overview of A320-family geometry and cabin options (airline fits vary)."
+      },
+      {
+        "label": "Boeing — 787 Dreamliner",
+        "url": "https://www.boeing.com/commercial/787/",
+        "note": "Manufacturer public 787 product page; cabin monuments differ by airline installation."
+      },
+      {
+        "label": "IATA — Cabin operations",
+        "url": "https://www.iata.org/en/programs/ops-infra/cabin/",
+        "note": "Industry cabin-operations hub (not per-airline seat maps)."
+      },
+      {
+        "label": "EASA — Passenger safety information",
+        "url": "https://www.easa.europa.eu/en/light/topics/passenger-safety",
+        "note": "Public European passenger safety context for exits and briefings."
+      }
+    ]
+  },
+  {
+    "slug": "extra-legroom-upsells-explained",
+    "title": "Extra-legroom upsells explained: LCC vs network carriers",
+    "description": "What “exit row”, “stretch”, “preferred”, and “plus” usually mean — and how to compare paid legroom without scraping competitor maps.",
+    "body": [
+      "Airlines monetize the same geometry differently. An exit row on a Wizz Air A321neo, a Preferred seat on Aer Lingus short-haul, Extended Comfort on WestJet, and Finnair’s dynamic business block are all responses to limited pitch — with different rules and prices.",
+      "Ultra-low-cost carriers often sell nearly every non-middle seat. “Extra legroom” usually means a labeled exit or bulkhead row with a higher ancillary fee, not a different seat model. Eligibility rules (age, mobility, assisting others) still apply at the door.",
+      "Network carriers may bundle legroom into branded cabins (Comfort+, Plus, Premium Economy) with fixed curtains, or sell economy-plus rows inside the main cabin. The seat can be identical foam with a few inches of pitch and earlier boarding.",
+      "Bulkhead legroom is not free lunch: bassinet attachments, no under-seat storage, and tray tables in the armrest change the experience. Exit rows can forbid bags at your feet during taxi, takeoff, and landing.",
+      "Compare using public facts: manufacturer family pages for typical cross-sections (3-3 vs 3-3-3), airline fleet pages for published seat counts, and the booking map for the fee on your flight number. Pick Your Row scores highlight exit and bulkhead tags; they are editorial, not fare rules.",
+      "If two upsells cost similar amounts, prefer the one that also improves your other constraints (window alignment, lav distance, forward vs aft). Paying for legroom next to a busy galley is a common regret.",
+      "For EU/UK passenger-rights context when a paid seat feature is missing after an aircraft swap, rely on official consumer pages — not social media screenshots — then renegotiate with the airline."
+    ],
+    "sources": [
+      {
+        "label": "Your Europe — Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU summary of air passenger rights (useful when marketed seat features change after irregular ops)."
+      },
+      {
+        "label": "U.S. DOT — Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. aviation consumer protection overview."
+      },
+      {
+        "label": "Wizz Air — About Us / fleet",
+        "url": "https://www.wizzair.com/en-gb/information-and-services/about-us/about-wizz",
+        "note": "Public airline fleet and seat-capacity statements for an ULCC A320-family operator."
+      },
+      {
+        "label": "Airbus — A321neo",
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
+        "note": "Manufacturer A320-family overview; densities are airline options."
+      }
+    ]
+  },
+  {
+    "slug": "cabin-retrofits-and-seat-maps",
+    "title": "Cabin retrofits and seat maps: why your “usual” row moved",
+    "description": "How airline cabin upgrades change row numbering, curtains, and lav modules — and how to re-plan without assuming last year’s map.",
+    "body": [
+      "Airlines continuously retrofit cabins: denser slimline seats, new premium-economy modules, moving galleys, and renumbered rows after a product launch. A seat that was perfect last year may not exist on today’s registration.",
+      "Symptoms of a retrofit mismatch: the booking map shows fewer rows than a blog post, premium starts at a different row, or exit letters jump. Trust the map attached to your flight number over memory.",
+      "Published fleet tables (airline sites and encyclopedia summaries) list passenger totals by subfleet. When an airline operates both a 278-seat and 321-seat A350, or a 174-seat and 189-seat 737 MAX, you are choosing among different interiors that share a type name.",
+      "Pick Your Row labels every schematic “typical” and cites public capacity bands in the notes. We intentionally avoid scraping competitor HTML diagrams; we reconstruct aisle geometry from public layout patterns and manufacturer cross-sections.",
+      "Before an overnight long-haul, check whether your airline’s premium-economy product is installed on that metal. A curtain on a short-haul A320 may be a soft business block that disappears on a busy flight.",
+      "If you care about power outlets or IFE, treat those as retrofit-sensitive (see our power/USB guide). Layout geometry — exits, lavs, galley zones — is more stable than electronics.",
+      "When irregular operations swap aircraft, re-open the seat map immediately. Your paid extra-legroom seat may map to a different physical row on the replacement type."
+    ],
+    "sources": [
+      {
+        "label": "Finnair — Fleet",
+        "url": "https://www.finnair.com/en/flight-information/finnair-fleet",
+        "note": "Example of an airline publishing multiple A350 seat capacities on an official fleet page."
+      },
+      {
+        "label": "EVA Air — 777-300ER",
+        "url": "https://www.evaair.com/en-us/fly-prepare/our-fleets/passenger-airplanes/777-300ER/",
+        "note": "Official multi-config 777 totals (323 / 333 / 353) illustrating subfleet variance."
+      },
+      {
+        "label": "Wikipedia — WestJet fleet",
+        "url": "https://en.wikipedia.org/wiki/WestJet",
+        "note": "Public secondary summary of WestJet 737/787 passenger totals by subfleet (verify against the airline)."
+      },
+      {
+        "label": "ICAO — Aircraft type designators (Doc 8643)",
+        "url": "https://www.icao.int/publications/DOC8643/Pages/Search.aspx",
+        "note": "Public ICAO type-designator search; useful when flight status shows a different type code after a swap."
+      }
+    ]
+  },
+  {
+    "slug": "choosing-seats-for-mobility-needs",
+    "title": "Choosing seats with mobility needs: aisle, bulkhead, and exits",
+    "description": "Practical seat-planning notes for reduced mobility, canes, and longer boarding — without giving medical advice.",
+    "body": [
+      "This guide is planning commentary, not medical or legal advice. If you need accommodations, contact the airline’s special-assistance desk early and follow their documented process.",
+      "Aisle seats reduce climbing over neighbors. Bulkhead rows can offer transfer space but often lack under-seat storage and may host bassinets. Exit rows usually have strict eligibility rules — do not select an exit if you cannot perform the required assistive duties.",
+      "On narrow-bodies, a forward aisle seat shortens the walk to the door used for boarding on many flights. On wide-bodies, note which door your boarding pass indicates; “forward” on a 787 can still be a long cabin walk.",
+      "Lavatory proximity matters more when mobility is limited — but “near lav” also means foot traffic and odor risk. A seat one or two rows away on the aisle is a common compromise on our editorial maps.",
+      "Regulator and airline pages describe passenger rights and assistance frameworks at a high level. Use those official sources for service animal policies, wheelchair handling, and complaint processes.",
+      "Pick Your Row tags such as aisle, bulkhead, exit, and near-lav help you shortlist — then confirm armrest types, movable aisle armrests, and assistance seating with the carrier.",
+      "Travel with any required documentation for assistive devices. Seat choice cannot replace airline-approved handling of wheelchairs or cushions."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT — Disability and passengers with reduced mobility",
+        "url": "https://www.transportation.gov/airconsumer/disability",
+        "note": "U.S. Department of Transportation disability-related air travel consumer information."
+      },
+      {
+        "label": "Your Europe — Reduced mobility air travel",
+        "url": "https://europa.eu/youreurope/citizens/travel/transport-disability/reduced-mobility/index_en.htm",
+        "note": "Official EU overview of rights for persons with reduced mobility in air travel."
+      },
+      {
+        "label": "UK CAA — Disabled and less mobile passengers",
+        "url": "https://www.caa.co.uk/passengers/passengers-with-a-disability-or-reduced-mobility/",
+        "note": "UK Civil Aviation Authority passenger guidance on disability and reduced mobility."
+      },
+      {
+        "label": "IATA — Accessibility",
+        "url": "https://www.iata.org/en/programs/passenger/accessibility/",
+        "note": "IATA accessibility program hub (industry-level guidance)."
+      }
+    ]
   }
 ]
