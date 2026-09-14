@@ -1,5 +1,59 @@
 [
   {
+    "slug": "herringbone-economy-sleepers",
+    "title": "Herringbone Economy Sleepers: Angled Beds That Share the Aisle",
+    "description": "A speculative look at staggered herringbone economy sleep pods that angle nearly flat beds into shared aisle volume so more travelers could rest without a full business class footprint.",
+    "heroImage": {
+      "src": "/images/blog/herringbone-economy-thumbnail.png",
+      "alt": "Concept render of a cabin aisle lined with staggered herringbone economy sleep pods angled toward the center aisle",
+      "caption": "Concept art. Speculative cabin using staggered angled sleep pods that share aisle volume. Not a certified product. Not affiliated with any airline."
+    },
+    "figures": [
+      {
+        "src": "/images/blog/herringbone-economy-closeup.png",
+        "alt": "Concept close up of one angled privacy shell sleeper showing a footwell that shares aisle space",
+        "caption": "Concept close up. A slim privacy shell aims nearly flat sleep length while the footwell borrows aisle dead space. Concept art. Not a certified product."
+      },
+      {
+        "src": "/images/blog/herringbone-economy-plan.png",
+        "alt": "Top down concept plan of staggered herringbone rows sharing center aisle volume",
+        "caption": "Plan view concept. Staggered herringbone rows point toward the aisle so footwells nest into shared center volume. Concept art. Speculative only."
+      }
+    ],
+    "body": [
+      "Most true beds in the sky buy sleep the expensive way. They claim a long rectangle of floor. On a narrow body that footprint is revenue gold, which is why full flat beds usually live in business class, not coach. So here is a Pick Your Row thought experiment that aims at economy rest another way: the herringbone economy sleeper. Angled nearly flat beds staggered like fishbones, pointing into the aisle so neighbors share volume that is usually wasted walking space.",
+      "Picture a seat that boards upright, then unfolds into a nearly horizontal shell that is not parallel to the fuselage. Each bed is rotated about thirty degrees toward the center aisle. The head end nests toward the sidewall. The foot end steps into a pocket of aisle air that passengers already leave clear while walking. Because left and right sides stagger, one traveler’s toes occupy a slice of aisle that the opposite footwell does not need at the same station. Seat count can stay closer to dense economy while sleep length grows.",
+      "Why bother? Horizontal lie flats win for rest, but they wreck how many tickets an airline can sell. Classic recliner rows keep density and lose sleep quality. Herringbone geometry tries to monetize aisle dead space as footwell length instead of asking for a full business class suite. The cabin width is already paid for in structure and drag. The question is whether an angled privacy shell can turn that shared center strip into rest without collapsing boarding flow.",
+      "Why do airlines not do more of this already? Parts of the idea are familiar. Some premium cabins already use reverse herringbone suites. The hard leap is bringing a similar angle into high density coach while keeping evacuation, weight, and boarding times acceptable. Certification does not care how pretty the render looks. Aisle width, assist paths near exits, passenger assist criteria, oxygen, fireworthiness, and how fast a full load can leave still rule the design. Angled shells also complicate under seat bags, service carts, and who can stand up without blocking neighbors.",
+      "Trade offs stack quickly. Structure and fittings get heavier when every shell is a capsule. Center of gravity shifts if rows stagger unevenly. Overhead bins compete for the same wall volume privacy canopies want. Boarding slows if people must crab into angled nests. Revenue density can rise if you keep seat count and sell sleep as a premium coach upsell, or it can fall if you lose too many seats to make the angle work. None of the images on this page are certified products. They are original concept illustrations meant to make the geometry intuitive.",
+      "If a design ever worked, traveler trade offs would feel familiar to anyone who studies seat maps. Privacy shells help rest but can feel tight. Window side pods may suit solo sleepers more than families who want to face each other. Aisle access gets odd if you must step over a footwell. Nearly flat is still not a true hotel bed. Our editorial scores on live configs still assume today’s real seats: exit rows, bulkheads, lav proximity, not speculative sleep pods.",
+      "For travelers, the useful takeaway is simpler than the art. When you pick a row today, you are still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than whether a future cabin might share aisle volume. Use our original schematics to plan the aircraft you actually booked, and treat herringbone economy sleepers as a design brief, not a booking tip.",
+      "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Exit seat passenger criteria remind us angled sleep shells near exits would still face strict assist and evacuation rules."
+      },
+      {
+        "label": "IATA Evacuation safety education",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Public industry messaging on evacuation behavior. Relevant to any denser or enclosed seating idea that shares aisle volume."
+      },
+      {
+        "label": "FAA Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA traveler safety hub. Speculative cabin products would still live under real certification regimes."
+      },
+      {
+        "label": "ICAO Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International safety framework portal. Angled berths and boarding density are standards problems, not just design sketches."
+      }
+    ]
+  },
+  {
     "slug": "vertical-lay-flat-skyscraper-seats",
     "title": "The Skyscraper Seat: Vertical Lay-Flat Beds That Steal Cabin Height",
     "description": "A speculative look at theoretical vertical lay-flat seats that use unused cabin height so more travelers could sleep nearly flat without a business-class footprint.",
