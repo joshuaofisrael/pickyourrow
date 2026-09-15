@@ -999,5 +999,149 @@
         "note": "IATA accessibility program hub (industry-level guidance)."
       }
     ]
+  },
+  {
+    "slug": "when-to-select-your-seats",
+    "title": "When to select your seats: booking, fees, and inventory timing",
+    "description": "How seat selection windows work from purchase through check in, why good seats disappear, and when paying early is worth it.",
+    "body": [
+      "Seat selection timing is a product rule set by each airline, not a universal standard. Some carriers unlock free or paid seats at purchase. Others hold preferred rows until check in opens, often 24 to 48 hours before departure.",
+      "Inventory dynamics matter more than the clock alone. Exit rows, bulkheads, and forward cabin seats are scarce. They often sell first on peak days, partner award tickets, and basic economy style fares that block advance selection.",
+      "Paying at booking can be rational when you need a specific outcome: sitting with kids, avoiding a middle, securing extra legroom, or locking a quiet zone on an overnight. If you are flexible and flying off peak, waiting until free selection opens can save money.",
+      "Watch fare rules. The cheapest branded fares may charge for any advance seat, then still allow free assignment at check in with whatever is left. That leftover pool is rarely the best set of seats.",
+      "Group bookings should select as soon as the party is ticketed on the same record when possible. Splitting across separately ticketed PNRs makes adjacent seats harder even when empty seats exist on the map.",
+      "Equipment changes reset the map. If your aircraft type swaps, recheck seats immediately. A great 787 row can become a poor 777 row after a swap.",
+      "Pick Your Row schematics help you decide which rows are worth fighting for. They are illustrative. Always confirm the live airline map and any fee before you pay."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT Airline Passenger Protections",
+        "url": "https://www.transportation.gov/airconsumer",
+        "note": "U.S. Department of Transportation air consumer hub covering passenger rights and airline disclosure topics."
+      },
+      {
+        "label": "Your Europe Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU overview of air passenger rights including information duties."
+      },
+      {
+        "label": "IATA Passenger experience",
+        "url": "https://www.iata.org/en/programs/passenger/",
+        "note": "IATA passenger programs hub (industry level processes around ticketing and travel)."
+      },
+      {
+        "label": "UK CAA Passenger rights",
+        "url": "https://www.caa.co.uk/passengers/resolving-travel-problems/delays-cancellations/your-rights/",
+        "note": "UK Civil Aviation Authority passenger rights guidance."
+      }
+    ]
+  },
+  {
+    "slug": "group-travel-seat-strategy",
+    "title": "Group travel seat strategy: keeping a party together",
+    "description": "Practical ways to seat families and groups: adjacent blocks, aisle splits, kids with adults, and what to do when the map fragments.",
+    "body": [
+      "Start from the constraint that matters most. Is it keeping every adult next to a child, keeping two adults together, or simply avoiding total separation across the cabin?",
+      "On narrow body 3-3 layouts, a common family of four pattern is two and two across an aisle in the same row, or a full three seat side plus one aisle partner behind or ahead. A full three plus a lone middle elsewhere is usually worse for supervision.",
+      "On wide body 3-3-3 cabins, side triples work well for three. For four, two and two on opposite sides of one aisle beats a two plus a scattered pair in the rear. Avoid splitting a child into the center section alone.",
+      "If the map only offers fragments, take the best contiguous adult and child block first, then use the airline chat or airport desk to request a reseat. Screenshots of the broken assignment help agents understand the ask.",
+      "Exit rows are usually a poor fit for groups with young children because of age and assistive duty rules. Bulkheads can help with bassinet needs but limit under seat bag space.",
+      "Book on one reservation when you can. Separately ticketed travelers cannot always be linked for automatic adjacent seating even when flying the same flight.",
+      "Pick Your Row tags for aisle, window, bulkhead, and exit help you shortlist. Then lock seats early on busy school holiday banks when group inventory vanishes first."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT Sitting together / family seating information",
+        "url": "https://www.transportation.gov/individuals/aviation-consumer-protection/family-seating",
+        "note": "U.S. DOT consumer information related to family seating policies and airline practices."
+      },
+      {
+        "label": "Your Europe Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "EU passenger rights overview useful for cross border family itineraries."
+      },
+      {
+        "label": "UK CAA Disabled and less mobile passengers",
+        "url": "https://www.caa.co.uk/passengers/passengers-with-a-disability-or-reduced-mobility/",
+        "note": "UK CAA guidance when a group includes reduced mobility needs."
+      },
+      {
+        "label": "FAA Flying with children",
+        "url": "https://www.faa.gov/travelers/fly_children",
+        "note": "FAA public page on flying with children (safety oriented, not medical advice)."
+      }
+    ]
+  },
+  {
+    "slug": "short-haul-versus-long-haul-priorities",
+    "title": "Short haul versus long haul seat priorities",
+    "description": "What to optimize on a 90 minute hop versus an overnight long haul: speed, space, noise, sleep, and when fees are worth paying.",
+    "body": [
+      "On a short hop, total door to door friction often beats seat pitch. A forward aisle can matter more than an exit row if you need a fast turn to a connection.",
+      "On short haul low cost flights, paid seat fees can rival the ticket. If you are solo and flexible, random assignment may be fine. If you are two adults who want to sit together, pay early or accept a split.",
+      "Long haul flips the math. Sleep, lav traffic, and recline conflicts dominate. Mid cabin quiet zones, bulkheads with true pitch, and seats away from galleys become worth a fee.",
+      "Window seats help sleepers who want an uninterrupted wall. Aisle seats help travelers who stand often. Middles are the main seat to avoid on long overnight sectors unless you are in a group occupying the whole block.",
+      "Premium economy and extra legroom rows show their value after about six hours for many travelers. Under three hours, a standard aisle near the front is often enough.",
+      "Connection risk changes short haul choices. If your outbound is short and your bank is tight, prioritize early deplane rows over wing views.",
+      "Use Pick Your Row cabin notes as a planning heuristic, then verify the live map. Aircraft swaps are common on both short and long sectors."
+    ],
+    "sources": [
+      {
+        "label": "EASA Passenger area",
+        "url": "https://www.easa.europa.eu/en/light/topics/passengers",
+        "note": "European Union Aviation Safety Agency passenger oriented information hub."
+      },
+      {
+        "label": "IATA Passenger experience",
+        "url": "https://www.iata.org/en/programs/passenger/",
+        "note": "IATA passenger programs and experience resources."
+      },
+      {
+        "label": "U.S. DOT Air consumer",
+        "url": "https://www.transportation.gov/airconsumer",
+        "note": "U.S. DOT air travel consumer information."
+      },
+      {
+        "label": "UK CAA Your flight",
+        "url": "https://www.caa.co.uk/passengers/",
+        "note": "UK CAA passenger information portal."
+      }
+    ]
+  },
+  {
+    "slug": "jet-lag-and-cabin-position",
+    "title": "Jet lag and cabin position: practical seat heuristics",
+    "description": "Non medical heuristics for eastbound and westbound flights: light, noise, sleep windows, and where cabin position may help you rest.",
+    "body": [
+      "This is planning commentary, not medical advice. Jet lag responses vary widely. If you have health conditions, follow clinician guidance rather than seat blogs.",
+      "Sleep opportunity still starts with a seat you can actually rest in. A quiet window away from galleys and lavs beats a perfect circadian theory in a middle seat beside a chatty exit row.",
+      "Eastbound overnight flights often reward earlier sleep. Many travelers prefer windows, bulkheads without bassinet noise, or premium cabins that go dark after service. Avoid high traffic rear zones if you plan to sleep soon after departure.",
+      "Westbound long days can feel longer in the air. An aisle for movement, hydration walks, and stretching may matter more than maximum darkness, especially on daytime polar or Atlantic crossings.",
+      "Cabin position is a weak lever compared with timing of light, caffeine, and sleep before you fly. Treat seat choice as comfort support, not a cure.",
+      "Wing views and engine noise are secondary. Focus first on middle versus window or aisle, lav proximity, and whether your row reclines into a bulkhead conflict.",
+      "Pick Your Row quiet and near lav tags are editorial heuristics. Confirm facilities on your airline map, and build your rest plan around your ticketed cabin class."
+    ],
+    "sources": [
+      {
+        "label": "CDC Travelers Health jet lag",
+        "url": "https://wwwnc.cdc.gov/travel/page/jet-lag",
+        "note": "U.S. CDC Travelers Health page on jet lag (public health information)."
+      },
+      {
+        "label": "NHS Jet lag",
+        "url": "https://www.nhs.uk/conditions/jet-lag/",
+        "note": "UK NHS overview of jet lag symptoms and general advice."
+      },
+      {
+        "label": "FAA Fatigue resources",
+        "url": "https://www.faa.gov/about/initiatives/maintenance_hf/fatigue",
+        "note": "FAA fatigue related public resources (aviation human factors context)."
+      },
+      {
+        "label": "IATA Medical manual overview",
+        "url": "https://www.iata.org/en/publications/medical-manual/",
+        "note": "IATA medical manual publication page (industry medical reference overview)."
+      }
+    ]
   }
 ]

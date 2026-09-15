@@ -15740,5 +15740,2392 @@
       "Public refs: EVA Air 787-9 fleet page; Boeing 787 commercial overview.",
       "Older denser 787 fits may still appear on some routes — trust the booking map."
     ]
+  },
+  {
+    "slug": "tap-air-portugal-a320neo",
+    "airlineSlug": "tap-air-portugal",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "TAP Air Portugal A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 7,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "European A320neo schematic with a small forward business block and dense economy behind.",
+      "Public refs: TAP Air Portugal fleet overview pages. Airbus A320neo commercial overview.",
+      "Short haul business on TAP often leaves the middle empty. Confirm curtain position on your booking map."
+    ]
+  },
+  {
+    "slug": "tap-air-portugal-a321neo",
+    "airlineSlug": "tap-air-portugal",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "TAP Air Portugal A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 216,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 36,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      17
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Longer A321neo schematic used on busier European and some Atlantic leaning routes.",
+      "Public refs: TAP Air Portugal fleet pages. Airbus A321neo overview.",
+      "Overwing exits and rear lav traffic are the main economy tradeoffs on this type."
+    ]
+  },
+  {
+    "slug": "tap-air-portugal-a330-900",
+    "airlineSlug": "tap-air-portugal",
+    "aircraftType": "Airbus A330-900",
+    "aircraftFamily": "A330",
+    "name": "TAP Air Portugal A330-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 298,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 45,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          28
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      29
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A330neo long haul schematic with business up front and a large 3-3-3 economy cabin.",
+      "Public refs: TAP Air Portugal long haul product pages. Airbus A330neo overview.",
+      "Some TAP A330neos also market a small executive or premium block. Trust the booking map for your flight."
+    ]
+  },
+  {
+    "slug": "latam-a320",
+    "airlineSlug": "latam",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "LATAM A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premium Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 7,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "South America A320 schematic with a compact forward premium block.",
+      "Public refs: LATAM Airlines fleet information. Airbus A320 family overview.",
+      "Domestic high density fits can remove premium. Confirm on LA booking."
+    ]
+  },
+  {
+    "slug": "latam-787-9",
+    "airlineSlug": "latam",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "LATAM 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 313,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premium Business",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 10,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          34
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      35
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 9,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-9 three class schematic common on LATAM long haul South America to Europe and North America routes.",
+      "Public refs: LATAM fleet and product pages. Boeing 787 commercial overview.",
+      "Premium economy inventory is limited. Book early if that cabin matters."
+    ]
+  },
+  {
+    "slug": "latam-777-300er",
+    "airlineSlug": "latam",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "LATAM 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 379,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premium Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 14,
+        "endRow": 18,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 24,
+        "endRow": 55,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          38
+        ]
+      }
+    ],
+    "exitRows": [
+      24,
+      39
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 18,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 55,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 55,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "777-300ER wide body schematic with 3-4-3 economy. Middle foursome seats are the main crowd risk.",
+      "Public refs: LATAM long haul fleet pages. Boeing 777 commercial overview.",
+      "Subfleets and leased frames can differ. Always confirm with the airline map."
+    ]
+  },
+  {
+    "slug": "air-india-a320neo",
+    "airlineSlug": "air-india",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Air India A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 7,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Domestic and regional A320neo schematic as Air India renews its narrow body fleet.",
+      "Public refs: Air India fleet information. Airbus A320neo overview.",
+      "Business block size can shrink on high density domestic fits. Check AI booking."
+    ]
+  },
+  {
+    "slug": "air-india-787-8",
+    "airlineSlug": "air-india",
+    "aircraftType": "Boeing 787-8",
+    "aircraftFamily": "787",
+    "name": "Air India 787-8 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 256,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 11,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-8 three class schematic used on many Air India medium and long haul routes.",
+      "Public refs: Air India Dreamliner product pages. Boeing 787 overview.",
+      "Older and newer interiors coexist during the fleet refresh. Trust the seat map for your flight."
+    ]
+  },
+  {
+    "slug": "air-india-777-300er",
+    "airlineSlug": "air-india",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Air India 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 342,
+    "cabins": [
+      {
+        "id": "first",
+        "cabinClass": "first",
+        "label": "First",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "F"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 5,
+        "endRow": 12,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 16,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 26,
+        "endRow": 52,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          38
+        ]
+      }
+    ],
+    "exitRows": [
+      26,
+      39
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 52,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 52,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "777-300ER schematic with a small first cabin, business, premium economy, and 3-4-3 economy.",
+      "Public refs: Air India 777 product pages. Boeing 777 commercial overview.",
+      "First class may be absent on some frames after cabin changes. Confirm before you plan around it."
+    ]
+  },
+  {
+    "slug": "thai-airways-a350-900",
+    "airlineSlug": "thai-airways",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Thai Airways A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 321,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 14,
+        "endRow": 17,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 24,
+        "endRow": 50,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          36
+        ]
+      }
+    ],
+    "exitRows": [
+      24,
+      37
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 17,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 50,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 50,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A350-900 three class schematic common on Thai Airways long haul from Bangkok.",
+      "Public refs: Thai Airways fleet and cabin product pages. Airbus A350 overview.",
+      "Forward economy near the premium bulkhead is often quieter than the very rear."
+    ]
+  },
+  {
+    "slug": "thai-airways-777-300er",
+    "airlineSlug": "thai-airways",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Thai Airways 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 348,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 14,
+        "endRow": 18,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 24,
+        "endRow": 52,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          38
+        ]
+      }
+    ],
+    "exitRows": [
+      24,
+      39
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 18,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 39,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 52,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 52,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "777-300ER schematic with business, premium economy, and dense 3-4-3 economy.",
+      "Public refs: Thai Airways 777 cabin pages. Boeing 777 overview.",
+      "Avoid the center four in economy if you want fewer climb overs, unless traveling as a group."
+    ]
+  },
+  {
+    "slug": "thai-airways-787-8",
+    "airlineSlug": "thai-airways",
+    "aircraftType": "Boeing 787-8",
+    "aircraftFamily": "787",
+    "name": "Thai Airways 787-8 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 256,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 11,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 42,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          30
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      31
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 42,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-8 three class schematic on Thai Airways medium and long haul sectors.",
+      "Public refs: Thai Airways Dreamliner pages. Boeing 787 overview.",
+      "Window alignment and bassinet bulkheads vary. Confirm facilities on your ticketed aircraft."
+    ]
+  },
+  {
+    "slug": "lot-polish-737-800",
+    "airlineSlug": "lot-polish",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "LOT Polish 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 7,
+        "endRow": 32,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      14,
+      15
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "European 737-800 schematic with a small business cabin and dense economy.",
+      "Public refs: LOT Polish Airlines fleet pages. Boeing 737NG overview.",
+      "Exit row pairs around mid cabin are the usual paid legroom target on this type."
+    ]
+  },
+  {
+    "slug": "lot-polish-787-8",
+    "airlineSlug": "lot-polish",
+    "aircraftType": "Boeing 787-8",
+    "aircraftFamily": "787",
+    "name": "LOT Polish 787-8 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 252,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 6,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 11,
+        "endRow": 14,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 41,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          29
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      30
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 6,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 41,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 41,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-8 long haul schematic from Warsaw on LOT Polish transatlantic and Asia routes.",
+      "Public refs: LOT Polish Dreamliner product pages. Boeing 787 overview.",
+      "Premium economy is a modest block. Pair seats on the sides if traveling as two."
+    ]
+  },
+  {
+    "slug": "lot-polish-e195",
+    "airlineSlug": "lot-polish",
+    "aircraftType": "Embraer E195",
+    "aircraftFamily": "EJet",
+    "name": "LOT Polish Embraer E195 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 112,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 2,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 5,
+        "endRow": 26,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 2,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Regional E195 schematic in a 2-2 layout. There is no true middle seat.",
+      "Public refs: LOT Polish regional fleet pages. Embraer regional jet overview.",
+      "Window and aisle are both strong on 2-2. Pick based on sleep versus aisle access."
+    ]
+  },
+  {
+    "slug": "aeromexico-737-800",
+    "airlineSlug": "aeromexico",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "Aeromexico 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 160,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premier / Clase Premier",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy / AM Plus",
+        "startRow": 7,
+        "endRow": 28,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "737-800 schematic with Clase Premier up front and economy behind, including AM Plus style extra space rows on some flights.",
+      "Public refs: Aeromexico fleet and seat information. Boeing 737NG overview.",
+      "Paid extra space rows near exits sell out early on busy Mexico City banks."
+    ]
+  },
+  {
+    "slug": "aeromexico-737-max-8",
+    "airlineSlug": "aeromexico",
+    "aircraftType": "Boeing 737 MAX 8",
+    "aircraftFamily": "737",
+    "name": "Aeromexico 737 MAX 8 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 166,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premier / Clase Premier",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy / AM Plus",
+        "startRow": 7,
+        "endRow": 29,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 29,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "737 MAX 8 schematic similar to the NG 737-800 but with newer cabin fittings on many frames.",
+      "Public refs: Aeromexico MAX fleet notes. Boeing 737 MAX overview.",
+      "Window alignment and power ports can differ by delivery batch. Confirm on your booking map."
+    ]
+  },
+  {
+    "slug": "aeromexico-787-9",
+    "airlineSlug": "aeromexico",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Aeromexico 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 274,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Premier / Clase Premier",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premier + / Premium Economy",
+        "startRow": 12,
+        "endRow": 15,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 44,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          32
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      33
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 44,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 44,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-9 long haul schematic used on Aeromexico routes from Mexico City to Europe and Asia.",
+      "Public refs: Aeromexico Dreamliner cabin pages. Boeing 787 overview.",
+      "Premier pairs and side premium economy seats are the usual sweet spots for couples."
+    ]
   }
 ]
