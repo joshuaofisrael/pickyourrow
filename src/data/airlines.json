@@ -306,5 +306,47 @@
     "iata": "AM",
     "country": "Mexico",
     "blurb": "Mexican flag carrier hubbed at Mexico City with a large 737 fleet plus 787 long haul aircraft. Premium and economy products vary by aircraft and route."
+  },
+  {
+    "slug": "ethiopian-airlines",
+    "name": "Ethiopian Airlines",
+    "iata": "ET",
+    "country": "Ethiopia",
+    "blurb": "African Star Alliance carrier hubbed at Addis Ababa with a large 787 and A350 long haul fleet plus regional narrow bodies. Cabin products and densities vary by subfleet and route."
+  },
+  {
+    "slug": "malaysia-airlines",
+    "name": "Malaysia Airlines",
+    "iata": "MH",
+    "country": "Malaysia",
+    "blurb": "Malaysian flag carrier hubbed at Kuala Lumpur with A330 and A350 long haul flying plus 737 narrow bodies for regional routes. Schematics below are typical public layouts only."
+  },
+  {
+    "slug": "indigo",
+    "name": "IndiGo",
+    "iata": "6E",
+    "country": "India",
+    "blurb": "Indian low cost carrier with a large A320 family fleet and ATR turboprops for thinner routes. Most flying is dense single class economy with select extra space rows."
+  },
+  {
+    "slug": "copa-airlines",
+    "name": "Copa Airlines",
+    "iata": "CM",
+    "country": "Panama",
+    "blurb": "Panamanian Star Alliance carrier hubbed at Panama City with an all Boeing 737 narrow body fleet linking North and South America. Premium and economy products vary by aircraft."
+  },
+  {
+    "slug": "avianca",
+    "name": "Avianca",
+    "iata": "AV",
+    "country": "Colombia",
+    "blurb": "Colombian Star Alliance carrier with A320 family narrow bodies and 787 long haul aircraft. Cabin products and layouts differ by subfleet and route."
+  },
+  {
+    "slug": "saudia",
+    "name": "Saudia",
+    "iata": "SV",
+    "country": "Saudi Arabia",
+    "blurb": "Saudi flag carrier hubbed at Jeddah and Riyadh with 777 and 787 long haul fleets plus A320 family narrow bodies. Premium and economy products vary by aircraft and route."
   }
 ]
