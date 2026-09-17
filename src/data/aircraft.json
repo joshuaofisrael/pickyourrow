@@ -20291,5 +20291,2139 @@
       "Public refs: Saudia narrow body fleet notes. Airbus A320neo overview.",
       "Lower density than many LCC A320 fits. Exit pairs still move first on busy banks."
     ]
+  },
+  {
+    "slug": "vietnam-airlines-a321",
+    "airlineSlug": "vietnam-airlines",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "Vietnam Airlines A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 178,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      14,
+      15
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A321 schematic used on Vietnam Airlines regional and short haul flying with a small Business cabin.",
+      "Public refs: Vietnam Airlines fleet information. Airbus A321 overview.",
+      "Exit row pairs and forward economy are the usual paid upgrades."
+    ]
+  },
+  {
+    "slug": "vietnam-airlines-a350-900",
+    "airlineSlug": "vietnam-airlines",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Vietnam Airlines A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 305,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 12,
+        "endRow": 16,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 46,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          32
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      33
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 46,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 46,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A350-900 three class schematic used on Vietnam Airlines long haul flying from Hanoi and Ho Chi Minh City.",
+      "Public refs: Vietnam Airlines A350 cabin pages. Airbus A350 overview.",
+      "Premium economy side pairs are popular for couples who skip business."
+    ]
+  },
+  {
+    "slug": "vietnam-airlines-787-9",
+    "airlineSlug": "vietnam-airlines",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "Vietnam Airlines 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 274,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 7,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 11,
+        "endRow": 15,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 20,
+        "endRow": 43,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          31
+        ]
+      }
+    ],
+    "exitRows": [
+      20,
+      32
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 7,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 32,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 43,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 43,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-9 long haul schematic used on Vietnam Airlines routes to Europe, Asia, and Australia.",
+      "Public refs: Vietnam Airlines fleet information. Boeing 787 overview.",
+      "Forward economy exit rows sell early on busy banks. Confirm the map for your flight."
+    ]
+  },
+  {
+    "slug": "philippine-airlines-a321neo",
+    "airlineSlug": "philippine-airlines",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Philippine Airlines A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 199,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 34,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      14,
+      15
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 34,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A321neo schematic used on Philippine Airlines domestic trunk and regional flying.",
+      "Public refs: Philippine Airlines fleet information. Airbus A321neo overview.",
+      "Exit row pairs and Business seats are common paid upgrades on busy Manila banks."
+    ]
+  },
+  {
+    "slug": "philippine-airlines-a330-300",
+    "airlineSlug": "philippine-airlines",
+    "aircraftType": "Airbus A330-300",
+    "aircraftFamily": "A330",
+    "name": "Philippine Airlines A330-300 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 309,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 46,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          29
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      30
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 46,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 46,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A330-300 two class schematic used on Philippine Airlines regional wide body flying.",
+      "Public refs: Philippine Airlines A330 fleet notes. Airbus A330 overview.",
+      "Bulkhead economy and exit rows trade noise for space. Confirm the map for your registration."
+    ]
+  },
+  {
+    "slug": "philippine-airlines-a350-900",
+    "airlineSlug": "philippine-airlines",
+    "aircraftType": "Airbus A350-900",
+    "aircraftFamily": "A350",
+    "name": "Philippine Airlines A350-900 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 295,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 12,
+        "endRow": 16,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 45,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          32
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      33
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 45,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A350-900 three class schematic used on Philippine Airlines long haul flying including North America routes.",
+      "Public refs: Philippine Airlines A350 cabin pages. Airbus A350 overview.",
+      "Premium economy is a common step up when Business sells out on Manila long haul banks."
+    ]
+  },
+  {
+    "slug": "garuda-indonesia-737-800",
+    "airlineSlug": "garuda-indonesia",
+    "aircraftType": "Boeing 737-800",
+    "aircraftFamily": "737",
+    "name": "Garuda Indonesia 737-800 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 156,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 7,
+        "endRow": 27,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "737-800 schematic with Business up front and economy behind on Garuda domestic and regional flying.",
+      "Public refs: Garuda Indonesia fleet information. Boeing 737NG overview.",
+      "Exit row pairs are popular on evening banks through Jakarta."
+    ]
+  },
+  {
+    "slug": "garuda-indonesia-a330-300",
+    "airlineSlug": "garuda-indonesia",
+    "aircraftType": "Airbus A330-300",
+    "aircraftFamily": "A330",
+    "name": "Garuda Indonesia A330-300 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 287,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 16,
+        "endRow": 43,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          29
+        ]
+      }
+    ],
+    "exitRows": [
+      16,
+      30
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 28,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 43,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 43,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A330-300 two class schematic used on Garuda Indonesia medium haul and some long haul routes.",
+      "Public refs: Garuda Indonesia A330 fleet notes. Airbus A330 overview.",
+      "Forward economy near the cabin divide can be quieter than aft galley rows."
+    ]
+  },
+  {
+    "slug": "garuda-indonesia-777-300er",
+    "airlineSlug": "garuda-indonesia",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "Garuda Indonesia 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 367,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 10,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 26,
+        "endRow": 50,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          37
+        ]
+      }
+    ],
+    "exitRows": [
+      26,
+      38
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 50,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 50,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "777-300ER three class schematic used on Garuda Indonesia long haul flying.",
+      "Public refs: Garuda Indonesia 777 cabin pages. Boeing 777 overview.",
+      "Economy mid cabin seats often balance walk noise and deplane speed better than the last rows."
+    ]
+  },
+  {
+    "slug": "aegean-airlines-a320",
+    "airlineSlug": "aegean-airlines",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "Aegean Airlines A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 174,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 6,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A320 schematic used on Aegean Airlines short haul European flying with a small Business cabin.",
+      "Public refs: Aegean Airlines fleet information. Airbus A320 overview.",
+      "Exit rows and forward economy are the usual paid upgrades on Athens banks."
+    ]
+  },
+  {
+    "slug": "aegean-airlines-a320neo",
+    "airlineSlug": "aegean-airlines",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Aegean Airlines A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 6,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A320neo schematic typical of Aegean Airlines newer narrow body flying across Europe.",
+      "Public refs: Aegean Airlines fleet information. Airbus A320neo overview.",
+      "Cabin noise and seat pitch still vary by retrofit. Confirm the map for your flight."
+    ]
+  },
+  {
+    "slug": "aegean-airlines-a321neo",
+    "airlineSlug": "aegean-airlines",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A321",
+    "name": "Aegean Airlines A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 220,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 8,
+        "endRow": 36,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      14,
+      15
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A321neo schematic used on denser Aegean routes and longer European sectors.",
+      "Public refs: Aegean Airlines A321neo fleet notes. Airbus A321neo overview.",
+      "Extra space and exit pairs sell early in summer peak weeks from Athens."
+    ]
+  },
+  {
+    "slug": "vueling-a320",
+    "airlineSlug": "vueling",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "Vueling A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy / Space+",
+        "startRow": 1,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Dense single class A320 schematic typical of Vueling short haul flying from Barcelona and other Spanish bases.",
+      "Public refs: Vueling fleet information. Airbus A320 overview.",
+      "Extra space and exit rows are the main paid upgrades. Middle seats are common on peak banks."
+    ]
+  },
+  {
+    "slug": "vueling-a320neo",
+    "airlineSlug": "vueling",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Vueling A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy / Space+",
+        "startRow": 1,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A320neo schematic used on Vueling newer narrow body flying across Europe.",
+      "Public refs: Vueling fleet information. Airbus A320neo overview.",
+      "Bulkhead row 1 and exit pairs trade boarding friction for space. Confirm fees at booking."
+    ]
+  },
+  {
+    "slug": "vueling-a321",
+    "airlineSlug": "vueling",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A321",
+    "name": "Vueling A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 220,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy / Space+",
+        "startRow": 1,
+        "endRow": 37,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      14,
+      15
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 15,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Higher density A321 schematic used on busier Vueling routes.",
+      "Public refs: Vueling A321 fleet notes. Airbus A321 overview.",
+      "Aft lav and galley rows get more foot traffic. Mid cabin windows are often quieter."
+    ]
+  },
+  {
+    "slug": "egyptair-a320neo",
+    "airlineSlug": "egyptair",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "EgyptAir A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit. Confirm with your airline.",
+    "totalSeatsApprox": 154,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 3,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 7,
+        "endRow": 27,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 0,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 3,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 27,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "A320neo schematic with Business up front and economy behind on EgyptAir regional flying.",
+      "Public refs: EgyptAir fleet information. Airbus A320neo overview.",
+      "Exit row pairs are popular on evening banks through Cairo."
+    ]
+  },
+  {
+    "slug": "egyptair-787-9",
+    "airlineSlug": "egyptair",
+    "aircraftType": "Boeing 787-9",
+    "aircraftFamily": "787",
+    "name": "EgyptAir 787-9 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 309,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 8,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 12,
+        "endRow": 16,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 21,
+        "endRow": 47,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          32
+        ]
+      }
+    ],
+    "exitRows": [
+      21,
+      33
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 8,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 16,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 21,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 33,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 47,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 47,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "787-9 long haul schematic used on EgyptAir routes across Africa, Europe, Asia, and North America.",
+      "Public refs: EgyptAir fleet information. Boeing 787 overview.",
+      "Forward economy exit rows sell early on busy Cairo banks. Confirm the map for your flight."
+    ]
+  },
+  {
+    "slug": "egyptair-777-300er",
+    "airlineSlug": "egyptair",
+    "aircraftType": "Boeing 777-300ER",
+    "aircraftFamily": "777",
+    "name": "EgyptAir 777-300ER (typical)",
+    "configNote": "Illustrative schematic from publicly known typical wide body layout facts. Subfleets differ substantially. Confirm with your airline.",
+    "totalSeatsApprox": 346,
+    "cabins": [
+      {
+        "id": "biz",
+        "cabinClass": "business",
+        "label": "Business",
+        "startRow": 1,
+        "endRow": 10,
+        "layout": [
+          {
+            "letters": [
+              "A"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prem",
+        "cabinClass": "premium",
+        "label": "Premium Economy",
+        "startRow": 15,
+        "endRow": 20,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "K"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 26,
+        "endRow": 48,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "letters": [
+              "H",
+              "J",
+              "K"
+            ]
+          }
+        ],
+        "missingRows": [
+          37
+        ]
+      }
+    ],
+    "exitRows": [
+      26,
+      38
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 14,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 20,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 26,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 38,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 36,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 48,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "777-300ER three class schematic used on EgyptAir long haul flying.",
+      "Public refs: EgyptAir 777 cabin pages. Boeing 777 overview.",
+      "Premium economy side pairs help couples who want more space without Business pricing."
+    ]
   }
 ]

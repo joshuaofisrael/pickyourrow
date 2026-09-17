@@ -348,5 +348,47 @@
     "iata": "SV",
     "country": "Saudi Arabia",
     "blurb": "Saudi flag carrier hubbed at Jeddah and Riyadh with 777 and 787 long haul fleets plus A320 family narrow bodies. Premium and economy products vary by aircraft and route."
+  },
+  {
+    "slug": "vietnam-airlines",
+    "name": "Vietnam Airlines",
+    "iata": "VN",
+    "country": "Vietnam",
+    "blurb": "Vietnamese SkyTeam flag carrier hubbed at Hanoi and Ho Chi Minh City with A321 narrow bodies plus 787 and A350 long haul aircraft. Cabin products and densities vary by subfleet and route."
+  },
+  {
+    "slug": "philippine-airlines",
+    "name": "Philippine Airlines",
+    "iata": "PR",
+    "country": "Philippines",
+    "blurb": "Philippine flag carrier hubbed at Manila with A321 family narrow bodies plus A330, A350, and 777 long haul flying. Schematics below are typical public layouts only."
+  },
+  {
+    "slug": "garuda-indonesia",
+    "name": "Garuda Indonesia",
+    "iata": "GA",
+    "country": "Indonesia",
+    "blurb": "Indonesian SkyTeam flag carrier hubbed at Jakarta with 737 narrow bodies and A330 plus 777 long haul aircraft. Cabin products and layouts differ by subfleet and route."
+  },
+  {
+    "slug": "aegean-airlines",
+    "name": "Aegean Airlines",
+    "iata": "A3",
+    "country": "Greece",
+    "blurb": "Greek Star Alliance carrier hubbed at Athens with an A320 family fleet for European and regional flying. Premium and economy products vary by aircraft and route length."
+  },
+  {
+    "slug": "vueling",
+    "name": "Vueling",
+    "iata": "VY",
+    "country": "Spain",
+    "blurb": "Spanish low cost carrier in the IAG group with a large A320 family fleet based around Barcelona and other Spanish hubs. Most flying is dense single class economy with select extra space rows."
+  },
+  {
+    "slug": "egyptair",
+    "name": "EgyptAir",
+    "iata": "MS",
+    "country": "Egypt",
+    "blurb": "Egyptian Star Alliance flag carrier hubbed at Cairo with 787 and 777 long haul fleets plus A320 family narrow bodies. Premium and economy products vary by aircraft and route."
   }
 ]

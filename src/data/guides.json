@@ -1291,5 +1291,153 @@
         "note": "IATA passenger programs overview (industry context for passenger journey processes)."
       }
     ]
+  },
+  {
+    "slug": "tall-traveler-seat-strategy",
+    "title": "Tall traveler seat strategy: space without surprises",
+    "description": "How taller passengers can prioritize exit rows, bulkheads, and aisle access while watching assignment rules, duty requirements, and aircraft swaps.",
+    "body": [
+      "Tall travelers feel pitch and recline limits first. A standard economy seat that feels fine for a short hop can become a long haul problem when knees hit the seat ahead.",
+      "Exit rows and some bulkhead seats often add floor space. They also come with rules. Airlines and regulators expect able bodied adults who can assist in an emergency.",
+      "Bulkhead seats can help knees but may fix the armrest table and remove under seat storage. That tradeoff matters if you carry a medical device or need items during taxi.",
+      "Aisle seats let you stretch into the aisle carefully. They also expose you to cart bumps and foot traffic. Windows help brace a shoulder for sleep but can trap you for bathroom trips.",
+      "Do not treat every extra legroom upsell as equal. Some paid rows only add a couple of inches. Read the airline description and confirm the aircraft type before you pay.",
+      "Aircraft swaps can erase a carefully chosen exit row. Recheck your seat map after schedule changes, especially on partners and codeshares where products differ.",
+      "If you use a cane or need to stand frequently, ask the airline about accessible seating policies early. Public aviation guidance favors planning ahead rather than gate day surprises.",
+      "Use Pick Your Row exit and bulkhead tags as a starting filter, then verify pitch and duties on your specific flight. Illustrative maps are not a guarantee of your registration."
+    ],
+    "sources": [
+      {
+        "label": "FAA exit seating requirements",
+        "url": "https://www.faa.gov/passengers/fly_safe/exit_seating",
+        "note": "FAA public guidance on exit row seating criteria and passenger responsibilities."
+      },
+      {
+        "label": "EASA air operations passenger seating",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations-regulation",
+        "note": "EASA Easy Access Rules for Air Operations (passenger seating and emergency exit context)."
+      },
+      {
+        "label": "TSA traveler disabilities and medical conditions",
+        "url": "https://www.tsa.gov/travel/special-procedures",
+        "note": "TSA special procedures overview useful when packing mobility aids or medical devices."
+      },
+      {
+        "label": "IATA passenger experience overview",
+        "url": "https://www.iata.org/en/programs/passenger/",
+        "note": "IATA passenger programs overview (industry context for passenger journey processes)."
+      }
+    ]
+  },
+  {
+    "slug": "aircraft-swap-and-seat-reassignment",
+    "title": "Aircraft swap and seat reassignment: protect your pick",
+    "description": "What happens when airlines change equipment, how seat maps shift, and practical steps to reselect seats after a swap or schedule change.",
+    "body": [
+      "Airlines change aircraft for maintenance, demand, weather, and crew limits. Your confirmation may still show the same flight number while the seat map behind it shifts.",
+      "A swap from a wide body to a narrow body can erase premium economy or change exit row numbers. A denser layout can turn a former window into a middle seat letter map.",
+      "Check your booking after any schedule email. Reopen the airline seat map and look for open seats that match your priorities: aisle for connections, window for sleep, exit for space.",
+      "Elite status and paid seats sometimes get priority in reassignment. That is airline policy, not a universal rule. Screenshot your original seat and fee receipt when you paid for space.",
+      "Codeshare itineraries add another layer. The operating carrier controls the cabin product. A marketing carrier seat map can look different from the aircraft that actually shows up.",
+      "Arrive earlier than usual on swap days. Gate agents may reopen seat selection or move passengers for weight and balance. Calm, specific requests beat vague complaints.",
+      "If your paid seat disappears, ask about refund of the seat fee or a comparable free seat. Keep the conversation factual: original seat, fee amount, and the new map options.",
+      "Pick Your Row schematics are illustrative by design. After a swap, treat them as a planning filter, then confirm the live airline map for the registration you will fly."
+    ],
+    "sources": [
+      {
+        "label": "US DOT airline consumer protection",
+        "url": "https://www.transportation.gov/airconsumer",
+        "note": "US Department of Transportation air consumer protection hub (passenger rights and complaint context)."
+      },
+      {
+        "label": "US DOT Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "DOT Fly Rights guide covering schedule changes and passenger protections at a high level."
+      },
+      {
+        "label": "IATA passenger experience overview",
+        "url": "https://www.iata.org/en/programs/passenger/",
+        "note": "IATA passenger programs overview (industry context for disruptions and passenger processes)."
+      },
+      {
+        "label": "FAA passengers fly safe",
+        "url": "https://www.faa.gov/passengers",
+        "note": "FAA passengers hub with safety oriented travel information relevant when cabin layouts change."
+      }
+    ]
+  },
+  {
+    "slug": "noise-near-galleys-and-lavatories",
+    "title": "Noise near galleys and lavatories: quieter seat picks",
+    "description": "How galley chatter, cart traffic, and lav queues affect sleep and focus, plus simple seat heuristics to stay away from the noisiest cabin zones.",
+    "body": [
+      "Galleys and lavatories are work zones. Crew prepare carts, ice, and trash there. Passengers queue for the lav. That traffic continues on overnight flights when you want quiet.",
+      "Last rows often sit beside rear galleys. They can feel roomy when empty, yet they hear service starts and door traffic. Mid cabin seats usually see steadier foot traffic patterns.",
+      "Bulkheads ahead of a lav can sound louder than a standard row farther forward. Listen for facility markers on seat maps: lav, galley, and exit icons are useful noise clues.",
+      "Window seats reduce aisle bumps but do not mute galley noise. Aisle seats next to a galley catch carts and standing conversations. Middles between quiet neighbors can win on sleep nights.",
+      "Exit rows near wings may add engine noise on some types. That is different from human galley noise. Decide which disturbance bothers you more before you pay for space.",
+      "Families with young children sometimes choose bulkhead bassinet rows. Those zones can be lively. If you need silence, avoid clustering next to known bassinet rows when the map shows them.",
+      "On long haul aircraft, mid economy blocks between doors often balance noise and bathroom access. Extreme forward can be quieter for sleep but harder if you need frequent lav walks.",
+      "Use Pick Your Row near lav and near galley tags as a filter. Prefer seats a few rows away from facility markers when overnight sleep is the main goal."
+    ],
+    "sources": [
+      {
+        "label": "CDC traveler health",
+        "url": "https://wwwnc.cdc.gov/travel",
+        "note": "CDC Travelers Health hub (general travel health context for rest and long flights)."
+      },
+      {
+        "label": "FAA cabin safety",
+        "url": "https://www.faa.gov/passengers/fly_safe",
+        "note": "FAA fly safe passenger information related to cabin environment awareness."
+      },
+      {
+        "label": "EASA passenger safety focus",
+        "url": "https://www.easa.europa.eu/en/domains/air-operations",
+        "note": "EASA air operations domain overview (regulatory context for cabin operations)."
+      },
+      {
+        "label": "IATA cabin operations safety",
+        "url": "https://www.iata.org/en/programs/ops-infra/cabin-safety/",
+        "note": "IATA cabin safety program overview (industry context for cabin crew work areas)."
+      }
+    ]
+  },
+  {
+    "slug": "sunrise-and-sunset-window-seats",
+    "title": "Sunrise and sunset window seats: light without the glare fight",
+    "description": "How to pick window seats for sunrise and sunset views while managing glare, sleep, and the east versus west side of the aircraft on common route directions.",
+    "body": [
+      "Window light depends on route direction, season, and time of day. A sunrise glow that looks magical for twenty minutes can also blast a sleeping cabin for hours.",
+      "On many westbound daytime flights from Europe to North America, the left side (A windows on many maps) sees more sun. Eastbound returns often flip the brighter side. Always check your specific routing.",
+      "Overwing windows can frame landscapes yet sit above thick wing structure. Forward of the wing often shows cleaner views. Aft windows can look back along the fuselage and engine.",
+      "Bring a soft eye mask even if you booked a sunset seat. Cabin lighting, IFE screens, and your own shade etiquette matter as much as the seat letter.",
+      "Shade etiquette is real. If you open a shade for photos, close it again when neighbors are sleeping, especially on overnight segments where rest is scarce.",
+      "Polar routes and high latitude winter flying change the script. Daylight can linger or vanish quickly. Treat online tip lists as heuristics, not guarantees for your flight date.",
+      "Photography from a window works better with a clean pane and a lens hooded against cabin reflections. Avoid pressing hard on the window. Temperature and moisture vary by altitude.",
+      "Use Pick Your Row window tags plus route direction notes when you care about light. For sleep first trips, prioritize shade control and quiet neighbors over the perfect sunrise seat."
+    ],
+    "sources": [
+      {
+        "label": "NOAA solar calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "note": "NOAA Solar Calculator for sunrise and sunset times by location and date."
+      },
+      {
+        "label": "US Naval Observatory sun data",
+        "url": "https://aa.usno.navy.mil/data/RS_OneDay",
+        "note": "USNO complete sun and moon data for one day (public astronomy reference for light timing)."
+      },
+      {
+        "label": "FAA passengers hub",
+        "url": "https://www.faa.gov/passengers",
+        "note": "FAA passengers information hub (general safe flying context)."
+      },
+      {
+        "label": "IATA passenger experience overview",
+        "url": "https://www.iata.org/en/programs/passenger/",
+        "note": "IATA passenger programs overview (industry context for passenger journey planning)."
+      }
+    ]
   }
 ]
