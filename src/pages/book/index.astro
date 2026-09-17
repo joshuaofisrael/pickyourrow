@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const airline = Astro.url.searchParams.get('airline') ?? '';
+const aircraft = Astro.url.searchParams.get('aircraft') ?? '';
+const contextLine =
+  airline || aircraft
+    ? `You arrived from interest in ${[airline, aircraft].filter(Boolean).join(' ')}.`
+    : 'You can reach this page from seat map and best seats CTAs across the site.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Compare flights (affiliates coming soon)',
+  description:
+    'Placeholder booking hub for Pick Your Row. Affiliate partners such as Travelpayouts will plug in here later. Disclosure and methodology links included.',
+  url: 'https://pickyourrow.com/book/',
+};
+---
+<BaseLayout
+  title="Compare flights (affiliates coming soon)"
+  description="Placeholder booking hub for Pick Your Row. Affiliate partners will plug in here later. Clear disclosure. No invented partner IDs."
+  canonicalPath="/book/"
+  jsonLd={jsonLd}
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Book</nav>
+    <h1 class="page-title">Compare flights (affiliates coming soon)</h1>
+    <p class="lede">
+      This is a monetization stub, not a live fare search. Pick Your Row will add clearly labeled affiliate booking links
+      (for example Travelpayouts style deep links) when accounts are ready. We will never invent live affiliate IDs.
+    </p>
+    <p class="note info">{contextLine}</p>
+
+    <h2>What happens next</h2>
+    <ul class="clean">
+      <li>Seat maps and best seats pages already point here via “Compare flights for this cabin”.</li>
+      <li>When partners go live, this page (or inline CTAs) will deep link into a search with the cabin context you cared about.</li>
+      <li>Editorial scores stay independent. Paid placements will never rewrite schematic geometry.</li>
+    </ul>
+
+    <h2>Trust and disclosure</h2>
+    <p>
+      Read the <a href="/disclosure/">affiliate disclosure</a> before you click any future partner link.
+      Scoring rules and source citations live on <a href="/methodology/">Methodology</a>.
+      Questions: <a href="/contact/">Contact</a>. About the project: <a href="/about/">About</a>.
+    </p>
+
+    <div class="btn-row">
+      <a class="btn" href="/airlines/">Browse airlines</a>
+      <a class="btn secondary" href="/disclosure/">Affiliate disclosure</a>
+      <a class="btn secondary" href="/guides/">Guides</a>
+    </div>
+
+    <p class="muted">
+      © Joshua Israel Ventures LLC. Original schematics only. Not affiliated with any airline.
+    </p>
+  </div>
+</BaseLayout>

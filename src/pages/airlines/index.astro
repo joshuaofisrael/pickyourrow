@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline } from '../../data';
 ---
-<BaseLayout title="Airlines" description="Browse airline cabin schematics on Pick Your Row.">
+<BaseLayout title="Airlines directory: seat maps by carrier" description="Browse original cabin schematics by airline. Pick a carrier, open a seat map or best seats page, then use the booking placeholder when ready. Not affiliated with any airline.">
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / Airlines</nav>
     <div class="section-head">
@@ -19,6 +19,12 @@ import { airlines, getAircraftByAirline } from '../../data';
       </label>
     </div>
     <p class="lede">Select a carrier to see illustrative aircraft configs. Names are used factually; we are not affiliated with any airline.</p>
+    <nav class="hub-links" aria-label="Related hubs">
+      <a href="/aircraft/">Aircraft index</a>
+      <a href="/guides/">Guides index</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/book/">Booking stub</a>
+    </nav>
     <div class="grid cols-2" id="airline-grid">
       {airlines.map((a) => {
         const n = getAircraftByAirline(a.slug).length;

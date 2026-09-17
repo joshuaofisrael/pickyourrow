@@ -13,8 +13,8 @@ const airline = airlines.find((a) => a.slug === slug)!;
 const configs = getAircraftByAirline(slug!);
 ---
 <BaseLayout
-  title={`${airline.name} seat maps`}
-  description={`Original schematic cabin maps for typical ${airline.name} aircraft. Not affiliated with ${airline.name}.`}
+  title={`${airline.name} seat maps and best seats`}
+  description={`Original schematic cabin maps and editorial best seats for typical ${airline.name} aircraft. Illustrative configs. Not affiliated with ${airline.name}.`}
 >
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/airlines/">Airlines</a> / {airline.name}</nav>
@@ -42,13 +42,13 @@ const configs = getAircraftByAirline(slug!);
 
     <section style="margin-top:2rem">
       <h2>Helpful seat guides</h2>
-      <p class="muted">Original Pick Your Row articles — useful alongside these {airline.name} schematics.</p>
+      <p class="muted">Original Pick Your Row articles, useful alongside these {airline.name} schematics.</p>
       <ul class="clean">
         {guides.filter((g) => ['seat-map-glossary', 'cabin-class-primer', 'exit-row-tips', 'how-pickyourrow-scores-work'].includes(g.slug)).map((g) => (
-          <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
+          <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
         ))}
       </ul>
-      <p><a href="/guides/">All guides →</a> · <a href="/methodology/">Methodology &amp; sources →</a></p>
+      <p><a href="/guides/">All guides</a> · <a href="/methodology/">Methodology</a> · <a href="/aircraft/">Aircraft index</a> · <a href="/disclosure/">Disclosure</a></p>
     </section>
 
   </div>

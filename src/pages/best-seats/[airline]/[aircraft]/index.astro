@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import SeatMap from '../../../../components/SeatMap.astro';
+import BookingCTA from '../../../../components/BookingCTA.astro';
 import { aircraftConfigs } from '../../../../data';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../lib/resolve';
 import { topSeats, cautionSeats } from '../../../../lib/scoring';
@@ -21,6 +22,9 @@ if (!resolved) throw new Error('Config not found');
 const { airline, config } = resolved;
 const tops = topSeats(config, 10);
 const cautions = cautionSeats(config, 6);
+const seatMapHref = `/airlines/${airline.slug}/${acParam}/seat-map/`;
+const topFive = tops.slice(0, 5).map((s) => s.seatId).join(', ');
+const topTags = [...new Set(tops.slice(0, 5).flatMap((s) => s.tags))].slice(0, 6);
 
 const pagePath = `/best-seats/${airline.slug}/${acParam}/`;
 const jsonLd = [
@@ -33,10 +37,7 @@ const jsonLd = [
         name: `What are the best seats on a ${airline.name} ${config.aircraftType}?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `Our editorial heuristic often favors exit-row and bulkhead seats away from lavatories. On this illustrative ${config.aircraftType} schematic, top-ranked examples include ${tops
-            .slice(0, 5)
-            .map((s) => s.seatId)
-            .join(', ')}. Scores are opinions for planning only — confirm with the airline.`,
+          text: `Our editorial heuristic often favors exit row and bulkhead seats away from lavatories. On this illustrative ${config.aircraftType} schematic, top ranked examples include ${topFive}. Scores are opinions for planning only. Confirm with the airline.`,
         },
       },
       {
@@ -44,7 +45,7 @@ const jsonLd = [
         name: 'Are Pick Your Row seat scores official?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'No. Scores are editorial heuristics (exit row, bulkhead, near lav = caution, etc.). Pick Your Row is not affiliated with any airline.',
+          text: 'No. Scores are editorial heuristics (exit row, bulkhead, near lav equals caution, and similar rules). Pick Your Row is not affiliated with any airline.',
         },
       },
       {
@@ -55,6 +56,33 @@ const jsonLd = [
           text: config.configNote,
         },
       },
+      {
+        '@type': 'Question',
+        name: 'Should I pay for an exit row on this aircraft?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Exit rows on this schematic are ${config.exitRows.join(', ') || 'not marked'}. Extra space can be worth a fee if you qualify under carrier exit seat rules and want legroom. If you cannot assist in an evacuation, pick another row regardless of our score. See exit row tips and methodology for regulatory context.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Where should I avoid sitting if I want a quieter cabin?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Caution seats on this illustrative map often sit near lavatories, galleys, or the rear cabin. Examples include ${cautions
+            .slice(0, 4)
+            .map((s) => s.seatId)
+            .join(', ')}. Preferences vary. Families sometimes prefer bulkheads for bassinets despite foot traffic.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I book after I pick a row?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Use the Compare flights for this cabin placeholder to open our booking stub. Affiliate partners are coming soon. Until then, book on the airline site and confirm your seat there. See the affiliate disclosure for how future partner links will work.',
+        },
+      },
     ],
   },
   {
@@ -63,14 +91,14 @@ const jsonLd = [
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
       { '@type': 'ListItem', position: 2, name: airline.name, item: `https://pickyourrow.com/airlines/${airline.slug}/` },
-      { '@type': 'ListItem', position: 3, name: `Best seats — ${config.aircraftType}`, item: `https://pickyourrow.com${pagePath}` },
+      { '@type': 'ListItem', position: 3, name: `Best seats ${config.aircraftType}`, item: `https://pickyourrow.com${pagePath}` },
     ],
   },
 ];
 ---
 <BaseLayout
-  title={`Best seats: ${airline.name} ${config.aircraftType}`}
-  description={`Editorial best-seat picks for a typical ${airline.name} ${config.aircraftType}. Heuristic scores — not airline official.`}
+  title={`Best seats on ${airline.name} ${config.aircraftType} (editorial)`}
+  description={`Editorial best seat picks for a typical ${airline.name} ${config.aircraftType}. Top examples: ${topFive}. Heuristic scores, not airline official. Confirm before you fly.`}
   canonicalPath={pagePath}
   jsonLd={jsonLd}
 >
@@ -80,24 +108,46 @@ const jsonLd = [
       <a href={`/airlines/${airline.slug}/`}>{airline.name}</a> /
       Best seats
     </nav>
-    <h1 class="page-title">Best seats — {airline.name} {config.aircraftType}</h1>
+    <h1 class="page-title">Best seats on {airline.name} {config.aircraftType}</h1>
     <p class="lede">
-      Editorial heuristic scores (1–10). Higher usually means more space or quieter location on this schematic.
+      Editorial heuristic scores from 1 to 10. Higher usually means more space or a quieter location on this schematic.
       Not airline advice and not a guarantee.
     </p>
-    <p class="note">
-      <strong>How we score (editorial):</strong> exit row and bulkhead tend to score higher; middle seats, rear cabin,
-      and seats near lavatories/galleys score lower. Your preferences may differ.
-      Full detail: <a href="/methodology/">Methodology &amp; sources</a>.
-    </p>
 
-    <SeatMap config={config} highlight={tops.slice(0, 6).map((s) => s.seatId)} />
+    <section class="editorial-summary card" style="margin:1rem 0 1.25rem">
+      <h2 style="margin-top:0;font-size:1.1rem">Editorial summary</h2>
+      <p>
+        On this illustrative {config.aircraftType} map, our shortlist starts with
+        <strong>{topFive}</strong>.
+        Common tags on those picks: {topTags.join(', ') || 'standard cabin geometry'}.
+        Exit rows marked on the schematic: {config.exitRows.join(', ') || 'none listed'}.
+      </p>
+      <p>
+        We reward exit row and bulkhead space, nudge window and aisle over middle seats, and penalize seats next to
+        lavatory or galley markers plus many rear cabin rows. Your priorities may differ (sleep, kids, fast deplane).
+        Full rules: <a href="/methodology/">Methodology</a>.
+      </p>
+      <p class="muted" style="margin-bottom:0">{config.configNote}</p>
+    </section>
 
-    <p class="btn-row">
-      <a class="btn secondary" href={`/airlines/${airline.slug}/${acParam}/seat-map/`}>Full seat map</a>
-    </p>
+    <div class="sticky-best-cta" aria-label="Quick actions">
+      <a class="btn" href={seatMapHref}>Full seat map</a>
+      <a class="btn secondary" href="#booking-cta">Compare flights</a>
+      <a class="btn secondary" href="/disclosure/">Disclosure</a>
+    </div>
 
-    <h2>Top-ranked seats (editorial)</h2>
+    <SeatMap config={config} highlight={tops.slice(0, 6).map((s) => s.seatId)} bestSeatsHref={undefined} showControls={true} />
+
+    <div id="booking-cta">
+      <BookingCTA
+        airlineName={airline.name}
+        aircraftType={config.aircraftType}
+        cabinHint="the cabin you shortlisted above"
+        seatMapHref={seatMapHref}
+      />
+    </div>
+
+    <h2>Top ranked seats (editorial)</h2>
     <table class="seats">
       <thead>
         <tr><th>Seat</th><th>Score</th><th>Tags</th><th>Note</th></tr>
@@ -131,19 +181,44 @@ const jsonLd = [
       </tbody>
     </table>
 
-    <h2>FAQ</h2>
-    <div class="prose">
+    <h2>FAQ and objections</h2>
+    <div class="prose faq-block">
       <h3>Are these the official best seats?</h3>
       <p>No. They are editorial opinions based on a simple heuristic applied to our original schematic.</p>
       <h3>Will my aircraft match this map?</h3>
       <p>{config.configNote}</p>
+      <h3>Should I pay for an exit row?</h3>
+      <p>
+        Only if you want the space, you meet the carrier exit seat rules, and you are willing to assist in an evacuation.
+        Fees vary by route and brand. See <a href="/guides/exit-row-tips/">Exit row tips</a> and
+        <a href="/guides/extra-legroom-upsells-explained/">Extra legroom upsells explained</a>.
+      </p>
+      <h3>I want quiet more than legroom. What then?</h3>
+      <p>
+        Skip seats tagged near lav or near galley on the caution list. Mid cabin window seats often feel calmer than
+        front bulkheads with bassinet traffic. Guide:
+        <a href="/guides/quiet-vs-convenient/">Quiet seats vs convenient seats</a>.
+      </p>
+      <h3>How do I actually book?</h3>
+      <p>
+        Use <a href="#booking-cta">Compare flights for this cabin</a> for our placeholder hub, then complete seating on
+        the airline tools. Affiliate disclosure: <a href="/disclosure/">/disclosure/</a>.
+      </p>
+      <h3>Is Pick Your Row affiliated with {airline.name}?</h3>
+      <p>No. Airline names appear factually. We never imply endorsement. See <a href="/about/">About</a>.</p>
     </div>
 
-    <h2>More seat-selection advice</h2>
+    <h2>More seat selection advice</h2>
     <ul class="clean">
-      {guides.filter((g) => ['how-pickyourrow-scores-work', 'seat-map-glossary', 'exit-row-tips', 'aisle-vs-window'].includes(g.slug)).map((g) => (
-        <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
+      {guides.filter((g) => ['how-pickyourrow-scores-work', 'seat-map-glossary', 'exit-row-tips', 'aisle-vs-window', 'seat-pitch-and-width-explained', 'how-to-verify-your-aircraft-type'].includes(g.slug)).map((g) => (
+        <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
       ))}
     </ul>
+    <p class="btn-row">
+      <a class="btn secondary" href={seatMapHref}>Full seat map</a>
+      <a class="btn secondary" href={`/airlines/${airline.slug}/`}>More {airline.name}</a>
+      <a class="btn secondary" href="/guides/">Guides index</a>
+      <a class="btn secondary" href="/contact/">Contact</a>
+    </p>
   </div>
 </BaseLayout>

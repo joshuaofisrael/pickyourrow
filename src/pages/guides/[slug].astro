@@ -82,7 +82,7 @@ const jsonLd = [
 
     {sources.length > 0 && (
       <>
-        <h2>Sources &amp; references</h2>
+        <h2>Sources and references</h2>
         <p class="muted">
           Outbound links to authoritative public pages. Regulatory and consumer-rights material is <strong>fact</strong>;
           our seat scores remain <strong>editorial</strong>. See also the
@@ -92,7 +92,7 @@ const jsonLd = [
           {sources.map((s) => (
             <li>
               <a href={s.url} rel="noopener noreferrer">{s.label}</a>
-              {s.note ? ` — ${s.note}` : ''}
+              {s.note ? `. ${s.note}` : ''}
             </li>
           ))}
         </ol>
@@ -109,7 +109,7 @@ const jsonLd = [
         <h2>Related guides</h2>
         <ul class="clean">
           {related.map((g) => (
-            <li><a href={`/guides/${g.slug}/`}>{g.title}</a> — {g.description}</li>
+            <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
           ))}
         </ul>
       </>

@@ -16,8 +16,8 @@ const jsonLd = {
 };
 ---
 <BaseLayout
-  title="Guides"
-  description="Evergreen guides on seat-map terms, cabin classes, family seating, overnight strategy, LCC fees, Pick Your Row scores, exit rows, and bulkheads."
+  title="Seat selection guides"
+  description="Evergreen guides on seat map terms, cabin classes, family seating, overnight strategy, LCC fees, Pick Your Row scores, exit rows, and bulkheads. Cited sources. Internal links to airline maps."
   jsonLd={jsonLd}
 >
   <div class="wrap">
@@ -25,8 +25,14 @@ const jsonLd = {
     <h1 class="page-title">Guides</h1>
     <p class="lede">
       Original Pick Your Row articles. For scoring rules and outbound citations to public authorities, see
-      <a href="/methodology/">Methodology &amp; sources</a>.
+      <a href="/methodology/">Methodology and sources</a>.
     </p>
+    <nav class="hub-links" aria-label="Related hubs">
+      <a href="/airlines/">Airlines directory</a>
+      <a href="/aircraft/">Aircraft index</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/book/">Booking stub</a>
+    </nav>
     <h2 class="section-head" style="margin-top:1.25rem">Start here</h2>
     <div class="grid cols-2" style="margin-top:0.75rem">
       {featured.map((g) => (

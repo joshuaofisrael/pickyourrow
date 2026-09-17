@@ -1,0 +1,50 @@
+---
+/**
+ * Monetization-ready booking intent CTA.
+ * Links to /book/ stub until Travelpayouts or similar affiliate IDs are wired.
+ * Do not invent live affiliate IDs.
+ */
+interface Props {
+  airlineName: string;
+  aircraftType: string;
+  cabinHint?: string;
+  seatMapHref?: string;
+  bestSeatsHref?: string;
+  compact?: boolean;
+}
+
+const {
+  airlineName,
+  aircraftType,
+  cabinHint,
+  seatMapHref,
+  bestSeatsHref,
+  compact = false,
+} = Astro.props;
+
+const bookHref = `/book/?airline=${encodeURIComponent(airlineName)}&aircraft=${encodeURIComponent(aircraftType)}`;
+---
+<aside class:list={['booking-cta', compact && 'booking-cta--compact']} aria-label="Booking placeholder">
+  <div class="booking-cta__body">
+    <p class="booking-cta__kicker">Booking placeholder</p>
+    <h2 class="booking-cta__title">Compare flights for this cabin</h2>
+    <p class="booking-cta__text">
+      Ready to turn this {airlineName} {aircraftType} schematic into a booking?
+      {cabinHint ? ` Focus on ${cabinHint}.` : ''}
+      Affiliate flight search is coming soon. Until then, this button opens our booking stub with disclosure links.
+      We do not invent live partner IDs yet.
+    </p>
+    <div class="btn-row" style="margin-bottom:0.35rem">
+      <a class="btn" href={bookHref}>Open booking stub</a>
+      {bestSeatsHref && <a class="btn secondary" href={bestSeatsHref}>Editorial best seats</a>}
+      {seatMapHref && <a class="btn secondary" href={seatMapHref}>Full seat map</a>}
+    </div>
+    <p class="booking-cta__fine">
+      <a href="/disclosure/">Affiliate disclosure</a>
+      ·
+      <a href="/methodology/">Methodology</a>
+      ·
+      Not affiliated with {airlineName}.
+    </p>
+  </div>
+</aside>

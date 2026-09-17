@@ -4,11 +4,17 @@ import { getUniqueAircraftTypes } from '../../data';
 
 const types = getUniqueAircraftTypes().sort((a, b) => a.label.localeCompare(b.label));
 ---
-<BaseLayout title="Aircraft types" description="Browse aircraft families and typical cabin schematics on Pick Your Row.">
+<BaseLayout title="Aircraft types directory: cabin schematics by jet" description="Browse aircraft families and typical cabin schematics. Compare airline configs for the same type. Original SVGs only. Illustrative layouts vary by registration.">
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / Aircraft</nav>
     <h1 class="page-title">Aircraft types</h1>
     <p class="lede">Each type page lists airline-specific illustrative configs we have reconstructed as original schematics.</p>
+    <nav class="hub-links" aria-label="Related hubs">
+      <a href="/airlines/">Airlines directory</a>
+      <a href="/guides/">Guides index</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/disclosure/">Affiliate disclosure</a>
+    </nav>
     <div class="grid cols-2">
       {types.map((t) => (
         <article class="card">

@@ -1,5 +1,129 @@
 [
   {
+    "slug": "unassigned-seats-versus-paid-selection",
+    "title": "Unassigned seats versus paid selection",
+    "description": "How free random assignment, open seating, and paid seat maps differ, plus when paying is worth it for families, tall travelers, and tight connections.",
+    "body": [
+      "Airlines sell seats in different ways. Some include a free assigned seat. Some charge for every map pick. Some use open seating where boarding group matters more than a locked row. Know which system you bought.",
+      "Paid selection is often worth it when you travel with kids who must sit together, when you need an aisle for mobility reasons, or when a tight connection makes forward cabin access valuable. It is less critical for solo travelers on short day flights who can accept a middle seat.",
+      "ULCC brands frequently unbundle seats. The base fare looks low until you add bags and rows. Compare the total, not the seat fee alone. Our low cost carrier seat fees guide covers the pattern.",
+      "Open seating cultures reward early boarding more than a prepicked letter. If that is your carrier, prioritize boarding position and a clear goal (window for sleep, aisle for mobility) instead of obsessing over a schematic row number.",
+      "Editorial scores on Pick Your Row still help when the map is paid. They highlight exit and bulkhead space and flag lavatory traffic. They do not tell you whether the fee is fair for your wallet.",
+      "Consumer rights pages explain delay and cancellation themes. They rarely force free seat choice. Treat fees as contract of carriage territory and read the airline rules for your fare brand.",
+      "Next: browse airlines that match your trip, open a seat map, run the seat selection checklist, then use the booking stub only as a disclosure aware placeholder."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. aviation consumer protection overview."
+      },
+      {
+        "label": "Your Europe Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "EU passenger rights summary for in scope itineraries."
+      },
+      {
+        "label": "EASA topic page on EU air passenger rights",
+        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
+        "note": "Points readers to Commission managed passenger rights material."
+      }
+    ]
+  },
+  {
+    "slug": "seat-selection-checklist-before-you-fly",
+    "title": "Seat selection checklist before you fly",
+    "description": "A short checklist that ties cabin goals to seat map cues, exit eligibility, fees, and a final confirm step before you leave for the airport.",
+    "body": [
+      "Decide your primary goal first: sleep, work, kids together, fast deplane, or lowest fee. One goal beats a vague wish for the best seat. Our editorial scores favor space and quieter locations. Your goal may disagree.",
+      "Open the airline map and mark exit rows, lavatories, galleys, and bulkheads. Those cues drive most comfort tradeoffs. If a row is blank or missing, it may be a jump in numbering rather than empty space.",
+      "Check eligibility before you pay for an exit row. Federal exit seating rules for U.S. part 121 operations require that you can assist. Airlines can reseat you at the gate if you do not meet criteria.",
+      "Price the upsell against trip length. A short hop rarely needs max pitch. A red eye often does. See Extra legroom upsells explained for LCC versus network framing.",
+      "Place bags and power needs in the plan. Forward cabins fill bins early. Seats near galleys can be bright and noisy. Window seats can trap you. Aisle seats trade bumps for freedom.",
+      "Final confirm within 24 hours of departure. Reopen manage booking, verify aircraft type, and keep a screenshot. If something moved, use the checklist again instead of arguing with a stale map.",
+      "When you are ready to search flights around a cabin you liked, use our booking stub as a labeled placeholder. Affiliate partners will plug in later. Disclosure stays linked from every CTA."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Primary U.S. exit seat suitability criteria."
+      },
+      {
+        "label": "IATA evacuation safety education",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Public industry messaging on evacuation behavior."
+      },
+      {
+        "label": "TSA Cares",
+        "url": "https://www.tsa.gov/travel/tsa-cares",
+        "note": "Screening assistance context for travelers who need extra help before the seat even matters."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-verify-your-aircraft-type",
+    "title": "How to verify your aircraft type before you fly",
+    "description": "A practical checklist for confirming the jet on your ticket, spotting equipment swaps, and using illustrative seat maps without over trusting a single diagram.",
+    "body": [
+      "The aircraft type on your booking is a planning hint, not a locked seat map. Airlines swap frames for maintenance, weather, and network needs. A 737-800 and a 737 MAX 8 can share a route yet differ in cabin details.",
+      "Start with the airline app or manage booking page on the day before departure. Note the marketed type and any cabin product name (Comfort+, Extra Legroom, Mint, and similar brands). Screenshot it so you can compare after a change.",
+      "Cross check with airport departure boards and gate displays when you arrive. If the type changed, reopen seat selection immediately. Inventory that looked open at booking may be gone after a swap.",
+      "Use Pick Your Row as a geometry primer. Our pages are illustrative schematics labeled as such. Open the matching airline and type if we have it, then confirm exit rows and cabin breaks on the airline tool for your flight.",
+      "When the map looks wrong, assume retrofit or a different subfleet. Contact the airline chat or desk rather than forcing a row that no longer exists. Keep a backup pair of seats in mind (window aisle pair mid cabin is a common fallback).",
+      "Passenger rights summaries from DOT and EU sources cover delay and cancellation themes. They do not force a specific seat. Treat seating as operational. Treat rights pages as separate consumer facts.",
+      "Related reading on this site: Aircraft swap and seat reassignment, When to select your seats, and the airlines directory for carrier hubs."
+    ],
+    "sources": [
+      {
+        "label": "U.S. DOT Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "Official U.S. consumer overview when operations change around your trip."
+      },
+      {
+        "label": "Your Europe Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "EU passenger rights summary for flights in scope of Regulation 261/2004."
+      },
+      {
+        "label": "ICAO Safety portal",
+        "url": "https://www.icao.int/safety",
+        "note": "International safety framework context. Not a seat map database."
+      }
+    ]
+  },
+  {
+    "slug": "seat-pitch-and-width-explained",
+    "title": "Seat pitch and width explained",
+    "description": "What seat pitch and width numbers mean on a cabin schematic, how airlines market them, and how to use those facts without treating marketing as a guarantee.",
+    "body": [
+      "Seat pitch is the distance from one point on a seat to the same point on the seat in front. Travelers often treat it as legroom. That is close but not identical. Cushion thickness, seat track position, and the shape of the seatback can change how a given pitch feels.",
+      "Seat width is usually measured between armrests. Shared armrests on a 3-3 layout mean your usable space depends on neighbors. A wide seat next to a busy aisle can still feel cramped if carts and passengers brush past all flight.",
+      "Airlines publish pitch and width ranges for marketing and fleet planning. Those ranges are useful as public facts when you compare cabin products. They are not a promise that your registration matches the brochure. Retrofits move seats. Specialty rows (exit, bulkhead) break the average.",
+      "On Pick Your Row schematics we do not invent millimeter precision we cannot verify. We show layout geometry (letters, aisles, exit bands) and editorial scores. Use pitch and width claims from the airline or a primary manufacturer page as a second check after you pick a row family.",
+      "For exit seats, space is only half the story. U.S. part 121 carriers follow federal exit seating rules about who may sit there. If you cannot assist, pick another row even when the pitch looks generous. See our exit row tips and methodology pages for the regulatory outbound links.",
+      "Practical workflow: open the airline seat map for your flight, note the cabin product name, compare it to our illustrative schematic for that type, then decide whether an upsell row is worth the fee for your body and trip length.",
+      "Internal next steps: browse the aircraft index for the type on your ticket, read Extra legroom upsells explained if fees confuse you, and use the booking stub only as a placeholder until affiliate partners are live."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Exit seat criteria matter when pitch looks great but eligibility does not."
+      },
+      {
+        "label": "U.S. DOT Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "Consumer protection overview for U.S. air travel rights context."
+      },
+      {
+        "label": "FAA Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "Public traveler safety hub. Useful when space tradeoffs meet safety briefing duties."
+      }
+    ]
+  },
+  {
     "slug": "herringbone-economy-sleepers",
     "title": "Herringbone Economy Sleepers: Angled Beds That Share the Aisle",
     "description": "A speculative look at staggered herringbone economy sleep pods that angle nearly flat beds into shared aisle volume so more travelers could rest without a full business class footprint.",

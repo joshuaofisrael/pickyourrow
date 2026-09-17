@@ -12,25 +12,22 @@ const airlineCards = airlines.map((a) => ({
   ...a,
   count: getAircraftByAirline(a.slug).length,
 }));
-const inventoryLine = `${airlines.length} airlines · ${aircraftConfigs.length} aircraft configs · ${guides.length} guides`;
+const inventoryLine = `${airlines.length} airlines, ${aircraftConfigs.length} aircraft configs, ${guides.length} guides`;
 
-const linkable = [
-  {
-    href: '/methodology/',
-    title: 'Methodology & sources',
-    description: 'How we score seats, what is editorial vs fact, and the public authorities we cite.',
-  },
-  {
-    href: '/guides/seat-map-glossary/',
-    title: 'Seat-map glossary',
-    description: 'Exit row, bulkhead, pitch, layout codes, and other cabin terms — with citations.',
-  },
-  {
-    href: '/guides/cabin-class-primer/',
-    title: 'Cabin class primer',
-    description: 'Economy through first, without marketing fluff — and when rights rules matter.',
-  },
+const featuredGuideSlugs = [
+  'seat-map-glossary',
+  'cabin-class-primer',
+  'how-pickyourrow-scores-work',
+  'exit-row-tips',
+  'seat-pitch-and-width-explained',
+  'how-to-verify-your-aircraft-type',
+  'seat-selection-checklist-before-you-fly',
+  'unassigned-seats-versus-paid-selection',
 ];
+const featuredGuides = [
+  ...featuredGuideSlugs.map((s) => guides.find((g) => g.slug === s)).filter(Boolean),
+  ...guides.filter((g) => !featuredGuideSlugs.includes(g.slug)),
+].slice(0, 6);
 
 const jsonLd = [
   {
@@ -41,7 +38,7 @@ const jsonLd = [
     url: 'https://pickyourrow.com/',
     email: 'joshuaofisrael@gmail.com',
     description:
-      'Original airline cabin schematics and editorial best-seat guidance. Not affiliated with any airline.',
+      'Original airline cabin schematics and editorial best seat guidance. Not affiliated with any airline.',
   },
   {
     '@context': 'https://schema.org',
@@ -49,7 +46,7 @@ const jsonLd = [
     name: 'Pick Your Row',
     url: 'https://pickyourrow.com/',
     description:
-      'Original schematic seat maps and editorial best-seat tips for popular airline aircraft.',
+      'Original schematic seat maps and editorial best seat tips for popular airline aircraft.',
     publisher: {
       '@type': 'Organization',
       name: 'Joshua Israel Ventures LLC',
@@ -59,23 +56,23 @@ const jsonLd = [
 ];
 ---
 <BaseLayout
-  title="Pick Your Row — airline seat maps & cabin guides"
-  description="Original schematic seat maps and editorial best-seat tips for popular airline aircraft. Not affiliated with any airline."
+  title="Pick Your Row: airline seat maps and cabin guides"
+  description="Original schematic seat maps and editorial best seat tips for popular airline aircraft. Browse by airline, pick a smarter row, then use our booking placeholder when you are ready. Not affiliated with any airline."
   canonicalPath="/"
   jsonLd={jsonLd}
 >
   <section class="hero wrap">
     <p class="badge">Original schematics · editorial guidance</p>
-    <h1>Pick a better row before you board</h1>
+    <h1>See the cabin. Pick a smarter row. Book with eyes open.</h1>
     <p class="lede">
-      Pick Your Row publishes original SVG cabin schematics and plain-English seat notes for common airline
-      configurations — rebuilt from publicly known layout facts, not scraped competitor maps.
+      Pick Your Row publishes original SVG cabin schematics and plain English seat notes for common airline
+      configurations. Rebuilt from publicly known layout facts. Never scraped from competitor maps.
       Currently covering {inventoryLine}.
     </p>
     <div class="btn-row">
       <a class="btn" href="/airlines/">Browse airlines</a>
-      <a class="btn secondary" href="/guides/">Seat-selection guides</a>
-      <a class="btn secondary" href="/methodology/">Methodology &amp; sources</a>
+      <a class="btn secondary" href="/methodology/">Methodology and sources</a>
+      <a class="btn secondary" href="/guides/">Seat selection guides</a>
     </div>
     <p class="note info">
       Configurations vary by aircraft registration and retrofit. Treat every map as an illustrative schematic and
@@ -83,16 +80,37 @@ const jsonLd = [
     </p>
   </section>
 
+  <section class="wrap trust-row" aria-label="Trust signals">
+    <div class="trust-row__grid">
+      <div class="trust-row__item">
+        <strong>Original only</strong>
+        <span>Hand built SVG schematics. No scraped SeatGuru or airline PDF diagrams.</span>
+      </div>
+      <div class="trust-row__item">
+        <strong>Editorial scores</strong>
+        <span>Transparent heuristics on <a href="/methodology/">Methodology</a>. Not airline advice.</span>
+      </div>
+      <div class="trust-row__item">
+        <strong>Clear disclosure</strong>
+        <span>Booking placeholders link to <a href="/disclosure/">disclosure</a> and <a href="/book/">/book/</a>.</span>
+      </div>
+      <div class="trust-row__item">
+        <strong>Human contact</strong>
+        <span><a href="/about/">About</a> Joshua Israel Ventures LLC · <a href="/contact/">Contact</a></span>
+      </div>
+    </div>
+  </section>
+
   <section class="wrap" style="margin-bottom:2rem">
     <div class="section-head">
-      <h2>Linkable references</h2>
-      <a href="/methodology/">How we work →</a>
+      <h2>Featured guides</h2>
+      <a href="/guides/">All guides →</a>
     </div>
     <div class="grid cols-3" style="margin-top:1rem">
-      {linkable.map((item) => (
+      {featuredGuides.map((g) => (
         <article class="card">
-          <h3><a href={item.href}>{item.title}</a></h3>
-          <p>{item.description}</p>
+          <h3><a href={`/guides/${g!.slug}/`}>{g!.title}</a></h3>
+          <p>{g!.description}</p>
         </article>
       ))}
     </div>
@@ -112,6 +130,9 @@ const jsonLd = [
         />
       </label>
     </div>
+    <p class="muted" style="margin:0.35rem 0 0">
+      Primary path for SEO and bookings: pick a carrier, open a seat map, then use the booking placeholder CTA.
+    </p>
     <div class="grid cols-3" style="margin-top:1rem" id="airline-grid">
       {airlineCards.map((a) => (
         <article class="card airline-card" data-filter={`${a.name} ${a.iata} ${a.country} ${a.slug}`.toLowerCase()}>
@@ -139,7 +160,7 @@ const jsonLd = [
             <span class="badge">{airline.name}</span>
             <h3><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>{c.aircraftType}</a></h3>
             <p>
-              ~{c.totalSeatsApprox} seats · economy layout {layoutString(c)}
+              About {c.totalSeatsApprox} seats · economy layout {layoutString(c)}
             </p>
             <p class="btn-row" style="margin-bottom:0">
               <a class="btn secondary" href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a>
@@ -153,19 +174,21 @@ const jsonLd = [
 
   <section class="wrap" style="margin-bottom:2.5rem">
     <div class="section-head">
-      <h2>Guides</h2>
-      <a href="/guides/">All guides →</a>
+      <h2>Also browse</h2>
     </div>
-    <div class="grid cols-2" style="margin-top:1rem">
-      {[
-        ...guides.filter((g) => ['seat-map-glossary', 'cabin-class-primer', 'how-pickyourrow-scores-work', 'exit-row-tips'].includes(g.slug)),
-        ...guides.filter((g) => !['seat-map-glossary', 'cabin-class-primer', 'how-pickyourrow-scores-work', 'exit-row-tips'].includes(g.slug)),
-      ].slice(0, 6).map((g) => (
-        <article class="card">
-          <h3><a href={`/guides/${g.slug}/`}>{g.title}</a></h3>
-          <p>{g.description}</p>
-        </article>
-      ))}
+    <div class="grid cols-3" style="margin-top:1rem">
+      <article class="card">
+        <h3><a href="/aircraft/">Aircraft index</a></h3>
+        <p>Jump by type (737, A320, widebodies) across airlines.</p>
+      </article>
+      <article class="card">
+        <h3><a href="/guides/">Guides index</a></h3>
+        <p>Evergreen seat strategy with outbound citations.</p>
+      </article>
+      <article class="card">
+        <h3><a href="/book/">Booking stub</a></h3>
+        <p>Affiliate ready placeholder with disclosure links.</p>
+      </article>
     </div>
   </section>
 </BaseLayout>

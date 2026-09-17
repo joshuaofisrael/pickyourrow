@@ -5,22 +5,74 @@ import { buildSeatMapSvg } from '../lib/seatMapSvg';
 interface Props {
   config: AircraftConfig;
   highlight?: string[];
+  /** Optional sticky CTA target for best seats */
+  bestSeatsHref?: string;
+  showControls?: boolean;
 }
 
-const { config, highlight } = Astro.props;
+const { config, highlight, bestSeatsHref, showControls = true } = Astro.props;
 const svg = buildSeatMapSvg(config, {
   highlight: highlight ? new Set(highlight) : undefined,
   title: config.name,
 });
+
+const classesPresent = [...new Set(config.cabins.map((c) => c.cabinClass))];
+const classLabels: Record<string, string> = {
+  first: 'First',
+  business: 'Business',
+  premium: 'Premium economy',
+  economy: 'Economy',
+};
+const classColors: Record<string, string> = {
+  first: '#1e3a5f',
+  business: '#243b6b',
+  premium: '#2f6f6a',
+  economy: '#3d5a80',
+};
 ---
-<figure class="map-frame">
-  <Fragment set:html={svg} />
-  <figcaption class="legend">
-    <span><i class="swatch" style="background:#1e3a5f"></i>First / Business</span>
-    <span><i class="swatch" style="background:#2f6f6a"></i>Premium</span>
-    <span><i class="swatch" style="background:#3d5a80"></i>Economy</span>
-    <span><i class="swatch" style="background:#0ea5e9"></i>Exit row</span>
-    <span><i class="swatch" style="background:#16a34a"></i>Highlighted</span>
-    <span><i class="swatch" style="background:#94a3b8"></i>Lav / galley markers</span>
-  </figcaption>
-</figure>
+<div class="seatmap-shell">
+  {showControls && (
+    <div class="map-toolbar" role="group" aria-label="Seat map controls">
+      <p class="map-toolbar__hint muted">
+        Pinch or scroll sideways on small screens. Cabin colors match the key below.
+      </p>
+      {bestSeatsHref && (
+        <a class="btn map-toolbar__cta" href={bestSeatsHref}>See best seats</a>
+      )}
+    </div>
+  )}
+
+  <figure class="map-frame" id="seat-map-figure">
+    <div class="map-scroll">
+      <Fragment set:html={svg} />
+    </div>
+    <figcaption class="legend legend--rich">
+      <div class="legend-block">
+        <strong class="legend-heading">Cabin class</strong>
+        <div class="legend-row">
+          {classesPresent.map((cc) => (
+            <span>
+              <i class="swatch" style={`background:${classColors[cc] ?? '#3d5a80'}`}></i>
+              {classLabels[cc] ?? cc}
+            </span>
+          ))}
+        </div>
+      </div>
+      <div class="legend-block">
+        <strong class="legend-heading">Markers</strong>
+        <div class="legend-row">
+          <span><i class="swatch" style="background:#0ea5e9"></i>Exit row</span>
+          <span><i class="swatch" style="background:#16a34a"></i>Highlighted pick</span>
+          <span><i class="swatch" style="background:#94a3b8"></i>Lav or galley</span>
+          <span><i class="swatch" style="background:#f59e0b"></i>Exit band</span>
+        </div>
+      </div>
+    </figcaption>
+  </figure>
+
+  <div class="trust-strip" role="note">
+    <span class="trust-strip__item"><strong>Original schematics</strong> drawn by Pick Your Row</span>
+    <span class="trust-strip__item"><strong>Not affiliated</strong> with any airline</span>
+    <span class="trust-strip__item"><strong>Configs vary</strong> by registration and retrofit</span>
+  </div>
+</div>

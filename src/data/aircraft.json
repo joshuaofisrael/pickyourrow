@@ -22425,5 +22425,694 @@
       "Public refs: EgyptAir 777 cabin pages. Boeing 777 overview.",
       "Premium economy side pairs help couples who want more space without Business pricing."
     ]
+  },
+  {
+    "slug": "spirit-a321",
+    "airlineSlug": "spirit",
+    "aircraftType": "Airbus A321",
+    "aircraftFamily": "A320",
+    "name": "Spirit A321 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 218,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 37,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 37,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "High density single cabin ULCC layout on the longer A321 fuselage.",
+      "Front and exit rows typically carry higher paid selection fees."
+    ]
+  },
+  {
+    "slug": "spirit-a319",
+    "airlineSlug": "spirit",
+    "aircraftType": "Airbus A319",
+    "aircraftFamily": "A320",
+    "name": "Spirit A319 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 145,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 25,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      10,
+      11
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 25,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Shorter A319 single cabin 3-3 layout used on thinner routes.",
+      "Fewer total seats than the neo fleet mates. Confirm registration."
+    ]
+  },
+  {
+    "slug": "easyjet-a320neo",
+    "airlineSlug": "easyjet",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "easyJet A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      11,
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Typical high density neo single cabin used across much of the easyJet network.",
+      "Up Front and Extra Legroom rows often sit at the front and overwing exits."
+    ]
+  },
+  {
+    "slug": "jetblue-a321neo",
+    "airlineSlug": "jetblue",
+    "aircraftType": "Airbus A321neo",
+    "aircraftFamily": "A320",
+    "name": "JetBlue A321neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 200,
+    "cabins": [
+      {
+        "id": "mint",
+        "cabinClass": "business",
+        "label": "Mint (illustrative)",
+        "startRow": 1,
+        "endRow": 4,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "evenmore",
+        "cabinClass": "premium",
+        "label": "Even More Space",
+        "startRow": 5,
+        "endRow": 11,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "core",
+        "cabinClass": "economy",
+        "label": "Core",
+        "startRow": 12,
+        "endRow": 35,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 4,
+        "type": "galley",
+        "side": "center"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 35,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Illustrative multi cabin neo layout. Mint and Even More Space counts vary by route product.",
+      "Transcon and leisure fittings differ. Always confirm the cabin product on your ticket."
+    ]
+  },
+  {
+    "slug": "wizz-air-a320neo",
+    "airlineSlug": "wizz-air",
+    "aircraftType": "Airbus A320neo",
+    "aircraftFamily": "A320",
+    "name": "Wizz Air A320neo (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 186,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 31,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      11,
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 31,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "ULCC single cabin neo. Almost every seat is a paid selection in practice.",
+      "Front and exit rows usually price highest in the seat map."
+    ]
+  },
+  {
+    "slug": "vueling-a319",
+    "airlineSlug": "vueling",
+    "aircraftType": "Airbus A319",
+    "aircraftFamily": "A320",
+    "name": "Vueling A319 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 144,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 24,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      10,
+      11
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 10,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Shorter A319 single cabin used on thinner European sectors.",
+      "Space Plus style rows often sit forward and at overwing exits."
+    ]
+  },
+  {
+    "slug": "indigo-a320",
+    "airlineSlug": "indigo",
+    "aircraftType": "Airbus A320",
+    "aircraftFamily": "A320",
+    "name": "IndiGo A320 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 180,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 30,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      12,
+      13
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 13,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 30,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Classic A320 ceo single cabin still common alongside the neo fleet.",
+      "Emergency exit rows and forward seats typically carry selection fees."
+    ]
+  },
+  {
+    "slug": "southwest-737-max-7",
+    "airlineSlug": "southwest",
+    "aircraftType": "Boeing 737 MAX 7",
+    "aircraftFamily": "737",
+    "name": "Southwest 737 MAX 7 (typical)",
+    "configNote": "Illustrative schematic from publicly known typical layout facts. Actual seat counts and exit rows vary by registration and retrofit.",
+    "totalSeatsApprox": 138,
+    "cabins": [
+      {
+        "id": "eco",
+        "cabinClass": "economy",
+        "label": "Economy",
+        "startRow": 1,
+        "endRow": 24,
+        "layout": [
+          {
+            "letters": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "letters": [
+              "D",
+              "E",
+              "F"
+            ]
+          }
+        ]
+      }
+    ],
+    "exitRows": [
+      1,
+      11,
+      12
+    ],
+    "facilities": [
+      {
+        "afterRow": 0,
+        "type": "galley",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 1,
+        "type": "bulkhead",
+        "side": "both"
+      },
+      {
+        "afterRow": 11,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 12,
+        "type": "exit",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "lav",
+        "side": "both"
+      },
+      {
+        "afterRow": 24,
+        "type": "galley",
+        "side": "center"
+      }
+    ],
+    "notes": [
+      "Illustrative denser short haul MAX 7 single cabin. Open seating culture still shapes how travelers prioritize rows.",
+      "Overwing exits remain the usual extra space conversation on Southwest 737 family jets."
+    ]
   }
 ]

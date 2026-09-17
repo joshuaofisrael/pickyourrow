@@ -1,24 +1,61 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Affiliate disclosure',
+  description:
+    'How Pick Your Row handles affiliate links, booking placeholders, and editorial independence. Joshua Israel Ventures LLC.',
+  url: 'https://pickyourrow.com/disclosure/',
+};
 ---
 <BaseLayout
   title="Affiliate disclosure"
-  description="Affiliate disclosure for Pick Your Row / pickyourrow.com."
+  description="How Pick Your Row handles affiliate links, booking placeholders, and editorial independence. No invented partner IDs. Joshua Israel Ventures LLC."
+  canonicalPath="/disclosure/"
+  jsonLd={jsonLd}
 >
   <div class="wrap prose">
     <nav class="breadcrumb"><a href="/">Home</a> / Disclosure</nav>
     <h1 class="page-title">Affiliate disclosure</h1>
-    <p>
-      Pick Your Row may earn a commission from qualifying purchases or bookings made through affiliate links
-      on this site. This does not change the price you pay. Editorial seat scores and schematics are produced
-      independently and are not paid placements by airlines.
+    <p class="lede">
+      Transparency first. If you buy or book through a partner link on this site, Pick Your Row may earn a commission.
+      That does not change the price you pay.
     </p>
+
+    <h2>Current status (September 2026)</h2>
     <p>
-      <em>Placeholder:</em> Specific affiliate partners will be listed here when programs are enabled.
-      Until then, assume standard FTC affiliate disclosure principles apply to any future partner links.
+      Live paid affiliate accounts are not wired yet. Seat map and best seats pages use clearly labeled
+      <strong>booking placeholders</strong> that open <a href="/book/">/book/</a>. Those stubs explain that partners
+      such as Travelpayouts (or similar) can plug in later. We do <strong>not</strong> invent live affiliate IDs,
+      tracking tokens, or fake “Book now” deep links.
     </p>
+
+    <h2>What stays independent</h2>
+    <ul class="clean">
+      <li>Original SVG cabin schematics are editorial products, not paid airline placements.</li>
+      <li>Best seat scores are heuristic opinions documented on <a href="/methodology/">Methodology</a>.</li>
+      <li>We are not affiliated with, endorsed by, or sponsored by any airline.</li>
+    </ul>
+
+    <h2>FTC style principles</h2>
     <p>
-      © Joshua Israel Ventures LLC. Not affiliated with any airline.
+      When partner links go live, we will label them as affiliate or sponsored where required, keep this disclosure
+      easy to find from the footer and booking CTAs, and list active programs here. Until then, treat every booking
+      button as a placeholder that routes through disclosure aware pages.
+    </p>
+
+    <h2>Questions</h2>
+    <p>
+      Email via <a href="/contact/">Contact</a>, or read <a href="/about/">About Pick Your Row</a>.
+      Owner: Joshua Israel Ventures LLC.
+    </p>
+
+    <p class="btn-row">
+      <a class="btn" href="/book/">Booking stub</a>
+      <a class="btn secondary" href="/methodology/">Methodology</a>
+      <a class="btn secondary" href="/airlines/">Browse airlines</a>
     </p>
   </div>
 </BaseLayout>
