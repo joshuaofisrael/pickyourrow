@@ -48,7 +48,7 @@ const configs = getAircraftByAirline(slug!);
           <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
         ))}
       </ul>
-      <p><a href="/guides/">All guides</a> · <a href="/methodology/">Methodology</a> · <a href="/aircraft/">Aircraft index</a> · <a href="/disclosure/">Disclosure</a></p>
+      <p><a href="/guides/">All guides</a> · <a href="/methodology/">Methodology</a> · <a href="/aircraft/">Aircraft index</a> · <a href={`/best-seats/#${airline.slug}`}>Best seats</a> · <a href="/disclosure/">Disclosure</a></p>
     </section>
 
   </div>

@@ -387,8 +387,17 @@ ul.clean li {
   outline-offset: 1px;
 }
 
-.airline-card[hidden] {
+.airline-card[hidden],
+.config-card[hidden],
+.airline-group[hidden] {
   display: none !important;
+}
+
+.airline-group:target {
+  scroll-margin-top: 4.5rem;
+  outline: 2px solid var(--brand-2);
+  outline-offset: 8px;
+  border-radius: var(--radius);
 }
 
 

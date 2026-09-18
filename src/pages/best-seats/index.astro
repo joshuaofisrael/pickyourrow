@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { airlines, aircraftConfigs, getAircraftByAirline, layoutString } from '../../data';
+import { aircraftUrlParam } from '../../lib/resolve';
+import { topSeats } from '../../lib/scoring';
+
+const groups = airlines
+  .map((airline) => ({
+    airline,
+    configs: getAircraftByAirline(airline.slug),
+  }))
+  .filter((g) => g.configs.length > 0);
+
+const totalConfigs = aircraftConfigs.length;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Best seats', item: 'https://pickyourrow.com/best-seats/' },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Editorial best seats by airline and aircraft',
+    numberOfItems: totalConfigs,
+    itemListElement: groups.flatMap((g) => g.configs).map((c, i) => {
+      const airline = groups.find((g) => g.airline.slug === c.airlineSlug)!.airline;
+      const ap = aircraftUrlParam(c);
+      return {
+        '@type': 'ListItem',
+        position: i + 1,
+        name: `Best seats on ${airline.name} ${c.aircraftType}`,
+        url: `https://pickyourrow.com/best-seats/${c.airlineSlug}/${ap}/`,
+      };
+    }),
+  },
+];
+---
+<BaseLayout
+  title="Best seats directory: editorial picks by airline"
+  description={`Browse editorial best seat shortlists for ${totalConfigs} illustrative airline cabin configs. Original schematics only. Not affiliated with any airline. Confirm seats with your carrier.`}
+  canonicalPath="/best-seats/"
+  jsonLd={jsonLd}
+>
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="/">Home</a> / Best seats</nav>
+    <div class="section-head">
+      <h1 class="page-title" style="margin:0">Best seats</h1>
+      <label class="filter-label" for="best-seats-filter">
+        Filter
+        <input
+          id="best-seats-filter"
+          class="filter-input"
+          type="search"
+          placeholder="Airline, IATA, or aircraft"
+          autocomplete="off"
+        />
+      </label>
+    </div>
+    <p class="lede">
+      Editorial shortlists for every schematic we publish. Open a config, read the heuristic ranking, then confirm the
+      live map with your airline. Names appear factually. We are not affiliated with any carrier. Layouts are
+      illustrative and vary by registration.
+    </p>
+    <nav class="hub-links" aria-label="Related hubs">
+      <a href="/airlines/">Airlines directory</a>
+      <a href="/aircraft/">Aircraft index</a>
+      <a href="/guides/">Guides index</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/book/">Booking stub</a>
+    </nav>
+    <p class="muted" style="margin:0 0 1.25rem">
+      {groups.length} airlines · {totalConfigs} best seat pages
+    </p>
+
+    <div id="best-seats-list">
+      {groups.map(({ airline, configs }) => (
+        <section
+          class="airline-group"
+          id={airline.slug}
+          data-filter={`${airline.name} ${airline.iata} ${airline.country} ${airline.slug}`.toLowerCase()}
+        >
+          <div class="section-head" style="margin-top:1.75rem">
+            <h2>
+              <a href={`/airlines/${airline.slug}/`}>{airline.name}</a>
+              <span class="muted"> ({airline.iata})</span>
+            </h2>
+            <p class="muted" style="margin:0">{configs.length} config{configs.length === 1 ? '' : 's'}</p>
+          </div>
+          <p class="muted" style="margin:0.35rem 0 0.75rem">{airline.blurb}</p>
+          <div class="grid cols-2">
+            {configs.map((c) => {
+              const ap = aircraftUrlParam(c);
+              const href = `/best-seats/${airline.slug}/${ap}/`;
+              const tops = topSeats(c, 3).map((s) => s.seatId).join(', ');
+              return (
+                <article
+                  class="card config-card"
+                  data-filter={`${airline.name} ${airline.iata} ${c.aircraftType} ${c.aircraftFamily} ${c.name} ${ap}`.toLowerCase()}
+                >
+                  <span class="badge">{c.aircraftFamily}</span>
+                  <h3><a href={href}>{c.aircraftType}</a></h3>
+                  <p>
+                    About {c.totalSeatsApprox} seats · economy layout {layoutString(c)}
+                  </p>
+                  <p class="muted" style="margin-top:0.45rem">
+                    Editorial shortlist starts with {tops || 'the ranked table on the detail page'}.
+                  </p>
+                  <p class="btn-row" style="margin-bottom:0">
+                    <a class="btn" href={href}>Best seats</a>
+                    <a class="btn secondary" href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a>
+                  </p>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      ))}
+    </div>
+    <p id="filter-empty" class="muted" hidden style="margin-top:1rem">No configs match that filter.</p>
+    <p class="note info" style="margin-top:1.75rem">
+      Scores are editorial opinions for planning only. Configurations vary by aircraft registration and retrofit.
+      Always confirm seats with your airline. See <a href="/methodology/">Methodology</a> for how scores work.
+    </p>
+  </div>
+</BaseLayout>
+
+<script>
+  const input = document.getElementById('best-seats-filter');
+  const groups = Array.from(document.querySelectorAll('.airline-group'));
+  const empty = document.getElementById('filter-empty');
+  input?.addEventListener('input', () => {
+    const q = (input as HTMLInputElement).value.trim().toLowerCase();
+    let shown = 0;
+    for (const group of groups) {
+      const groupHay = group.getAttribute('data-filter') || '';
+      const cards = Array.from(group.querySelectorAll('.config-card'));
+      let groupShown = 0;
+      for (const card of cards) {
+        const hay = `${groupHay} ${card.getAttribute('data-filter') || ''}`;
+        const match = !q || hay.includes(q);
+        card.toggleAttribute('hidden', !match);
+        if (match) {
+          groupShown += 1;
+          shown += 1;
+        }
+      }
+      group.toggleAttribute('hidden', groupShown === 0);
+    }
+    if (empty) empty.hidden = shown > 0;
+  });
+</script>
