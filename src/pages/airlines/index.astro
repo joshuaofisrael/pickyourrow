@@ -20,6 +20,7 @@ import { airlines, getAircraftByAirline } from '../../data';
     </div>
     <p class="lede">Select a carrier to see illustrative aircraft configs. Names are used factually; we are not affiliated with any airline.</p>
     <nav class="hub-links" aria-label="Related hubs">
+      <a href="/best-seats/">Best seats index</a>
       <a href="/aircraft/">Aircraft index</a>
       <a href="/guides/">Guides index</a>
       <a href="/methodology/">Methodology</a>
@@ -36,6 +37,8 @@ import { airlines, getAircraftByAirline } from '../../data';
             <p class="muted" style="margin-top:0.5rem">{n} schematic config{n === 1 ? '' : 's'}</p>
             <p class="btn-row" style="margin-bottom:0">
               <a href={`/airlines/${a.slug}/`}>View configs</a>
+              ·
+              <a href={`/best-seats/#${a.slug}`}>Best seats</a>
             </p>
           </article>
         );
