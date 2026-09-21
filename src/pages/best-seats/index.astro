@@ -86,10 +86,14 @@ const jsonLd = [
         >
           <div class="section-head" style="margin-top:1.75rem">
             <h2>
-              <a href={`/airlines/${airline.slug}/`}>{airline.name}</a>
+              <a href={`/best-seats/${airline.slug}/`}>{airline.name}</a>
               <span class="muted"> ({airline.iata})</span>
             </h2>
-            <p class="muted" style="margin:0">{configs.length} config{configs.length === 1 ? '' : 's'}</p>
+            <p class="muted" style="margin:0">
+              <a href={`/best-seats/${airline.slug}/`}>{configs.length} config{configs.length === 1 ? '' : 's'}</a>
+              ·
+              <a href={`/airlines/${airline.slug}/`}>Airline page</a>
+            </p>
           </div>
           <p class="muted" style="margin:0.35rem 0 0.75rem">{airline.blurb}</p>
           <div class="grid cols-2">

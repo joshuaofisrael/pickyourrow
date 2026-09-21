@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { airlines, getAircraftByAirline, layoutString } from '../../../data';
+import { aircraftUrlParam } from '../../../lib/resolve';
+import { topSeats } from '../../../lib/scoring';
+
+export function getStaticPaths() {
+  return airlines
+    .map((airline) => ({
+      params: { airline: airline.slug },
+      props: { configs: getAircraftByAirline(airline.slug) },
+    }))
+    .filter((p) => p.props.configs.length > 0);
+}
+
+const { airline: slug } = Astro.params;
+const { configs } = Astro.props;
+const airline = airlines.find((a) => a.slug === slug)!;
+const pagePath = `/best-seats/${airline.slug}/`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Best seats', item: 'https://pickyourrow.com/best-seats/' },
+      { '@type': 'ListItem', position: 3, name: airline.name, item: `https://pickyourrow.com${pagePath}` },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Editorial best seats on ${airline.name}`,
+    numberOfItems: configs.length,
+    itemListElement: configs.map((c, i) => {
+      const ap = aircraftUrlParam(c);
+      return {
+        '@type': 'ListItem',
+        position: i + 1,
+        name: `Best seats on ${airline.name} ${c.aircraftType}`,
+        url: `https://pickyourrow.com/best-seats/${airline.slug}/${ap}/`,
+      };
+    }),
+  },
+];
+---
+<BaseLayout
+  title={`Best seats on ${airline.name}: editorial shortlists`}
+  description={`Browse editorial best seat shortlists for ${configs.length} illustrative ${airline.name} cabin configs. Original schematics only. Not affiliated with ${airline.name}. Confirm seats with the airline.`}
+  canonicalPath={pagePath}
+  jsonLd={jsonLd}
+>
+  <div class="wrap">
+    <nav class="breadcrumb">
+      <a href="/">Home</a> /
+      <a href="/best-seats/">Best seats</a> /
+      {airline.name}
+    </nav>
+    <div class="section-head">
+      <h1 class="page-title" style="margin:0">Best seats on {airline.name}</h1>
+      <p class="muted" style="margin:0">{configs.length} config{configs.length === 1 ? '' : 's'}</p>
+    </div>
+    <p class="lede">
+      Editorial shortlists for every {airline.name} schematic we publish. Open a config, read the heuristic ranking,
+      then confirm the live map with the airline. {airline.name} appears factually. We are not affiliated with
+      {airline.name}. Layouts are illustrative and vary by registration.
+    </p>
+    <p class="muted">{airline.blurb}</p>
+    <nav class="hub-links" aria-label="Related hubs">
+      <a href={`/airlines/${airline.slug}/`}>{airline.name} airline page</a>
+      <a href="/best-seats/">All best seats</a>
+      <a href="/airlines/">Airlines directory</a>
+      <a href="/aircraft/">Aircraft index</a>
+      <a href="/guides/">Guides index</a>
+      <a href="/methodology/">Methodology</a>
+    </nav>
+
+    <div class="grid cols-2">
+      {configs.map((c) => {
+        const ap = aircraftUrlParam(c);
+        const href = `/best-seats/${airline.slug}/${ap}/`;
+        const seatMapHref = `/airlines/${airline.slug}/${ap}/seat-map/`;
+        const tops = topSeats(c, 3).map((s) => s.seatId).join(', ');
+        return (
+          <article class="card config-card">
+            <span class="badge">{c.aircraftFamily}</span>
+            <h2><a href={href}>{c.aircraftType}</a></h2>
+            <p>
+              About {c.totalSeatsApprox} seats · economy layout {layoutString(c)}
+            </p>
+            <p class="muted" style="margin-top:0.45rem">
+              Editorial shortlist starts with {tops || 'the ranked table on the detail page'}.
+            </p>
+            <p class="btn-row" style="margin-bottom:0">
+              <a class="btn" href={href}>Best seats</a>
+              <a class="btn secondary" href={seatMapHref}>Seat map</a>
+            </p>
+          </article>
+        );
+      })}
+    </div>
+    <p class="note info" style="margin-top:1.75rem">
+      Scores are editorial opinions for planning only. Configurations vary by aircraft registration and retrofit.
+      Always confirm seats with your airline. See <a href="/methodology/">Methodology</a> for how scores work.
+      Pick Your Row is not affiliated with, endorsed by, or sponsored by {airline.name}.
+    </p>
+  </div>
+</BaseLayout>

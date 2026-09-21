@@ -23,6 +23,16 @@ const configs = getAircraftByAirline(slug!);
     <p class="note">
       Pick Your Row is not affiliated with, endorsed by, or sponsored by {airline.name}. Maps are original schematics.
     </p>
+    <nav class="hub-links" aria-label="Related hubs">
+      {configs.length > 0 && (
+        <a href={`/best-seats/${airline.slug}/`}>Best seats on {airline.name}</a>
+      )}
+      <a href="/airlines/">Airlines directory</a>
+      <a href="/best-seats/">All best seats</a>
+      <a href="/aircraft/">Aircraft index</a>
+      <a href="/guides/">Guides index</a>
+      <a href="/methodology/">Methodology</a>
+    </nav>
     <div class="grid cols-2">
       {configs.map((c) => {
         const ap = aircraftUrlParam(c);
@@ -48,7 +58,7 @@ const configs = getAircraftByAirline(slug!);
           <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
         ))}
       </ul>
-      <p><a href="/guides/">All guides</a> · <a href="/methodology/">Methodology</a> · <a href="/aircraft/">Aircraft index</a> · <a href={`/best-seats/#${airline.slug}`}>Best seats</a> · <a href="/disclosure/">Disclosure</a></p>
+      <p><a href="/guides/">All guides</a> · <a href="/methodology/">Methodology</a> · <a href="/aircraft/">Aircraft index</a> · {configs.length > 0 ? <a href={`/best-seats/${airline.slug}/`}>Best seats</a> : <a href="/best-seats/">Best seats</a>} · <a href="/disclosure/">Disclosure</a></p>
     </section>
 
   </div>
