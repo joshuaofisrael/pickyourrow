@@ -151,7 +151,7 @@
       "Why do airlines not do more of this already? Parts of the idea are familiar. Some premium cabins already use reverse herringbone suites. The hard leap is bringing a similar angle into high density coach while keeping evacuation, weight, and boarding times acceptable. Certification does not care how pretty the render looks. Aisle width, assist paths near exits, passenger assist criteria, oxygen, fireworthiness, and how fast a full load can leave still rule the design. Angled shells also complicate under seat bags, service carts, and who can stand up without blocking neighbors.",
       "Trade offs stack quickly. Structure and fittings get heavier when every shell is a capsule. Center of gravity shifts if rows stagger unevenly. Overhead bins compete for the same wall volume privacy canopies want. Boarding slows if people must crab into angled nests. Revenue density can rise if you keep seat count and sell sleep as a premium coach upsell, or it can fall if you lose too many seats to make the angle work. None of the images on this page are certified products. They are original concept illustrations meant to make the geometry intuitive.",
       "If a design ever worked, traveler trade offs would feel familiar to anyone who studies seat maps. Privacy shells help rest but can feel tight. Window side pods may suit solo sleepers more than families who want to face each other. Aisle access gets odd if you must step over a footwell. Nearly flat is still not a true hotel bed. Our editorial scores on live configs still assume today\u2019s real seats: exit rows, bulkheads, lav proximity, not speculative sleep pods.",
-      "For travelers, the useful takeaway is simpler than the art. When you pick a row today, you are still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than whether a future cabin might share aisle volume. Use our original schematics to plan the aircraft you actually booked, and treat herringbone economy sleepers as a design brief, not a booking tip.",
+      "For travelers, the useful takeaway is simpler than the art. When you pick a row today, you are still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than whether a future cabin might share aisle volume. Use our original schematics to plan the aircraft you actually booked, and treat herringbone economy sleepers as a design brief, not a booking tip. For another speculative cabin idea on this site, see Capsule Bunks Over the Wing.",
       "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
     "sources": [
@@ -204,7 +204,7 @@
       "Why bother? Because economy density and true flat beds are usually enemies. Horizontal lie-flats win for rest, but they wreck seat count. Vertical space is the last underpriced dimension in many cabins: fuselage height is already paid for in drag and structure, yet most of the upper third above economy seats is dead air. A vertical lay-flat concept tries to monetize that air as sleep length.",
       "The hard constraints are not the render \u2014 they\u2019re physics and regulation. Evacuation paths must stay clear. Center of gravity and load paths change if bunks climb the wall. Baggage bins compete for the same volume. Turbulence loads, oxygen masks, passenger assist criteria near exits, and fireworthiness all get stricter when people sleep in stacked shells. None of the images on this page are certified products; they\u2019re AI concept illustrations to make the geometry intuitive.",
       "If a design ever worked, the passenger trade-offs would look familiar to anyone who studies seat maps: privacy shells help rest but can feel claustrophobic; upper berths may suit solo sleepers more than parents with kids; aisle access gets weird if you must climb; and \u201cnearly flat\u201d is not the same as a true bed. Our editorial seat scores on live configs still assume today\u2019s real seats \u2014 exit rows, bulkheads, lav proximity \u2014 not sci-fi bunks.",
-      "For travelers, the useful takeaway is simpler than the concept art: when you pick a row today, you\u2019re still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than ceiling height. Use our original schematics to plan the aircraft you actually booked \u2014 and treat vertical lay-flats as a design brief, not a booking tip.",
+      "For travelers, the useful takeaway is simpler than the concept art: when you pick a row today, you\u2019re still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than ceiling height. Use our original schematics to plan the aircraft you actually booked \u2014 and treat vertical lay-flats as a design brief, not a booking tip. For another speculative cabin idea on this site, see Capsule Bunks Over the Wing.",
       "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
     "sources": [
@@ -227,6 +227,60 @@
         "label": "ICAO \u2014 Safety",
         "url": "https://www.icao.int/safety",
         "note": "International safety framework portal \u2014 stacked berths are a standards problem, not just a design sketch."
+      }
+    ]
+  },
+  {
+    "slug": "capsule-bunks-over-the-wing",
+    "title": "Capsule Bunks Over the Wing: Sleeping Pods That Steal Wing Box Height",
+    "description": "A speculative look at short private sleeping capsules stacked in the thicker wing box zone of a widebody so repose uses volume that is often underused for premium sleep while aisle seats stay denser ahead and aft.",
+    "heroImage": {
+      "src": "/images/blog/capsule-bunks-thumbnail.png",
+      "alt": "Concept render of a widebody cabin with stacked sleeping capsules in the thicker over the wing zone and denser seats ahead and aft",
+      "caption": "Concept art. Speculative cabin using private capsule bunks stacked in wing box height. Not a certified product. Not affiliated with any airline."
+    },
+    "figures": [
+      {
+        "src": "/images/blog/capsule-bunks-closeup.png",
+        "alt": "Concept close up of upper and lower private sleeping capsules stacked in wing box volume",
+        "caption": "Concept close up. Short private pods stack repose into the thicker wing box zone. Concept art. Not a certified product."
+      },
+      {
+        "src": "/images/blog/capsule-bunks-section.png",
+        "alt": "Cross section concept showing capsule bunks using over the wing height while denser seats remain ahead and aft",
+        "caption": "Cross section concept. Repose stacked into overwing volume. Denser aisle seats stay ahead and aft. Speculative only."
+      }
+    ],
+    "body": [
+      "Most true beds in the sky buy sleep the expensive way. They claim a long rectangle of floor along the cabin. On a widebody that floor is revenue gold, which is why full flat beds usually live in business class, not coach. So here is a Pick Your Row thought experiment that aims at premium rest another way: capsule bunks over the wing. Short private sleeping capsules stacked in the thicker wing box zone, where fuselage and wing structure already create volume that often sits underused for sleep while denser aisle seats stay ahead and aft.",
+      "Picture a widebody mid cabin station over the wing. The wing box and fairing create a taller usable pocket than many people notice from a seat map. In this concept, that pocket holds stacked capsule bunks. Each pod is a short private shell for one sleeper. Travelers board into denser recliner style seats in the fore and aft sections, then move into a reserved over the wing sleep zone for the cruise. The aisle through the bunk block stays a clear path. The geometry steals height and structure volume, not the next row of floor.",
+      "Why bother? Horizontal lie flats win for rest, but they wreck how many tickets an airline can sell on a given deck. Classic recliner rows keep density and lose sleep quality. Capsule bunks over the wing try to monetize volume that is already paid for in structure and drag. The wing box height is there either way. The question is whether private stacked pods can turn that mid cabin pocket into sellable repose without collapsing evacuation, boarding, or revenue density elsewhere in the cabin.",
+      "Why do airlines not do more of this already? Parts of the idea feel familiar. Crew rest compartments already hide bunks in unused volume on long haul jets. Some premium products explore enclosed suites. The hard leap is selling short private capsules to paying passengers in the same thicker over the wing zone while keeping certification, weight, and turn times acceptable. Certification does not care how pretty the render looks. Aisle width, assist paths near exits, passenger assist criteria, oxygen, fireworthiness, and how fast a full load can leave still rule the design. Enclosed pods also complicate service, cleaning, and who can self evacuate without blocking neighbors.",
+      "Trade offs stack quickly. Structure and fittings get heavier when every shell is a capsule. Center of gravity and load paths change if bunks concentrate mass over the wing. Overhead bins compete for the same wall and crown volume privacy canopies want. Boarding slows if people must climb or queue for upper pods. Revenue density can rise if you keep dense seats ahead and aft and sell the bunk zone as a premium sleep upsell, or it can fall if you lose too many sellable seats or add too much empty weight. None of the images on this page are certified products. They are original concept illustrations meant to make the geometry intuitive.",
+      "If a design ever worked, traveler trade offs would feel familiar to anyone who studies seat maps. Privacy shells help rest but can feel tight. Upper pods may suit solo sleepers more than families who want to stay together. Aisle access gets odd if you must climb. Nearly flat is still not a true hotel bed. Turbulence, oxygen masks, and assist criteria get stricter when people sleep in enclosed stacks. Our editorial scores on live configs still assume today real seats: exit rows, bulkheads, lav proximity, not speculative sleep pods.",
+      "For travelers, the useful takeaway is simpler than the art. When you pick a row today, you are still choosing among horizontal compromises. Pitch, recline, wing noise, and who sits beside you matter more than whether a future cabin might stack bunks over the wing. Use our original schematics to plan the aircraft you actually booked, and treat capsule bunks over the wing as a design brief, not a booking tip. For related speculative cabin ideas on this site, see Herringbone Economy Sleepers and The Skyscraper Seat vertical lay flat concept.",
+      "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 121.585 Exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Exit seat passenger criteria remind us enclosed sleep pods near exits would still face strict assist and evacuation rules."
+      },
+      {
+        "label": "IATA Evacuation safety education",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Public industry messaging on evacuation behavior. Relevant to any denser or enclosed seating idea that stacks pods in cabin volume."
+      },
+      {
+        "label": "FAA Travelers",
+        "url": "https://www.faa.gov/travelers",
+        "note": "FAA traveler safety hub. Speculative cabin products would still live under real certification regimes."
+      },
+      {
+        "label": "ICAO Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International safety framework portal. Stacked berths and boarding density are standards problems, not just design sketches."
       }
     ]
   },
