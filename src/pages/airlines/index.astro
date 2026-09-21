@@ -38,7 +38,7 @@ import { airlines, getAircraftByAirline } from '../../data';
             <p class="btn-row" style="margin-bottom:0">
               <a href={`/airlines/${a.slug}/`}>View configs</a>
               ·
-              <a href={`/best-seats/#${a.slug}`}>Best seats</a>
+              <a href={n > 0 ? `/best-seats/${a.slug}/` : '/best-seats/'}>Best seats</a>
             </p>
           </article>
         );
