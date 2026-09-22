@@ -27,6 +27,17 @@ const related = [
   ...guides.filter((g) => g.slug !== slug && !relatedPriority.includes(g.slug)),
 ].slice(0, 4);
 
+function linkParts(text: string): { text: string; href?: string }[] {
+  return text
+    .split(/(\[[^\]]+\]\(\/[^)]+\))/g)
+    .filter(Boolean)
+    .map((part) => {
+      const match = part.match(/^\[([^\]]+)\]\((\/[^)]+)\)$/);
+      if (!match) return { text: part };
+      return { text: match[1], href: match[2] };
+    });
+}
+
 const pagePath = `/guides/${guide.slug}/`;
 const jsonLd = [
   {
@@ -72,7 +83,11 @@ const jsonLd = [
         {heroImage.caption && <figcaption>{heroImage.caption}</figcaption>}
       </figure>
     )}
-    {guide.body.map((p) => <p>{p}</p>)}
+    {guide.body.map((p) => (
+      <p>
+        {linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
+      </p>
+    ))}
     {figures.map((f) => (
       <figure class="guide-figure">
         <img src={f.src} alt={f.alt} width="900" height="675" loading="lazy" />
