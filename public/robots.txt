@@ -1,3 +1,4 @@
+# https://pickyourrow.com/llms.txt describes this site for AI crawlers.
 User-agent: *
 Allow: /
 

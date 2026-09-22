@@ -489,6 +489,9 @@
       "Middle seats usually score lower in our editorial heuristic unless you are traveling as a pair-plus-one and want to sit together. On 2-3 A220 layouts, the middle of the triple is still a compromise.",
       "For overnight flights, many travelers pick window for uninterrupted sleep. For short hops or tight connections, aisle often wins.",
       "Our schematics mark letter positions, not guaranteed window panes. Overwing rows and structural sections can spoil a \u201cwindow\u201d view \u2014 confirm on the airline\u2019s map for your flight.",
+      "Exit row aisles can look perfect until you remember the duty. On many airlines you must be able and willing to assist in an evacuation. If you are unsure, choose a standard aisle instead.",
+      "Couples often want a window and an aisle in a two seat block. Hoping the middle stays empty between two seats you booked fails often on full flights.",
+      "The letter is not the whole decision. A quiet window beside a lavatory can feel worse than an aisle in a calm part of the cabin. If you must sit in a middle seat, prefer a quieter row away from lavatories and galleys.",
       "Pick Your Row scores are editorial opinions on original schematics. We are not affiliated with any airline; always verify seats with the carrier."
     ],
     "sources": [
@@ -506,6 +509,21 @@
         "label": "Your Europe \u2014 Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "FAA passenger safety briefing AC 121-24E",
+        "url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_121-24E.pdf",
+        "note": "FAA advisory circular on passenger safety information briefings and exit seating expectations."
+      },
+      {
+        "label": "FAA exit seating report excerpt",
+        "url": "https://www.faa.gov/sites/faa.gov/files/2022-05/PL_115-254_Sec_323_Safety_of_Unoccupied_Exit_Rows.pdf",
+        "note": "FAA public report discussing exit seat duties under 14 CFR 121.585."
+      },
+      {
+        "label": "IATA passenger experience overview",
+        "url": "https://www.iata.org/en/programs/passenger/",
+        "note": "IATA passenger programs overview (industry context for cabin and passenger processes)."
       }
     ]
   },
@@ -577,10 +595,10 @@
   },
   {
     "slug": "overnight-long-haul-seat-strategy",
-    "title": "Overnight long-haul seat strategy",
-    "description": "How to pick a row for sleep on red-eyes: window vs aisle, wing noise, galley traffic, and when premium economy is worth it.",
+    "title": "Overnight long haul seat strategy",
+    "description": "How to pick a row for sleep on overnight long haul flights. This page covers wide body sectors of many hours, not a short domestic red eye. It covers window versus aisle, wing noise, galley traffic, and when premium economy is worth it.",
     "body": [
-      "On overnight long-haul flights, the goal is usually uninterrupted sleep. That pushes many travelers toward a window seat mid-cabin, away from galleys and lavatories, so you are not climbed over and can lean on the sidewall.",
+      "This guide covers overnight long haul flights: wide body sectors of many hours with a full meal and sleep cycle. It is not a short domestic red eye. For those, use the [red eye seat strategy](/guides/red-eye-seat-strategy/) guide. On a long haul overnight, the goal is usually uninterrupted sleep. That pushes many travelers toward a window seat in the middle of the cabin, away from galleys and lavatories, so you are not climbed over and can lean on the sidewall.",
       "Aisle seats win if you wake often or need frequent walks. The cost is cart bumps, boarding traffic, and neighbors waking you to get out. For deep sleepers, window usually wins; for restless flyers, aisle often does.",
       "Avoid the last few rows when you can. Rear cabins are closer to lavatories and galleys on many wide-bodies, which means light, noise, and queues during the overnight service lull \u2014 exactly when you want quiet.",
       "Overwing rows can feel slightly noisier from engine and airflow vibration, but they are often away from lavatory clusters. If sleep matters more than the view, prioritize distance from service centers over perfect window alignment.",
@@ -694,6 +712,12 @@
       "Trade-offs are real: limited or no under-seat storage for takeoff and landing, armrest tray tables, and sometimes a busier feel if several families share the same wall. Galleys next to some bulkheads add light and noise overnight.",
       "Exit rows are usually the wrong choice with a lap infant. Airlines typically restrict who may sit there, and you may be reseated. Prefer bassinet bulkheads or standard rows where you can sit together.",
       "On wide-bodies, bulkheads at the start of economy or premium economy are the usual bassinet zones. Our schematics mark bulkheads so you can spot candidates \u2014 then confirm bassinet icons on the airline\u2019s live map.",
+      "This is planning commentary, not medical advice. Airline bassinet rules, age and weight limits, and child restraint policies vary. Confirm with your carrier before you book.",
+      "Family seating works best when adults and children sit in the same row or directly across an aisle. Splitting across a cabin for a window view often costs more stress than it saves when a toddler needs help.",
+      "A ticketed seat with an approved child restraint is the safer planning default for infants when your airline and aircraft allow it. Lap travel is widely permitted under age two in many places, yet it is a weaker option in turbulence.",
+      "Exit rows are the wrong place for bassinets, car seats, and passengers who cannot perform exit duties. Crew will move you if the row is restricted. Plan the family block away from exits unless every adult qualifies and accepts that duty.",
+      "Bulkhead bassinet zones can be noisy because galleys, lavatories, and boarding queues often sit nearby. If adult sleep matters as much as the bassinet, compare a quiet window in the middle of the cabin with a paid bassinet request.",
+      "Many aircraft carry only one or two bassinets. Request one early, and keep a backup plan such as a ticketed infant seat or the airline lap infant policy if the bassinet is already assigned.",
       "Pick Your Row maps are original illustrative schematics, not airline manuals. Always verify bassinet rules and seat availability with the carrier for your exact flight."
     ],
     "sources": [
@@ -716,6 +740,26 @@
         "label": "Your Europe \u2014 Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "CDC Traveling with Children",
+        "url": "https://wwwnc.cdc.gov/travel/page/children/",
+        "note": "U.S. CDC Travelers Health overview for traveling with children."
+      },
+      {
+        "label": "CDC Yellow Book infants and children",
+        "url": "https://www.cdc.gov/yellow-book/hcp/family-travel/traveling-safely-with-infants-and-children.html",
+        "note": "CDC Yellow Book chapter on traveling safely with infants and children, including air travel restraints."
+      },
+      {
+        "label": "FAA Kids Corner",
+        "url": "https://www.faa.gov/travelers/kids-corner",
+        "note": "FAA public guidance urging approved child restraint systems for young children on aircraft."
+      },
+      {
+        "label": "AAP HealthyChildren flying with baby",
+        "url": "https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Flying-with-Baby.aspx",
+        "note": "American Academy of Pediatrics public page on flying with infants, restraints, and airline bassinets."
       }
     ]
   },
@@ -776,36 +820,6 @@
         "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
-      }
-    ]
-  },
-  {
-    "slug": "connecting-flights-seat-strategy",
-    "title": "Connecting flights: seat strategy that saves stress",
-    "description": "Where to sit when you have a tight connection \u2014 forward rows, aisle access, and when to avoid the rear cabin.",
-    "body": [
-      "Tight connections reward seats that deplane sooner. On many jets that means forward cabin rows and aisle seats \u2014 you clear the jet bridge before the rear cabin has stood up.",
-      "Avoid the last few rows when your connection is short. Rear cabins often leave last, and lavatory queues can block the aisle just as you need to move.",
-      "Aisle seats beat windows for connections: you are not trapped by a sleeping neighbor when the seat-belt sign turns off. If you also want rest on a long first leg, consider a window for that segment and an aisle for the tight one.",
-      "Exit-row and preferred forward seats may be worth the fee when the alternative is missing a once-a-day international connection. Compare the seat fee against change fees and hotel risk.",
-      "If you travel with a carry-on that must be overhead, board early enough to keep it near you \u2014 a forward seat does not help if your bag is ten rows back.",
-      "Use Pick Your Row seat maps to spot forward vs rear geometry, then pick on the airline\u2019s booking tool for the exact flight. Layouts vary by registration; our scores are editorial planning aids only."
-    ],
-    "sources": [
-      {
-        "label": "Your Europe \u2014 Air passenger rights",
-        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
-        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
-      },
-      {
-        "label": "U.S. DOT \u2014 Fly Rights",
-        "url": "https://www.transportation.gov/airconsumer/fly-rights",
-        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
-      },
-      {
-        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
-        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
-        "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
       }
     ]
   },
@@ -928,16 +942,19 @@
   },
   {
     "slug": "red-eye-seat-strategy",
-    "title": "Red-eye seat strategy: sleep, noise, and overnight tradeoffs",
-    "description": "How to pick seats on overnight flights \u2014 window vs aisle, avoiding lav and galley noise, and forward vs rear cabin tradeoffs for rest.",
+    "title": "Red eye seat strategy: sleep, noise, and overnight tradeoffs",
+    "description": "How to pick seats on a red eye. Compare window and aisle, avoid lavatory and galley noise, and weigh forward versus rear cabin choices for rest. This page is for shorter overnight flights, not long haul wide body sectors.",
     "body": [
-      "Red-eyes reward sleep more than views. A window seat lets you lean against the sidewall and control the shade; an aisle seat helps if you need multiple bathroom trips or a quick exit on landing. Pick based on whether rest or mobility matters more that night.",
-      "Avoid seats next to lavatories and galleys when you can. Overnight cabin traffic concentrates around those nodes, and light and conversation spill into adjacent rows even when the main cabin is dark.",
-      "Forward cabins often feel quieter and deplane sooner \u2014 useful if you have an early meeting. Rear cabins can be noisier near engines or aft galleys on some types, but may empty later if you want a slower wake-up. Check Pick Your Row facility markers for lav and galley placement before you pay for a \u201cquiet\u201d row.",
-      "Bulkhead and exit-row seats trade under-seat storage and sometimes harder shell walls for legroom. On a red-eye, legroom helps stretch, but missing under-seat storage means everything goes overhead \u2014 awkward if you want water, earplugs, or a jacket at 3 a.m.",
-      "Dress in layers and bring a reliable eye mask and earplugs or noise-cancelling headphones. Seat position cannot fix a bright cabin or chatty neighbors, but it can reduce how often you are bumped by aisle traffic.",
-      "If you connect after a red-eye, bias toward aisle and forward rows on the overnight segment so you can deplane without waking a full row. Pair that with a window on a daytime leisure segment if you prefer rest then.",
-      "Always re-check the airline\u2019s live map: overnight equipment swaps are common, and our schematics are illustrative typical layouts, not a guarantee for your registration."
+      "Red eye flights reward sleep more than views. A window seat lets you lean against the sidewall and control the shade. An aisle seat helps if you need several bathroom trips or a quick exit on landing. Pick based on whether rest or mobility matters more that night.",
+      "This is planning commentary, not medical advice. Sleep needs vary. If you have a health condition, follow clinician guidance. Seat position is a comfort tool, not a treatment.",
+      "Avoid seats next to lavatories and galleys when you can. Overnight cabin traffic concentrates around those spots, and light and conversation spill into adjacent rows even when the main cabin is dark.",
+      "Forward cabins often feel quieter, and you leave the plane sooner, which helps if you have an early meeting. Rear cabins can be noisier near engines or aft galleys on some aircraft, but they may empty later if you want a slower wake up. Check Pick Your Row facility markers for lavatory and galley placement before you pay for a quiet row.",
+      "Bulkhead seats can help with open space, and some support bassinets. They can also hurt sleep through limited foot room, bassinet noise, brighter light during service, and little or no under seat storage. Exit row legroom helps you stretch, but hard armrests, cooler air near doors, and crew briefings can reduce rest. Choose those rows for space, not for guaranteed sleep.",
+      "Dress in layers. Bring a reliable eye mask plus earplugs or noise cancelling headphones. Eastbound overnight sectors often reward earlier sleep. A westbound red eye can feel shorter. Either way, caffeine timing and an eye mask matter more than a perfect row number.",
+      "If you share the row with a young child, agree who gets the aisle for bathroom runs. A window and an aisle in the same row usually works better than two windows far apart.",
+      "If you connect after a red eye, favor an aisle and a forward row on that overnight segment so you can leave without waking a full row. On a daytime leisure segment, a window is often the better rest pick.",
+      "This page is for domestic and other shorter red eye flights. A long haul overnight, usually a wide body sector of many hours with a full service cycle, is a different choice. Use the [overnight long haul seat strategy](/guides/overnight-long-haul-seat-strategy/) guide for that trip.",
+      "Always recheck the airline live map. Overnight equipment swaps are common, and our schematics are illustrative typical layouts, not a guarantee for your registration."
     ],
     "sources": [
       {
@@ -959,6 +976,26 @@
         "label": "IATA \u2014 Passenger experience overview",
         "url": "https://www.iata.org/en/programs/passenger/",
         "note": "IATA industry passenger programs hub (high-level; not a seat map)."
+      },
+      {
+        "label": "CDC Travelers Health jet lag",
+        "url": "https://wwwnc.cdc.gov/travel/page/jet-lag",
+        "note": "U.S. CDC Travelers Health page on jet lag (public health information)."
+      },
+      {
+        "label": "NHS Jet lag",
+        "url": "https://www.nhs.uk/conditions/jet-lag/",
+        "note": "UK NHS overview of jet lag symptoms and general advice."
+      },
+      {
+        "label": "FAA fatigue resources",
+        "url": "https://www.faa.gov/about/initiatives/maintenance_hf/fatigue",
+        "note": "FAA fatigue related public resources (aviation human factors context)."
+      },
+      {
+        "label": "CDC Traveling with Children",
+        "url": "https://wwwnc.cdc.gov/travel/page/children/",
+        "note": "CDC children travel page for family context on overnight sectors (non medical seat planning only)."
       }
     ]
   },
@@ -1323,117 +1360,6 @@
     ]
   },
   {
-    "slug": "bassinet-rows-and-family-seating",
-    "title": "Bassinet rows and family seating: tradeoffs that matter",
-    "description": "How bulkhead bassinet rows, adjacent family blocks, and child restraint seats trade comfort for access, noise, and safety planning on family flights.",
-    "body": [
-      "This is planning commentary, not medical advice. Airline bassinet rules, age and weight limits, and child restraint policies vary. Confirm with your carrier before you book.",
-      "Bassinet or sky cot rows usually sit at a bulkhead. That can mean a flat place for a small infant to rest during cruise, and it can also mean no under seat storage in front of you, a fixed bassinet shelf, and more aisle traffic.",
-      "Family seating works best when adults and children sit in the same row or directly across an aisle. Splitting across a cabin for a window view often costs more stress than it saves when a toddler needs help.",
-      "A ticketed seat with an approved child restraint is the safer planning default for infants when your airline and aircraft allow it. Lap travel is widely permitted under age two in many jurisdictions, yet it is a weaker option in turbulence.",
-      "Exit rows are the wrong place for bassinets, car seats, and passengers who cannot perform exit duties. Crew will move you if the row is restricted. Plan family blocks away from exits unless every adult qualifies and wants that duty.",
-      "Bulkhead bassinet zones can be noisy. Galleys, lavs, and boarding queues often sit nearby. If sleep for adults matters as much as the bassinet, compare a quiet mid cabin window block with a paid bassinet request.",
-      "Request bassinets early and treat them as limited. Many aircraft carry only one or two. Have a backup plan with a ticketed infant seat or lap policies if the bassinet is already assigned.",
-      "Pick Your Row bulkhead and near lav tags are editorial heuristics. Always recheck the airline seat map and infant policy for your exact flight."
-    ],
-    "sources": [
-      {
-        "label": "CDC Traveling with Children",
-        "url": "https://wwwnc.cdc.gov/travel/page/children/",
-        "note": "U.S. CDC Travelers Health overview for traveling with children."
-      },
-      {
-        "label": "CDC Yellow Book infants and children",
-        "url": "https://www.cdc.gov/yellow-book/hcp/family-travel/traveling-safely-with-infants-and-children.html",
-        "note": "CDC Yellow Book chapter on traveling safely with infants and children, including air travel restraints."
-      },
-      {
-        "label": "FAA Kids Corner",
-        "url": "https://www.faa.gov/travelers/kids-corner",
-        "note": "FAA public guidance urging approved child restraint systems for young children on aircraft."
-      },
-      {
-        "label": "AAP HealthyChildren flying with baby",
-        "url": "https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Flying-with-Baby.aspx",
-        "note": "American Academy of Pediatrics public page on flying with infants, restraints, and airline bassinets."
-      }
-    ]
-  },
-  {
-    "slug": "window-versus-aisle-tradeoffs",
-    "title": "Window versus aisle: classic seat tradeoffs",
-    "description": "A practical comparison of window and aisle seats for sleep, views, bathroom access, boarding friction, and exit row duties.",
-    "body": [
-      "Window seats win on views, wall lean sleep, and fewer aisle bumps. You also control the shade, which matters on daytime sectors when you want darkness or daylight on purpose.",
-      "Aisle seats win on bathroom access, stretch breaks, and faster deplaning. The cost is elbows in the aisle, service carts, and more interruptions when neighbors need to leave.",
-      "Middle seats are the compromise nobody loves on dense 3 by 3 cabins. If you must take one, pick a quieter mid cabin row away from lavs and galleys when the map allows.",
-      "Exit row aisles can look perfect until you remember the duty. On many airlines you must be able and willing to assist. If you are unsure, choose a standard aisle instead.",
-      "Couples often split a window and aisle across a two seat block, or take aisle and window with a stranger in the middle hoping it stays empty. That bet fails often on full flights.",
-      "Overnight sleepers usually prefer a window they can brace against. Daytime meeting travelers often prefer an aisle so they can stand without climbing over someone.",
-      "Cabin position still matters more than the letter alone. A quiet window beside a lav can feel worse than an aisle in a calm mid cabin zone.",
-      "Use Pick Your Row window, aisle, quiet, and near lav tags as a first pass, then confirm facilities on your airline map before you pay for a seat."
-    ],
-    "sources": [
-      {
-        "label": "FAA passenger safety briefing AC 121-24E",
-        "url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_121-24E.pdf",
-        "note": "FAA advisory circular on passenger safety information briefings and exit seating expectations."
-      },
-      {
-        "label": "FAA exit seating report excerpt",
-        "url": "https://www.faa.gov/sites/faa.gov/files/2022-05/PL_115-254_Sec_323_Safety_of_Unoccupied_Exit_Rows.pdf",
-        "note": "FAA public report discussing exit seat duties under 14 CFR 121.585."
-      },
-      {
-        "label": "EU Your Europe air passenger rights",
-        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
-        "note": "Official EU Your Europe overview of air passenger rights for European flying."
-      },
-      {
-        "label": "IATA passenger experience overview",
-        "url": "https://www.iata.org/en/programs/passenger/",
-        "note": "IATA passenger programs overview (industry context for cabin and passenger processes)."
-      }
-    ]
-  },
-  {
-    "slug": "overnight-red-eye-seat-picks",
-    "title": "Overnight red eye seat picks: sleep first heuristics",
-    "description": "Non medical seat heuristics for overnight and red eye flights, focused on quiet zones, window braces, lav distance, and light control.",
-    "body": [
-      "This is planning commentary, not medical advice. Sleep needs and jet lag responses vary. If you have health conditions, follow clinician guidance rather than seat blogs.",
-      "On a red eye, sleep opportunity beats scenery. A window you can lean on in a dark, low traffic zone usually beats an aisle with perfect movie angles.",
-      "Avoid seats beside lavs and galleys when the map shows them. Overnight traffic to those areas wakes light sleepers more than daytime flights do.",
-      "Bulkheads help some people with space and bassinet access. They hurt others with footrest limits, bassinet noise, or bright cross cabin lighting during service.",
-      "Exit row legroom helps stretch, yet hard armrests, cooler air near doors, and crew briefings can reduce sleep quality. Choose them for stretch, not for guaranteed rest.",
-      "Eastbound overnight sectors often reward earlier sleep. Westbound red eyes can feel shorter. Either way, caffeine timing and an eye mask matter more than a perfect row number.",
-      "If you share a cabin with a young child, agree who gets the aisle for bathroom runs. Splitting window and aisle across a row often works better than two windows far apart.",
-      "Pick Your Row quiet and rear tags are editorial heuristics. Recheck your airline map, then build a rest plan around your ticketed cabin class."
-    ],
-    "sources": [
-      {
-        "label": "CDC Travelers Health jet lag",
-        "url": "https://wwwnc.cdc.gov/travel/page/jet-lag",
-        "note": "U.S. CDC Travelers Health page on jet lag (public health information)."
-      },
-      {
-        "label": "NHS Jet lag",
-        "url": "https://www.nhs.uk/conditions/jet-lag/",
-        "note": "UK NHS overview of jet lag symptoms and general advice."
-      },
-      {
-        "label": "FAA fatigue resources",
-        "url": "https://www.faa.gov/about/initiatives/maintenance_hf/fatigue",
-        "note": "FAA fatigue related public resources (aviation human factors context)."
-      },
-      {
-        "label": "CDC Traveling with Children",
-        "url": "https://wwwnc.cdc.gov/travel/page/children/",
-        "note": "CDC children travel page for family context on overnight sectors (non medical seat planning only)."
-      }
-    ]
-  },
-  {
     "slug": "connecting-flight-seat-strategy",
     "title": "Connecting flight seat strategy: deplane fast without panic",
     "description": "How to pick seats when you have a tight connection, including aisle bias, forward cabin tradeoffs, and time buffers for security and terminal changes.",
@@ -1445,6 +1371,9 @@
       "Checked bags follow a different clock than you do. Seat choice cannot fix a missed bag transfer. Prefer carry on only when itineraries are fragile and your airline allows it.",
       "Exit rows help some people stand early, yet they can board later and come with duties. For pure connection risk, a standard forward aisle is often simpler.",
       "Families should keep adults and children together even on connection days. Splitting to grab scattered forward seats can cost more time at the gate than it saves on arrival.",
+      "Avoid the last few rows when the connection is short. Rear cabins often leave last, and a lavatory queue can block the aisle just as you need to move.",
+      "A paid seat near the front, or an extra legroom row, can be worth the fee when the alternative is missing a once a day international connection. Compare that fee with change fees and the cost of a missed hotel night.",
+      "If your carry on must stay in the overhead bin, board early enough to keep it near your row. A forward seat does not help if the bag is ten rows behind you.",
       "Use Pick Your Row aisle and forward leaning picks on inbound connection legs, then switch to sleep oriented window picks on the long overnight segment when the itinerary allows."
     ],
     "sources": [
@@ -1467,6 +1396,21 @@
         "label": "IATA passenger experience overview",
         "url": "https://www.iata.org/en/programs/passenger/",
         "note": "IATA passenger programs overview (industry context for passenger journey processes)."
+      },
+      {
+        "label": "Your Europe \u2014 Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+      },
+      {
+        "label": "U.S. DOT \u2014 Fly Rights",
+        "url": "https://www.transportation.gov/airconsumer/fly-rights",
+        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
+        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
+        "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
       }
     ]
   },
