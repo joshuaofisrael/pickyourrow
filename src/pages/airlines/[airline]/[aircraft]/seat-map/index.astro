@@ -23,6 +23,79 @@ const { airline, config } = resolved;
 const tops = topSeats(config, 5);
 const bestSeatsHref = `/best-seats/${airline.slug}/${acParam}/`;
 const cabinSummary = config.cabins.map((c) => c.label).join(', ');
+const highlightIds = tops.map((s) => s.seatId).join(', ') || 'none listed';
+const exitLabel = config.exitRows.length ? config.exitRows.join(', ') : 'none marked';
+const layout = layoutString(config);
+
+/** Visible FAQ and FAQPage schema share this copy so the markup matches the page. */
+const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
+  {
+    question: `How do I read this ${airline.name} ${config.aircraftType} seat map?`,
+    parts: [
+      {
+        text: `Read rows from the nose toward the tail. Seat letters sit in blocks, and the gaps between blocks are aisles. On this ${airline.name} ${config.aircraftType} schematic the economy style layout is ${layout}. Cabins shown: ${cabinSummary}. About ${config.totalSeatsApprox} seats are drawn. Green seats (${highlightIds}) are sample editorial picks, not a held reservation. Match the row on your boarding pass to this drawing, then confirm the live map with the airline.`,
+      },
+    ],
+  },
+  {
+    question: `Is this the official ${airline.name} seat map?`,
+    parts: [
+      {
+        text: `No. This is an original illustrative schematic, not the official ${airline.name} diagram. Pick Your Row is not affiliated with ${airline.name}. The drawing uses publicly known typical configuration facts so you can see cabin shape before you book. If the airline map and this page disagree, trust the airline. How scores differ from regulatory facts is explained in the `,
+      },
+      { text: 'methodology', href: '/methodology/' },
+      { text: '.' },
+    ],
+  },
+  {
+    question: `Do all ${config.aircraftType} aircraft use this layout?`,
+    parts: [
+      {
+        text: `${config.configNote} Exit rows marked here: ${exitLabel}. Treat this ${airline.name} ${config.aircraftType} map as one typical example. Another registration can move galleys, lavatories, or row counts.`,
+      },
+    ],
+  },
+  {
+    question: 'Which seats are highlighted and why?',
+    parts: [
+      {
+        text: `Green seats on this schematic are sample editorial picks: ${highlightIds}. The highlight flags seats our heuristic ranks highly for space or position on this drawing, often an exit row, a bulkhead, a window, or an aisle. It is an opinion for planning, not an airline assignment. Full rationale is on the `,
+      },
+      {
+        text: `best seats page for this ${airline.name} ${config.aircraftType}`,
+        href: bestSeatsHref,
+      },
+      { text: '.' },
+    ],
+  },
+  {
+    question: 'Where are the exit rows on this schematic?',
+    parts: [
+      {
+        text: `Exit rows drawn on this ${airline.name} ${config.aircraftType} seat map: ${exitLabel}. They show where extra space often sits on this typical layout. Carriers set their own exit seat rules. If you cannot assist in an evacuation, pick a different row. Context for those rules is in the `,
+      },
+      { text: 'methodology', href: '/methodology/' },
+      { text: ' and on the ' },
+      { text: 'best seats page', href: bestSeatsHref },
+      { text: '.' },
+    ],
+  },
+  {
+    question: 'How do I confirm my aircraft before flying?',
+    parts: [
+      {
+        text: `After you book, the ticket or the ${airline.name} app usually names the aircraft type, and that type can still change. Match it to this ${config.aircraftType} page, then open the airline seat map for your flight. A checklist lives in the guide on `,
+      },
+      {
+        text: 'how to verify your aircraft type',
+        href: '/guides/how-to-verify-your-aircraft-type/',
+      },
+      {
+        text: '. If that airline map disagrees with this schematic, trust the airline. Configurations vary by registration.',
+      },
+    ],
+  },
+];
 
 const pagePath = `/airlines/${airline.slug}/${acParam}/seat-map/`;
 const jsonLd = [
@@ -43,6 +116,18 @@ const jsonLd = [
       { '@type': 'ListItem', position: 3, name: airline.name, item: `https://pickyourrow.com/airlines/${airline.slug}/` },
       { '@type': 'ListItem', position: 4, name: `${config.aircraftType} seat map`, item: `https://pickyourrow.com${pagePath}` },
     ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.parts.map((p) => p.text).join(''),
+      },
+    })),
   },
 ];
 
@@ -130,6 +215,18 @@ const related = relatedGuides(config.slug);
       <li><a href="/methodology/">Methodology</a> explains editorial scores versus regulatory facts.</li>
       <li><a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/disclosure/">Affiliate disclosure</a></li>
     </ul>
+
+    <h2>Seat map FAQ</h2>
+    <div class="prose faq-block">
+      {faqs.map((f) => (
+        <div>
+          <h3>{f.question}</h3>
+          <p>
+            {f.parts.map((p) => (p.href ? <a href={p.href}>{p.text}</a> : p.text))}
+          </p>
+        </div>
+      ))}
+    </div>
 
     <h2>Related reading</h2>
     <ul class="clean">
