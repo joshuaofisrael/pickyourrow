@@ -1,10 +1,28 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getUniqueAircraftTypes } from '../../data';
+import { breadcrumbItemList } from '../../lib/schema';
 
 const types = getUniqueAircraftTypes().sort((a, b) => a.label.localeCompare(b.label));
+
+const jsonLd = breadcrumbItemList({
+  crumbs: [
+    { name: 'Home', path: '/' },
+    { name: 'Aircraft', path: '/aircraft/' },
+  ],
+  listName: 'Aircraft types with cabin schematics',
+  items: types.map((t) => ({
+    name: t.label,
+    path: `/aircraft/${t.typeSlug}/`,
+  })),
+});
 ---
-<BaseLayout title="Aircraft types directory: cabin schematics by jet" description="Browse aircraft families and typical cabin schematics. Compare airline configs for the same type. Original SVGs only. Illustrative layouts vary by registration.">
+<BaseLayout
+  title="Aircraft types directory: cabin schematics by jet"
+  description="Browse aircraft families and typical cabin schematics. Compare airline configs for the same type. Original SVGs only. Illustrative layouts vary by registration."
+  canonicalPath="/aircraft/"
+  jsonLd={jsonLd}
+>
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / Aircraft</nav>
     <h1 class="page-title">Aircraft types</h1>
