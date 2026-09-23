@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getUniqueAircraftTypes, layoutString } from '../../data';
 import { aircraftUrlParam } from '../../lib/resolve';
+import { breadcrumbItemList } from '../../lib/schema';
 
 export function getStaticPaths() {
   return getUniqueAircraftTypes().map((t) => ({ params: { type: t.typeSlug } }));
@@ -9,15 +10,50 @@ export function getStaticPaths() {
 
 const { type } = Astro.params;
 const entry = getUniqueAircraftTypes().find((t) => t.typeSlug === type)!;
+const pagePath = `/aircraft/${entry.typeSlug}/`;
+
+const jsonLd = breadcrumbItemList({
+  crumbs: [
+    { name: 'Home', path: '/' },
+    { name: 'Aircraft', path: '/aircraft/' },
+    { name: entry.label, path: pagePath },
+  ],
+  listName: `${entry.label} cabin configs`,
+  items: entry.configs.map((c) => {
+    const airline = airlines.find((a) => a.slug === c.airlineSlug)!;
+    const ap = aircraftUrlParam(c);
+    return {
+      name: c.name,
+      path: `/airlines/${airline.slug}/${ap}/seat-map/`,
+    };
+  }),
+});
 ---
 <BaseLayout
   title={`${entry.label} seat maps`}
-  description={`Original schematic cabin maps for ${entry.label} configurations on Pick Your Row.`}
+  description={`Original schematic cabin maps for ${entry.label} configurations on Pick Your Row. Illustrative layouts vary by registration and subfleet.`}
+  canonicalPath={pagePath}
+  jsonLd={jsonLd}
 >
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/aircraft/">Aircraft</a> / {entry.label}</nav>
     <h1 class="page-title">{entry.label}</h1>
-    <p class="note info">Illustrative schematics only. The same type often flies with different interiors by airline and registration.</p>
+    <p class="lede">
+      These cards are original illustrative schematics for a typical {entry.label} cabin.
+      The same type often flies with different interiors by airline, registration, and subfleet, so treat every map as a planning sketch.
+      Confirm the aircraft and the live seat map with your carrier before you pay for a row.
+      See <a href="/methodology/">Methodology</a>, plus
+      <a href="/guides/exit-row-tips/">exit row tips</a>,
+      <a href="/guides/how-pickyourrow-scores-work/">how Pick Your Row scores work</a>,
+      <a href="/guides/seat-map-glossary/">the seat map glossary</a>, and
+      <a href="/guides/how-to-verify-your-aircraft-type/">how to verify your aircraft type</a>.
+    </p>
+    <nav class="hub-links" aria-label="Related hubs">
+      <a href="/airlines/">Airlines</a>
+      <a href="/best-seats/">Best seats</a>
+      <a href="/guides/">Guides</a>
+      <a href="/methodology/">Methodology</a>
+    </nav>
     <div class="grid cols-2">
       {entry.configs.map((c) => {
         const airline = airlines.find((a) => a.slug === c.airlineSlug)!;

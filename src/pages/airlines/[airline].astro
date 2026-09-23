@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline, layoutString } from '../../data';
 import { aircraftUrlParam } from '../../lib/resolve';
+import { breadcrumbItemList } from '../../lib/schema';
 import guides from '../../data/guides.json';
 
 export function getStaticPaths() {
@@ -11,10 +12,29 @@ export function getStaticPaths() {
 const { airline: slug } = Astro.params;
 const airline = airlines.find((a) => a.slug === slug)!;
 const configs = getAircraftByAirline(slug!);
+const pagePath = `/airlines/${airline.slug}/`;
+
+const jsonLd = breadcrumbItemList({
+  crumbs: [
+    { name: 'Home', path: '/' },
+    { name: 'Airlines', path: '/airlines/' },
+    { name: airline.name, path: pagePath },
+  ],
+  listName: `${airline.name} cabin configs`,
+  items: configs.map((c) => {
+    const ap = aircraftUrlParam(c);
+    return {
+      name: `${airline.name} ${c.aircraftType}`,
+      path: `/airlines/${airline.slug}/${ap}/seat-map/`,
+    };
+  }),
+});
 ---
 <BaseLayout
   title={`${airline.name} seat maps and best seats`}
   description={`Original schematic cabin maps and editorial best seats for typical ${airline.name} aircraft. Illustrative configs. Not affiliated with ${airline.name}.`}
+  canonicalPath={pagePath}
+  jsonLd={jsonLd}
 >
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/airlines/">Airlines</a> / {airline.name}</nav>

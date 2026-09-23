@@ -1,8 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline } from '../../data';
+import { breadcrumbItemList } from '../../lib/schema';
+
+const jsonLd = breadcrumbItemList({
+  crumbs: [
+    { name: 'Home', path: '/' },
+    { name: 'Airlines', path: '/airlines/' },
+  ],
+  listName: 'Airlines with cabin schematics',
+  items: airlines.map((a) => ({
+    name: a.name,
+    path: `/airlines/${a.slug}/`,
+  })),
+});
 ---
-<BaseLayout title="Airlines directory: seat maps by carrier" description="Browse original cabin schematics by airline. Pick a carrier, open a seat map or best seats page, then use the booking placeholder when ready. Not affiliated with any airline.">
+<BaseLayout
+  title="Airlines directory: seat maps by carrier"
+  description="Browse original cabin schematics by airline. Pick a carrier, open a seat map or best seats page, then use the booking placeholder when ready. Not affiliated with any airline."
+  canonicalPath="/airlines/"
+  jsonLd={jsonLd}
+>
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / Airlines</nav>
     <div class="section-head">
