@@ -80,15 +80,15 @@ const countParts: { text: string; href?: string }[] =
   configCount === 0
     ? [
         {
-          text: `This page shows 0 illustrative configs for ${airline.name} (IATA code ${airline.iata}). A seat map will appear here after a cabin is drawn. Until then, confirm any seat with ${airline.name}.`,
+          text: `This page shows 0 illustrative configs for ${airline.name}, IATA code ${airline.iata}. A seat map will appear here after a cabin is drawn. Until then, confirm any seat with ${airline.name}.`,
         },
       ]
     : [
         {
           text:
             configCount === 1
-              ? `This page shows 1 illustrative config for ${airline.name} (IATA code ${airline.iata}): ${typeList}. Drawn seat counts run ${seatPhrase}. Open the card for the cabin sketch. The drawing is the `
-              : `This page shows ${configCount} illustrative configs for ${airline.name} (IATA code ${airline.iata}): ${typeList}. Drawn seat counts run ${seatPhrase}. Open a card for the cabin sketch. One example is the `,
+              ? `This page shows 1 illustrative config for ${airline.name}, IATA code ${airline.iata}: ${typeList}. Drawn seat counts run ${seatPhrase}. Open the card for the cabin sketch. The drawing is the `
+              : `This page shows ${configCount} illustrative configs for ${airline.name}, IATA code ${airline.iata}: ${typeList}. Drawn seat counts run ${seatPhrase}. Open a card for the cabin sketch. One example is the `,
         },
         { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
         { text: '. The same aircraft has a ' },
