@@ -14,21 +14,215 @@ const airline = airlines.find((a) => a.slug === slug)!;
 const configs = getAircraftByAirline(slug!);
 const pagePath = `/airlines/${airline.slug}/`;
 
-const jsonLd = breadcrumbItemList({
-  crumbs: [
-    { name: 'Home', path: '/' },
-    { name: 'Airlines', path: '/airlines/' },
-    { name: airline.name, path: pagePath },
-  ],
-  listName: `${airline.name} cabin configs`,
-  items: configs.map((c) => {
-    const ap = aircraftUrlParam(c);
-    return {
-      name: `${airline.name} ${c.aircraftType}`,
-      path: `/airlines/${airline.slug}/${ap}/seat-map/`,
-    };
+function listNames(names: string[]): string {
+  if (names.length === 0) return '';
+  if (names.length === 1) return names[0];
+  if (names.length === 2) return `${names[0]} and ${names[1]}`;
+  return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+}
+
+/** Economy block pattern in words, so FAQ prose does not add layout hyphens. */
+function blocksPhrase(layout: string): string {
+  const parts = layout.split('-');
+  if (parts.length === 1) return `a single block of ${parts[0]}`;
+  if (parts.length === 2) return `blocks of ${parts[0]} and ${parts[1]}`;
+  return `blocks of ${parts.slice(0, -1).join(', ')}, and ${parts[parts.length - 1]}`;
+}
+
+function economyLayoutSentence(layouts: string[], singularCard: boolean): string {
+  const phrases = layouts.map(blocksPhrase);
+  if (phrases.length === 1) {
+    return singularCard
+      ? `The economy section on this card uses ${phrases[0]}.`
+      : `Every economy section on these cards uses ${phrases[0]}.`;
+  }
+  if (phrases.length === 2) {
+    return `Economy sections on these cards use ${phrases[0]}, or ${phrases[1]}.`;
+  }
+  return `Economy sections on these cards use ${phrases.slice(0, -1).join(', ')}, or ${phrases[phrases.length - 1]}.`;
+}
+
+const configCount = configs.length;
+const example = configs[0];
+const exampleType = example?.aircraftType ?? '';
+const exampleParam = example ? aircraftUrlParam(example) : '';
+const exampleSeatMap = example ? `/airlines/${airline.slug}/${exampleParam}/seat-map/` : '';
+const exampleBest = example ? `/best-seats/${airline.slug}/${exampleParam}/` : '';
+const bestHub = `/best-seats/${airline.slug}/`;
+const typeList = listNames(configs.map((config) => config.aircraftType));
+const seatCounts = configs.map((config) => config.totalSeatsApprox);
+const minSeats = configCount ? Math.min(...seatCounts) : 0;
+const maxSeats = configCount ? Math.max(...seatCounts) : 0;
+const seatPhrase =
+  configCount === 0
+    ? 'no seats drawn yet'
+    : minSeats === maxSeats
+      ? `about ${minSeats} seats`
+      : `about ${minSeats} to ${maxSeats} seats`;
+const layouts = [...new Set(configs.map((config) => layoutString(config)))].sort();
+const findSentence =
+  configCount === 0
+    ? `No illustrative configs are published for ${airline.name} yet.`
+    : configCount === 1
+      ? 'You will find 1 illustrative config, linked to a seat map and a best seats page.'
+      : `You will find ${configCount} illustrative configs, each linked to a seat map and a best seats page.`;
+
+const fleetAnswer =
+  configCount === 0
+    ? `This page does not list a cabin for ${airline.name} yet, so there is nothing here to compare. Aircraft in the real ${airline.name} fleet can still differ by registration.`
+    : configCount === 1
+      ? `This page shows one illustrative ${exampleType} config, with ${seatPhrase}. ${economyLayoutSentence(layouts, true)} That drawing is a typical example, not proof that every ${airline.name} aircraft matches it. Another registration can move galleys, lavatories, or row counts.`
+      : layouts.length === 1
+        ? `The economy block pattern matches on every card here, so that pattern does not vary in this set. Every card uses ${blocksPhrase(layouts[0])}. The cabins are still separate interiors. ${configCount} configs are drawn, and seat counts run ${seatPhrase}. Galleys, lavatories, and exit rows can differ by aircraft type and by registration. Aircraft on this page: ${typeList}.`
+        : `Yes. These ${configCount} configs already disagree on economy layout. ${economyLayoutSentence(layouts, false)} Drawn seat counts run ${seatPhrase}. Aircraft on this page: ${typeList}. Another registration can still change the cabin again.`;
+
+const countParts: { text: string; href?: string }[] =
+  configCount === 0
+    ? [
+        {
+          text: `This page shows 0 illustrative configs for ${airline.name}, IATA code ${airline.iata}. A seat map will appear here after a cabin is drawn. Until then, confirm any seat with ${airline.name}.`,
+        },
+      ]
+    : [
+        {
+          text:
+            configCount === 1
+              ? `This page shows 1 illustrative config for ${airline.name}, IATA code ${airline.iata}: ${typeList}. Drawn seat counts run ${seatPhrase}. Open the card for the cabin sketch. The drawing is the `
+              : `This page shows ${configCount} illustrative configs for ${airline.name}, IATA code ${airline.iata}: ${typeList}. Drawn seat counts run ${seatPhrase}. Open a card for the cabin sketch. One example is the `,
+        },
+        { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
+        { text: '. The same aircraft has a ' },
+        { text: 'best seats page', href: exampleBest },
+        { text: '.' },
+      ];
+
+const pickParts: { text: string; href?: string }[] =
+  configCount === 0
+    ? [
+        {
+          text: `No ${airline.name} seat map is published here yet, so do not choose a row from a guess. Confirm the live map with ${airline.name}. Scoring rules are in the `,
+        },
+        { text: 'methodology', href: '/methodology/' },
+        { text: '.' },
+      ]
+    : [
+        {
+          text:
+            configCount === 1
+              ? `Open the card above, then read that seat map before you pay for a row. Extra space often sits at an exit or a bulkhead, and ${airline.name} sets the rules and the fee. A window or an aisle is a preference. Highlights on Pick Your Row are opinions for planning, not a seat the airline is holding for you. The shortlist for this drawing is the `
+              : `Match a card above to the aircraft on your ticket, then read that seat map before you pay for a row. Extra space often sits at an exit or a bulkhead, and ${airline.name} sets the rules and the fee. A window or an aisle is a preference. Highlights on Pick Your Row are opinions for planning, not a seat the airline is holding for you. Browse every shortlist on the `,
+        },
+        {
+          text: `best seats page for ${airline.name}`,
+          href: configCount === 1 ? exampleBest : bestHub,
+        },
+        ...(configCount === 1
+          ? []
+          : [
+              { text: '. One worked example is the ' },
+              { text: `${airline.name} ${exampleType} best seats page`, href: exampleBest },
+            ]),
+        { text: '. Scoring rules are in the ' },
+        { text: 'methodology', href: '/methodology/' },
+        { text: '. The guide on ' },
+        { text: 'how Pick Your Row scores work', href: '/guides/how-pickyourrow-scores-work/' },
+        { text: ' explains the heuristic.' },
+      ];
+
+/** Visible FAQ and FAQPage schema share this copy so the markup matches the page. */
+const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
+  {
+    question: `What is this ${airline.name} page for?`,
+    parts: [
+      {
+        text: `This page groups the original ${airline.name} cabin schematics on Pick Your Row. ${airline.name} uses IATA code ${airline.iata} and is based in ${airline.country}. ${findSentence} Use it when you already know the carrier and want the aircraft we have drawn for it. If you know the type first, start from the `,
+      },
+      { text: 'aircraft index', href: '/aircraft/' },
+      {
+        text: `. Maps here are illustrative planning sketches. Confirm the aircraft and the live seat map with ${airline.name} before you pay for a row.`,
+      },
+    ],
+  },
+  {
+    question: `Are these official ${airline.name} seat maps?`,
+    parts: [
+      {
+        text: `No. Every drawing on this page is an original illustrative schematic. Pick Your Row is not affiliated with ${airline.name}, and these are not the official ${airline.name} seat maps. If a carrier diagram and a card disagree, trust ${airline.name}. The `,
+      },
+      { text: 'methodology', href: '/methodology/' },
+      { text: ' page explains how editorial scores differ from regulatory facts.' },
+    ],
+  },
+  {
+    question: `How many aircraft configs are shown for ${airline.name}?`,
+    parts: countParts,
+  },
+  {
+    question: `How should I pick a seat on ${airline.name}?`,
+    parts: pickParts,
+  },
+  {
+    question: `Do cabin layouts vary within the ${airline.name} fleet?`,
+    parts: [{ text: fleetAnswer }],
+  },
+  {
+    question: "How do I confirm my flight's aircraft before relying on a map?",
+    parts: [
+      {
+        text: `Your ticket or the ${airline.name} app usually prints the aircraft type, and the assignment can still change before departure. Match that name to a card on this page, then open that seat map. Use the guide on `,
+      },
+      {
+        text: 'how to verify your aircraft type',
+        href: '/guides/how-to-verify-your-aircraft-type/',
+      },
+      {
+        text: `. If ${airline.name} names an aircraft that is not drawn here, use the live airline map instead of a nearby type.`,
+      },
+    ],
+  },
+];
+
+const allowedLabels = [airline.name, airline.iata, ...configs.map((config) => config.aircraftType)]
+  .filter((label) => label.length > 0)
+  .sort((a, b) => b.length - a.length);
+
+for (const item of faqs) {
+  let stripped = `${item.question} ${item.parts.map((part) => part.text).join('')}`;
+  for (const label of allowedLabels) stripped = stripped.split(label).join('');
+  if (/[-–—]/.test(stripped)) {
+    throw new Error(`FAQ prose contains a dash outside airline or aircraft labels (${airline.name}): ${stripped}`);
+  }
+}
+
+const jsonLd = [
+  ...breadcrumbItemList({
+    crumbs: [
+      { name: 'Home', path: '/' },
+      { name: 'Airlines', path: '/airlines/' },
+      { name: airline.name, path: pagePath },
+    ],
+    listName: `${airline.name} cabin configs`,
+    items: configs.map((c) => {
+      const ap = aircraftUrlParam(c);
+      return {
+        name: `${airline.name} ${c.aircraftType}`,
+        path: `/airlines/${airline.slug}/${ap}/seat-map/`,
+      };
+    }),
   }),
-});
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.parts.map((part) => part.text).join(''),
+      },
+    })),
+  },
+];
 ---
 <BaseLayout
   title={`${airline.name} seat maps and best seats`}
@@ -68,6 +262,18 @@ const jsonLd = breadcrumbItemList({
           </article>
         );
       })}
+    </div>
+
+    <h2>Airline FAQ</h2>
+    <div class="prose faq-block">
+      {faqs.map((faq) => (
+        <div>
+          <h3>{faq.question}</h3>
+          <p>
+            {faq.parts.map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
+          </p>
+        </div>
+      ))}
     </div>
 
     <section style="margin-top:2rem">
