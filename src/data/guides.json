@@ -341,33 +341,58 @@
   {
     "slug": "how-to-read-a-seat-map",
     "title": "How to read a seat map",
-    "description": "A plain-English guide to aisles, exit rows, bulkheads, and cabin codes on Pick Your Row schematics.",
+    "description": "A plain English guide to aisles, exit rows, bulkheads, and cabin codes on Pick Your Row schematics.",
     "body": [
-      "Pick Your Row seat maps are original schematic drawings. They are not airline official diagrams and not copies of competitor maps.",
-      "Rows run front-to-back (nose at the top). Seat letters run left-to-right across the cabin as viewed looking forward.",
-      "Gaps between letter groups are aisles. A 3-3 layout means three seats, an aisle, then three seats.",
-      "Exit-row markers highlight doors used in an evacuation. Those seats often have more legroom and sometimes stricter passenger rules.",
-      "Lavatory and galley symbols are abstract markers. Sitting next to them can mean noise, foot traffic, or odors \u2014 our scores flag that as caution, not a ban.",
-      "Every config page notes that layouts vary by registration. Always confirm with your airline before you buy a seat."
+      "Pick Your Row seat maps are original schematic drawings. They are not official airline diagrams, and they are not copies of maps from any other publisher. Use them to learn how a cabin is arranged before you open the carrier tool for the flight you booked. If our drawing and the airline map disagree, trust the airline. We are not affiliated with any carrier. A schematic is a planning sketch, not a seat you have been assigned.",
+      "Rows run from the nose toward the tail, with the front of the aircraft at the top of the page. Seat letters run from left to right as you look forward. On many narrow body jets the left window is A and the right window is F, but the alphabet is not universal. Some cabins skip letters. Some wide body cabins repeat the pattern around a second aisle. Read the letters printed on the map in front of you.",
+      "Gaps between letter groups are aisles. A cabin shown as three seats, a gap, and three seats is a single aisle layout. Three, four, then three, or three, three, then three, are common wide body patterns. Those counts describe geometry, not comfort. The [seat map glossary](/guides/seat-map-glossary/) defines layout strings, pitch, and the other short labels used on these pages.",
+      "Exit markers highlight doors or exits over the wing that would be used in an evacuation. Legroom there is often better than a standard row, and the rules are stricter. For U.S. airlines operating under part 121, 14 CFR 121.585 covers seats with direct access to an exit and seats in the path other people would cross to reach that exit. A passenger under 15 years of age may not sit in those seats. The airline also has to judge whether someone can perform the assist functions, including when that person is caring for a small child. Read [exit row tips](/guides/exit-row-tips/) before you pay, and use the regulation link in the sources on this page.",
+      "A bulkhead is the first row of a cabin section, facing a wall, a divider, or a curtain. Nobody reclines into your knees. That open space is not the same product as an exit row. Bags under the seat are often restricted during taxi, takeoff, and landing, and the tray table may fold out of the armrest. Some of those walls also accept a bassinet. The [bulkhead seats](/guides/bulkhead-seats/) guide covers the surprises that a pretty gap on a map hides.",
+      "Lavatory and galley symbols are abstract markers, not a measured floor plan. Sitting beside them can mean foot traffic, bright light, smells, and cart noise. Our scores treat that as caution, not a ban. A traveler who needs the restroom often may still choose it on purpose. Someone hoping to sleep usually should not. Pair this page with [quiet seats versus convenient seats](/guides/quiet-vs-convenient/) when the map shows both a short walk and a busy service zone.",
+      "A window letter marks the outer seat in a block. It does not promise a clear pane of glass. Over the wing, next to a door, or beside a structural panel, you can hold a window letter and still face a wall. [Window seats and window alignment](/guides/window-alignment/) explains how to think about views on a schematic that was never a pane by pane survey.",
+      "Layouts vary by registration. Airlines retrofit cabins, swap aircraft, and keep more than one interior under the same type name. Confirm the aircraft on your booking, then confirm the live seat map on the day you fly. The [aircraft index](/aircraft/) groups the types we have drawn. If you already know the carrier, start from a hub such as [Delta seat maps](/airlines/delta/) and open the config that matches your ticket.",
+      "Scores on these maps are editorial opinions about space and location. They are not safety ratings, and they are not a promise that an upsell is worth the money. The [methodology](/methodology/) page separates those opinions from the regulatory facts we cite. Open the [best seats index](/best-seats/) for a shortlist, then verify the row with the airline before you pay."
+    ],
+    "faq": [
+      {
+        "question": "Are Pick Your Row seat maps official airline diagrams?",
+        "answer": "No. They are original illustrative schematics. Pick Your Row is not affiliated with any airline. If our drawing and the carrier map disagree, use the carrier map for the seat you buy."
+      },
+      {
+        "question": "What do the gaps between seat letters mean?",
+        "answer": "Gaps are aisles. Three seats, a gap, and three seats is a single aisle cabin. Wider jets add a second aisle and another block of letters. Letters run from left to right as you look toward the nose, and some airlines skip letters."
+      },
+      {
+        "question": "Why are some rows marked as exits?",
+        "answer": "Those markers show doors or exits over the wing that would be used in an evacuation. The space is often larger. On U.S. part 121 flights, federal rules cover who may sit in an exit seat, including a minimum age of 15, and the airline can move you if you do not qualify."
+      },
+      {
+        "question": "Does a window letter guarantee a view?",
+        "answer": "No. A window letter is the outer seat in that block on our schematic. The wing, a door area, or a structural panel can leave you looking at a wall or a partial pane. Check the airline map for your aircraft if the view matters."
+      },
+      {
+        "question": "Do these maps stay the same for every aircraft of that type?",
+        "answer": "No. Two aircraft with the same marketing name can have different cabins after a retrofit or a fleet change. Treat the page as a typical pattern, then confirm the type and the live map with the airline before departure."
+      }
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
         "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }
@@ -376,32 +401,57 @@
   {
     "slug": "exit-row-vs-bulkhead",
     "title": "Exit row vs bulkhead: which is better?",
-    "description": "Editorial comparison of two popular 'extra space' seat types \u2014 and when to avoid each.",
+    "description": "Editorial comparison of two popular extra space seat types, and when to avoid each.",
     "body": [
-      "Exit-row seats usually trade armrest tray tables and under-seat storage for more pitch. Great for taller travelers if you meet the airline's exit-row criteria.",
-      "Bulkhead seats (first row of a cabin) often have solid walls ahead \u2014 no one reclining into you, sometimes bassinet mounts, and occasionally limited under-seat space.",
-      "Near-lav seats score lower in our editorial heuristic because of traffic and noise, even when pitch looks good on paper.",
-      "Window vs aisle is personal: window for rest and views, aisle for easy access. Middles score lower unless you are traveling as a group of three.",
-      "Our scores are editorial opinions for planning, not guarantees. Aircraft change; your booking tools and the airline remain the source of truth."
+      "Exit rows and bulkheads are the two extra space seats people ask for first, and they solve different problems. An exit row usually buys legroom beside a door or an exit over the wing, with a real job attached if something goes wrong. A bulkhead is the first row of a cabin, facing a wall or curtain, so the person ahead cannot recline into you. Neither one is automatically the best seat. Pick the problem you have, then check whether you are allowed to sit there.",
+      "Exit row pitch is often the largest in economy, which is why tall travelers chase it. The same row often removes the usual seatback pocket and puts the tray in the armrest, so the armrest may not lift. Under seat storage may be blocked for taxi, takeoff, and landing so the path stays clear. Some exit seats feel cooler or noisier because they sit against the door. If you want a normal tray, a place for a bag at your feet, and no briefing duty, the extra pitch can be a bad trade even when the map looks generous.",
+      "Eligibility is the part people skip until the gate. For U.S. airlines operating under part 121, 14 CFR 121.585 says the airline may not seat someone in an exit seat when it determines that person is unlikely to perform the assist functions. Passengers under 15 years of age cannot sit there. So is a traveler whose responsibility for a small child would get in the way. You may ask to be moved, and the airline is not supposed to demand your reason. Crew check the row before taxi. Other countries are not copies of that U.S. rule. Ask the airline that sold the ticket. Practical detail lives in [exit row tips](/guides/exit-row-tips/).",
+      "Bulkhead seats trade the recline of the row ahead for a hard boundary. Knee room can feel generous because there is no seatback in your lap, yet the wall or a screen housing can sit closer than you expect once the armrest tray is down. Bags often go into the overhead bin at boarding. On a long flight that is a real cost if you wanted a laptop or medication within reach. Some bulkheads include a bassinet mount. That is useful for a family and noisy for everyone else along the wall. See [bassinet and bulkhead seats](/guides/bassinet-bulkhead-seats/) if you are traveling with an infant, and [bulkhead seats](/guides/bulkhead-seats/) for the storage and tray details.",
+      "Location still matters after you choose the seat type. A bulkhead in front of a galley can be bright all night. An exit row beside a lavatory can have excellent pitch and a constant line of strangers. Our editorial scores lower those seats even when the gap on the map looks luxurious. [Quiet seats versus convenient seats](/guides/quiet-vs-convenient/) is the companion page if sleep matters more than the label printed on the row.",
+      "Match the seat to the person in it. Tall passengers who can accept exit duty often prefer the exit row on a longer flight. Travelers who hate recline in their face, or who need a bassinet, often prefer the bulkhead and should confirm the fitting with the airline. People who want a simple window for a nap should read [aisle versus window](/guides/aisle-vs-window/) before they pay for either special row. A calm standard window beats a noisy extra space seat more often than the upsell suggests.",
+      "Our scores boost clear exit space and bulkhead space, then subtract for galleys, lavatories, and middle letters. That math is an opinion, documented in [how Pick Your Row scores work](/guides/how-pickyourrow-scores-work/). It is not a safety approval and not a guarantee that your aircraft matches the drawing. We publish original schematics and we are not affiliated with the airline that operates your flight.",
+      "Open the [best seats index](/best-seats/) for the carrier and see whether the top rows are exits, bulkheads, or both. Confirm eligibility, bag rules, and the fee in the booking flow. A high score on our page never obliges the carrier to keep you in that seat if crew decide you cannot perform the exit role, or if the aircraft changes."
+    ],
+    "faq": [
+      {
+        "question": "Is an exit row always better than a bulkhead?",
+        "answer": "No. Exit rows usually offer more legroom and come with assist rules, limited under seat bags, and armrest trays. Bulkheads stop the row ahead from reclining and often limit floor storage. The better seat is the one that matches your body, your companions, and the rules you can actually meet."
+      },
+      {
+        "question": "Can I sit in an exit row with a small child?",
+        "answer": "On U.S. part 121 flights, passengers under 15 may not occupy an exit seat, and an adult caring for a small child may be refused that seat as well. Airlines elsewhere set their own restrictions. Expect crew to move you if the row is limited. A bulkhead or a standard row is the usual plan for a family."
+      },
+      {
+        "question": "Which seat is quieter, the exit row or the bulkhead?",
+        "answer": "Whichever one sits away from galleys and lavatories. An exit row next to a lavatory and a bulkhead in front of a galley can both be loud. A standard seat in a calm part of the cabin is often quieter than a famous extra space row in a service zone."
+      },
+      {
+        "question": "Why might a bulkhead feel tighter than it looks?",
+        "answer": "The wall, a closet, or a screen housing can sit closer than a normal seatback once you lower the tray. Armrests that hold the table can also narrow the seat. The open floor in the picture is not the same thing as usable knee room for the whole flight."
+      },
+      {
+        "question": "Do your scores pick a winner between these rows?",
+        "answer": "They do not crown one type. Scores are editorial notes on our schematics. They tend to reward open space and penalize traffic. You still have to meet airline rules, and you still have to confirm the live map because cabins change by aircraft."
+      }
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }
@@ -410,32 +460,62 @@
   {
     "slug": "exit-row-tips",
     "title": "Exit row tips before you select",
-    "description": "What exit-row seats usually mean for space, rules, storage, and who should skip them.",
+    "description": "What exit row seats usually mean for space, rules, storage, and who should skip them.",
     "body": [
-      "Exit-row seats sit beside doors used in an evacuation. Airlines typically require passengers who can assist \u2014 which often excludes infants, some mobility needs, and sometimes pets in cabin.",
-      "Pitch is often better than standard rows. Trade-offs can include armrest tray tables, limited under-seat bags for takeoff/landing, and a cooler feel near the door seals.",
-      "On our schematics, exit rows are marked explicitly and usually score higher in the editorial heuristic for space \u2014 but only if you meet the airline\u2019s criteria.",
-      "Double-check the airline\u2019s exit-row briefing rules at booking time. Policies differ and change.",
-      "Pick Your Row maps are original schematics, not airline manuals. Confirm your exact aircraft with the carrier."
+      "An exit row sits beside a door or an exit over the wing that people would use if the cabin had to be evacuated. Airlines sell the legroom. Regulators and crew care about whether you can help. Those are different questions, and you should answer the second one before you pay for the first. Pick Your Row drawings mark exit rows so you can see them. They are original schematics, not the airline manual, and we are not affiliated with any carrier.",
+      "For U.S. airlines operating under part 121, 14 CFR 121.585 is the public rule, linked below. An exit seat includes a seat with direct access to an exit and a seat in the row people would pass through to reach that exit. The airline may not put you there if it determines you are unlikely to perform the assist functions. The rule states that a passenger under 15 years of age is not suitable. It also covers limited strength or mobility, vision that glasses cannot correct, hearing that a hearing aid cannot cover, the ability to read the safety card and follow oral commands, and a responsibility such as caring for small children. The passenger card at the seat describes the functions, including locating the exit, operating it, judging whether opening it would increase the danger, and moving through it quickly.",
+      "You can ask to be reseated, and the rule says the airline is not supposed to demand your reason. Before taxi or pushback, a crewmember has to verify that exit seats are filled with people who can do the job. If other seats are full, the airline is told to move a willing and able passenger into the exit so you can move out. The rule does not promise a refund of a seat fee. That belongs to the airline contract.",
+      "Canadian, European, and other operators publish their own exit row conditions. If you are unsure you qualify, choose a standard row. A published limit still applies after you have paid a fee.",
+      "Pitch is often larger than the standard economy seat on that airplane, which matters when your knees already meet the seat ahead. The trade is usually storage and furniture. Tray tables often live in the armrest. Seatback pockets may be missing so nothing blocks the path. Personal items may need to go in the overhead bin for taxi, takeoff, and landing. Keep medicine and documents in a pocket you can reach without blocking the row.",
+      "Not every exit row feels the same. A door exit on a wide body can be a true open space next to a colder, louder door. An exit over the wing on a narrow body may show you mostly wing, with a hatch the passenger is expected to handle. Some cabins place two exit rows together. The row with the gap has the legroom. The row ahead of that gap can look special on a fare screen and still face a normal seatback. Read the map instead of buying the cheapest seat with the word exit in the label. [How to read a seat map](/guides/how-to-read-a-seat-map/) shows what those markers mean on our pages.",
+      "Compare the exit row with the bulkhead before you treat them as twins. [Exit row versus bulkhead](/guides/exit-row-vs-bulkhead/) walks through recline, bassinets, and who should skip each one. If you only wanted to escape a reclining seat and you cannot accept exit duty, the bulkhead is usually the honest choice. Families traveling with someone under 15 should plan that bulkhead or a standard row from the start.",
+      "An extra legroom charge does not waive the rule. Our [methodology](/methodology/) explains why a high editorial score for space is not permission to sit there. Evacuation guidance linked below stresses leaving bags behind and following crew.",
+      "On our maps, exit rows are marked and often score well for space in the editorial heuristic described in [how Pick Your Row scores work](/guides/how-pickyourrow-scores-work/). Use that as a shortlist only. Open the [airlines directory](/airlines/) or a concrete hub such as [best seats on Delta](/best-seats/delta/), find the aircraft on your ticket, and confirm the live row with the carrier. Aircraft swaps move exits. A screenshot from yesterday is not the cabin you are boarding."
+    ],
+    "faq": [
+      {
+        "question": "Who should skip an exit row?",
+        "answer": "Skip it if you cannot or do not want to help in an evacuation, if you are under 15, or if you are responsible for a small child. On U.S. part 121 flights those limits come from federal exit seating rules. Other airlines publish their own versions. Crew check the row before taxi and can move you even after you paid."
+      },
+      {
+        "question": "Is the legroom always better in an exit row?",
+        "answer": "It is often better than a standard row on the same airplane, and it is not guaranteed to feel huge. Door exits and exits over the wing differ. In a pair of exit rows, the row that still faces a seatback can miss the benefit. Look at the specific row, not the marketing name."
+      },
+      {
+        "question": "Can I keep a bag under an exit row seat?",
+        "answer": "Often you cannot, at least for taxi, takeoff, and landing, because the path to the exit has to stay clear. Plan to put your carry on in the bin when you board, and keep only what crew allow at your feet. Medication and documents should stay in a pocket you can reach without blocking the row."
+      },
+      {
+        "question": "What happens if the airline moves me out of an exit seat?",
+        "answer": "On U.S. part 121 flights the airline has to relocate you if you are unlikely to perform the functions or if you ask to move, and it is not supposed to demand your reason. Whether the seat fee comes back is an airline policy question. Check the product rules before you buy."
+      },
+      {
+        "question": "Are your exit row marks official?",
+        "answer": "No. Pick Your Row marks exits on original illustrative schematics so you can plan. We are not affiliated with the airline. Confirm the aircraft type and the live seat map with the carrier, because retrofits and swaps change which row is the exit."
+      },
+      {
+        "question": "Does paying for the exit row waive the assist rules?",
+        "answer": "No. A seat fee is a charge from the airline. It does not change the federal criteria on U.S. part 121 flights, and it does not change the exit row policy of any other airline. If you do not want the job, choose a different row before you pay."
+      }
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
         "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
         "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
       }
@@ -444,61 +524,118 @@
   {
     "slug": "window-alignment",
     "title": "Window seats and window alignment",
-    "description": "Why some \u201cwindow\u201d seats have a poor view \u2014 and how to think about alignment on schematics.",
+    "description": "Why some window seats have a poor view, and how to think about alignment on schematics.",
     "body": [
-      "Not every window-letter seat lines up with a window. Overwing areas, door plugs, and structural sections can leave you facing a wall or a partial pane.",
-      "Our maps mark window letters by cabin geometry, not by pane survey. Treat them as letter positions, not guaranteed views.",
-      "If scenery matters, prefer window letters away from wing box rows when you can identify them \u2014 often near mid-cabin exits on narrow-bodies.",
-      "Aisle seats trade the view for easier access. Middles sit between both trade-offs and usually score lower in our heuristic.",
-      "Always verify on the airline\u2019s seat map for your flight: registration-specific interiors can shift window alignment."
+      "A window seat is a letter on the side of the cabin. Alignment is whether that letter sits next to a pane you can see through. Plenty of travelers pay for the outer seat and spend the flight looking at a panel, a door structure, or the top of the wing. If the view is why you wanted the seat, the fare screen rarely answers that question.",
+      "Misalignment is structural. Wings occupy a long stretch of the fuselage. Emergency exits and their surrounds replace glass with hardware. Closets, lavatories, and galleys steal windows on the cabin side of the wall. Seat tracks do not always land on the same spacing as the window frames, so a seat can straddle two panes or miss both. A retrofit that slides a row a few inches can change the view without changing the letter printed on your boarding pass.",
+      "Our maps mark window letters from cabin geometry. We do not survey every pane on every registration. Treat the letter as a position: the outermost seat in that block, useful if you want a sidewall to lean on and a shade to control. Treat the view as unconfirmed until you see the airline map or you know that exact interior. [How to read a seat map](/guides/how-to-read-a-seat-map/) explains the difference between a letter and a symbol on these schematics.",
+      "The view over the wing is the classic disappointment, and it often overlaps the exit rows people book for legroom. You may gain pitch and lose the landscape. Engine covers and flap hardware fill the glass. Some people want that view for photos of the wing. Most people who asked for scenery do not. [Wing versus overwing views](/guides/wing-vs-overwing-views/) goes further on where the wing usually sits. If you only remember one rule, think twice before paying a premium for a window letter in the exit cluster when the view is the point.",
+      "Forward of the wing, the ground often appears earlier in the descent and the pane is more likely to be clear, with two caveats. The first rows can face a bulkhead wall even on the window side, and the doors near the front can skip a window entirely. Aft of the wing, you often clear the structure and then sit closer to rear lavatories. A pretty pane next to a queue is a bad trade if you wanted quiet. [Quiet seats versus convenient seats](/guides/quiet-vs-convenient/) helps when the view and the noise pull in opposite directions.",
+      "Window versus aisle is still a separate choice. The aisle wins when you want to stand without asking anyone to move, and it gives up the view on purpose. The middle seat gives up both. [Aisle versus window](/guides/aisle-vs-window/) is the practical comparison, including overnight flights where a dark window and a sidewall matter more than scenery you will not look at. Sun angle matters on long eastbound and westbound flights. [Sunrise and sunset window seats](/guides/sunrise-and-sunset-window-seats/) covers which side of the aircraft to prefer when you care about light.",
+      "You cannot reliably guess pane alignment from a marketing name alone. Two jets with the same type label can use different seat spacing after a cabin update, which shifts every window relative to the frames. Start with the [aircraft index](/aircraft/) to see the illustrative layout we drew, then match your flight to the live airline map. A carrier page such as [United seat maps](/airlines/united/) is a catalog of typical configs we have sketched, not a promise about the airplane tomorrow.",
+      "U.S. and European consumer pages linked below cover delays, cancellations, denied boarding, and related contract topics. A scenic pane is a seat product detail, not one of those rights. If the view is poor and the seat is the one you selected, the remedy is whatever the airline seat rules allow, which may be nothing at all. Choose the letter with that limit in mind, before you pay.",
+      "Pick Your Row is not affiliated with any airline. Scores that prefer window letters are editorial opinions about position, not proof the glass lines up. When scenery is the goal, pick a window letter away from marked exits and service zones, then confirm the pane on the carrier map."
+    ],
+    "faq": [
+      {
+        "question": "Why do some window seats have no view?",
+        "answer": "The outer letter only means you sit on the side of the cabin. The wing, an exit door, a closet, or a lavatory wall can replace the glass. Seat rows and window frames also drift apart when the airline changes the interior, so a letter that was fine on one aircraft can face a panel on the next."
+      },
+      {
+        "question": "Do your maps show the real windows?",
+        "answer": "No. We mark window letters from the seat layout on an original schematic. We do not draw a pane by pane survey, and we are not affiliated with the airline. Use our page to learn the letter, then confirm the view on the carrier map for your aircraft."
+      },
+      {
+        "question": "Should I avoid window seats over the wing?",
+        "answer": "Avoid them when you want to see the ground or the horizon. They are reasonable if you want exit row space or you like looking at the wing. Many rows over the wing are also exit rows, so read the assist rules before you buy a view you will not get."
+      },
+      {
+        "question": "Is a forward window always the clear one?",
+        "answer": "It is often clearer than a seat over the wing, and it is not automatic. Doors near the front can skip a window, and a bulkhead can put a wall beside you. Rear windows can be clear and still sit next to lavatory traffic."
+      },
+      {
+        "question": "Can I claim a refund if the window does not line up?",
+        "answer": "A scenic pane is not a standard passenger rights guarantee. Consumer pages from U.S. and European authorities cover delays, cancellations, denied boarding, and similar issues. A disappointing window is usually just the seat you bought. Check the airline map before you pay."
+      }
     ],
     "sources": [
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
         "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+      },
+      {
+        "label": "Your Europe Air passenger rights",
+        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
+        "note": "Official EU consumer summary of delay, cancellation, denied boarding, and downgrade rights. A scenic window is outside that list."
       }
     ]
   },
   {
     "slug": "bulkhead-seats",
     "title": "Bulkhead seats: pros and cons",
-    "description": "First-row cabin seats explained \u2014 bassinet notes, foot space, and common surprises.",
+    "description": "First row cabin seats explained, with bassinet notes, foot space, and common surprises.",
     "body": [
-      "Bulkhead seats are the first row of a cabin, facing a wall or curtain. Nobody reclines into you, which many travelers love.",
-      "Under-seat storage may be limited or unavailable for takeoff and landing. Carry-on often has to go in the overhead sooner.",
-      "Some bulkheads have bassinet mounts \u2014 quieter for some, busier for others. Check your airline\u2019s family seating notes if that matters.",
-      "Tray tables may fold from the armrest. Seat width can feel tighter when armrests contain the table mechanism.",
-      "Our editorial scores often boost bulkheads for space and then deduct if they sit next to galleys or lavatories."
+      "A bulkhead seat is the first row of a cabin section. You face a wall, a closet, a screen housing, or a curtain, not another passenger seatback. The person ahead cannot recline into you, because there is no person ahead. That single fact is why people love the row, and why some of them regret it an hour after departure. The picture on a seat map shows open floor. Your knees, your bag, and your tray meet the real furniture.",
+      "Your space does not shrink when someone ahead reclines, because that person is in another cabin or does not exist. On a night flight that can beat a small pitch increase in a standard row. It also does not require you to staff an emergency exit, which is why many people prefer a bulkhead when they cannot accept exit duty. Compare the two in [exit row versus bulkhead](/guides/exit-row-vs-bulkhead/).",
+      "On many bulkheads you cannot keep a bag under the seat during taxi, takeoff, and landing. There may be no seat ahead of you to slide a bag under. What you wanted at your feet goes into the overhead bin while that bin is still filling. If you travel with medicine, a laptop, or a bag for a child, pack a small item that fits the airline rule.",
+      "The seat can feel narrower than the map suggests. Tray tables often come out of the armrest, so the armrest is thicker and may not lift. A screen may sit fixed in the wall, or you may rely on your own device. With the tray down, the wall can meet your knees early. Tall travelers should compare this row with an exit row they are allowed to use. [Exit row tips](/guides/exit-row-tips/) covers that alternative, including age and assist limits on U.S. part 121 flights.",
+      "Bassinet mounts, when the airline offers them, are almost always on a bulkhead. The crib attaches to the wall, and the adult in that seat is usually the person caring for the infant. That is a good arrangement for the family and a noisy one for the stranger who booked the same wall in order to sleep. Age limits, weight limits, and whether the fitting exists at all are airline policy. Not every bulkhead has the hardware. Read [bassinet and bulkhead seats](/guides/bassinet-bulkhead-seats/) before you assume the icon will be on your flight, and confirm it in the carrier booking flow.",
+      "Listen for the galley before you celebrate the wall. A bulkhead in front of a galley gets light, conversation, and cart movement for hours. A bulkhead in front of a quiet cabin divider does not. Our editorial scores often add points for the open space and then remove points when the row is tagged near a galley or a lavatory. The method is explained in [how Pick Your Row scores work](/guides/how-pickyourrow-scores-work/) and on the [methodology](/methodology/) page. The score is an opinion on a schematic. It is not a measurement of noise on your particular flight.",
+      "A bassinet bulkhead keeps an infant off an exit row. On U.S. part 121 flights a passenger under 15 may not occupy an exit seat, and an adult responsible for a small child can be moved too. A standard row where adults and children sit together can still be calmer if the only bulkhead faces the galley. Keep the adults with the child.",
+      "Some travelers find the open floor easier to enter. Others need a movable aisle armrest, and a tray armrest may not lift. Screening help at the airport is separate from which row you sit in. The TSA Cares page in the sources covers that screening help. Confirm armrests and lavatory distance with the carrier.",
+      "Pick Your Row bulkhead marks are illustrative. We are not affiliated with the airline, and two aircraft of the same type can place the wall on different row numbers after a retrofit. Use the [best seats index](/best-seats/) to see which rows we score highly for a given config, then match the aircraft on a carrier page such as [American Airlines seat maps](/airlines/american/). Buy only the row the live map still shows on the day you fly."
+    ],
+    "faq": [
+      {
+        "question": "What is a bulkhead seat?",
+        "answer": "It is the first row of a cabin section, facing a wall, divider, closet, or curtain rather than another seatback. The row ahead cannot recline into you. Storage, tray tables, and sometimes screens differ from a standard row."
+      },
+      {
+        "question": "Can I put a bag under a bulkhead seat?",
+        "answer": "Often you cannot, at least during taxi, takeoff, and landing. Many bulkheads have no open space under a seat in front, because there is no seat in front. Put the carry on in the overhead bin when you board and keep essential items in a small bag the airline allows."
+      },
+      {
+        "question": "Are bulkhead seats a good choice with a baby?",
+        "answer": "They are the usual place an airline mounts a bassinet, when that airline offers one on that aircraft. Limits on age and weight are carrier rules, and not every bulkhead has the hardware. An exit row is the wrong backup on U.S. part 121 flights when the child is under 15 or an adult is responsible for a small child."
+      },
+      {
+        "question": "Why can a bulkhead feel cramped?",
+        "answer": "Armrests may hold the tray and refuse to lift, which narrows the living space. A wall or screen housing can meet your knees once the tray is down. The empty floor in the seat map icon is not a promise of unlimited legroom."
+      },
+      {
+        "question": "Are bulkhead seats quiet?",
+        "answer": "Only when the wall in front of them is quiet. A bulkhead facing a galley or sitting beside a lavatory collects light, voices, and foot traffic. A bulkhead between cabins, away from service areas, is the calmer version. Check the map symbols, not only the word bulkhead."
+      }
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "TSA \u2014 TSA Cares (passengers who need assistance)",
+        "label": "TSA — TSA Cares (passengers who need assistance)",
         "url": "https://www.tsa.gov/travel/tsa-cares",
         "note": "U.S. TSA program and guidance for travelers who need screening assistance (mobility and medical context)."
       }
@@ -507,27 +644,53 @@
   {
     "slug": "quiet-vs-convenient",
     "title": "Quiet seats vs convenient seats",
-    "description": "How to weigh rear boarding convenience, lavatory traffic, and mid-cabin calm when picking a row.",
+    "description": "How to weigh a faster exit, lavatory traffic, and mid cabin calm when picking a row.",
     "body": [
-      "Rear cabin seats can board and deplane later on many jets, but they are often closer to lavatories and galleys \u2014 more foot traffic and noise.",
-      "Forward economy is usually quieter and faster to leave, yet may cost more or be tagged as preferred seating.",
-      "Our heuristic tags near-lav and near-galley seats as caution and rear seats as lower priority unless they are exits or bulkheads.",
-      "If you need the restroom often, sitting close can be convenient \u2014 just expect traffic. If you need sleep, prioritize mid-cabin window seats away from service centers.",
-      "Use the seat map page together with the best-seats list: the map shows location; the scores summarize editorial trade-offs."
+      "Quiet and convenient pull apart on most jets. A convenient seat shortens a walk you will repeat, or it gets you off sooner when a connection is tight. A quiet seat avoids the lavatory queue, the galley lights, and the cart that pauses beside you. You rarely get both. Pick the goal that matters on this flight.",
+      "Rear cabin seats win on one kind of convenience and lose on another. The aft lavatories are often the ones you can reach without walking the length of economy, which matters if you get up often. The same spot means you hear the door, notice the smell, and watch a line form in the aisle. A rear galley adds crew conversation on top of that. [Noise near galleys and lavatories](/guides/noise-near-galleys-and-lavatories/) is the checklist for those symbols before you call a cheap rear seat a bargain.",
+      "Leaving the airplane is the clearer pattern. On most flights the cabin empties from the front, so a forward aisle is the convenient seat when you have a connection or you simply want to be in the terminal. Boarding is less predictable. Some airlines board the rear of economy early. Others board by fare brand, which can put a forward preferred seat on the aircraft before a rear seat. Do not pick a row only because you hope it will be called first. [Forward or aft cabin](/guides/forward-vs-aft-cabin/) is the longer version of the front versus back choice.",
+      "Forward economy is usually calmer and quicker to leave, and it is where airlines put preferred fees on ordinary pitch. You can pay to sit nearer the door and still sit beside a forward galley lavatory. Read the symbols, not only the row number. If sleep is the point, pay for calm rather than for a preferred label.",
+      "A window in the middle of the cabin, away from the wing and the lavatories, is the default on a long flight when you do not need to be first off. Neighbors have to move when you stand, and the bin above you may fill early. In return the aisle is not a permanent queue. [Aisle versus window](/guides/aisle-vs-window/) helps if the only calm seat left is an aisle.",
+      "Exit rows and bulkheads break the simple map, and they do not automatically win on quiet. An exit row can sit in the middle of the cabin and still be busy because people step across that path. A bulkhead can be near the front and bright because it faces the galley. Space and quiet are different questions. [Exit row tips](/guides/exit-row-tips/) and [bulkhead seats](/guides/bulkhead-seats/) cover the furniture, the bags, and the rules. Use them when the map offers extra room in a place that already looks busy.",
+      "On a flight of about an hour, convenience usually wins: an aisle nearer the front, or an exit row if you qualify and the fee is small. On an overnight flight, quiet usually wins unless you need to stay near a lavatory. A cheap seat beside the galley costs sleep. A preferred fee on a very short flight buys a window you may never use.",
+      "Our heuristic tags seats near a lavatory or a galley as caution, and it treats many rear seats as a lower priority unless they are exits or bulkheads with space that fits your goal. A quiet tag points at calmer geometry in the middle of the cabin. None of that is a noise meter. It is an editorial opinion, spelled out in [how Pick Your Row scores work](/guides/how-pickyourrow-scores-work/). The [methodology](/methodology/) page separates those opinions from passenger rights. Consumer rules cover topics such as delays and cancellations. They do not assign you a silent row.",
+      "Use the map and the list together. The seat map shows where the lavatories, galleys, exits, and wings sit. The [best seats index](/best-seats/) sorts our opinion of those seats for each config we have drawn. Start from the [airlines directory](/airlines/) when you know the carrier, open the aircraft, and decide whether you are buying quiet or buying convenience. We draw original schematics. We are not affiliated with the airline. Confirm the live cabin before you pay, because a swap can move the lavatory relative to the row you liked."
+    ],
+    "faq": [
+      {
+        "question": "What is the quietest type of economy seat?",
+        "answer": "Usually a window in the middle of the cabin, away from galleys, lavatories, and busy exit paths. Forward seats can be quiet too, unless they sit against a galley. Rear seats are rarely the calm choice because the aft lavatories and galley draw traffic."
+      },
+      {
+        "question": "When is a convenient seat the better buy?",
+        "answer": "On short flights, when you have a tight connection, or when you need the lavatory often and you accept the noise. An aisle closer to the door also helps if you want to leave the airplane quickly. On a long overnight flight those benefits rarely beat sleep."
+      },
+      {
+        "question": "Are rear seats a bad idea?",
+        "answer": "They are a trade. You may be closer to a lavatory and you may pay less. You will usually hear more traffic and leave the airplane later, because most cabins empty from the front. Boarding order is less consistent and depends on the airline. That mix is useful for some travelers and a poor fit if you planned to sleep."
+      },
+      {
+        "question": "Do exit rows and bulkheads count as quiet seats?",
+        "answer": "Not by default. Extra space does not move a lavatory. An exit row on a busy path and a bulkhead facing a galley can be among the louder seats in economy. Read the nearby symbols before you pay for the legroom."
+      },
+      {
+        "question": "Do your scores measure noise?",
+        "answer": "No. Quiet and caution tags are editorial judgments on an illustrative schematic. They are not decibel readings, and they are not airline promises. Confirm the aircraft and the live map with the carrier before you buy."
+      }
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }

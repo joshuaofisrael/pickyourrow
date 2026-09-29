@@ -38,8 +38,16 @@ function linkParts(text: string): { text: string; href?: string }[] {
     });
 }
 
+type FaqItem = { question: string; answer: string };
+const faqs = ((guide as { faq?: FaqItem[] }).faq ?? []) as FaqItem[];
+
+/** Link targets may contain hyphens. Visible labels and prose may not. */
+function visibleProse(text: string): string {
+  return text.replace(/\[([^\]]+)\]\(\/[^)]+\)/g, '$1');
+}
+
 const pagePath = `/guides/${guide.slug}/`;
-const jsonLd = [
+const jsonLd: Record<string, unknown>[] = [
   {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -71,6 +79,36 @@ const jsonLd = [
     ],
   },
 ];
+
+if (faqs.length > 0) {
+  const chunks: { label: string; text: string }[] = [
+    { label: 'title', text: guide.title },
+    { label: 'description', text: guide.description },
+    ...guide.body.map((text, index) => ({ label: `body ${index + 1}`, text })),
+    ...faqs.flatMap((item, index) => [
+      { label: `faq question ${index + 1}`, text: item.question },
+      { label: `faq answer ${index + 1}`, text: item.answer },
+    ]),
+  ];
+  for (const chunk of chunks) {
+    if (/[-–—]/.test(visibleProse(chunk.text))) {
+      throw new Error(`Guide prose contains a dash (${guide.slug} ${chunk.label})`);
+    }
+  }
+
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  });
+}
 ---
 <BaseLayout title={guide.title} description={guide.description} canonicalPath={pagePath} ogImage={heroImage?.src} jsonLd={jsonLd}>
   <div class="wrap prose">
@@ -94,6 +132,20 @@ const jsonLd = [
         {f.caption && <figcaption>{f.caption}</figcaption>}
       </figure>
     ))}
+
+    {faqs.length > 0 && (
+      <>
+        <h2>FAQ</h2>
+        <div class="faq-block">
+          {faqs.map((item) => (
+            <div>
+              <h3>{item.question}</h3>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </>
+    )}
 
     {sources.length > 0 && (
       <>
