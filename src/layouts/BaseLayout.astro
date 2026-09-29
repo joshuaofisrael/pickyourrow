@@ -32,6 +32,7 @@ const fullTitle = title.includes('Pick Your Row') ? title : `${title} · Pick Yo
     <meta name="description" content={description} />
     {robots && <meta name="robots" content={robots} />}
     <link rel="canonical" href={canonical} />
+    {Astro.url.pathname === "/" && <meta name="google-site-verification" content="hTIjTYsDl1Td5n3dVOUOaVqJe68EqILH_70KmqzerjA" />}
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
