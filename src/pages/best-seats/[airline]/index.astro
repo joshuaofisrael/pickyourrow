@@ -18,6 +18,152 @@ const { configs } = Astro.props;
 const airline = airlines.find((a) => a.slug === slug)!;
 const pagePath = `/best-seats/${airline.slug}/`;
 
+function listNames(names: string[]): string {
+  if (names.length === 0) return '';
+  if (names.length === 1) return names[0];
+  if (names.length === 2) return `${names[0]} and ${names[1]}`;
+  return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+}
+
+/** Economy block pattern in words, so FAQ prose does not add layout hyphens. */
+function blocksPhrase(layout: string): string {
+  const parts = layout.split('-');
+  if (parts.length === 1) return `a single block of ${parts[0]}`;
+  if (parts.length === 2) return `blocks of ${parts[0]} and ${parts[1]}`;
+  return `blocks of ${parts.slice(0, -1).join(', ')}, and ${parts[parts.length - 1]}`;
+}
+
+function shortlistLayoutSentence(layouts: string[], singularCard: boolean): string {
+  const phrases = layouts.map(blocksPhrase);
+  if (phrases.length === 1) {
+    return singularCard
+      ? `The economy block pattern behind this shortlist is ${phrases[0]}.`
+      : `The economy block pattern behind every shortlist here is ${phrases[0]}.`;
+  }
+  if (phrases.length === 2) {
+    return `Economy block patterns behind these shortlists are ${phrases[0]}, or ${phrases[1]}.`;
+  }
+  return `Economy block patterns behind these shortlists are ${phrases.slice(0, -1).join(', ')}, or ${phrases[phrases.length - 1]}.`;
+}
+
+const configCount = configs.length;
+const example = configs[0]!;
+const exampleType = example.aircraftType;
+const exampleParam = aircraftUrlParam(example);
+const exampleBest = `/best-seats/${airline.slug}/${exampleParam}/`;
+const exampleSeatMap = `/airlines/${airline.slug}/${exampleParam}/seat-map/`;
+const airlineHub = `/airlines/${airline.slug}/`;
+const typeList = listNames(configs.map((config) => config.aircraftType));
+const seatCounts = configs.map((config) => config.totalSeatsApprox);
+const minSeats = Math.min(...seatCounts);
+const maxSeats = Math.max(...seatCounts);
+const seatPhrase = minSeats === maxSeats ? `about ${minSeats} seats` : `about ${minSeats} to ${maxSeats} seats`;
+const layouts = [...new Set(configs.map((config) => layoutString(config)))].sort();
+const exampleTops = topSeats(example, 3).map((seat) => seat.seatId);
+const exampleTopSentence = exampleTops.length
+  ? `On the ${exampleType} shortlist, the editorial ranking starts with ${exampleTops.join(', ')}.`
+  : `On the ${exampleType} shortlist, the editorial ranking is the table on that page.`;
+
+const countParts: { text: string; href?: string }[] =
+  configCount === 1
+    ? [
+        {
+          text: `This page shows 1 illustrative config for ${airline.name}: ${typeList}. Open the card and choose Best seats to read the ranked shortlist. That page is the `,
+        },
+        { text: `${airline.name} ${exampleType} best seats page`, href: exampleBest },
+        { text: '. The same card also links to the ' },
+        { text: 'seat map', href: exampleSeatMap },
+        { text: '.' },
+      ]
+    : [
+        {
+          text: `This page shows ${configCount} illustrative configs for ${airline.name}: ${typeList}. Open a card and choose Best seats to read that ranked shortlist. One example is the `,
+        },
+        { text: `${airline.name} ${exampleType} best seats page`, href: exampleBest },
+        { text: '. The same card also links to the ' },
+        { text: 'seat map', href: exampleSeatMap },
+        { text: '.' },
+      ];
+
+/** Visible FAQ and FAQPage schema share this copy so the markup matches the page. */
+const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
+  {
+    question: `What is this ${airline.name} best seats page for?`,
+    parts: [
+      {
+        text:
+          configCount === 1
+            ? `This page collects the editorial best seats shortlist for ${airline.name}. One card covers the illustrative cabin we publish for this airline. Open it for a ranked opinion of seats on that drawing. The ranking is a planning aid. It is not a seat ${airline.name} is holding for you. If you want the cabin sketch before the ranking, start from the `
+            : `This page collects the editorial best seats shortlists for ${airline.name}. One card covers each of the ${configCount} illustrative cabins we publish for this airline. Open a card for a ranked opinion of seats on that drawing. The ranking is a planning aid. It is not a seat ${airline.name} is holding for you. If you want the cabin sketch before the ranking, start from the `,
+      },
+      { text: `${airline.name} airline page`, href: airlineHub },
+      {
+        text: `. Then confirm the aircraft and the live map with ${airline.name} before you pay for a row.`,
+      },
+    ],
+  },
+  {
+    question: `Are these ${airline.name} shortlists official recommendations?`,
+    parts: [
+      {
+        text: `No. Every shortlist on this page is an editorial opinion from Pick Your Row. These are not official ${airline.name} seat recommendations, and Pick Your Row is not affiliated with, endorsed by, or sponsored by ${airline.name}. If the airline map and a shortlist disagree, trust ${airline.name}. The `,
+      },
+      { text: 'methodology', href: '/methodology/' },
+      { text: ' page separates opinion scores from facts a carrier publishes.' },
+    ],
+  },
+  {
+    question: `How many ${airline.name} shortlists are on this page?`,
+    parts: countParts,
+  },
+  {
+    question: `How do the scores on these ${airline.name} shortlists work?`,
+    parts: [
+      {
+        text: `Scores are editorial opinions on a 1 to 10 scale. They start near the middle, then move with a simple heuristic on our schematic. Exit rows and bulkheads usually gain points for space. Window and aisle seats gain a small preference over middle seats. Seats next to a lavatory or a galley lose points for traffic and noise, and many rear rows lose a little as well. ${exampleTopSentence} The full rules are in the `,
+      },
+      { text: 'methodology', href: '/methodology/' },
+      { text: '. A plain language walkthrough is in ' },
+      { text: 'How Pick Your Row scores work', href: '/guides/how-pickyourrow-scores-work/' },
+      { text: '.' },
+    ],
+  },
+  {
+    question: `Can the real ${airline.name} cabin differ from these shortlists?`,
+    parts: [
+      {
+        text: `Yes. Each shortlist follows one typical drawing, not every aircraft ${airline.name} flies. ${shortlistLayoutSentence(layouts, configCount === 1)} Drawn seat counts on these configs run ${seatPhrase}. Another registration can move galleys, lavatories, exit rows, or the number of rows. Confirm the aircraft on your ticket, and the live seat map, with ${airline.name} before you pay.`,
+      },
+    ],
+  },
+  {
+    question: `How do I open the seat map from a ${airline.name} shortlist card?`,
+    parts: [
+      {
+        text: `Each card on this page has a Best seats link and a Seat map link for the same config. Best seats opens the ranked shortlist. Seat map opens the cabin sketch so you can see where those seats sit. For ${exampleType}, open the `,
+      },
+      { text: `${airline.name} ${exampleType} best seats page`, href: exampleBest },
+      { text: ', then the ' },
+      { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
+      {
+        text: `. Use the shortlist for the opinion and the seat map for the layout. Book only after ${airline.name} confirms the row.`,
+      },
+    ],
+  },
+];
+
+const allowedLabels = [airline.name, airline.iata, ...configs.map((config) => config.aircraftType)]
+  .filter((label) => label.length > 0)
+  .sort((a, b) => b.length - a.length);
+
+for (const item of faqs) {
+  let stripped = `${item.question} ${item.parts.map((part) => part.text).join('')}`;
+  for (const label of allowedLabels) stripped = stripped.split(label).join('');
+  if (/[-–—]/.test(stripped)) {
+    throw new Error(`FAQ prose contains a dash outside airline or aircraft labels (${airline.name}): ${stripped}`);
+  }
+}
+
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -42,6 +188,18 @@ const jsonLd = [
         url: `https://pickyourrow.com/best-seats/${airline.slug}/${ap}/`,
       };
     }),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.parts.map((part) => part.text).join(''),
+      },
+    })),
   },
 ];
 ---
@@ -105,5 +263,17 @@ const jsonLd = [
       Always confirm seats with your airline. See <a href="/methodology/">Methodology</a> for how scores work.
       Pick Your Row is not affiliated with, endorsed by, or sponsored by {airline.name}.
     </p>
+
+    <h2>Best seats FAQ</h2>
+    <div class="prose faq-block">
+      {faqs.map((faq) => (
+        <div>
+          <h3>{faq.question}</h3>
+          <p>
+            {faq.parts.map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
+          </p>
+        </div>
+      ))}
+    </div>
   </div>
 </BaseLayout>
