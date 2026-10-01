@@ -699,17 +699,43 @@
   {
     "slug": "aisle-vs-window",
     "title": "Aisle vs window: how to choose",
-    "description": "A practical comparison of aisle and window seats \u2014 access, rest, views, and when a middle seat is still fine.",
+    "description": "A practical comparison of aisle and window seats for rest, access, views, and when a middle seat is still fine.",
     "body": [
-      "Window seats favor rest and a view: you can lean on the sidewall, control the shade, and avoid being climbed over. The trade-off is needing neighbors to stand when you leave.",
-      "Aisle seats favor mobility: easier lavatory trips, faster deplaning on many narrow-bodies, and less trapped feeling. You also absorb more cart bumps and foot traffic.",
-      "Middle seats usually score lower in our editorial heuristic unless you are traveling as a pair-plus-one and want to sit together. On 2-3 A220 layouts, the middle of the triple is still a compromise.",
-      "For overnight flights, many travelers pick window for uninterrupted sleep. For short hops or tight connections, aisle often wins.",
-      "Our schematics mark letter positions, not guaranteed window panes. Overwing rows and structural sections can spoil a \u201cwindow\u201d view \u2014 confirm on the airline\u2019s map for your flight.",
-      "Exit row aisles can look perfect until you remember the duty. On many airlines you must be able and willing to assist in an evacuation. If you are unsure, choose a standard aisle instead.",
-      "Couples often want a window and an aisle in a two seat block. Hoping the middle stays empty between two seats you booked fails often on full flights.",
-      "The letter is not the whole decision. A quiet window beside a lavatory can feel worse than an aisle in a calm part of the cabin. If you must sit in a middle seat, prefer a quieter row away from lavatories and galleys.",
-      "Pick Your Row scores are editorial opinions on original schematics. We are not affiliated with any airline; always verify seats with the carrier."
+      "The choice between an aisle and a window is a choice about what you will give up on this flight. A window seat gives you a sidewall to lean on, a shade you can control, and a row that does not climb over you when someone needs the lavatory. An aisle seat gives you the freedom to stand, stretch, and leave without asking anyone to move. The better letter matches the length of the flight, how often you get up, and whether you need to be in the terminal quickly when the door opens.",
+      "Window seats favor rest on anything longer than a short hop. You can angle a shoulder into the wall, keep cabin lights out of your face, and stay seated while carts pass. On a full flight your neighbors have to stand, shift a bag, and sit down again. Put a charger, medication, and a snack in the seatback pocket before departure so a small need does not become a favor you have to ask for.",
+      "Aisle seats favor mobility and a faster exit. You can reach the lavatory without a negotiation, and on most single aisle jets you join the flow of people leaving the airplane instead of waiting for it to reach you. Service carts meet the aisle shoulder. People stand beside you during boarding and again while they wait for a bin. If you startle easily or you planned to sleep, those interruptions are the flight.",
+      "The middle seat gives up the wall and the free path. On a cabin of three seats, an aisle, and three seats, the middle of each triple is the letter most travelers try to avoid. It can still be the right seat when your group fills the whole side, because then you are sitting between people you know. If you are stuck in the middle, choose the calmer row, away from lavatories and galleys, rather than a middle glued to a service zone.",
+      "Couples often want one window and one aisle so a stranger is not sitting between them. That pair works cleanly in a two seat block, which you see on the sides of some wide body cabins. On a three seat side the pair does not exist. Booking the window and the aisle and hoping the middle stays empty fails when the flight is full. Two aisle seats across from each other keep both people mobile and still close enough to talk.",
+      "Overnight flying pushes many people toward the window, because uninterrupted sleep beats a view you will not look at. Choose an aisle instead if you wake often, if you need to walk, or if a connection waits on the other side of landing and you cannot afford to wait for two people to stand. A short domestic red eye and a long haul overnight are different trips that share this letter choice. The shorter one is covered in the [red eye seat strategy](/guides/red-eye-seat-strategy/) guide.",
+      "An aisle in an exit row can look like the perfect mix of space and access. On U.S. airlines operating under part 121, federal rules limit who may sit in an exit seat, including a minimum age, and the airline can move you if you are unlikely to help in an evacuation. A standard aisle with ordinary pitch is a better plan than an exit aisle you are not allowed to keep. Many exit seats send your bag to the bin for taxi, takeoff, and landing. The practical version of those limits is on [exit row tips](/guides/exit-row-tips/).",
+      "A window letter is a position, not a promise of scenery. The outer seat can face the wing, a door surround, or a blank panel. If you are paying because you want to look outside, read [how to read a seat map](/guides/how-to-read-a-seat-map/) and then confirm the pane on the airline map for your aircraft. A quiet window beside a lavatory can feel worse than an aisle in a calm stretch of cabin, and a forward aisle can sit next to a galley that stays bright.",
+      "Our editorial scores weigh the same things: letter, space, and nearby traffic. They tend to prefer a clear window or aisle and to mark middles and seats by lavatories or galleys as weaker defaults. That math is an opinion, explained in [how Pick Your Row scores work](/guides/how-pickyourrow-scores-work/). We are not affiliated with any airline. Use a best seats page as a shortlist, buy the seat in the carrier booking flow, and check the live map again if the aircraft changes."
+    ],
+    "faq": [
+      {
+        "question": "Is a window or an aisle better for sleeping?",
+        "answer": "A window is usually better when you want to sleep through the flight. You can lean on the sidewall, control the shade, and avoid being climbed over. Choose an aisle if you wake often or you need to walk. A middle seat is the weakest sleep choice on a full flight unless you are sitting between people you know."
+      },
+      {
+        "question": "Which seat should I pick for a tight connection?",
+        "answer": "An aisle toward the front of the cabin usually gets you into the aisle and off the airplane sooner than a window in the back. The time you save is minutes, not a guarantee that you will make the connection. Immigration, a terminal change, and a late arrival can erase a good seat. If the connection is the point of the trip, favor the aisle on the flight that lands into it."
+      },
+      {
+        "question": "When is a middle seat acceptable?",
+        "answer": "A middle seat is acceptable on a short flight, when the fee to move is high for the time you will sit there, or when your group fills the seats on either side. It is a poor default on an overnight flight. If you are stuck in one, keep essentials in the seatback pocket and pick a calmer row away from galleys and lavatories."
+      },
+      {
+        "question": "Do aisle seats get hit by service carts?",
+        "answer": "Yes, carts, bags, and passing passengers meet the aisle shoulder and elbow. That contact is the price of being able to stand up freely. A window avoids it and costs you a favor from your neighbors every time you leave the row. If you sleep lightly, those bumps matter more than the map suggests."
+      },
+      {
+        "question": "Does a window seat always have a view?",
+        "answer": "No, the window letter only means you sit on the outside of a seat block. The wing, an exit door, or a structural panel can leave you looking at metal or a partial pane. If the view is why you are paying, confirm it on the airline map for your aircraft. If sleep is why you are paying, the wall matters more than the glass."
+      },
+      {
+        "question": "How should couples choose between an aisle and a window?",
+        "answer": "In a two seat block, take the pair: one window and one aisle, with no stranger between you. On a three seat side, that pair does not exist. Two aisle seats across the aisle keep you close and mobile. Hoping a middle seat stays empty between two seats you booked is a weak plan on a full flight."
+      }
     ],
     "sources": [
       {
@@ -922,20 +948,44 @@
   {
     "slug": "bassinet-bulkhead-seats",
     "title": "Bassinet and bulkhead seats with a baby",
-    "description": "Where bassinets usually attach, what bulkhead trade-offs to expect, and how to plan seats with an infant.",
+    "description": "Where bassinets usually attach, what bulkhead tradeoffs to expect, and how to plan seats with an infant.",
     "body": [
-      "Bassinet seats are almost always bulkhead rows \u2014 the first row of a cabin, facing a wall where the airline can mount a fold-down bassinet. Not every bulkhead has a bassinet; availability depends on the aircraft and the airline\u2019s policy.",
-      "Request a bassinet early. Many carriers assign them at booking or check-in and require the infant to meet weight/age limits. If the bassinet is full, you may still want the bulkhead for the open space ahead.",
-      "Trade-offs are real: limited or no under-seat storage for takeoff and landing, armrest tray tables, and sometimes a busier feel if several families share the same wall. Galleys next to some bulkheads add light and noise overnight.",
-      "Exit rows are usually the wrong choice with a lap infant. Airlines typically restrict who may sit there, and you may be reseated. Prefer bassinet bulkheads or standard rows where you can sit together.",
-      "On wide-bodies, bulkheads at the start of economy or premium economy are the usual bassinet zones. Our schematics mark bulkheads so you can spot candidates \u2014 then confirm bassinet icons on the airline\u2019s live map.",
-      "This is planning commentary, not medical advice. Airline bassinet rules, age and weight limits, and child restraint policies vary. Confirm with your carrier before you book.",
-      "Family seating works best when adults and children sit in the same row or directly across an aisle. Splitting across a cabin for a window view often costs more stress than it saves when a toddler needs help.",
-      "A ticketed seat with an approved child restraint is the safer planning default for infants when your airline and aircraft allow it. Lap travel is widely permitted under age two in many places, yet it is a weaker option in turbulence.",
-      "Exit rows are the wrong place for bassinets, car seats, and passengers who cannot perform exit duties. Crew will move you if the row is restricted. Plan the family block away from exits unless every adult qualifies and accepts that duty.",
-      "Bulkhead bassinet zones can be noisy because galleys, lavatories, and boarding queues often sit nearby. If adult sleep matters as much as the bassinet, compare a quiet window in the middle of the cabin with a paid bassinet request.",
-      "Many aircraft carry only one or two bassinets. Request one early, and keep a backup plan such as a ticketed infant seat or the airline lap infant policy if the bassinet is already assigned.",
-      "Pick Your Row maps are original illustrative schematics, not airline manuals. Always verify bassinet rules and seat availability with the carrier for your exact flight."
+      "Bassinet seats are almost always bulkhead seats. The airline needs a wall, a divider, or another bulkhead structure where a fold down crib can attach in front of the adult who is caring for the infant. A standard row has another passenger seatback in that space, so there is nowhere to hang the crib. Some walls are closets, screens, or plain dividers with no fitting at all. The icon on the airline seat map, or the written infant policy for that aircraft, is the fact that matters.",
+      "Request the bassinet as soon as the reservation exists. Many carriers assign a small number of them at booking or at check in, and they set their own age and weight limits. If the bassinet is already taken, the bulkhead may still be worth holding because nobody reclines into you and because it keeps the infant out of an exit row. Have a backup before you reach the airport: a ticketed seat that accepts an approved child restraint if the airline and aircraft allow it, or the lap infant arrangement you already confirmed with the carrier.",
+      "During taxi, takeoff, and landing you often cannot keep a bag under the seat, because there is no seat in front of you. The carry on goes into the overhead bin while bins are still filling, so board with a plan for diapers, wipes, a change of clothes, and medication. Armrests may hold the tray and may not lift, which changes how you hold an infant in the seat. A screen housing or a solid wall can meet an adult's knees once the tray is down.",
+      "Exit rows are the wrong place for a bassinet, a car seat, and an adult who is caring for an infant. On U.S. airlines operating under part 121, 14 CFR 121.585 covers exit seats. A passenger under 15 years of age may not sit in an exit seat. An adult whose responsibility for a small child would get in the way of the assist functions is not a suitable exit passenger either. Crew can move you, including after you have paid. Read [exit row tips](/guides/exit-row-tips/) and do not build the family plan around an exit row.",
+      "On wide body aircraft, the usual bassinet zones are bulkheads at the start of economy or premium economy, and sometimes a divider in a premium cabin. Confirm the live map and the infant policy in the booking flow. [How to read a seat map](/guides/how-to-read-a-seat-map/) shows how we mark a bulkhead versus an exit, which is the distinction that keeps a family out of the wrong row when both icons look like extra space.",
+      "An adult should occupy the bassinet seat itself, because that person manages the crib and the infant. Other adults and older children belong in the same row or directly across the aisle, not several cabins away for the sake of a view. A split that looks clever on a map fails the first time the infant needs help during meal service. [Bulkhead seats](/guides/bulkhead-seats/) walks through the storage and tray surprises that affect the adult in that row, not only the baby.",
+      "A ticketed seat that accepts an approved child restraint is the stronger planning default when your airline and the aircraft allow that restraint. Lap travel for an infant under age two is widely permitted and is a weaker option in turbulence, which is why public safety pages urge approved restraints. Read the FAA, CDC, and pediatric sources linked below, then follow the current rule from your carrier.",
+      "Bassinet bulkheads are often noisy because galleys sit nearby, and families should plan for that instead of being surprised by it. Other families may share the same bulkhead, which means more than one infant. If one adult needs real sleep, do not put every adult in the loudest row out of loyalty to the crib icon. One caregiver in the bassinet seat and another adult nearby, still able to help, can be a better split than two exhausted people in front of a galley.",
+      "Many aircraft carry only one or two bassinets, and on a full long haul flight they are assigned early. If you are hoping rather than confirmed, write the backup down: which seat can take a restraint, what the lap infant policy requires, and which standard row keeps the family together if the crib is gone.",
+      "Pick Your Row maps are original illustrative schematics. Two aircraft with the same type name can place the bulkhead on different row numbers after a retrofit, and a bassinet assigned on one registration can vanish when the airline swaps aircraft. Use our drawing to learn the pattern of walls, exits, and galleys. Then verify bassinet rules and seat availability with the carrier for the exact flight, and check again on the day you travel."
+    ],
+    "faq": [
+      {
+        "question": "Does every bulkhead seat have a bassinet?",
+        "answer": "No, a bassinet needs a fitting on the wall, and many bulkheads are only a divider, a closet, or a screen. Airlines also limit how many cribs they carry and who may use them, including age and weight. Look for the carrier bassinet note on that aircraft, not just the word bulkhead on a schematic. If the fitting is absent, the row can still stop recline, and it will not solve the crib."
+      },
+      {
+        "question": "Can I sit in an exit row with a lap infant?",
+        "answer": "Plan on no. On U.S. part 121 flights, exit seat rules exclude passengers under 15 and can exclude an adult who is responsible for a small child, and a bassinet does not belong in an exit path. Crew can move the party even after you paid for the row. Choose a bulkhead the airline has approved for the crib, or a standard row where you can sit together, and remember that other countries set their own limits."
+      },
+      {
+        "question": "When should I request a bassinet?",
+        "answer": "Request it as soon as the reservation exists, and ask again if the flight number or aircraft changes. Supply is small, and busy routes assign the cribs early. Have the infant age and weight ready, because carriers apply their own limits. If the answer is no, move to the backup seat plan the same day rather than waiting for the airport."
+      },
+      {
+        "question": "What are the downsides of a bassinet bulkhead?",
+        "answer": "You often lose a place for a bag under the seat during taxi, takeoff, and landing, so the baby bag has to work with the overhead bin. Armrest trays can narrow the seat, and galleys or lavatories near the wall add light, noise, and sometimes other infants. The adult in the bassinet seat should expect to be responsible for most of the flight. It is a family tool, not an anonymous nap seat."
+      },
+      {
+        "question": "What if the bassinet is already taken?",
+        "answer": "Keep the family together in a standard row, or use a ticketed seat with an approved child restraint if the airline allows that restraint on the aircraft. A bulkhead without a crib can still stop the row ahead from reclining into you. An exit row is not the backup. Tell the airline you are traveling with an infant so they can apply their seating rules before you get to the gate."
+      },
+      {
+        "question": "Is a bassinet the same as a child restraint?",
+        "answer": "No, a bassinet is a carrier crib at a bulkhead, with age and weight limits set by that airline, and it is generally used during cruise. An approved child restraint is a separate product that occupies a ticketed seat when the airline accepts it. Public safety pages encourage proper restraints for infants, so read the sources on this guide and confirm the rule with your carrier. This is not medical advice."
+      }
     ],
     "sources": [
       {
@@ -1042,19 +1092,45 @@
   },
   {
     "slug": "seat-map-glossary",
-    "title": "Seat-map glossary: cabin terms explained",
-    "description": "Original plain-English definitions of exit row, bulkhead, pitch, layout codes, and other seat-map terms \u2014 with citations to public aviation sources.",
+    "title": "Seat map glossary: cabin terms explained",
+    "description": "Plain English definitions of exit row, bulkhead, pitch, layout, and other cabin terms used on seat maps.",
     "body": [
-      "This glossary is original Pick Your Row commentary. It explains how we use cabin terms on our schematics. Where a term touches regulation or industry safety education, we cite a public authority. Editorial comfort advice is labeled as such.",
-      "Exit row / exit seat (fact + editorial): On U.S. part 121 airlines, federal rules define exit seats and who may sit there \u2014 including mobility, age, and willingness to help in an evacuation. Editorial note: we often score marked exit rows higher for pitch, but only travelers who meet the airline\u2019s criteria should select them.",
-      "Bulkhead (editorial geometry term): The first row of a cabin facing a wall or curtain. Nobody reclines into you; under-seat storage and tray-table design often differ. Some bulkheads support bassinets \u2014 confirm on the airline\u2019s live map.",
-      "Pitch (editorial / industry usage): Common industry shorthand for the distance from one seat\u2019s point to the same point on the seat ahead \u2014 a rough proxy for legroom. Airlines publish or advertise pitch differently; our maps do not claim certified measurements.",
-      "Layout string (e.g. 3-3, 2-4-2, 3-3-3): Counts of seats in each block separated by aisles, left-to-right looking forward. A \u201c3-3\u201d narrow-body has two triples; a \u201c3-3-3\u201d wide-body has three triples.",
-      "Window / aisle / middle letters: Window letters are the outermost letters in a cabin\u2019s letter set on our schematic; aisle letters touch an aisle gap; middles sit between. \u201cWindow\u201d means letter position \u2014 not a guaranteed pane alignment.",
-      "Galley and lavatory markers: Abstract symbols for service and restroom zones. Editorial heuristic: nearby seats often mean more light, noise, and foot traffic.",
-      "Cabin class labels (first, business, premium, economy): Product names differ by airline (Mint, Club World, Premium Select, Main Cabin Extra, and so on). Our blocks are schematic zones for orientation, not branded product contracts.",
-      "Registration / subfleet caveat: Two aircraft of the same type can have different interiors. Every Pick Your Row map is an illustrative reconstruction of a typical public layout pattern \u2014 always confirm with the carrier for your flight.",
-      "Passenger rights vs seat choice: Delay, cancellation, and denied-boarding rules are separate from which row feels comfortable. Know your consumer rights from official sources, then use maps to plan the seat you actually want."
+      "This glossary explains how we use cabin words on our schematics so you can read a map without guessing at the labels. Where a term touches a regulation or a public safety campaign, we point at that source and we do not turn it into a private rule. If you want the picture version of these ideas, start with [how to read a seat map](/guides/how-to-read-a-seat-map/). If you want the scoring math, use the [methodology](/methodology/) page.",
+      "On U.S. airlines that operate under part 121, 14 CFR 121.585 defines exit seats and who may sit in them. The rule covers a seat with direct access to an exit and a seat in the path other people would cross to reach that exit. A passenger under 15 years of age may not sit there. The airline also has to judge whether someone can perform the assist functions, including when that person is caring for a small child. Read [exit row tips](/guides/exit-row-tips/) before you buy, and use the regulation link in the sources on this page.",
+      "Bulkhead is our geometry word for the first row of a cabin section, facing a wall, a closet, a screen housing, or a curtain. Nobody in front of you can recline into your knees, because there is no passenger seatback there. The tray table may live in the armrest, which can make the seat feel narrower.",
+      "Pitch, in ordinary industry usage, is the distance from a point on one seat to the same point on the seat ahead. Cushion thickness, the curve of the seatback, and a hard wall in a bulkhead can make the same published pitch feel different in your knees. Our maps do not claim certified measurements, and we do not invent a precise figure for a seat we have not measured.",
+      "We describe a cabin by counting the seats in each block, from the left side to the right side as you look toward the nose, with aisles in the gaps. A common single aisle jet shows three seats, an aisle, and three seats. A wide body might show two, an aisle, four, an aisle, and two, or three, an aisle, three, an aisle, and three. Those counts describe geometry only.",
+      "On our schematic a window letter is the outermost letter in that seat block. An aisle letter touches a gap. A middle letter sits between other seats. Window means a position against the sidewall. The wing, a door, or a structural panel can leave an outer seat with a poor view or no view. Aisle means you can stand without a negotiation, and it also means carts and passing people meet your shoulder. Choose the word for the problem you have, then check what sits beside that letter.",
+      "Galley and lavatory markers are abstract symbols for crew work areas and restrooms, not a measured floor plan of one registration. Crew prepare carts and spend long stretches in the galley. Passengers queue at the lavatory, including overnight when you hoped the cabin would be still. A seat one or two rows away can be a useful compromise if you need the lavatory often and you still want a buffer. The symbol is a planning clue.",
+      "We use first, business, premium, and economy as schematic zones so you can see where one product ends and the next begins. A domestic first seat can be a wide recliner on a single aisle jet. Premium economy is usually its own cabin with more pitch or width. It is not the same thing as a paid extra legroom seat that still sits inside economy, often at an exit. The [cabin class primer](/guides/cabin-class-primer/) is the longer explanation of what usually changes between those zones.",
+      "Two aircraft sold under the same type name can have different interiors after a retrofit or because the airline flies more than one cabin on that type. An exit on the jet you flew last year is not a promise about the tail number tomorrow. Every Pick Your Row map is an illustrative reconstruction of a typical public layout pattern. Confirm the aircraft on your booking, then confirm the live seat map on the day you fly, especially after a schedule change email.",
+      "Rules about delays, cancellations, denied boarding, and downgrades come from public consumer pages, including the U.S. DOT Fly Rights guide and the European Your Europe air passenger pages linked below. Those topics are separate from which row feels comfortable. A preferred seat is often standard pitch in a popular spot, such as forward in the cabin or on the aisle. Extra legroom is a claim about space, often at an exit or a bulkhead, and it can come with duties and bag limits."
+    ],
+    "faq": [
+      {
+        "question": "What is an exit row?",
+        "answer": "An exit row sits beside a door or an exit over the wing that would be used in an evacuation. The legroom is often better than a standard row, and the rules are stricter. On U.S. part 121 flights, federal exit seating rules set a minimum age of 15 and require that you can perform assist functions. Other airlines publish their own conditions, and a seat fee does not waive them."
+      },
+      {
+        "question": "What is a bulkhead seat?",
+        "answer": "It is the first row of a cabin section, facing a wall, divider, closet, or curtain instead of another passenger seatback. The row ahead cannot recline into you. Storage under the seat and the tray table often work differently, and some of these walls accept a bassinet. The open space on a map can still feel tight once the tray is down."
+      },
+      {
+        "question": "What does seat pitch mean?",
+        "answer": "Pitch is the distance from a point on one seat to the same point on the seat in front of it. People treat it as legroom, but cushion shape and a hard wall can change how that distance feels. Our maps do not publish certified pitch measurements. Use an airline figure when you need a number, and use the map to see exits, walls, and aisles."
+      },
+      {
+        "question": "How do I read a cabin layout on a seat map?",
+        "answer": "Count the seats in each block from the left side to the right side as you look toward the nose, and treat the gaps as aisles. Three seats, a gap, and three seats is a typical single aisle cabin, and wider jets add a second aisle and another block. The count tells you the geometry. It does not tell you the pitch, the noise, or whether the window glass lines up."
+      },
+      {
+        "question": "Does a window letter mean I will have a view?",
+        "answer": "No, on our pages a window letter is only the outer seat in that block. You might face a clear pane, the wing, a door structure, or a blank panel. If the view matters, confirm it on the airline map for your aircraft. If you only wanted a wall to lean on, the letter still does that job even when the glass disappoints."
+      },
+      {
+        "question": "Are these definitions official airline policy?",
+        "answer": "No, this is an editorial glossary for reading Pick Your Row schematics. Regulatory points, such as U.S. exit seat criteria, are summarized here and linked to the public rule. Comfort notes are our opinions, and we are not affiliated with any airline. The carrier seat map and the carrier contract govern the seat you buy."
+      }
     ],
     "sources": [
       {
@@ -1087,16 +1163,43 @@
   {
     "slug": "cabin-class-primer",
     "title": "Cabin class primer: economy to first",
-    "description": "A concise, original primer on economy, premium economy, business, and first \u2014 what usually changes, what does not, and how to read schematics without marketing fluff.",
+    "description": "What economy, premium economy, business, and first usually change, and how to read those cabins on a schematic.",
     "body": [
-      "Airlines sell cabin \u201cclasses\u201d that bundle seat product, service, and sometimes baggage. Names vary wildly. This primer is original editorial orientation for reading Pick Your Row schematics \u2014 not a fare rule book.",
-      "Economy / main cabin (editorial): The densest cabin on most aircraft. Layout strings like 3-3 or 3-3-3 dominate. Exit rows and some bulkheads may add pitch inside the same cabin class. Paid \u201cpreferred\u201d seats are often standard pitch closer to the front.",
-      "Premium economy (editorial): Usually sits between business and economy: better pitch or width, a quieter forward zone, and sometimes improved meals or baggage. You are typically still in a multi-seat row, not a lie-flat suite. Compare the fare delta to a strong economy exit row before you upgrade.",
-      "Business / long-haul premium (editorial): Often lie-flat or deep-recline seats with more personal space. Our schematics stylize suites as simple blocks for clarity \u2014 real suite geometry and privacy doors differ by product.",
-      "First class (editorial): On many carriers, \u201cfirst\u201d is rare or merged into a flagship business product. Where drawn, treat it as the most forward, lowest-density block on the schematic.",
-      "Downgrade rights (fact context): If you are moved to a lower cabin against your will on flights covered by EU air passenger rules, official consumer guidance describes percentage reimbursements by distance. That is a rights issue \u2014 separate from which seat looked good on a map.",
-      "Safety is cabin-wide (fact context): Evacuation education from industry bodies applies in every cabin: follow crew instructions and leave bags behind. Exit-seat suitability rules still matter most in marked exit rows, which can appear in economy or other cabins depending on the type.",
-      "How to use our maps: Find your cabin block, note exits, lavatories, and bulkheads, then open the matching best-seats list for an editorial shortlist. Confirm the live product name and seat map on your booking."
+      "Airlines sell cabin classes that bundle a seat, a service style, and sometimes baggage or an earlier boarding group. One domestic first cabin is a recliner and a bigger meal. This primer is original editorial orientation for reading Pick Your Row schematics. It is not a fare rule book, and it is not a ranking of airlines. Use it to know which questions to ask the map, then buy the seat from the airline.",
+      "Economy, often sold as the main cabin, is the densest cabin on most aircraft. A typical single aisle jet shows three seats, an aisle, and three seats. A typical wide body main cabin shows three, an aisle, three, an aisle, and three. Exit rows and some bulkheads may add space inside that same class without changing the fare family name. A paid preferred seat is often ordinary pitch closer to the door, or an aisle people like, not a new seat model. If you only keep one economy habit, read the symbols around the letter before you pay for it.",
+      "Premium economy usually sits between business and economy on long haul aircraft. Travelers often get more pitch, a bit more width, a defined cabin ahead of the main cabin, and sometimes a stronger meal or a baggage allowance. You are still typically in a row with other people, not in a private lie flat suite. Compare it with a strong economy exit row before you pay, and only if you are allowed to sit in that exit. Our [premium economy tips](/guides/premium-economy-tips/) page stays on that money question. Product names differ by airline, and a curtain on a short flight is not the same cabin as a dedicated long haul premium seat.",
+      "Business class is a family of products, not one chair. On long haul jets it is often a lie flat or a deep recline seat with more personal space. Many newer cabins give every seat a path to the aisle, while older ones still leave a seat that must climb over a neighbor. On short flights, business can mean the middle seat blocked in an economy shell, or a larger recliner at the front of a single aisle jet. Real suite angles, privacy doors, and center seats without a window are more specific than our schematic.",
+      "First class is rarer than the word on a boarding pass suggests. On many long haul airlines it has been folded into a flagship business cabin, so the most premium seat you can buy is called business even when the seat itself is a suite. Where first still exists as its own cabin, treat it as the most forward, lowest density block on the schematic. Domestic first in the United States is often a different idea: a small recliner cabin on a single aisle jet, with service that looks generous beside economy and modest beside an international suite.",
+      "A downgrade is a consumer question, separate from which seat looked comfortable on a map. If you are moved to a lower cabin on a flight covered by European air passenger rules, official guidance describes reimbursement tied to flight distance. The Your Europe page linked below is the public summary to read, rather than a social media screenshot of a percentage. U.S. DOT Fly Rights is the public overview on the American side, and it is not the same regulation.",
+      "Industry evacuation education, linked below, tells passengers to follow crew instructions and to leave bags behind. Exit seat rules still attach to the exit seat, not to the cabin brand printed on your ticket. A premium fare does not exempt you from an exit briefing if you selected an exit seat, and it does not let a child occupy a seat the rule forbids. [Exit row tips](/guides/exit-row-tips/) is the practical page. The federal text for U.S. part 121 operations is in the sources.",
+      "How to use our maps when you are choosing a cabin rather than only a letter: find the cabin block first, then note exits, lavatories, galleys, and bulkheads inside it. A strong letter next to a galley can sleep worse than a calmer letter farther from the service zone, even in business. Scores are opinions, explained in [how Pick Your Row scores work](/guides/how-pickyourrow-scores-work/). The [methodology](/methodology/) page separates those opinions from regulatory facts.",
+      "If the aircraft swaps, the class you bought can change shape without changing its name. A wide body business cabin can be replaced by a single aisle recliner product on the same flight number. A premium economy seat can disappear because the replacement jet does not have that cabin. Reopen the seat map as soon as the airline email arrives. Confirm you are still in the cabin you paid for, and ask about a refund or a reroute if a paid feature is gone."
+    ],
+    "faq": [
+      {
+        "question": "Is premium economy the same as an extra legroom seat in economy?",
+        "answer": "Usually no. Premium economy is typically its own cabin, often with more width and pitch, sitting ahead of the main cabin on long haul jets. An extra legroom seat is often an exit row or a bulkhead still inside economy, sometimes with assist rules and bag limits. The prices can look similar on a small screen, so open the map and read the product name before you pay."
+      },
+      {
+        "question": "Is business class always a lie flat bed?",
+        "answer": "No. On many long haul aircraft, business means a lie flat or a deep recline seat, and some of those seats have a door. On short flights, business can be a larger recliner or an economy seat with an empty middle. The word on the ticket is not the geometry, so check the aircraft and the airline description rather than assuming our drawing shows every suite angle."
+      },
+      {
+        "question": "What is the difference between domestic first and long haul first?",
+        "answer": "Domestic first, especially on single aisle jets in the United States, is often a small recliner cabin with stronger service than economy. Long haul first, where airlines still sell it, is usually a low density cabin at the front, often with suite seats. Many carriers no longer sell a separate long haul first product and put that space into business. Compare the route and the aircraft, not only the word first."
+      },
+      {
+        "question": "What can I do if the airline moves me to a lower cabin?",
+        "answer": "Treat that as a downgrade, not as a complaint that the map looked nicer yesterday. European consumer guidance describes reimbursement on covered flights, with the outcome tied to distance, and U.S. rules are a different system. Start with the official page for the itinerary, then talk to the operating airline with your receipt and original cabin. Wanting a quieter seat in the same cabin is a separate request."
+      },
+      {
+        "question": "Do exit row rules apply only in economy?",
+        "answer": "They apply to exit seats, wherever the airline places those seats. A premium ticket does not erase the duty if your seat is the exit seat. On U.S. part 121 flights the federal criteria include a minimum age and the ability to assist, and an adult caring for a small child may be refused. If you cannot perform the functions, choose another row, because crew can move you in any cabin."
+      },
+      {
+        "question": "How should I read a schematic when I am choosing a cabin?",
+        "answer": "Find the cabin block first, then the exits, galleys, lavatories, and bulkheads inside it. A good letter beside a noisy galley can be a worse sleep seat than a calmer letter in the same cabin. Use our best seats list as an opinionated shortlist, then confirm the live product on the airline site. Class names move with the aircraft, so the symbols on your flight are the ones that count."
+      }
     ],
     "sources": [
       {
@@ -1160,18 +1263,44 @@
   {
     "slug": "red-eye-seat-strategy",
     "title": "Red eye seat strategy: sleep, noise, and overnight tradeoffs",
-    "description": "How to pick seats on a red eye. Compare window and aisle, avoid lavatory and galley noise, and weigh forward versus rear cabin choices for rest. This page is for shorter overnight flights, not long haul wide body sectors.",
+    "description": "How to pick a seat on a shorter overnight flight for sleep, noise, and a quick exit. Not a long haul guide.",
     "body": [
-      "Red eye flights reward sleep more than views. A window seat lets you lean against the sidewall and control the shade. An aisle seat helps if you need several bathroom trips or a quick exit on landing. Pick based on whether rest or mobility matters more that night.",
-      "This is planning commentary, not medical advice. Sleep needs vary. If you have a health condition, follow clinician guidance. Seat position is a comfort tool, not a treatment.",
-      "Avoid seats next to lavatories and galleys when you can. Overnight cabin traffic concentrates around those spots, and light and conversation spill into adjacent rows even when the main cabin is dark.",
-      "Forward cabins often feel quieter, and you leave the plane sooner, which helps if you have an early meeting. Rear cabins can be noisier near engines or aft galleys on some aircraft, but they may empty later if you want a slower wake up. Check Pick Your Row facility markers for lavatory and galley placement before you pay for a quiet row.",
-      "Bulkhead seats can help with open space, and some support bassinets. They can also hurt sleep through limited foot room, bassinet noise, brighter light during service, and little or no under seat storage. Exit row legroom helps you stretch, but hard armrests, cooler air near doors, and crew briefings can reduce rest. Choose those rows for space, not for guaranteed sleep.",
-      "Dress in layers. Bring a reliable eye mask plus earplugs or noise cancelling headphones. Eastbound overnight sectors often reward earlier sleep. A westbound red eye can feel shorter. Either way, caffeine timing and an eye mask matter more than a perfect row number.",
-      "If you share the row with a young child, agree who gets the aisle for bathroom runs. A window and an aisle in the same row usually works better than two windows far apart.",
-      "If you connect after a red eye, favor an aisle and a forward row on that overnight segment so you can leave without waking a full row. On a daytime leisure segment, a window is often the better rest pick.",
-      "This page is for domestic and other shorter red eye flights. A long haul overnight, usually a wide body sector of many hours with a full service cycle, is a different choice. Use the [overnight long haul seat strategy](/guides/overnight-long-haul-seat-strategy/) guide for that trip.",
-      "Always recheck the airline live map. Overnight equipment swaps are common, and our schematics are illustrative typical layouts, not a guarantee for your registration."
+      "A red eye, on this page, is a shorter overnight flight where you are trying to sleep in a seat that was not designed as a bed. A window seat lets you lean on the sidewall and control the shade. An aisle seat helps if you need several lavatory trips or a quick exit into a morning meeting or another flight.",
+      "This page is not the guide for a long haul overnight. A wide body sector of many hours, with a full meal service and a real sleep cycle, is a different cabin problem even when it also flies in the dark. Use the [overnight long haul seat strategy](/guides/overnight-long-haul-seat-strategy/) for that trip. The advice below is for the shorter red eye, where you might get a couple of hours of sleep if the row cooperates and almost none if it does not.",
+      "This is planning commentary, not medical advice. If you have a health condition, follow clinician guidance rather than a seat blog. A quieter row is a comfort tool. It is not a treatment, and it will not erase a large time zone change by itself.",
+      "Avoid lavatories and galleys when sleep is the point. Overnight traffic concentrates there. A seat one row away still feels that activity when the rest of the cabin is dark. A seat several rows into a block of ordinary economy is usually calmer than a famous extra space seat glued to the service zone.",
+      "Forward cabins often feel quieter and get you off the airplane sooner, which helps if a meeting starts soon after landing. Rear cabins can sit nearer an aft galley or a cluster of lavatories, and you will usually leave later because most cabins empty from the front. Engine noise is a separate question and varies by aircraft, so do not assume the back is always louder or the front is always calm. A forward galley can ruin a nap in the first rows of economy.",
+      "Bulkhead seats can help because nobody reclines into you, and some of them can support a bassinet. A wall may limit your feet, light from a galley may spill over the divider, and you may have little or no storage under a seat in front during taxi, takeoff, and landing. If the bulkhead is a bassinet row, expect infant noise. That is a fair trade for a family and a poor trade for a stranger who booked the wall in order to disappear. The [bulkhead seats](/guides/bulkhead-seats/) guide covers the furniture, the tray, and the bag problem.",
+      "Exit row legroom lets you stretch, which some tall travelers need before they can rest at all. The same row can be colder beside a door, noisier, and fitted with armrests that do not lift because the tray lives there. You may not keep a bag at your feet. If you cannot or do not want to assist in an evacuation, skip the exit even when the space looks ideal. [Exit row tips](/guides/exit-row-tips/) explains who should walk away from that fee, including the age limit and the small child rule on U.S. part 121 flights.",
+      "Dress in layers. Cabins often swing from warm during boarding to cool in cruise. Bring an eye mask you have already tested and earplugs or noise cancelling headphones. Do not count on an airline blanket appearing in the dark. Eastbound overnight sectors often reward trying to sleep sooner after departure. Caffeine timing and the mask matter more than hunting a perfect row. Put the mask on when you decide to sleep, not after the cabin has already woken you twice.",
+      "If you share the row with a child, agree who gets the aisle before you board. A window and an aisle in the same row usually works better than two windows far apart, because bathroom trips and a restless child stay inside one group. Exit rows are the wrong plan when a young child is in the party. On U.S. part 121 flights, passengers under 15 may not occupy an exit seat, and an adult responsible for a small child can be moved as well.",
+      "If you connect after the red eye, favor an aisle and a more forward row on the overnight so you can leave without waiting for a full row to wake up. On a trip with nowhere to be except the curb, take the quiet window and accept that you will leave the airplane later. [Aisle versus window](/guides/aisle-vs-window/) is the short version of that letter choice when two seats are open and you are tired enough to pick badly. Overnight equipment swaps are common, and our schematics are illustrative typical layouts, not a guarantee for your registration."
+    ],
+    "faq": [
+      {
+        "question": "Is a window or an aisle better on a red eye?",
+        "answer": "A window is the better default when you plan to sleep and you do not have a tight connection on landing. You get a wall and a shade, and you are not climbed over. An aisle is better if you get up often or you need to leave quickly for a meeting or another flight. Choose before you board, because trading seats in a dark cabin rarely works."
+      },
+      {
+        "question": "Are bulkhead seats good for sleeping on a red eye?",
+        "answer": "They can be, and they often are not, even though nobody reclines into you. A wall can limit your feet, a nearby galley can stay bright, and a bassinet can mean infant noise along that row. If you want the bulkhead, pick one that faces a quiet divider rather than a working galley. Confirm whether a bassinet is assigned before you trust the empty floor on the map."
+      },
+      {
+        "question": "How is a red eye different from a long haul overnight?",
+        "answer": "On this page a red eye means a shorter overnight flight, often a domestic sector where you might sleep a couple of hours in a recliner seat. A long haul overnight is usually a much longer wide body flight with a fuller service. The seat ideas overlap, and the stakes are higher on the long flight. Use the long haul guide for that trip and this page for the shorter overnight hop."
+      },
+      {
+        "question": "Should I avoid the back of the plane on a red eye?",
+        "answer": "Often yes, if sleep or a fast exit matters. Rear rows frequently sit near lavatories and an aft galley, and they usually leave the airplane last. A rear seat can still be fine if the map shows the lavatories elsewhere and you accept a slower exit. A forward row beside a galley can also be louder than a calm seat farther back."
+      },
+      {
+        "question": "Will an exit row help me sleep?",
+        "answer": "Only if the extra space is what you need in order to rest, and only if you can accept the exit duties. Doors can be cold and noisy, armrests may not move, and you may not keep a bag at your feet. If you wanted silence more than stretch, a standard window away from the exits is usually the calmer buy. Paying for legroom on a busy path is a common overnight regret."
+      },
+      {
+        "question": "What should I bring so the seat can actually help me rest?",
+        "answer": "Bring layers, an eye mask you trust, and earplugs or headphones that block cabin noise. Do not count on a blanket or a fully dark cabin. Keep water and any medication you are allowed to carry within reach before you try to sleep. The seat can reduce interruptions, and it does not supply the rest by itself."
+      }
     ],
     "sources": [
       {
@@ -1579,19 +1708,45 @@
   {
     "slug": "connecting-flight-seat-strategy",
     "title": "Connecting flight seat strategy: deplane fast without panic",
-    "description": "How to pick seats when you have a tight connection, including aisle bias, forward cabin tradeoffs, and time buffers for security and terminal changes.",
+    "description": "How to pick seats for a tight connection: forward aisle bias, bag placement, and time buffers for security and terminals.",
     "body": [
-      "A connection changes the goal. On the first flight, getting off quickly often beats the perfect window. On the last flight, comfort can matter more than deplane speed.",
-      "Aisle seats in the forward half of the cabin usually clear faster than rear windows. That matters when your airline connection is short or you must change terminals.",
-      "Do not assume a minimum connection time equals comfort. Airport size, immigration, and re screening can erase a legal connection. Build buffer when you can choose flights.",
-      "If you must clear security again, pack like a connection passenger. Liquids rules and laptop pulls still apply. A tidy personal item saves minutes at the checkpoint.",
-      "Checked bags follow a different clock than you do. Seat choice cannot fix a missed bag transfer. Prefer carry on only when itineraries are fragile and your airline allows it.",
-      "Exit rows help some people stand early, yet they can board later and come with duties. For pure connection risk, a standard forward aisle is often simpler.",
-      "Families should keep adults and children together even on connection days. Splitting to grab scattered forward seats can cost more time at the gate than it saves on arrival.",
-      "Avoid the last few rows when the connection is short. Rear cabins often leave last, and a lavatory queue can block the aisle just as you need to move.",
-      "A paid seat near the front, or an extra legroom row, can be worth the fee when the alternative is missing a once a day international connection. Compare that fee with change fees and the cost of a missed hotel night.",
-      "If your carry on must stay in the overhead bin, board early enough to keep it near your row. A forward seat does not help if the bag is ten rows behind you.",
-      "Use Pick Your Row aisle and forward leaning picks on inbound connection legs, then switch to sleep oriented window picks on the long overnight segment when the itinerary allows."
+      "A connection changes the goal of the seat. On the flight that lands into the connection, getting off quickly often beats a pretty window. On the last flight of the day, comfort can matter more than the minute you save at the door. Decide which leg you are planning before you sort the map.",
+      "Aisle seats in the forward half of the cabin are the usual pick when the connection is tight. You can stand when the seatbelt sign goes off, and you are ahead of people who must wait for a full row to empty. A window in the last rows does the opposite. You wait for the aisle to clear, then you wait again while the cabin empties from the front. On a single aisle jet that gap is often several minutes.",
+      "Do not treat a legal minimum connection time as a comfort estimate. A change of terminal, a train between concourses, immigration, customs, and another security screening can consume a connection that looked fine on a route map. Seat choice cannot create minutes the airport does not have. It can only stop you from donating extra minutes to the back of the cabin after you land.",
+      "If you must clear security again, pack like someone who will unpack. Liquids rules and laptop pulls still apply at the next checkpoint. A tidy personal item saves more time there than a slightly better row number. Allow time for that checkpoint, and use the seat to shorten the walk before you reach it.",
+      "Checked bags follow a different clock than you do. A forward aisle does not move a bag that missed the transfer. When the itinerary is fragile and the airline allows a carry on, keeping the bag with you is the more reliable plan. Put medication, documents, and anything you would hate to lose in that bag. If the bin above your row is already full, a bag stored far behind you becomes its own delay at the end of the flight.",
+      "Exit rows are a mixed tool on connection days. An exit row often comes with an assist duty and can bar a bag from under the seat during taxi, takeoff, and landing. It is a poor fit if anyone in your party cannot accept that role. For pure connection risk, a standard forward aisle is simpler. Read [exit row tips](/guides/exit-row-tips/) before you pay for an exit only to get off faster, and read [aisle versus window](/guides/aisle-vs-window/) if you are still debating the letter on the inbound leg.",
+      "Families should stay together even when the map offers a tempting scatter of forward seats. Splitting a child from an adult to grab two supposedly better letters can cost more time at the arrival gate than those seats saved on the walk. Take the best block that keeps adults and children in the same row or directly across an aisle. A group that can move as one unit beats four people hunting each other in the jet bridge while the connection clock runs.",
+      "Avoid the last few rows when the connection is short. Rear cabins usually leave last. A lavatory queue can block the aisle at the moment you need to move. If the only seats left are in the back, an aisle still beats a window, and you can tell the airline you have a connection so crew understand why you are ready early.",
+      "A paid seat near the front can be worth the fee when the alternative is missing a once a day international connection. Compare that fee with the cost of a change, a missed hotel night, or a long wait for the next flight. On a daytime hop with a generous layover, the same fee is harder to justify. Our [best seats index](/best-seats/) can show which forward rows we score well on a typical layout.",
+      "If the trip continues onto a long overnight flight, switch goals between legs. Use a forward aisle on the short inbound, then a quieter window on the long sector if sleep is the point of that second seat. [How to read a seat map](/guides/how-to-read-a-seat-map/) explains the symbols worth checking on both legs: exits, galleys, lavatories, and bulkheads.",
+      "Always open the map again after a schedule change. Equipment swaps are common on the same flight number, and a seat that was near the front door on one jet can sit in a different place on the next. Confirm the live map before you leave for the airport, and again if the gate display shows a different aircraft. If a paid forward aisle disappears, ask for a comparable seat or about the fee, and keep the receipt. We are not affiliated with any airline."
+    ],
+    "faq": [
+      {
+        "question": "Should I choose an aisle or a window when I have a connection?",
+        "answer": "Choose an aisle, preferably in the forward half of the cabin, on the flight that lands into the connection. You can stand without waiting for neighbors, and you are closer to the flow of people leaving. A window is reasonable on the last flight, when getting off quickly no longer matters. The aisle does not create extra airport time, and it only stops you from wasting minutes you already have."
+      },
+      {
+        "question": "Does a front seat guarantee I will make a tight connection?",
+        "answer": "No, a forward aisle can save several minutes of deplaning, while immigration, a terminal change, baggage, or a late inbound can still break the connection. Minimum connection times are planning floors, not a promise that you will make the next flight. If the connection is tight, book more buffer when you can and treat the seat as one small part of that plan."
+      },
+      {
+        "question": "Are exit rows a good idea when the connection is short?",
+        "answer": "Sometimes, and they are often more complicated than they are worth. You may get space near a door, and you also accept assist duties, possible limits on a bag at your feet, and the chance that crew move you. A standard aisle nearer the front is the simpler pick when the only goal is to leave the airplane. Read the exit rules before you pay."
+      },
+      {
+        "question": "What if I have to clear security again between flights?",
+        "answer": "Pack a small bag you can open quickly, and expect liquids and electronics steps at the next checkpoint. Seat choice does not speed up screening. Arriving at that checkpoint a few minutes earlier, because you sat forward and kept your bag close, is the part you control. Public traveler tips linked on this page are about allowing enough time, not about a magic row."
+      },
+      {
+        "question": "Should a family split up to sit closer to the door?",
+        "answer": "Usually no. The minutes you might save by scattering into leftover forward seats are easy to lose while you find each other, collect bags, and move a child through a busy jet bridge. Keep adults and children together in one row or across an aisle. A slightly slower exit with everyone accounted for is the better connection plan."
+      },
+      {
+        "question": "What should I do if the airline changes the aircraft before a connection?",
+        "answer": "Open the seat map as soon as you see the change. A swap can move exits, remove a cabin you were counting on, or put your old row in a different spot. Ask for a comparable forward aisle if a paid seat disappeared, and keep the fee receipt. Our schematics are typical drawings, not a picture of the jet at the gate."
+      }
     ],
     "sources": [
       {
