@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { airlines, getAircraftByAirline, layoutString } from '../../data';
+import { airlines, getAircraftByAirline, getUniqueAircraftTypes, layoutString } from '../../data';
 import { aircraftUrlParam } from '../../lib/resolve';
 import { breadcrumbItemList } from '../../lib/schema';
 import guides from '../../data/guides.json';
@@ -13,6 +13,7 @@ const { airline: slug } = Astro.params;
 const airline = airlines.find((a) => a.slug === slug)!;
 const configs = getAircraftByAirline(slug!);
 const pagePath = `/airlines/${airline.slug}/`;
+const typeSlugByLabel = new Map(getUniqueAircraftTypes().map((entry) => [entry.label, entry.typeSlug]));
 
 function listNames(names: string[]): string {
   if (names.length === 0) return '';
@@ -60,6 +61,8 @@ const seatPhrase =
       ? `about ${minSeats} seats`
       : `about ${minSeats} to ${maxSeats} seats`;
 const layouts = [...new Set(configs.map((config) => layoutString(config)))].sort();
+const article = /^[AEIOU]/i.test(airline.name) ? 'an' : 'a';
+const seatMapLabel = configCount === 1 ? 'seat map' : 'seat maps';
 const findSentence =
   configCount === 0
     ? `No illustrative configs are published for ${airline.name} yet.`
@@ -129,8 +132,122 @@ const pickParts: { text: string; href?: string }[] =
         { text: ' explains the heuristic.' },
       ];
 
+const answerParts: { text: string; href?: string }[] =
+  configCount === 0
+    ? [
+        {
+          text: `No illustrative ${airline.name} seat map is published here yet. A seating plan will appear on this hub after a cabin is drawn. Confirm any seat with ${airline.name}, or browse the `,
+        },
+        { text: 'aircraft index', href: '/aircraft/' },
+        { text: ' for types drawn on other carriers.' },
+      ]
+    : configCount === 1
+      ? [
+          {
+            text: `This ${airline.name} seat map is an original illustrative seating plan for 1 config, ${exampleType}, and the drawn cabin runs ${seatPhrase}. Open the `,
+          },
+          { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
+          { text: ' if it matches the aircraft on your ticket, or read the ' },
+          { text: 'best seats page', href: exampleBest },
+          {
+            text: ` for the editorial shortlist. Confirm the live cabin with ${airline.name} before you pay for a seat. If the type name is unclear, use `,
+          },
+          {
+            text: 'how to verify your aircraft type',
+            href: '/guides/how-to-verify-your-aircraft-type/',
+          },
+          { text: '.' },
+        ]
+      : [
+          {
+            text: `These ${airline.name} seat maps are original illustrative seating plans for ${configCount} configs (${typeList}), and drawn cabins run ${seatPhrase}. Match the aircraft on your ticket to a fleet table row or a card below, then open that seat map, such as the `,
+          },
+          { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
+          { text: ', or its ' },
+          { text: 'best seats page', href: exampleBest },
+          {
+            text: `. Confirm the live cabin with ${airline.name} before you pay for a seat. If the type name is unclear, use `,
+          },
+          {
+            text: 'how to verify your aircraft type',
+            href: '/guides/how-to-verify-your-aircraft-type/',
+          },
+          { text: '.' },
+        ];
+
+const fleetIntroParts: { text: string; href?: string }[] = [
+  {
+    text: `Each row is one illustrative ${airline.name} config. The aircraft name opens the shared type page. Seat map opens that cabin sketch. Best seats opens the editorial shortlist. Match the type on your ticket before you choose a row. The guide on `,
+  },
+  {
+    text: 'how to verify your aircraft type',
+    href: '/guides/how-to-verify-your-aircraft-type/',
+  },
+  { text: ' explains that check.' },
+];
+const fleetCaption = `${airline.name} seating plans on this hub`;
+
+const whereParts: { text: string; href?: string }[] =
+  configCount === 0
+    ? [
+        {
+          text: `No ${airline.name} seat map is published on this hub yet. Use the live map from ${airline.name}. Types drawn for other carriers are listed in the `,
+        },
+        { text: 'aircraft index', href: '/aircraft/' },
+        { text: '.' },
+      ]
+    : [
+        {
+          text: `Start with the fleet table on this page. Each row is an illustrative ${airline.name} seating plan and links to that aircraft seat map. One cabin sketch is the `,
+        },
+        { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
+        {
+          text: `. The official diagram is on the ${airline.name} site or in the airline app, and it can differ by registration. To match a ticket to a row here, use `,
+        },
+        {
+          text: 'how to verify your aircraft type',
+          href: '/guides/how-to-verify-your-aircraft-type/',
+        },
+        { text: '. Other types on Pick Your Row are listed in the ' },
+        { text: 'aircraft index', href: '/aircraft/' },
+        { text: '.' },
+      ];
+
+const planIndexSentence =
+  configCount === 1 ? 'This hub lists that one plan.' : `This hub lists all ${configCount} drawn plans.`;
+
+const planParts: { text: string; href?: string }[] =
+  configCount === 0
+    ? [
+        {
+          text: `There is no ${airline.name} seating plan to open here yet. When a config is drawn, the plan will be an original cabin sketch with a seat map and a best seats page. This hub would be the index. An aircraft seat map would be that one cabin. Until then, confirm the layout with ${airline.name}.`,
+        },
+      ]
+    : [
+        {
+          text: `It is one original cabin sketch for a single ${airline.name} config, not a copy of the airline chart. ${economyLayoutSentence(layouts, configCount === 1)} Drawn cabins on this hub run ${seatPhrase}. ${planIndexSentence} An aircraft seat map is the sketch for one config only, for example the `,
+        },
+        { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
+        { text: '. The ' },
+        {
+          text: `best seats page for ${airline.name}`,
+          href: configCount === 1 ? exampleBest : bestHub,
+        },
+        { text: ' is the editorial shortlist for the same drawings. The ' },
+        { text: 'methodology', href: '/methodology/' },
+        { text: ` explains the scores. Confirm the live plan with ${airline.name}.` },
+      ];
+
 /** Visible FAQ and FAQPage schema share this copy so the markup matches the page. */
 const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
+  {
+    question: `Where can I find ${article} ${airline.name} seat map?`,
+    parts: whereParts,
+  },
+  {
+    question: `What does ${article} ${airline.name} seating plan show?`,
+    parts: planParts,
+  },
   {
     question: `What is this ${airline.name} page for?`,
     parts: [
@@ -182,15 +299,38 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
   },
 ];
 
+const pageTitle = `${airline.name} ${seatMapLabel} and seating plan`;
+const pageDescription =
+  configCount === 0
+    ? `No illustrative ${airline.name} seat map is published here yet. Confirm any seat with ${airline.name}.`
+    : configCount === 1
+      ? `Illustrative ${airline.name} seat map for 1 aircraft. Drawn cabin: ${seatPhrase}. Match your ticket, then confirm with ${airline.name}.`
+      : `Illustrative ${airline.name} seat maps for ${configCount} aircraft. Drawn cabins: ${seatPhrase}. Match your ticket, then confirm with ${airline.name}.`;
+
 const allowedLabels = [airline.name, airline.iata, ...configs.map((config) => config.aircraftType)]
   .filter((label) => label.length > 0)
   .sort((a, b) => b.length - a.length);
 
-for (const item of faqs) {
-  let stripped = `${item.question} ${item.parts.map((part) => part.text).join('')}`;
+function assertNoDash(kind: string, raw: string) {
+  let stripped = raw;
   for (const label of allowedLabels) stripped = stripped.split(label).join('');
   if (/[-–—]/.test(stripped)) {
-    throw new Error(`FAQ prose contains a dash outside airline or aircraft labels (${airline.name}): ${stripped}`);
+    throw new Error(`${kind} contains a dash outside airline or aircraft labels (${airline.name}): ${stripped}`);
+  }
+}
+
+for (const item of faqs) {
+  assertNoDash('FAQ prose', `${item.question} ${item.parts.map((part) => part.text).join('')}`);
+}
+assertNoDash('Page title', pageTitle);
+assertNoDash('Meta description', pageDescription);
+assertNoDash('H1', `${airline.name} ${seatMapLabel} (${airline.iata})`);
+assertNoDash('Answer', answerParts.map((part) => part.text).join(''));
+if (configCount > 0) {
+  assertNoDash('Fleet intro', fleetIntroParts.map((part) => part.text).join(''));
+  assertNoDash('Fleet caption', fleetCaption);
+  for (const config of configs) {
+    assertNoDash('Economy layout cell', blocksPhrase(layoutString(config)));
   }
 }
 
@@ -225,17 +365,20 @@ const jsonLd = [
 ];
 ---
 <BaseLayout
-  title={`${airline.name} seat maps and best seats`}
-  description={`Original schematic cabin maps and editorial best seats for typical ${airline.name} aircraft. Illustrative configs. Not affiliated with ${airline.name}.`}
+  title={pageTitle}
+  description={pageDescription}
   canonicalPath={pagePath}
   jsonLd={jsonLd}
 >
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/airlines/">Airlines</a> / {airline.name}</nav>
-    <h1 class="page-title">{airline.name} <span class="muted">({airline.iata})</span></h1>
+    <h1 class="page-title">{airline.name} {seatMapLabel} <span class="muted">({airline.iata})</span></h1>
     <p class="lede">{airline.blurb}</p>
     <p class="note">
       Pick Your Row is not affiliated with, endorsed by, or sponsored by {airline.name}. Maps are original schematics.
+    </p>
+    <p class="answer-block">
+      {answerParts.map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
     </p>
     <nav class="hub-links" aria-label="Related hubs">
       {configs.length > 0 && (
@@ -247,13 +390,52 @@ const jsonLd = [
       <a href="/guides/">Guides index</a>
       <a href="/methodology/">Methodology</a>
     </nav>
+    {configCount > 0 && (
+      <section aria-labelledby="fleet-summary">
+        <h2 id="fleet-summary">Fleet summary</h2>
+        <p>
+          {fleetIntroParts.map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
+        </p>
+        <div class="table-scroll">
+          <table class="fleet">
+            <caption>{fleetCaption}</caption>
+            <thead>
+              <tr>
+                <th scope="col">Aircraft</th>
+                <th scope="col">Approximate seats</th>
+                <th scope="col">Economy layout</th>
+                <th scope="col">Seat map</th>
+                <th scope="col">Best seats</th>
+              </tr>
+            </thead>
+            <tbody>
+              {configs.map((c) => {
+                const ap = aircraftUrlParam(c);
+                const typeSlug = typeSlugByLabel.get(c.aircraftType);
+                return (
+                  <tr>
+                    <th scope="row">
+                      {typeSlug ? <a href={`/aircraft/${typeSlug}/`}>{c.aircraftType}</a> : c.aircraftType}
+                    </th>
+                    <td>{c.totalSeatsApprox}</td>
+                    <td>{blocksPhrase(layoutString(c))}</td>
+                    <td><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a></td>
+                    <td><a href={`/best-seats/${airline.slug}/${ap}/`}>Best seats</a></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
     <div class="grid cols-2">
       {configs.map((c) => {
         const ap = aircraftUrlParam(c);
         return (
           <article class="card">
             <h2><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>{c.aircraftType}</a></h2>
-            <p>~{c.totalSeatsApprox} seats · layout {layoutString(c)}</p>
+            <p>About {c.totalSeatsApprox} seats. Economy uses {blocksPhrase(layoutString(c))}.</p>
             <p class="btn-row">
               <a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a>
               ·
@@ -280,7 +462,7 @@ const jsonLd = [
       <h2>Helpful seat guides</h2>
       <p class="muted">Original Pick Your Row articles, useful alongside these {airline.name} schematics.</p>
       <ul class="clean">
-        {guides.filter((g) => ['seat-map-glossary', 'cabin-class-primer', 'exit-row-tips', 'how-pickyourrow-scores-work'].includes(g.slug)).map((g) => (
+        {guides.filter((g) => ['how-to-verify-your-aircraft-type', 'seat-map-glossary', 'cabin-class-primer', 'exit-row-tips', 'how-pickyourrow-scores-work'].includes(g.slug)).map((g) => (
           <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
         ))}
       </ul>

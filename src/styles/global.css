@@ -132,6 +132,12 @@ svg {
   margin: 0 0 1.25rem;
 }
 
+.answer-block {
+  max-width: 42rem;
+  margin: 0 0 1.25rem;
+  font-size: 1.02rem;
+}
+
 .grid {
   display: grid;
   gap: 1rem;
@@ -246,25 +252,49 @@ svg {
   border: 1px solid #0f172a;
 }
 
-table.seats {
+.table-scroll {
+  overflow-x: auto;
+  margin: 0 0 1.5rem;
+}
+
+table.seats,
+table.fleet {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.9rem;
 }
 
+table.fleet caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 650;
+  padding: 0 0 0.5rem;
+}
+
 table.seats th,
-table.seats td {
+table.seats td,
+table.fleet th,
+table.fleet td {
   text-align: left;
   padding: 0.5rem 0.4rem;
   border-bottom: 1px solid var(--border);
   vertical-align: top;
 }
 
-table.seats th {
+table.seats th,
+table.fleet th {
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--muted);
+}
+
+table.fleet tbody th {
+  font-size: 0.92rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink);
+  font-weight: 650;
 }
 
 .score {
