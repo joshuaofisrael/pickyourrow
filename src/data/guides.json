@@ -312,7 +312,7 @@
       "Why do airlines not do more of this already? Parts of the idea feel familiar. Some premium seats already use sliding doors or closing shells. The hard leap is bringing a rotating enclosure into high density coach while keeping certification, weight, and turn times acceptable. Certification does not care how pretty the render looks. Aisle width, assist paths near exits, passenger assist criteria, oxygen, fireworthiness, and how fast a full load can leave still rule the design. Moving shells also complicate under seat bags, service carts, cleaning, and who can self evacuate without blocking neighbors.",
       "Trade offs stack quickly. Structure and fittings get heavier when every seat carries a rotating shell and drive. Center of gravity and load paths change if shells concentrate mass high in the cabin. Overhead bins compete for the same wall and crown volume privacy canopies want. Boarding slows if people wait for shells to open or learn a new stow dance. Revenue density can rise if you keep seat count and sell the cocoon as a premium coach upsell, or it can fall if you lose too many seats or add too much empty weight. None of the images on this page are certified products. They are original concept illustrations meant to make the geometry intuitive.",
       "If a design ever worked, traveler trade offs would feel familiar to anyone who studies seat maps. Privacy shells help rest but can feel tight. Rotating mechanisms need reliable power and failure modes that leave a clear path. Nearly flat is still not a true hotel bed. Turbulence, oxygen masks, and assist criteria get stricter when people sleep inside moving enclosures. Our editorial scores on live configs still assume today real seats: exit rows, bulkheads, lav proximity, not speculative sleep cocoons.",
-      "For travelers, the useful takeaway is simpler than the art. When you pick a row today, you are still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than whether a future cabin might spin a shell closed around you. Use our original schematics to plan the aircraft you actually booked, and treat rotating privacy shells as a design brief, not a booking tip. For related speculative cabin ideas on this site, see [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/).",
+      "For travelers, the useful takeaway is simpler than the art. When you pick a row today, you are still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than whether a future cabin might spin a shell closed around you. Use our original schematics to plan the aircraft you actually booked, and treat rotating privacy shells as a design brief, not a booking tip. For related speculative cabin ideas on this site, see [Family Mezzanine Suites](/guides/family-mezzanine-suites/), [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/).",
       "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
     "sources": [
@@ -335,6 +335,65 @@
         "label": "ICAO Safety",
         "url": "https://www.icao.int/safety",
         "note": "International safety framework portal. Rotating shells and boarding density are standards problems, not just design sketches."
+      }
+    ]
+  },
+  {
+    "slug": "family-mezzanine-suites",
+    "title": "Family Mezzanine Suites: A Kids Loft Above the Parents Row",
+    "description": "A speculative look at widebody family suites where children sleep in a small loft tucked into the crown space above their parents seats, turning unused ceiling height into rest without giving up floor seats.",
+    "heroImage": {
+      "src": "/images/blog/family-mezzanine-suites-thumbnail.png",
+      "alt": "Concept render of a widebody night cabin where parents relax in seats at floor level while a child sleeps in an enclosed loft above them, reached by a short built in stair",
+      "caption": "AI concept art. Speculative family mezzanine suite with a kids sleeping loft above the parents row. Not a certified product. Not affiliated with any airline."
+    },
+    "figures": [
+      {
+        "src": "/images/blog/family-mezzanine-suites-closeup.png",
+        "alt": "Concept close up of a padded child loft with safety netting, a reading light, a restraint strap, and a fold out ladder above two parent seats",
+        "caption": "Concept close up. A small padded loft with netting, a restraint strap, and a fold out ladder sits directly above the parents seats. AI concept art. Not a certified product."
+      },
+      {
+        "src": "/images/blog/family-mezzanine-suites-section.png",
+        "alt": "Cross section concept of a widebody fuselage with cargo below, seats on the main deck, and child lofts in the center crown where center overhead bins would normally sit",
+        "caption": "Cross section concept. Child lofts take the center crown volume that center bins usually use. Outboard seats keep side bins. Speculative only. AI concept art."
+      }
+    ],
+    "body": [
+      "Flying long haul with small children is mostly a sleep problem. A toddler who will not settle in an upright seat can turn a twelve hour night into a very long day for the whole row, and for the rows around it. Today the answers are bassinets at the bulkhead, a lie flat seat for the price of a used car, or a parent holding a child for hours. So here is a Pick Your Row thought experiment aimed straight at that problem: family mezzanine suites, where kids sleep in a small loft above their parents row.",
+      "Picture the center section of a widebody at night. At floor level the parents sit in ordinary premium economy style seats, side by side, with the usual tray tables and screens. Directly above them, in the tall crown space where the center overhead bins normally hang, sits a padded child sized loft. It is short and narrow by adult standards, but plenty for a sleeping four year old. A short fold out ladder links the two levels, and a soft net plus a restraint strap keep the child in place. During taxi, takeoff, landing, and turbulence the child comes down and sits in a real seat with a real belt, so the loft is a bed for cruise only.",
+      "Why does the geometry tempt designers? Widebody cabins have a lot of height in the middle that passengers never use. The crown above the center seats mostly holds bins, ducts, and lighting. Children are small, so a bed that would be useless for an adult can work for a child inside that leftover volume. The floor footprint does not grow. The family still buys the same number of seats on the seat map, they just gain a second level where the youngest traveler can lie flat.",
+      "Why do airlines not do more of this already? A few carriers have tried family friendly ideas such as couch style economy rows that convert into a flat surface, and crew rest bunks already live in hidden crown areas on some long haul jets. So the pieces exist. The hard leap is putting a passenger occupied space above another passenger in the main cabin. Certification has strong opinions about that. Every occupant needs a certified restraint for taxi, takeoff, and landing. A loft would also need fire resistant materials, oxygen mask coverage, lighting, smoke detection, and a way for crew to see and reach a child quickly. Evacuation rules ask that a full cabin can leave within strict time limits, and a ladder in the aisle line is the kind of obstacle that makes engineers nervous.",
+      "Trade offs pile up fast. Center bins disappear, so families lose overhead space exactly when they carry the most bags. Structure gets heavier because a loft must carry loads that a bin never sees, and that mass sits high in the fuselage, which affects floor beams, ceiling mounts, and center of gravity planning. Boarding and turn times suffer if crews must inspect, clean, and reset each loft. Revenue density is a mixed story. The airline keeps its seat count on the floor, but it may need a pricing product that is hard to explain, and a loft that sits empty on a business heavy route is dead weight. There is also the human factor. Some parents will love a child asleep right above them. Others will not want their child out of arm reach at all.",
+      "If a design ever made it through certification, the traveler trade offs would look familiar to anyone who studies seat maps. The best family rows would still be the ones near lavatories but not beside the galley noise, away from the busiest cross aisles, and close enough to an exit to feel calm. Our editorial scores still assume today real seats. For practical advice on flying with children right now, see [choosing seats with kids](/guides/choosing-seats-with-kids/) and [bassinet bulkhead seats](/guides/bassinet-bulkhead-seats/).",
+      "For travelers, the useful takeaway is simple. A family mezzanine suite is a design brief, not a booking tip. The real lesson is that cabin volume above your head is valuable, and today most of it goes to bags. For related speculative cabin ideas on this site, see [Rotating Privacy Shells](/guides/rotating-privacy-shells/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/).",
+      "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 25.803 Emergency evacuation",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.803",
+        "note": "Transport category evacuation requirements. Any loft above a seat row would still have to fit inside the full cabin evacuation demonstration."
+      },
+      {
+        "label": "U.S. eCFR 14 CFR 121.311 Seats, safety belts, and shoulder harnesses",
+        "url": "https://www.ecfr.gov/current/title-14/section-121.311",
+        "note": "Rules on seats and approved child restraint systems. A loft could only ever be a cruise bed, with children back in a certified seat for taxi, takeoff, and landing."
+      },
+      {
+        "label": "FAA Flying with Children",
+        "url": "https://www.faa.gov/travelers/fly_children/",
+        "note": "FAA guidance for families. A reminder that the safest place for a small child during critical phases of flight is a proper restraint."
+      },
+      {
+        "label": "IATA Evacuation safety education",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Public industry messaging on evacuation behavior, relevant to any idea that adds levels or ladders inside the cabin."
+      },
+      {
+        "label": "ICAO Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International safety framework portal. Lofts above passengers are a standards problem, not just a design sketch."
       }
     ]
   },
