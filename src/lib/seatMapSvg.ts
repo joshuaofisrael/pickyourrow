@@ -163,7 +163,7 @@ export function buildSeatMapSvg(config: AircraftConfig, opts?: { highlight?: Set
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" role="img" aria-label="${escapeXml(title)} seat map schematic">
-  <title>${escapeXml(title)} — original Pick Your Row schematic</title>
+  <title>${escapeXml(title)}. Original Pick Your Row schematic</title>
   <desc>Original schematic reconstruction. Not an airline official diagram. Configurations vary by registration.</desc>
   <rect width="${width}" height="${height}" fill="#f1f5f9"/>
   <!-- fuselage outline -->

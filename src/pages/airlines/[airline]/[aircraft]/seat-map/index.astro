@@ -3,11 +3,13 @@ import BaseLayout from '../../../../../layouts/BaseLayout.astro';
 import SeatMap from '../../../../../components/SeatMap.astro';
 import BookingCTA from '../../../../../components/BookingCTA.astro';
 import { airlines, aircraftConfigs, layoutString } from '../../../../../data';
+import { assertLeafMeta, leafDescription, leafHeading, leafTitle, softenProseDashes } from '../../../../../lib/leafMeta';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../../lib/resolve';
 import { topSeats } from '../../../../../lib/scoring';
 import guides from '../../../../../data/guides.json';
 
 export function getStaticPaths() {
+  assertLeafMeta(airlines, aircraftConfigs);
   return aircraftConfigs.map((c) => ({
     params: {
       airline: c.airlineSlug,
@@ -51,7 +53,9 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
     question: `Do all ${config.aircraftType} aircraft use this layout?`,
     parts: [
       {
-        text: `${config.configNote} Exit rows marked here: ${exitLabel}. Treat this ${airline.name} ${config.aircraftType} map as one typical example. Another registration can move galleys, lavatories, or row counts.`,
+        text: softenProseDashes(
+          `${config.configNote} Exit rows marked here: ${exitLabel}. Treat this ${airline.name} ${config.aircraftType} map as one typical example. Another registration can move galleys, lavatories, or row counts.`,
+        ),
       },
     ],
   },
@@ -98,12 +102,16 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
 ];
 
 const pagePath = `/airlines/${airline.slug}/${acParam}/seat-map/`;
+const pageTitle = leafTitle(airline, config);
+const pageDescription = leafDescription(airline, config);
+const heading = leafHeading(airline, config);
+const documentTitle = `${pageTitle} · Pick Your Row`;
 const jsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: `${airline.name} ${config.aircraftType} seat map`,
-    description: `Original schematic seat map for a typical ${airline.name} ${config.aircraftType}. Illustrative only. Configs vary by registration.`,
+    name: documentTitle,
+    description: pageDescription,
     url: `https://pickyourrow.com${pagePath}`,
     isPartOf: { '@type': 'WebSite', name: 'Pick Your Row', url: 'https://pickyourrow.com/' },
   },
@@ -149,8 +157,8 @@ function relatedGuides(seed: string, count = 4) {
 const related = relatedGuides(config.slug);
 ---
 <BaseLayout
-  title={`${airline.name} ${config.aircraftType} seat map (illustrative)`}
-  description={`Original schematic seat map for a typical ${airline.name} ${config.aircraftType}. Cabin layout ${layoutString(config)}. Illustrative only. Configs vary by registration. Not affiliated.`}
+  title={pageTitle}
+  description={pageDescription}
   canonicalPath={pagePath}
   jsonLd={jsonLd}
 >
@@ -161,12 +169,12 @@ const related = relatedGuides(config.slug);
       <a href={`/airlines/${airline.slug}/`}>{airline.name}</a> /
       Seat map
     </nav>
-    <h1 class="page-title">{config.name}</h1>
+    <h1 class="page-title">{heading}</h1>
     <p class="lede">
-      About {config.totalSeatsApprox} seats. Economy style layout {layoutString(config)}.
-      Exit rows {config.exitRows.join(', ') || 'n/a'}. Cabins: {cabinSummary}.
+      Typical layout. About {config.totalSeatsApprox} seats. Economy style layout {layoutString(config)}.
+      Exit rows {config.exitRows.join(', ') || 'none marked'}. Cabins: {cabinSummary}.
     </p>
-    <p class="note">{config.configNote}</p>
+    <p class="note">{softenProseDashes(config.configNote)}</p>
 
     <div class="sticky-best-cta" aria-label="Quick actions">
       <a class="btn" href={bestSeatsHref}>Editorial best seats</a>
@@ -204,7 +212,7 @@ const related = relatedGuides(config.slug);
       <>
         <h2>Notes</h2>
         <ul class="clean">
-          {config.notes.map((n) => <li>{n}</li>)}
+          {config.notes.map((n) => <li>{softenProseDashes(n)}</li>)}
         </ul>
       </>
     )}
@@ -231,7 +239,7 @@ const related = relatedGuides(config.slug);
     <h2>Related reading</h2>
     <ul class="clean">
       {related.map((g) => (
-        <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
+        <li><a href={`/guides/${g.slug}/`}>{softenProseDashes(g.title)}</a>. {softenProseDashes(g.description)}</li>
       ))}
     </ul>
     <p class="btn-row">
