@@ -1,10 +1,24 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getUniqueAircraftTypes, layoutString } from '../../data';
+import { shortAircraftType } from '../../lib/leafMeta';
 import { aircraftUrlParam } from '../../lib/resolve';
 import { breadcrumbItemList } from '../../lib/schema';
+import {
+  CABIN_COUNT_NOTE,
+  assertTypeHubMeta,
+  cabinCountPhrase,
+  exitRowPhrase,
+  typeHubAnalysis,
+  typeHubCaption,
+  typeHubDescription,
+  typeHubHeading,
+  typeHubIntro,
+  typeHubTitle,
+} from '../../lib/typeHubMeta';
 
 export function getStaticPaths() {
+  assertTypeHubMeta(getUniqueAircraftTypes(), airlines);
   return getUniqueAircraftTypes().map((t) => ({ params: { type: t.typeSlug } }));
 }
 
@@ -98,7 +112,7 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
       configCount === 1
         ? [
             {
-              text: `Only ${example.airline.name} has ${article} ${entry.label} card on this page, with ${seatPhrase}. There is no second airline interior here to compare yet. Other carriers can still fly this type with a different cabin. Open the `,
+              text: `Only ${example.airline.name} has ${article} ${entry.label} layout on this page, with ${seatPhrase}. The comparison table shows that one row. There is no second airline interior here to compare yet. Other carriers can still fly this type with a different cabin. Open the `,
             },
             {
               text: `${example.airline.name} ${entry.label} seat map`,
@@ -108,7 +122,7 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
           ]
         : [
             {
-              text: `Each card is one airline interior for the ${entry.label}, not a universal cabin. Compare the carrier, the approximate seat count (${seatPhrase}), and the economy block pattern on the card. ${economyLayoutSentence(layouts, false)} Do not mix a row number from one airline with the map of another. For a worked example, open the `,
+              text: `Each row in the comparison table is one airline interior for the ${entry.label}, not a universal cabin. Compare the carrier, the approximate seat count (${seatPhrase}), the cabin counts, and the economy pattern. ${economyLayoutSentence(layouts, false)} Do not mix a row number from one airline with the map of another. For a worked example, open the `,
             },
             {
               text: `${example.airline.name} ${entry.label} seat map`,
@@ -133,8 +147,8 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
       {
         text:
           configCount === 1
-            ? `Open the ${example.airline.name} card above, then read that seat map before you pay for a row. Extra space often sits at an exit or a bulkhead, and the carrier sets the rules and the fee. A window or an aisle is a preference. Highlights on Pick Your Row are opinions for planning, not a seat the airline is holding for you. The best seats link on that card applies the same heuristic to the drawing. See the `
-            : 'Match a card above to your airline, then read that seat map before you pay for a row. Extra space often sits at an exit or a bulkhead, and the carrier sets the rules and the fee. A window or an aisle is a preference. Highlights on Pick Your Row are opinions for planning, not a seat the airline is holding for you. The best seats page on each card applies the same heuristic to that drawing. One example is the ',
+            ? `Open the ${example.airline.name} row in the comparison table, then read that seat map before you pay for a row. Extra space often sits at an exit or a bulkhead, and the carrier sets the rules and the fee. A window or an aisle is a preference. Highlights on Pick Your Row are opinions for planning, not a seat the airline is holding for you. The best seats link on that row applies the same heuristic to the drawing. See the `
+            : 'Match a row in the comparison table to your airline, then read that seat map before you pay for a row. Extra space often sits at an exit or a bulkhead, and the carrier sets the rules and the fee. A window or an aisle is a preference. Highlights on Pick Your Row are opinions for planning, not a seat the airline is holding for you. The best seats page on each row applies the same heuristic to that drawing. One example is the ',
       },
       {
         text: `${example.airline.name} ${entry.label} best seats page`,
@@ -160,13 +174,32 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
   },
 ];
 
-for (const item of faqs) {
-  const raw = `${item.question} ${item.parts.map((part) => part.text).join('')}`;
-  const stripped = raw.split(entry.label).join('');
+const pageTitle = typeHubTitle(entry);
+const pageDescription = typeHubDescription(entry);
+const heading = typeHubHeading(entry);
+const intro = typeHubIntro(entry);
+const analysis = typeHubAnalysis(entry, airlines);
+const caption = typeHubCaption(entry);
+const allowedLabels = [entry.label, shortAircraftType(entry.label), ...airlineNames].sort((a, b) => b.length - a.length);
+
+function assertNoDash(kind: string, raw: string) {
+  let stripped = raw;
+  for (const label of allowedLabels) stripped = stripped.split(label).join('');
   if (/[-–—]/.test(stripped)) {
-    throw new Error(`FAQ prose contains a dash outside the aircraft label (${entry.label}): ${stripped}`);
+    throw new Error(`${kind} contains a dash outside allowed labels (${entry.label}): ${stripped}`);
   }
 }
+
+for (const item of faqs) {
+  assertNoDash('FAQ prose', `${item.question} ${item.parts.map((part) => part.text).join('')}`);
+}
+assertNoDash('Page title', pageTitle);
+assertNoDash('Meta description', pageDescription);
+assertNoDash('H1', heading);
+assertNoDash('Intro', intro);
+assertNoDash('Analysis', analysis);
+assertNoDash('Caption', caption);
+assertNoDash('Cabin count note', CABIN_COUNT_NOTE);
 
 const jsonLd = [
   ...breadcrumbItemList({
@@ -200,17 +233,16 @@ const jsonLd = [
 ];
 ---
 <BaseLayout
-  title={`${entry.label} seat maps`}
-  description={`Original schematic cabin maps for ${entry.label} configurations on Pick Your Row. Illustrative layouts vary by registration and subfleet.`}
+  title={pageTitle}
+  description={pageDescription}
   canonicalPath={pagePath}
   jsonLd={jsonLd}
 >
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/aircraft/">Aircraft</a> / {entry.label}</nav>
-    <h1 class="page-title">{entry.label}</h1>
+    <h1 class="page-title">{heading}</h1>
     <p class="lede">
-      These cards are original illustrative schematics for a typical {entry.label} cabin.
-      The same type often flies with different interiors by airline, registration, and subfleet, so treat every map as a planning sketch.
+      {intro}
       Confirm the aircraft and the live seat map with your carrier before you pay for a row.
       See <a href="/methodology/">Methodology</a>, plus
       <a href="/guides/exit-row-tips/">exit row tips</a>,
@@ -224,6 +256,43 @@ const jsonLd = [
       <a href="/guides/">Guides</a>
       <a href="/methodology/">Methodology</a>
     </nav>
+    <section aria-labelledby="layout-comparison">
+      <h2 id="layout-comparison">Airline layout comparison</h2>
+      <p>{analysis}</p>
+      <p class="muted">{CABIN_COUNT_NOTE}</p>
+      <div class="table-scroll">
+        <table class="fleet type-compare">
+          <caption>{caption}</caption>
+          <thead>
+            <tr>
+              <th scope="col">Airline</th>
+              <th scope="col">Approximate seats</th>
+              <th scope="col">Cabins</th>
+              <th scope="col">Economy layout</th>
+              <th scope="col">Exit rows</th>
+              <th scope="col">Seat map</th>
+              <th scope="col">Best seats</th>
+            </tr>
+          </thead>
+          <tbody>
+            {namedConfigs.map(({ config, airline }) => {
+              const ap = aircraftUrlParam(config);
+              return (
+                <tr>
+                  <th scope="row"><a href={`/airlines/${airline.slug}/`}>{airline.name}</a></th>
+                  <td>{config.totalSeatsApprox}</td>
+                  <td class="cabins">{cabinCountPhrase(config)}</td>
+                  <td>{layoutString(config)}</td>
+                  <td>{exitRowPhrase(config)}</td>
+                  <td><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a></td>
+                  <td><a href={`/best-seats/${airline.slug}/${ap}/`}>Best seats</a></td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
     <div class="grid cols-2">
       {entry.configs.map((c) => {
         const airline = airlines.find((a) => a.slug === c.airlineSlug)!;

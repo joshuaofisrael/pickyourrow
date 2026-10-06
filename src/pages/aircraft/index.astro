@@ -2,8 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getUniqueAircraftTypes } from '../../data';
 import { breadcrumbItemList } from '../../lib/schema';
+import {
+  AIRCRAFT_DIRECTORY_TITLE,
+  aircraftDirectoryDescription,
+  assertDirectoryCopy,
+} from '../../lib/typeHubMeta';
 
 const types = getUniqueAircraftTypes().sort((a, b) => a.label.localeCompare(b.label));
+const directoryDescription = aircraftDirectoryDescription(types.length);
+assertDirectoryCopy(AIRCRAFT_DIRECTORY_TITLE, directoryDescription);
 
 const jsonLd = breadcrumbItemList({
   crumbs: [
@@ -18,15 +25,15 @@ const jsonLd = breadcrumbItemList({
 });
 ---
 <BaseLayout
-  title="Aircraft types directory: cabin schematics by jet"
-  description="Browse aircraft families and typical cabin schematics. Compare airline configs for the same type. Original SVGs only. Illustrative layouts vary by registration."
+  title={AIRCRAFT_DIRECTORY_TITLE}
+  description={directoryDescription}
   canonicalPath="/aircraft/"
   jsonLd={jsonLd}
 >
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / Aircraft</nav>
     <h1 class="page-title">Aircraft types</h1>
-    <p class="lede">Each type page lists airline-specific illustrative configs we have reconstructed as original schematics.</p>
+    <p class="lede">Each type page compares the airline seat maps drawn for that aircraft, including approximate seats, economy seat layout, and a link to the seating chart.</p>
     <nav class="hub-links" aria-label="Related hubs">
       <a href="/airlines/">Airlines directory</a>
       <a href="/best-seats/">Best seats index</a>
