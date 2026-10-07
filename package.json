@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/check-leaf-titles.mjs && node scripts/check-type-hub-titles.mjs",
+    "build": "astro build && node scripts/check-leaf-titles.mjs && node scripts/check-type-hub-titles.mjs && node scripts/check-internal-links.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
