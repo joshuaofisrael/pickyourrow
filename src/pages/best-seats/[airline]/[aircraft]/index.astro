@@ -3,6 +3,7 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import SeatMap from '../../../../components/SeatMap.astro';
 import BookingCTA from '../../../../components/BookingCTA.astro';
 import { aircraftConfigs } from '../../../../data';
+import { seatMapAnchor, typeHubAnchor, typeHubPath } from '../../../../lib/relatedSeatMaps';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../lib/resolve';
 import { topSeats, cautionSeats } from '../../../../lib/scoring';
 import guides from '../../../../data/guides.json';
@@ -23,6 +24,9 @@ const { airline, config } = resolved;
 const tops = topSeats(config, 10);
 const cautions = cautionSeats(config, 6);
 const seatMapHref = `/airlines/${airline.slug}/${acParam}/seat-map/`;
+const typeHubHref = typeHubPath(config);
+const typeHubLabel = typeHubAnchor(config.aircraftType);
+const seatMapLabel = seatMapAnchor(airline.name, config.aircraftType);
 const topFive = tops.slice(0, 5).map((s) => s.seatId).join(', ');
 const topTags = [...new Set(tops.slice(0, 5).flatMap((s) => s.tags))].slice(0, 6);
 
@@ -115,6 +119,10 @@ const jsonLd = [
       Editorial heuristic scores from 1 to 10. Higher usually means more space or a quieter location on this schematic.
       Not airline advice and not a guarantee.
     </p>
+    <nav class="hub-links" aria-label="Matching seat map">
+      <a href={seatMapHref}>{seatMapLabel}</a>
+      <a href={typeHubHref}>{typeHubLabel}</a>
+    </nav>
 
     <section class="editorial-summary card" style="margin:1rem 0 1.25rem">
       <h2 style="margin-top:0;font-size:1.1rem">Editorial summary</h2>
