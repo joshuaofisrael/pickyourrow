@@ -1,4 +1,5 @@
 ---
+import { PUBLISHER } from '../../lib/schema';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const pagePath = '/methodology/';
@@ -61,16 +62,8 @@ const jsonLd = [
     description:
       'How Pick Your Row builds original cabin schematics and editorial seat scores, with outbound citations to public regulatory and industry sources.',
     url: `https://pickyourrow.com${pagePath}`,
-    author: {
-      '@type': 'Organization',
-      name: 'Joshua Israel Ventures LLC',
-      url: 'https://pickyourrow.com/',
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Pick Your Row',
-      url: 'https://pickyourrow.com/',
-    },
+    author: PUBLISHER,
+    publisher: PUBLISHER,
     about: ['airline seat maps', 'editorial seat scoring', 'aviation passenger information'],
   },
   {

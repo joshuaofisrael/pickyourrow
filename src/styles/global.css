@@ -114,6 +114,17 @@ svg {
   color: var(--muted);
 }
 
+.site-footer .footer-legal {
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.site-footer .footer-legal-links a {
+  color: var(--brand);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 .hero {
   padding: 2.25rem 0 1.5rem;
 }

@@ -47,3 +47,21 @@ export function breadcrumbItemList(options: {
     },
   ];
 }
+
+/** The legal entity behind the site. Pick Your Row is its brand, not a separate company. */
+export const PUBLISHER = {
+  '@type': 'Organization',
+  name: 'Joshua Israel Ventures LLC',
+  url: 'https://pickyourrow.com/',
+  brand: { '@type': 'Brand', name: 'Pick Your Row' },
+};
+
+/** Organization for the homepage, with the same identity as PUBLISHER. */
+export const ORGANIZATION = {
+  '@context': 'https://schema.org',
+  ...PUBLISHER,
+  legalName: 'Joshua Israel Ventures LLC',
+  email: 'joshuaofisrael@gmail.com',
+  description:
+    'Joshua Israel Ventures LLC publishes Pick Your Row, original airline cabin schematics and editorial best seat guidance. Not affiliated with any airline.',
+};

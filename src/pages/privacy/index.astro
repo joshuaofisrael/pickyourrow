@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PUBLISHER } from '../../lib/schema';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Privacy Policy',
+    description: 'How Joshua Israel Ventures LLC handles personal data on pickyourrow.com.',
+    url: 'https://pickyourrow.com/privacy/',
+    publisher: PUBLISHER,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://pickyourrow.com/privacy/' },
+    ],
+  },
+];
+---
+<BaseLayout
+  title="Privacy Policy"
+  description="Privacy Policy for pickyourrow.com. Joshua Israel Ventures LLC is the data controller. What we collect through the contact form, analytics and hosting, and your choices."
+  canonicalPath="/privacy/"
+  jsonLd={jsonLd}
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Privacy Policy</nav>
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="lede">
+      This policy explains what personal data pickyourrow.com collects, why, and what you can do about it. The short
+      version: we collect very little, we set no cookies of our own, and we do not sell your data.
+    </p>
+    <p class="muted">Last updated 8 October 2026.</p>
+
+    <h2>Who is responsible</h2>
+    <p>
+      Pick Your Row is a brand owned and operated by Joshua Israel Ventures LLC. Joshua Israel Ventures LLC is the
+      data controller for personal data collected through this site. Contact:
+      <a href="mailto:joshuaofisrael@gmail.com">joshuaofisrael@gmail.com</a>.
+    </p>
+
+    <h2>What we collect</h2>
+    <h3>When you use the contact form</h3>
+    <p>
+      The <a href="/contact/">contact form</a> asks for your name, email address and message, and optionally a phone
+      number. When you press send, your browser submits these details to FormSubmit (formsubmit.co), a third party
+      form service, which forwards them to us by email. We receive and store the email in a Google Gmail account. We
+      use these details only to read and reply to your message. If you email us directly, we receive the details in
+      your email in the same way.
+    </p>
+
+    <h3>Analytics</h3>
+    <p>
+      We use Cloudflare Web Analytics to count visits and see which pages are useful. Its script reports information
+      such as the page you viewed, the referring page, your browser and device type, your approximate country and
+      page load timing. Cloudflare says this service does not use cookies or local storage and does not fingerprint
+      individual visitors. We see only aggregated statistics. See the
+      <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare privacy policy</a>.
+    </p>
+
+    <h3>Hosting</h3>
+    <p>
+      The site is hosted on GitHub Pages. GitHub states that when a GitHub Pages site is visited, the visitor's IP
+      address is logged and stored for security purposes. We do not receive or control those logs. See the
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub privacy statement</a>.
+    </p>
+
+    <h2>Cookies, advertising and affiliate tracking</h2>
+    <p>
+      This site does not set cookies of its own. It does not currently run advertising, ad networks or affiliate
+      tracking, so no advertising or affiliate cookies are set. Booking buttons currently open an internal placeholder
+      page, not a partner site. If we add ads or affiliate links in future, we will update this policy and our
+      <a href="/disclosure/">Affiliate disclosure</a> before they go live.
+    </p>
+
+    <h2>Why we use your data</h2>
+    <ul class="clean">
+      <li>To answer messages you send us, based on your request and our legitimate interest in replying.</li>
+      <li>To understand overall site usage and keep the site working and secure, based on our legitimate interests.</li>
+    </ul>
+
+    <h2>Sharing</h2>
+    <p>
+      We do not sell or rent personal data. Data is handled by the service providers named above (FormSubmit, Google,
+      Cloudflare and GitHub) only as needed to provide their services. We may disclose data if the law requires it.
+      These providers may process data in the United States and other countries.
+    </p>
+
+    <h2>How long we keep it</h2>
+    <p>
+      We keep contact messages only as long as needed to handle your request and for ordinary business records, then
+      delete them. Analytics data is shown to us only in aggregated form.
+    </p>
+
+    <h2>Your choices and rights</h2>
+    <p>
+      You can ask us to tell you what personal data we hold about you, correct it or delete it by emailing
+      <a href="mailto:joshuaofisrael@gmail.com">joshuaofisrael@gmail.com</a>. Depending on where you live, you may have
+      further rights, including the right to complain to your local data protection authority. You can block the
+      analytics script with your browser or a content blocker and the site will still work.
+    </p>
+
+    <h2>Children</h2>
+    <p>The site is not directed at children under 13, and we do not knowingly collect their personal data.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy. The date at the top shows the latest version.</p>
+
+    <p>
+      See also our <a href="/terms/">Terms of Use</a>, <a href="/disclaimer/">Disclaimer</a> and
+      <a href="/contact/">Contact</a> page.
+    </p>
+  </div>
+</BaseLayout>

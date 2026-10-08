@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PUBLISHER } from '../../lib/schema';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Terms of Use',
+    description: 'Terms of Use for pickyourrow.com, a website owned and operated by Joshua Israel Ventures LLC.',
+    url: 'https://pickyourrow.com/terms/',
+    publisher: PUBLISHER,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Terms of Use', item: 'https://pickyourrow.com/terms/' },
+    ],
+  },
+];
+---
+<BaseLayout
+  title="Terms of Use"
+  description="Terms of Use for pickyourrow.com. Pick Your Row is owned and operated by Joshua Israel Ventures LLC. General information only. Always confirm seats with your airline."
+  canonicalPath="/terms/"
+  jsonLd={jsonLd}
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Terms of Use</nav>
+    <h1 class="page-title">Terms of Use</h1>
+    <p class="lede">
+      These terms govern your use of pickyourrow.com. By using the site you agree to them. If you do not agree,
+      please do not use the site.
+    </p>
+    <p class="muted">Last updated 8 October 2026.</p>
+
+    <h2>Who you are dealing with</h2>
+    <p>
+      Pick Your Row is a brand owned and operated by Joshua Israel Ventures LLC. It is not a separate company.
+      When these terms say "we", "us" or "our", they mean Joshua Israel Ventures LLC. Your agreement under these
+      terms is with Joshua Israel Ventures LLC.
+    </p>
+
+    <h2>General information only</h2>
+    <p>
+      Everything on this site, including seat maps, seat scores, best seat picks and guides, is general information
+      for planning. It is not professional travel, legal or financial advice, and it is not advice from any airline.
+      Seat scores and picks are editorial opinions.
+    </p>
+
+    <h2>Seat maps can differ from the real aircraft</h2>
+    <p>
+      Our seat maps are original illustrations of typical cabin layouts. The aircraft an airline actually operates on
+      your flight can have a different layout, seat count, row numbering or features, and airlines can swap aircraft
+      at short notice. Always confirm your seat and aircraft with the airline before you book, pay for a seat or fly.
+    </p>
+
+    <h2>Not affiliated with any airline</h2>
+    <p>
+      Airline names and aircraft names appear only to describe the content. We are not affiliated with, endorsed by
+      or sponsored by any airline or aircraft manufacturer.
+    </p>
+
+    <h2>Acceptable use</h2>
+    <ul class="clean">
+      <li>Use the site only for lawful, personal and informational purposes.</li>
+      <li>Do not try to disrupt the site, get around its security or overload it.</li>
+      <li>Do not copy or republish our original seat map illustrations or text in bulk without written permission.</li>
+    </ul>
+
+    <h2>Intellectual property</h2>
+    <p>
+      The Pick Your Row name, the original seat map illustrations, text and site design are owned by
+      Joshua Israel Ventures LLC unless stated otherwise. Airline names and trademarks belong to their owners.
+    </p>
+
+    <h2>Links to other websites</h2>
+    <p>
+      The site links to airline, government and other outside websites. We do not control them and are not
+      responsible for their content, accuracy or practices.
+    </p>
+
+    <h2>Disclaimer of warranties</h2>
+    <p>
+      The site and all content are provided "as is" and "as available", without warranties of any kind, express or
+      implied, including any warranties of accuracy, completeness, fitness for a particular purpose,
+      merchantability or non infringement. We do not promise that the site will be available, error free or
+      up to date.
+    </p>
+
+    <h2>Limitation of liability</h2>
+    <p>
+      To the fullest extent the law allows, Joshua Israel Ventures LLC and its members, managers and contractors are
+      not liable for any indirect, incidental, special, consequential or punitive damages, or for any loss of money,
+      fares, seat fees, travel time or data, arising from your use of the site or your reliance on its content. Where
+      liability cannot be excluded, it is limited to the greater of the amount you paid us to use the site, if any,
+      or 100 US dollars. Nothing in these terms limits liability that cannot be limited under applicable law.
+    </p>
+
+    <h2>Governing law</h2>
+    <p>
+      These terms are governed by the laws of the State of Michigan, United States, without regard to its conflict of
+      law rules.
+    </p>
+
+    <h2>Changes to these terms</h2>
+    <p>
+      We may update these terms from time to time. The date at the top shows the latest version. Continuing to use the
+      site after a change means you accept the updated terms.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about these terms: email <a href="mailto:joshuaofisrael@gmail.com">joshuaofisrael@gmail.com</a> or use
+      the <a href="/contact/">contact form</a>. See also our <a href="/privacy/">Privacy Policy</a>,
+      <a href="/disclaimer/">Disclaimer</a> and <a href="/disclosure/">Affiliate disclosure</a>.
+    </p>
+  </div>
+</BaseLayout>

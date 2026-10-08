@@ -61,3 +61,6 @@ Seat scores and picks are editorial opinions for planning, not guarantees and no
 - [About](https://pickyourrow.com/about/): Who runs Pick Your Row.
 - [Affiliate disclosure](https://pickyourrow.com/disclosure/): How affiliate links, booking placeholders and editorial independence are handled.
 - [Contact](https://pickyourrow.com/contact/): Corrections, questions and partnership enquiries.
+- [Terms of Use](https://pickyourrow.com/terms/): Terms for using the site, with Joshua Israel Ventures LLC as the contracting party.
+- [Privacy Policy](https://pickyourrow.com/privacy/): What personal data the site collects and how to contact the data controller.
+- [Disclaimer](https://pickyourrow.com/disclaimer/): Accuracy limits of illustrative seat maps and affiliate and advertising disclosure.

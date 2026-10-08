@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PUBLISHER } from '../../lib/schema';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Disclaimer',
+    description: 'Accuracy, no professional relationship, and affiliate and advertising disclosure for pickyourrow.com.',
+    url: 'https://pickyourrow.com/disclaimer/',
+    publisher: PUBLISHER,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Disclaimer', item: 'https://pickyourrow.com/disclaimer/' },
+    ],
+  },
+];
+---
+<BaseLayout
+  title="Disclaimer"
+  description="Disclaimer for pickyourrow.com: seat maps are illustrative, content is general information and not professional advice, and how affiliate links and ads are disclosed. Joshua Israel Ventures LLC."
+  canonicalPath="/disclaimer/"
+  jsonLd={jsonLd}
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Disclaimer</nav>
+    <h1 class="page-title">Disclaimer</h1>
+    <p class="lede">
+      Pick Your Row is a brand owned and operated by Joshua Israel Ventures LLC. Please read this disclaimer before you
+      rely on anything on the site.
+    </p>
+    <p class="muted">Last updated 8 October 2026.</p>
+
+    <h2>Accuracy</h2>
+    <p>
+      Our seat maps are original illustrations of typical cabin layouts, drawn from publicly known configuration facts.
+      They are not official airline seat maps. Real aircraft can differ in layout, seat count, row numbering, exit rows,
+      windows, power and other features, and airlines change cabins and swap aircraft. We try to keep content accurate
+      and up to date but make no guarantee that it is. Always confirm your seat and aircraft with the airline. Our
+      <a href="/methodology/">Methodology</a> page explains how the maps and scores are made.
+    </p>
+
+    <h2>No professional relationship</h2>
+    <p>
+      Content on this site is general information for planning. It is not professional travel, legal, medical or
+      financial advice. Using the site or contacting us does not create a professional or advisory relationship. We
+      are not an airline or travel agent and cannot book flights or change seat assignments. Seat scores and best seat
+      picks are editorial opinions.
+    </p>
+
+    <h2>Not affiliated with any airline</h2>
+    <p>
+      We are not affiliated with, endorsed by or sponsored by any airline or aircraft manufacturer. Airline names are
+      used only to describe the content.
+    </p>
+
+    <h2>Affiliate links and advertising</h2>
+    <p>
+      Today the site carries no advertising and no live affiliate links. Booking buttons open an internal placeholder
+      page at <a href="/book/">/book/</a>. In future the site may carry affiliate links or ads. If it does, they will be
+      labeled, and the active programs will be listed on our <a href="/disclosure/">Affiliate disclosure</a> page. A
+      commission would not change the price you pay or our editorial seat scores.
+    </p>
+
+    <h2>Outside links</h2>
+    <p>
+      We link to airline, government and other outside websites for reference. We are not responsible for their
+      content or accuracy.
+    </p>
+
+    <p>
+      Full terms, including the warranty disclaimer and limitation of liability, are in our
+      <a href="/terms/">Terms of Use</a>. See also the <a href="/privacy/">Privacy Policy</a>. Questions:
+      <a href="/contact/">Contact</a>.
+    </p>
+  </div>
+</BaseLayout>
