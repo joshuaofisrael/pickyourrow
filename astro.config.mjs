@@ -24,6 +24,8 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) => !unlisted.has(page),
+      // llms.txt is a static file in public/, so it is listed by hand.
+      customPages: [`${site}/llms.txt`],
     }),
   ],
 });

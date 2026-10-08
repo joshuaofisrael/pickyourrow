@@ -15,7 +15,8 @@ for (const f of readdirSync(dist).filter((n) => /^sitemap-\d+\.xml$/.test(n))) {
 const manifest = {};
 for (const url of urls) {
   const path = url.slice(site.length);
-  const file = join(dist, path, 'index.html');
+  // Pages live at path/index.html. Static files such as /llms.txt are listed as is.
+  const file = path.endsWith('/') ? join(dist, path, 'index.html') : join(dist, path);
   // v2 makes the manifest from the first deploy stale. That deploy published
   // the file before IndexNow could read the key (HTTP 403), so this prefix
   // submits every sitemap URL once on the following deploy.

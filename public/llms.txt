@@ -1,35 +1,63 @@
 # Pick Your Row
 
-Pick Your Row (pickyourrow.com) is an original editorial site from Joshua Israel Ventures LLC. It publishes schematic airline seat maps and practical guides for choosing a seat.
+> Pick Your Row (pickyourrow.com) publishes original, illustrative airline seat maps and editorial best seat picks for 188 typical cabin configurations across 56 airlines and 33 aircraft types, plus 43 evergreen guides on choosing a seat. The maps are drawn from publicly known typical cabin facts, are not scraped from airlines or other seat map sites, and can differ from the aircraft on a given flight, so always confirm seats with the airline. Pick Your Row is not affiliated with, endorsed by, or sponsored by any airline.
 
-Seat maps on this site are original illustrations built from publicly known typical cabin facts. They are not scraped from airlines, SeatGuru, AeroLOPA, or other seat map sites. Configurations are illustrative. Interiors vary by aircraft registration and retrofit. Always confirm seats with the carrier before you fly.
+Operated by Joshua Israel Ventures LLC.
 
-Pick Your Row is not affiliated with, endorsed by, or sponsored by any airline.
-
-## Method
-
-Editorial seat scores are opinions for planning, not guarantees and not airline advice. The methodology page explains the approach and lists public citations for passenger rights, exit seating rules, and safety context.
+Seat scores and picks are editorial opinions for planning, not guarantees and not airline advice. Interiors vary by aircraft registration and retrofit.
 
 ## Start here
 
-https://pickyourrow.com/
-https://pickyourrow.com/methodology/
-https://pickyourrow.com/about/
-https://pickyourrow.com/guides/
-https://pickyourrow.com/best-seats/
-https://pickyourrow.com/airlines/
-https://pickyourrow.com/aircraft/
-https://pickyourrow.com/disclosure/
+- [Home](https://pickyourrow.com/): Overview of the site with links to airline seat maps, aircraft types, best seats and guides.
+- [Airlines directory](https://pickyourrow.com/airlines/): Seat maps grouped by carrier for all 56 airlines covered.
+- [Aircraft types](https://pickyourrow.com/aircraft/): Seat maps and seating plans grouped by aircraft type, comparing airline layouts for 33 types.
+- [Best seats directory](https://pickyourrow.com/best-seats/): Editorial best seat shortlists for all 188 illustrated cabin configurations.
+- [Guides](https://pickyourrow.com/guides/): Index of evergreen seat selection guides with cited sources.
+- [Methodology and sources](https://pickyourrow.com/methodology/): How the schematics and editorial seat scores are made, with citations to FAA, DOT, EU, IATA, ICAO and other public sources.
 
-## Strongest evergreen guides
+## Top guides
 
-https://pickyourrow.com/guides/connecting-flight-seat-strategy/
-https://pickyourrow.com/guides/aisle-vs-window/
-https://pickyourrow.com/guides/red-eye-seat-strategy/
-https://pickyourrow.com/guides/bassinet-bulkhead-seats/
-https://pickyourrow.com/guides/seat-map-glossary/
-https://pickyourrow.com/guides/cabin-class-primer/
-https://pickyourrow.com/guides/how-pickyourrow-scores-work/
-https://pickyourrow.com/guides/how-to-read-a-seat-map/
+- [How to read a seat map](https://pickyourrow.com/guides/how-to-read-a-seat-map/): Plain English guide to aisles, exit rows, bulkheads and cabin codes on a seat map.
+- [Seat map glossary](https://pickyourrow.com/guides/seat-map-glossary/): Definitions of exit row, bulkhead, pitch, layout and other cabin terms.
+- [Aisle vs window](https://pickyourrow.com/guides/aisle-vs-window/): How to choose between aisle and window seats for rest, access and views.
+- [Exit row tips](https://pickyourrow.com/guides/exit-row-tips/): What exit row seats usually mean for space, rules and storage, and who should skip them.
+- [Bulkhead seats](https://pickyourrow.com/guides/bulkhead-seats/): Pros and cons of first row cabin seats, including bassinet notes and foot space.
+- [Cabin class primer](https://pickyourrow.com/guides/cabin-class-primer/): What economy, premium economy, business and first usually change.
+- [Red eye seat strategy](https://pickyourrow.com/guides/red-eye-seat-strategy/): Picking a seat on a shorter overnight flight for sleep, noise and a quick exit.
+- [Connecting flight seat strategy](https://pickyourrow.com/guides/connecting-flight-seat-strategy/): Choosing seats that help you deplane quickly for a tight connection.
+- [Bassinet and bulkhead seats with a baby](https://pickyourrow.com/guides/bassinet-bulkhead-seats/): Where bassinets usually attach and how to plan seats with an infant.
+- [How to verify your aircraft type](https://pickyourrow.com/guides/how-to-verify-your-aircraft-type/): Confirming the jet on your ticket and spotting equipment swaps.
+- [When to select your seats](https://pickyourrow.com/guides/when-to-select-your-seats/): How seat selection windows work from purchase through check in.
+- [How Pick Your Row scores work](https://pickyourrow.com/guides/how-pickyourrow-scores-work/): What the 1 to 10 editorial seat scores and tags mean.
 
-Use the live airline seat map for your flight. An illustrative drawing can be wrong for a specific aircraft.
+## Top airline hubs
+
+- [easyJet seat maps](https://pickyourrow.com/airlines/easyjet/): Illustrative seat maps for 4 easyJet aircraft.
+- [Air France seat maps](https://pickyourrow.com/airlines/air-france/): Illustrative seat maps for 4 Air France aircraft.
+- [Qantas seat maps](https://pickyourrow.com/airlines/qantas/): Illustrative seat maps for 3 Qantas aircraft.
+- [ANA seat maps](https://pickyourrow.com/airlines/ana/): Illustrative seat maps for 3 ANA (All Nippon Airways) aircraft.
+- [British Airways seat maps](https://pickyourrow.com/airlines/british-airways/): Illustrative seat maps for 4 British Airways aircraft.
+- [United Airlines seat maps](https://pickyourrow.com/airlines/united/): Illustrative seat maps for 5 United Airlines aircraft.
+
+## Top aircraft types
+
+- [Airbus A320 seat maps](https://pickyourrow.com/aircraft/a320/): Compares 18 airline A320 layouts of about 146 to 186 seats.
+- [Airbus A321 seat maps](https://pickyourrow.com/aircraft/a321/): Compares 16 airline A321 layouts of about 159 to 230 seats.
+- [Airbus A319 seat maps](https://pickyourrow.com/aircraft/a319/): Compares 3 airline A319 layouts of about 144 to 156 seats.
+- [Airbus A380 seat maps](https://pickyourrow.com/aircraft/a380/): Compares 3 airline A380 layouts of about 471 to 498 seats.
+
+## Top seat maps
+
+- [easyJet A319 seat map](https://pickyourrow.com/airlines/easyjet/a319/seat-map/): Typical easyJet A319 seating plan, about 156 seats, six abreast, editorial picks 10A and 10F.
+- [easyJet A320 seat map](https://pickyourrow.com/airlines/easyjet/a320/seat-map/): Typical easyJet A320 seating plan, about 186 seats, six abreast, editorial picks 12A and 12F.
+- [Air France A320 seat map](https://pickyourrow.com/airlines/air-france/a320/seat-map/): Typical Air France A320 seating plan, about 174 seats, six abreast, editorial picks 10A and 10F.
+- [British Airways A320 seat map](https://pickyourrow.com/airlines/british-airways/a320/seat-map/): Typical British Airways A320 seating plan, about 168 seats, six abreast, editorial pick 11A.
+- [United Airlines A320 seat map](https://pickyourrow.com/airlines/united/a320/seat-map/): Typical United Airlines A320 seating plan, about 150 seats, six abreast, editorial pick 13A.
+- [ANA A321 seat map](https://pickyourrow.com/airlines/ana/a321/seat-map/): Typical ANA A321 seating plan, about 194 seats, six abreast, editorial pick 16A.
+- [easyJet best seats](https://pickyourrow.com/best-seats/easyjet/): Editorial best seat shortlists for 4 easyJet cabin configurations.
+
+## Optional
+
+- [About](https://pickyourrow.com/about/): Who runs Pick Your Row.
+- [Affiliate disclosure](https://pickyourrow.com/disclosure/): How affiliate links, booking placeholders and editorial independence are handled.
+- [Contact](https://pickyourrow.com/contact/): Corrections, questions and partnership enquiries.

@@ -68,6 +68,7 @@ const jsonLd: Record<string, unknown>[] = [
       '@type': 'WebPage',
       '@id': `https://pickyourrow.com${pagePath}`,
     },
+    ...(heroImage ? { image: new URL(heroImage.src, 'https://pickyourrow.com').toString() } : {}),
   },
   {
     '@context': 'https://schema.org',
