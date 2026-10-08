@@ -70,5 +70,5 @@ jobs:
         continue-on-error: true
         env:
           INDEXNOW_KEY: 3badd7577e7dbb999ce85bf50893ea95
-        run: sleep 45 && node scripts/indexnow-submit.mjs
+        run: node scripts/indexnow-submit.mjs
 

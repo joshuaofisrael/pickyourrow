@@ -16,7 +16,10 @@ const manifest = {};
 for (const url of urls) {
   const path = url.slice(site.length);
   const file = join(dist, path, 'index.html');
-  manifest[url] = createHash('sha256').update(readFileSync(file)).digest('hex');
+  // v2 makes the manifest from the first deploy stale. That deploy published
+  // the file before IndexNow could read the key (HTTP 403), so this prefix
+  // submits every sitemap URL once on the following deploy.
+  manifest[url] = createHash('sha256').update('v2\n').update(readFileSync(file)).digest('hex');
 }
 writeFileSync(join(dist, 'indexnow-manifest.json'), JSON.stringify(manifest));
 console.log(`indexnow manifest: ${urls.length} URLs`);
