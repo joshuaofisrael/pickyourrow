@@ -1,11 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline, getUniqueAircraftTypes, layoutString } from '../../data';
+import type { AircraftConfig } from '../../data/types';
+import { assertIndefiniteArticleSamples, indefiniteArticle } from '../../lib/englishArticle';
 import { aircraftUrlParam } from '../../lib/resolve';
 import { breadcrumbItemList } from '../../lib/schema';
+import { exitRowPhrase } from '../../lib/typeHubMeta';
 import guides from '../../data/guides.json';
 
 export function getStaticPaths() {
+  assertIndefiniteArticleSamples();
+  for (const carrier of airlines) {
+    const carrierArticle = indefiniteArticle(carrier.name);
+    if (`${carrierArticle} ${carrier.name}`.includes('an United')) {
+      throw new Error(`Bad indefinite article for ${carrier.name}: ${carrierArticle}`);
+    }
+  }
   return airlines.map((a) => ({ params: { airline: a.slug } }));
 }
 
@@ -61,7 +71,50 @@ const seatPhrase =
       ? `about ${minSeats} seats`
       : `about ${minSeats} to ${maxSeats} seats`;
 const layouts = [...new Set(configs.map((config) => layoutString(config)))].sort();
-const article = /^[AEIOU]/i.test(airline.name) ? 'an' : 'a';
+const article = indefiniteArticle(airline.name);
+
+/** Cabin product names for prose. Hyphens in stored labels become spaces. */
+function proseCabinLabel(label: string): string {
+  return label.replace(/[-–—]/g, ' ').replace(/\s{2,}/g, ' ').trim();
+}
+
+function cabinProductsPhrase(config: AircraftConfig): string {
+  const labels = config.cabins.map((cabin) => proseCabinLabel(cabin.label)).filter((label) => label.length > 0);
+  if (labels.length === 0) return 'None listed';
+  return listNames(labels);
+}
+
+function exitMarkSentence(types: string[], rows: number[]): string {
+  const subject = listNames(types.map((type) => `the ${type}`));
+  const plural = types.length > 1;
+  const listed = listNames(rows.map(String));
+  const action =
+    rows.length === 0
+      ? plural
+        ? 'do not mark an exit row'
+        : 'does not mark an exit row'
+      : rows.length === 1
+        ? plural
+          ? `mark exit row ${listed}`
+          : `marks exit row ${listed}`
+        : plural
+          ? `mark exit rows ${listed}`
+          : `marks exit rows ${listed}`;
+  const sentence = `${subject} ${action}.`;
+  return sentence.charAt(0).toUpperCase() + sentence.slice(1);
+}
+
+/** Which drawn configs mark which exit rows. Uses config.exitRows only. */
+function exitRowSummary(drawn: AircraftConfig[]): string {
+  const groups = new Map<string, { rows: number[]; types: string[] }>();
+  for (const config of drawn) {
+    const key = config.exitRows.join(',');
+    const existing = groups.get(key);
+    if (existing) existing.types.push(config.aircraftType);
+    else groups.set(key, { rows: [...config.exitRows], types: [config.aircraftType] });
+  }
+  return [...groups.values()].map((group) => exitMarkSentence(group.types, group.rows)).join(' ');
+}
 const seatMapLabel = configCount === 1 ? 'seat map' : 'seat maps';
 const findSentence =
   configCount === 0
@@ -150,7 +203,7 @@ const answerParts: { text: string; href?: string }[] =
           { text: ' if it matches the aircraft on your ticket, or read the ' },
           { text: 'best seats page', href: exampleBest },
           {
-            text: ` for the editorial shortlist. Confirm the live cabin with ${airline.name} before you pay for a seat. If the type name is unclear, use `,
+            text: ` for the editorial shortlist. Confirm the live cabin with ${airline.name} before you pay for a seat. The fleet summary lists illustrative exit rows and cabin products for this drawing. If the type name is unclear, use `,
           },
           {
             text: 'how to verify your aircraft type',
@@ -166,7 +219,7 @@ const answerParts: { text: string; href?: string }[] =
           { text: ', or its ' },
           { text: 'best seats page', href: exampleBest },
           {
-            text: `. Confirm the live cabin with ${airline.name} before you pay for a seat. If the type name is unclear, use `,
+            text: `. Confirm the live cabin with ${airline.name} before you pay for a seat. The fleet summary compares illustrative exit rows and cabin products across these drawings. If the type name is unclear, use `,
           },
           {
             text: 'how to verify your aircraft type',
@@ -177,7 +230,7 @@ const answerParts: { text: string; href?: string }[] =
 
 const fleetIntroParts: { text: string; href?: string }[] = [
   {
-    text: `Each row is one illustrative ${airline.name} config. The aircraft name opens the shared type page. Seat map opens that cabin sketch. Best seats opens the editorial shortlist. Match the type on your ticket before you choose a row. The guide on `,
+    text: `Each row is one illustrative ${airline.name} config. The illustrative exit rows and cabin products columns compare what that drawing stores, and you should still confirm both with ${airline.name}. The aircraft name opens the shared type page. Seat map opens that cabin sketch. Best seats opens the editorial shortlist. Match the type on your ticket before you choose a row. The guide on `,
   },
   {
     text: 'how to verify your aircraft type',
@@ -283,6 +336,34 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
     parts: [{ text: fleetAnswer }],
   },
   {
+    question:
+      configCount === 0
+        ? `Which exit rows are marked for ${airline.name}?`
+        : `Which exit rows are marked on ${configCount === 1 ? 'this' : 'these'} ${airline.name} ${seatMapLabel}?`,
+    parts:
+      configCount === 0
+        ? [
+            {
+              text: `No illustrative ${airline.name} config is drawn here, so this hub does not mark an exit row. Confirm any exit with ${airline.name}. The `,
+            },
+            { text: 'methodology', href: '/methodology/' },
+            { text: ' page explains how these sketches are drawn. ' },
+            { text: 'Exit row tips', href: '/guides/exit-row-tips/' },
+            { text: ' cover who should skip an exit and why a marked row is not a promise.' },
+          ]
+        : [
+            {
+              text: `${exitRowSummary(configs)} These row numbers are illustrative and can differ by registration. Confirm them with ${airline.name} before you pay for an exit seat. The `,
+            },
+            { text: 'methodology', href: '/methodology/' },
+            { text: ' page explains how these sketches are drawn. ' },
+            { text: 'Exit row tips', href: '/guides/exit-row-tips/' },
+            { text: ' cover who should skip an exit and why a marked row is not a promise. A sample sketch is the ' },
+            { text: `${airline.name} ${exampleType} seat map`, href: exampleSeatMap },
+            { text: '.' },
+          ],
+  },
+  {
     question: "How do I confirm my flight's aircraft before relying on a map?",
     parts: [
       {
@@ -331,6 +412,8 @@ if (configCount > 0) {
   assertNoDash('Fleet caption', fleetCaption);
   for (const config of configs) {
     assertNoDash('Economy layout cell', blocksPhrase(layoutString(config)));
+    assertNoDash('Exit rows cell', exitRowPhrase(config));
+    assertNoDash('Cabin products cell', cabinProductsPhrase(config));
   }
 }
 
@@ -397,13 +480,15 @@ const jsonLd = [
           {fleetIntroParts.map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
         </p>
         <div class="table-scroll">
-          <table class="fleet">
+          <table class="fleet hub-fleet">
             <caption>{fleetCaption}</caption>
             <thead>
               <tr>
                 <th scope="col">Aircraft</th>
                 <th scope="col">Approximate seats</th>
                 <th scope="col">Economy layout</th>
+                <th scope="col">Illustrative exit rows</th>
+                <th scope="col">Cabin products</th>
                 <th scope="col">Seat map</th>
                 <th scope="col">Best seats</th>
               </tr>
@@ -419,6 +504,8 @@ const jsonLd = [
                     </th>
                     <td>{c.totalSeatsApprox}</td>
                     <td>{blocksPhrase(layoutString(c))}</td>
+                    <td>{exitRowPhrase(c)}</td>
+                    <td class="products">{cabinProductsPhrase(c)}</td>
                     <td><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>Seat map</a></td>
                     <td><a href={`/best-seats/${airline.slug}/${ap}/`}>Best seats</a></td>
                   </tr>
