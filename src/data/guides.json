@@ -366,7 +366,7 @@
       "Why do airlines not do more of this already? A few carriers have tried family friendly ideas such as couch style economy rows that convert into a flat surface, and crew rest bunks already live in hidden crown areas on some long haul jets. So the pieces exist. The hard leap is putting a passenger occupied space above another passenger in the main cabin. Certification has strong opinions about that. Every occupant needs a certified restraint for taxi, takeoff, and landing. A loft would also need fire resistant materials, oxygen mask coverage, lighting, smoke detection, and a way for crew to see and reach a child quickly. Evacuation rules ask that a full cabin can leave within strict time limits, and a ladder in the aisle line is the kind of obstacle that makes engineers nervous.",
       "Trade offs pile up fast. Center bins disappear, so families lose overhead space exactly when they carry the most bags. Structure gets heavier because a loft must carry loads that a bin never sees, and that mass sits high in the fuselage, which affects floor beams, ceiling mounts, and center of gravity planning. Boarding and turn times suffer if crews must inspect, clean, and reset each loft. Revenue density is a mixed story. The airline keeps its seat count on the floor, but it may need a pricing product that is hard to explain, and a loft that sits empty on a business heavy route is dead weight. There is also the human factor. Some parents will love a child asleep right above them. Others will not want their child out of arm reach at all.",
       "If a design ever made it through certification, the traveler trade offs would look familiar to anyone who studies seat maps. The best family rows would still be the ones near lavatories but not beside the galley noise, away from the busiest cross aisles, and close enough to an exit to feel calm. Our editorial scores still assume today real seats. For practical advice on flying with children right now, see [choosing seats with kids](/guides/choosing-seats-with-kids/) and [bassinet bulkhead seats](/guides/bassinet-bulkhead-seats/).",
-      "For travelers, the useful takeaway is simple. A family mezzanine suite is a design brief, not a booking tip. The real lesson is that cabin volume above your head is valuable, and today most of it goes to bags. For related speculative cabin ideas on this site, see [Rotating Privacy Shells](/guides/rotating-privacy-shells/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/).",
+      "For travelers, the useful takeaway is simple. A family mezzanine suite is a design brief, not a booking tip. The real lesson is that cabin volume above your head is valuable, and today most of it goes to bags. For related speculative cabin ideas on this site, see [Lower Deck Sleeper Pods](/guides/lower-deck-sleeper-pods/), [Rotating Privacy Shells](/guides/rotating-privacy-shells/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/).",
       "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
     "sources": [
@@ -394,6 +394,66 @@
         "label": "ICAO Safety",
         "url": "https://www.icao.int/safety",
         "note": "International safety framework portal. Lofts above passengers are a standards problem, not just a design sketch."
+      }
+    ]
+  },
+  {
+    "slug": "lower-deck-sleeper-pods",
+    "title": "Lower Deck Sleeper Pods: Turning the Cargo Hold Into a Bunk Room",
+    "description": "A speculative look at container sized sleeper modules that load into a widebody belly hold, so economy travelers could rent a flat bunk for a few hours of cruise without the airline giving up a single main deck seat.",
+    "heroImage": {
+      "src": "/images/blog/lower-deck-sleeper-pods-thumbnail.png",
+      "alt": "Concept render of a quiet sleeper room inside an airliner lower deck, with curtained bunks on both sides of a lit walkway and a stair rising to the main cabin",
+      "caption": "AI concept art. Speculative lower deck sleeper module in a widebody cargo hold. Not a certified product. Not affiliated with any airline."
+    },
+    "figures": [
+      {
+        "src": "/images/blog/lower-deck-sleeper-pods-section.png",
+        "alt": "Cutaway concept of a widebody fuselage with economy seats on the main deck and a sleeper module with stacked bunks in the lower deck between cargo containers, linked by a stair",
+        "caption": "Cross section concept. A sleeper module takes the place of a few cargo containers in the belly, reached by a stair from the main deck. Speculative only. AI concept art."
+      },
+      {
+        "src": "/images/blog/lower-deck-sleeper-pods-closeup.png",
+        "alt": "Concept close up of a single enclosed bunk with a mattress restraint strap, oxygen panel, smoke detector, reading light, charging port and a privacy curtain",
+        "caption": "Concept close up. Each bunk would need its own restraint, oxygen, smoke detection, lighting, and a clear way out. AI concept art. Not a certified product."
+      }
+    ],
+    "body": [
+      "Every long haul economy passenger knows the moment around hour six when sitting upright stops feeling like a seat and starts feeling like a test. Lie flat beds fix that, but they live upstairs at business class prices. So this week the Pick Your Row thought experiment goes downstairs instead: lower deck sleeper pods, where part of the cargo hold becomes a bunk room you can rent for a few hours of cruise.",
+      "Here is the idea. A widebody belly is built to carry standard cargo containers that roll in on a floor of rollers and lock into place. Imagine a sleeper module the same size as a few of those containers. Inside are two tiers of short enclosed bunks on each side of a narrow walkway, each with a flat mattress, a curtain, a reading light, and a charging port. A stair links the module to the main deck near a galley. You book a normal economy seat, then add a four hour sleep block. After the meal service you go downstairs, sleep flat, and come back up to your seat before descent.",
+      "Why does the geometry tempt designers? Cabin space upstairs is the most expensive real estate on the aircraft, because every square meter there can hold a paid seat. The belly is cheaper volume. On many passenger flights the hold is not full of freight, and a module that loads like a container could, in theory, go in for a night flight and come out for a cargo heavy day route. Nobody gives up a seat on the main deck seat map. The airline simply sells the same passenger twice, once for a seat and once for a bed.",
+      "Why do airlines not do more of this already? Parts of it exist. Some long haul jets already carry crew rest compartments outside the main cabin, and seat makers and airframers have shown lower deck module concepts at industry events over the years. The hard part is putting paying passengers below the floor. A cargo hold is designed around fire containment for freight, not people. A passenger space down there needs its own smoke detection, fire resistant materials, oxygen for every occupant, emergency lighting, communication with the crew, and a route out that works in smoke and in the dark. The rules on lower deck service compartments already restrict who can be down there and when, and occupied bunks would be a much bigger ask.",
+      "The trade offs keep stacking up. Evacuation is the biggest one. Every passenger in a bunk room still has to be part of a cabin that can empty within strict time limits, and a single stair is a choke point. Most likely the bunks would be closed for taxi, takeoff, landing, and turbulence, so every sleeper also needs a real seat upstairs. Weight is next. A module with structure, ventilation, plumbing for oxygen, and interiors weighs far more than the freight it replaces, and that freight was earning money. Center of gravity planning gets harder when a block of mass in the belly can be full or empty. Turn times suffer if crews must strip and remake twenty beds. And revenue density only works if enough people pay for sleep every single night on that route.",
+      "There is also a quieter question about bags. If the module takes container positions, checked luggage and cargo capacity both shrink. On a full flight that can mean bags left behind or freight bumped, which is exactly the kind of irregular operation airlines try hardest to avoid. That is why concepts like this tend to show up in renders and trade show booths far more often than in real cabins.",
+      "If a version ever flew, the seat you book upstairs would still matter. You would want a seat near the stair, away from the busiest galley traffic, so the walk down and back is short and quiet. Our editorial scores still assume today real seats. For practical advice right now, see [noise near galleys and lavatories](/guides/noise-near-galleys-and-lavatories/) and [jet lag and cabin position](/guides/jet-lag-and-cabin-position/).",
+      "For travelers, the useful takeaway is simple. A lower deck sleeper pod is a design brief, not a booking tip. The real lesson is that the belly of a widebody is a huge volume that passengers never see, and every idea for using it runs straight into fire, oxygen, and evacuation rules. For related speculative cabin ideas on this site, see [Family Mezzanine Suites](/guides/family-mezzanine-suites/), [Rotating Privacy Shells](/guides/rotating-privacy-shells/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/).",
+      "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 25.819 Lower deck service compartments",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.819",
+        "note": "Existing rules for occupied spaces below the main deck, including exits, communication, and limits on occupancy during critical phases of flight."
+      },
+      {
+        "label": "U.S. eCFR 14 CFR 25.857 Cargo compartment classification",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.857",
+        "note": "How cargo holds are classified for fire detection and suppression. A sleeper module would have to answer a very different fire safety question than freight does."
+      },
+      {
+        "label": "U.S. eCFR 14 CFR 25.803 Emergency evacuation",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.803",
+        "note": "Transport category evacuation requirements. Any bunk room below the floor would still need to fit inside the full cabin evacuation picture."
+      },
+      {
+        "label": "IATA Evacuation safety education",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Public industry messaging on evacuation behavior, relevant to any idea that sends passengers down a stair inside the aircraft."
+      },
+      {
+        "label": "ICAO Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International safety framework portal. Passengers sleeping in the hold is a standards problem, not just a design sketch."
       }
     ]
   },
