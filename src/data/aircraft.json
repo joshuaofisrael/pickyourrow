@@ -264,7 +264,7 @@
     "aircraftType": "Boeing 777-200",
     "aircraftFamily": "777",
     "name": "United 777-200 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts (e.g. 3-3-3 economy). Subfleets differ substantially.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts (e.g. 3-3-3 economy). Subfleets differ substantially.",
     "totalSeatsApprox": 276,
     "cabins": [
       {
@@ -779,7 +779,7 @@
     "aircraftType": "Airbus A320",
     "aircraftFamily": "A320",
     "name": "British Airways A320 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical short-haul layout facts. Club Europe / Euro Traveller seat counts vary by aircraft.",
+    "configNote": "Illustrative schematic from publicly known typical short haul layout facts. Club Europe / Euro Traveller seat counts vary by aircraft.",
     "totalSeatsApprox": 168,
     "cabins": [
       {
@@ -875,7 +875,7 @@
     "aircraftType": "Boeing 777-200",
     "aircraftFamily": "777",
     "name": "British Airways 777-200 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical long-haul layout facts. Club World / World Traveller Plus layouts vary heavily by retrofit.",
+    "configNote": "Illustrative schematic from publicly known typical long haul layout facts. Club World / World Traveller Plus layouts vary heavily by retrofit.",
     "totalSeatsApprox": 280,
     "cabins": [
       {
@@ -1026,7 +1026,7 @@
     "aircraftType": "Airbus A320",
     "aircraftFamily": "A320",
     "name": "easyJet A320 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical single-cabin A320 layout facts (~186 seats common on many airframes).",
+    "configNote": "Illustrative schematic from publicly known typical single cabin A320 layout facts (~186 seats common on many airframes).",
     "totalSeatsApprox": 186,
     "cabins": [
       {
@@ -1108,7 +1108,7 @@
     "aircraftType": "Airbus A321neo",
     "aircraftFamily": "A320",
     "name": "easyJet A321neo (typical)",
-    "configNote": "Illustrative schematic from publicly known typical high-density A321neo layout facts.",
+    "configNote": "Illustrative schematic from publicly known typical high density A321neo layout facts.",
     "totalSeatsApprox": 235,
     "cabins": [
       {
@@ -8819,7 +8819,7 @@
     "aircraftType": "Airbus A330-200",
     "aircraftFamily": "A330",
     "name": "Qantas A330-200 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 271,
     "cabins": [
       {
@@ -8973,7 +8973,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "Qantas 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 236,
     "cabins": [
       {
@@ -9126,7 +9126,7 @@
     "aircraftType": "Airbus A380",
     "aircraftFamily": "A380",
     "name": "Etihad A380 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 498,
     "cabins": [
       {
@@ -9287,7 +9287,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "Etihad 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 290,
     "cabins": [
       {
@@ -9611,7 +9611,7 @@
     "aircraftType": "Airbus A330-200",
     "aircraftFamily": "A330",
     "name": "Hawaiian A330-200 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 278,
     "cabins": [
       {
@@ -9736,7 +9736,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "Hawaiian 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 300,
     "cabins": [
       {
@@ -10120,7 +10120,7 @@
     "aircraftType": "Airbus A330-300",
     "aircraftFamily": "A330",
     "name": "SWISS A330-300 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 236,
     "cabins": [
       {
@@ -10272,7 +10272,7 @@
     "aircraftType": "Boeing 777-300ER",
     "aircraftFamily": "777",
     "name": "SWISS 777-300ER (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 340,
     "cabins": [
       {
@@ -10551,7 +10551,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "ANA 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 246,
     "cabins": [
       {
@@ -10704,7 +10704,7 @@
     "aircraftType": "Boeing 777-300ER",
     "aircraftFamily": "777",
     "name": "ANA 777-300ER (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 212,
     "cabins": [
       {
@@ -10883,7 +10883,7 @@
     "aircraftType": "Airbus A330-300",
     "aircraftFamily": "A330",
     "name": "Virgin Atlantic A330-300 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 262,
     "cabins": [
       {
@@ -11135,7 +11135,7 @@
     "aircraftType": "Airbus A330-200",
     "aircraftFamily": "A330",
     "name": "Iberia A330-200 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 288,
     "cabins": [
       {
@@ -11360,7 +11360,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "Japan Airlines 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 240,
     "cabins": [
       {
@@ -11513,7 +11513,7 @@
     "aircraftType": "Boeing 777-300ER",
     "aircraftFamily": "777",
     "name": "Japan Airlines 777-300ER (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 244,
     "cabins": [
       {
@@ -11697,7 +11697,7 @@
     "aircraftType": "Airbus A350-900",
     "aircraftFamily": "A350",
     "name": "Japan Airlines A350-900 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 369,
     "cabins": [
       {
@@ -11924,7 +11924,7 @@
     "aircraftType": "Boeing 777-300ER",
     "aircraftFamily": "777",
     "name": "Korean Air 777-300ER (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 291,
     "cabins": [
       {
@@ -12208,7 +12208,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "Korean Air 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 269,
     "cabins": [
       {
@@ -12361,7 +12361,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "Air New Zealand 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 275,
     "cabins": [
       {
@@ -12614,7 +12614,7 @@
     "aircraftType": "Boeing 777-300ER",
     "aircraftFamily": "777",
     "name": "Air New Zealand 777-300ER (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 332,
     "cabins": [
       {
@@ -14025,7 +14025,7 @@
     "aircraftType": "Airbus A330-300",
     "aircraftFamily": "A330",
     "name": "Aer Lingus A330-300 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 313,
     "cabins": [
       {
@@ -14384,7 +14384,7 @@
     "aircraftType": "Airbus A350-900",
     "aircraftFamily": "A350",
     "name": "Finnair A350-900 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 297,
     "cabins": [
       {
@@ -14811,7 +14811,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "WestJet 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 320,
     "cabins": [
       {
@@ -15171,7 +15171,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "Austrian 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 294,
     "cabins": [
       {
@@ -15431,7 +15431,7 @@
     "aircraftType": "Boeing 777-300ER",
     "aircraftFamily": "777",
     "name": "EVA Air 777-300ER (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 333,
     "cabins": [
       {
@@ -15589,7 +15589,7 @@
     "aircraftType": "Boeing 787-9",
     "aircraftFamily": "787",
     "name": "EVA Air 787-9 (typical)",
-    "configNote": "Illustrative schematic from publicly known typical wide-body layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
+    "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially \u2014 confirm with your airline.",
     "totalSeatsApprox": 278,
     "cabins": [
       {

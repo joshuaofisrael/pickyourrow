@@ -4,14 +4,14 @@
     "name": "Delta Air Lines",
     "iata": "DL",
     "country": "United States",
-    "blurb": "Major U.S. carrier with a large narrow-body and wide-body fleet. Configurations vary by registration and retrofit status."
+    "blurb": "Major U.S. carrier with a large narrowbody and widebody fleet. Configurations vary by registration and retrofit status."
   },
   {
     "slug": "united",
     "name": "United Airlines",
     "iata": "UA",
     "country": "United States",
-    "blurb": "U.S. network carrier operating domestic and long-haul fleets. Cabin layouts differ across subfleets."
+    "blurb": "U.S. network carrier operating domestic and long haul fleets. Cabin layouts differ across subfleets."
   },
   {
     "slug": "american",
@@ -25,28 +25,28 @@
     "name": "British Airways",
     "iata": "BA",
     "country": "United Kingdom",
-    "blurb": "UK flag carrier. Short-haul A320-family and long-haul wide-body configs vary by aircraft and route."
+    "blurb": "UK flag carrier. Short haul A320 family and long haul widebody configs vary by aircraft and route."
   },
   {
     "slug": "easyjet",
     "name": "easyJet",
     "iata": "U2",
     "country": "United Kingdom",
-    "blurb": "European low-cost carrier operating an all-Airbus A320-family fleet with largely single-cabin layouts."
+    "blurb": "European low cost carrier operating an all Airbus A320 family fleet with largely single cabin layouts."
   },
   {
     "slug": "southwest",
     "name": "Southwest Airlines",
     "iata": "WN",
     "country": "United States",
-    "blurb": "U.S. low-cost carrier with an all-Boeing 737 fleet and primarily single-cabin layouts. Configurations vary by subfleet."
+    "blurb": "U.S. low cost carrier with an all Boeing 737 fleet and primarily single cabin layouts. Configurations vary by subfleet."
   },
   {
     "slug": "jetblue",
     "name": "JetBlue",
     "iata": "B6",
     "country": "United States",
-    "blurb": "U.S. carrier known for A320-family aircraft and select Mint premium cabins. Layouts differ by route and retrofit."
+    "blurb": "U.S. carrier known for A320 family aircraft and select Mint premium cabins. Layouts differ by route and retrofit."
   },
   {
     "slug": "alaska",
@@ -60,56 +60,56 @@
     "name": "Lufthansa",
     "iata": "LH",
     "country": "Germany",
-    "blurb": "German network carrier with short-haul A320-family and long-haul wide-body fleets. Cabin products differ by aircraft."
+    "blurb": "German network carrier with short haul A320 family and long haul widebody fleets. Cabin products differ by aircraft."
   },
   {
     "slug": "air-france",
     "name": "Air France",
     "iata": "AF",
     "country": "France",
-    "blurb": "French flag carrier operating short-haul narrow-bodies and long-haul wide-bodies. Schematics below are typical public layouts only."
+    "blurb": "French flag carrier operating short haul narrowbodies and long haul widebodies. Schematics below are typical public layouts only."
   },
   {
     "slug": "ryanair",
     "name": "Ryanair",
     "iata": "FR",
     "country": "Ireland",
-    "blurb": "European ultra-low-cost carrier with a high-density Boeing 737 fleet. Single-cabin layouts are typical."
+    "blurb": "European ultra low cost carrier with a high density Boeing 737 fleet. Single cabin layouts are typical."
   },
   {
     "slug": "emirates",
     "name": "Emirates",
     "iata": "EK",
     "country": "United Arab Emirates",
-    "blurb": "Dubai-based long-haul carrier operating large wide-body fleets. Multi-cabin products vary substantially by aircraft and retrofit."
+    "blurb": "Dubai based long haul carrier operating large widebody fleets. Multi cabin products vary substantially by aircraft and retrofit."
   },
   {
     "slug": "qatar",
     "name": "Qatar Airways",
     "iata": "QR",
     "country": "Qatar",
-    "blurb": "Doha-based network carrier with modern wide-body fleets. Business and economy layouts differ by subfleet."
+    "blurb": "Doha based network carrier with modern widebody fleets. Business and economy layouts differ by subfleet."
   },
   {
     "slug": "turkish",
     "name": "Turkish Airlines",
     "iata": "TK",
     "country": "Turkey",
-    "blurb": "Istanbul-based network carrier with a large narrow-body and wide-body fleet. Cabin products and densities vary by aircraft and route."
+    "blurb": "Istanbul based network carrier with a large narrowbody and widebody fleet. Cabin products and densities vary by aircraft and route."
   },
   {
     "slug": "air-canada",
     "name": "Air Canada",
     "iata": "AC",
     "country": "Canada",
-    "blurb": "Canadian network carrier with narrow-body domestic fleets and long-haul wide-bodies. Cabin products and densities vary by aircraft and retrofit."
+    "blurb": "Canadian network carrier with narrowbody domestic fleets and long haul widebodies. Cabin products and densities vary by aircraft and retrofit."
   },
   {
     "slug": "singapore",
     "name": "Singapore Airlines",
     "iata": "SQ",
     "country": "Singapore",
-    "blurb": "Singapore-based long-haul carrier known for premium-heavy wide-body fleets. Layouts differ substantially by aircraft and cabin product generation."
+    "blurb": "Singapore based long haul carrier known for premium heavy widebody fleets. Layouts differ substantially by aircraft and cabin product generation."
   },
   {
     "slug": "cathay-pacific",
@@ -123,147 +123,147 @@
     "name": "KLM Royal Dutch Airlines",
     "iata": "KL",
     "country": "Netherlands",
-    "blurb": "Dutch flag carrier with short-haul narrow-bodies and long-haul 787/777/A330 fleets. Schematics below are typical public layouts only."
+    "blurb": "Dutch flag carrier with short haul narrowbodies and long haul 787/777/A330 fleets. Schematics below are typical public layouts only."
   },
   {
     "slug": "virgin-atlantic",
     "name": "Virgin Atlantic",
     "iata": "VS",
     "country": "United Kingdom",
-    "blurb": "UK long-haul carrier operating A350 and 787 fleets. Premium and economy products differ by aircraft."
+    "blurb": "UK long haul carrier operating A350 and 787 fleets. Premium and economy products differ by aircraft."
   },
   {
     "slug": "iberia",
     "name": "Iberia",
     "iata": "IB",
     "country": "Spain",
-    "blurb": "Spanish network carrier with short-haul A320-family and long-haul A330/A350 fleets. Cabin layouts vary by registration."
+    "blurb": "Spanish network carrier with short haul A320 family and long haul A330/A350 fleets. Cabin layouts vary by registration."
   },
   {
     "slug": "qantas",
     "name": "Qantas",
     "iata": "QF",
     "country": "Australia",
-    "blurb": "Australian flag carrier with domestic 737 fleets and long-haul wide-bodies. Cabin products and densities vary by aircraft and route."
+    "blurb": "Australian flag carrier with domestic 737 fleets and long haul widebodies. Cabin products and densities vary by aircraft and route."
   },
   {
     "slug": "etihad",
     "name": "Etihad Airways",
     "iata": "EY",
     "country": "United Arab Emirates",
-    "blurb": "Abu Dhabi-based long-haul carrier operating A380, 787, and narrow-body fleets. Multi-cabin layouts differ by subfleet and retrofit."
+    "blurb": "Abu Dhabi based long haul carrier operating A380, 787, and narrowbody fleets. Multi cabin layouts differ by subfleet and retrofit."
   },
   {
     "slug": "hawaiian",
     "name": "Hawaiian Airlines",
     "iata": "HA",
     "country": "United States",
-    "blurb": "Hawaii-based carrier with A321neo interisland/US mainland hops and long-haul A330/787 wide-bodies. Schematics below are typical public layouts only."
+    "blurb": "Hawaii based carrier with A321neo interisland/US mainland hops and long haul A330/787 widebodies. Schematics below are typical public layouts only."
   },
   {
     "slug": "spirit",
     "name": "Spirit Airlines",
     "iata": "NK",
     "country": "United States",
-    "blurb": "U.S. ultra-low-cost carrier with a high-density A320-family fleet. Single-cabin layouts and paid seat selection are typical."
+    "blurb": "U.S. ultra low cost carrier with a high density A320 family fleet. Single cabin layouts and paid seat selection are typical."
   },
   {
     "slug": "swiss",
     "name": "SWISS",
     "iata": "LX",
     "country": "Switzerland",
-    "blurb": "Swiss flag carrier (Lufthansa Group) with short-haul A320-family and long-haul A330/777 fleets. Cabin products vary by aircraft."
+    "blurb": "Swiss flag carrier (Lufthansa Group) with short haul A320 family and long haul A330/777 fleets. Cabin products vary by aircraft."
   },
   {
     "slug": "ana",
     "name": "ANA (All Nippon Airways)",
     "iata": "NH",
     "country": "Japan",
-    "blurb": "Japanese network carrier with domestic narrow-bodies and long-haul 787/777 fleets. Business and economy layouts differ by subfleet."
+    "blurb": "Japanese network carrier with domestic narrowbodies and long haul 787/777 fleets. Business and economy layouts differ by subfleet."
   },
   {
     "slug": "japan-airlines",
     "name": "Japan Airlines",
     "iata": "JL",
     "country": "Japan",
-    "blurb": "Japanese network carrier with domestic narrow-bodies and long-haul 787/777/A350 fleets. Cabin products and densities vary by aircraft and retrofit."
+    "blurb": "Japanese network carrier with domestic narrowbodies and long haul 787/777/A350 fleets. Cabin products and densities vary by aircraft and retrofit."
   },
   {
     "slug": "korean-air",
     "name": "Korean Air",
     "iata": "KE",
     "country": "South Korea",
-    "blurb": "South Korean flag carrier operating narrow-body regional fleets and long-haul 777/787 wide-bodies. Schematics below are typical public layouts only."
+    "blurb": "South Korean flag carrier operating narrowbody regional fleets and long haul 777/787 widebodies. Schematics below are typical public layouts only."
   },
   {
     "slug": "air-new-zealand",
     "name": "Air New Zealand",
     "iata": "NZ",
     "country": "New Zealand",
-    "blurb": "New Zealand flag carrier with Pacific narrow-body flying and long-haul 787/777 fleets. Layouts differ by subfleet and route."
+    "blurb": "New Zealand flag carrier with Pacific narrowbody flying and long haul 787/777 fleets. Layouts differ by subfleet and route."
   },
   {
     "slug": "norwegian",
     "name": "Norwegian",
     "iata": "DY",
     "country": "Norway",
-    "blurb": "Norwegian low-cost carrier focused on narrow-body 737 and A320-family flying. Single-cabin high-density layouts are typical."
+    "blurb": "Norwegian low cost carrier focused on narrowbody 737 and A320 family flying. Single cabin high density layouts are typical."
   },
   {
     "slug": "sas",
     "name": "Scandinavian Airlines (SAS)",
     "iata": "SK",
     "country": "Sweden",
-    "blurb": "Scandinavian network carrier with short-haul A320-family and 737 fleets plus select long-haul types. Cabin products vary by aircraft and route."
+    "blurb": "Scandinavian network carrier with short haul A320 family and 737 fleets plus select long haul types. Cabin products vary by aircraft and route."
   },
   {
     "slug": "frontier",
     "name": "Frontier Airlines",
     "iata": "F9",
     "country": "United States",
-    "blurb": "U.S. ultra-low-cost carrier with a high-density A320-family fleet. Single-cabin layouts and paid seat selection are typical."
+    "blurb": "U.S. ultra low cost carrier with a high density A320 family fleet. Single cabin layouts and paid seat selection are typical."
   },
   {
     "slug": "wizz-air",
     "name": "Wizz Air",
     "iata": "W6",
     "country": "Hungary",
-    "blurb": "Hungarian ultra-low-cost carrier with an all-Airbus A320-family fleet. High-density single-cabin layouts and paid seat selection are typical."
+    "blurb": "Hungarian ultra low cost carrier with an all Airbus A320 family fleet. High density single cabin layouts and paid seat selection are typical."
   },
   {
     "slug": "aer-lingus",
     "name": "Aer Lingus",
     "iata": "EI",
     "country": "Ireland",
-    "blurb": "Irish flag carrier (IAG) with short-haul A320-family flying and transatlantic A321LR/A330 services. Cabin products and densities vary by aircraft and route."
+    "blurb": "Irish flag carrier (IAG) with short haul A320 family flying and transatlantic A321LR/A330 services. Cabin products and densities vary by aircraft and route."
   },
   {
     "slug": "finnair",
     "name": "Finnair",
     "iata": "AY",
     "country": "Finland",
-    "blurb": "Finnish flag carrier hubbed at Helsinki with A320-family short-haul and A350 long-haul fleets. Business is often dynamically sized on narrow-bodies."
+    "blurb": "Finnish flag carrier hubbed at Helsinki with A320 family short haul and A350 long haul fleets. Business is often dynamically sized on narrowbodies."
   },
   {
     "slug": "westjet",
     "name": "WestJet",
     "iata": "WS",
     "country": "Canada",
-    "blurb": "Canadian carrier with a large Boeing 737 fleet plus 787-9 long-haul aircraft. Premium and all-economy subfleets coexist after network changes."
+    "blurb": "Canadian carrier with a large Boeing 737 fleet plus 787-9 long haul aircraft. Premium and all economy subfleets coexist after network changes."
   },
   {
     "slug": "austrian",
     "name": "Austrian Airlines",
     "iata": "OS",
     "country": "Austria",
-    "blurb": "Austrian flag carrier (Lufthansa Group) with short-haul A320-family flying and long-haul 787/777 fleets. Schematics below are typical public layouts only."
+    "blurb": "Austrian flag carrier (Lufthansa Group) with short haul A320 family flying and long haul 787/777 fleets. Schematics below are typical public layouts only."
   },
   {
     "slug": "eva-air",
     "name": "EVA Air",
     "iata": "BR",
     "country": "Taiwan",
-    "blurb": "Taiwanese network carrier known for Royal Laurel business and strong premium-economy products on 777/787 fleets, plus A321 narrow-bodies for regional flying."
+    "blurb": "Taiwanese network carrier known for Royal Laurel business and strong premium economy products on 777/787 fleets, plus A321 narrowbodies for regional flying."
   },
   {
     "slug": "tap-air-portugal",

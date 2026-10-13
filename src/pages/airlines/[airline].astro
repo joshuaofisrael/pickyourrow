@@ -403,6 +403,7 @@ function assertNoDash(kind: string, raw: string) {
 for (const item of faqs) {
   assertNoDash('FAQ prose', `${item.question} ${item.parts.map((part) => part.text).join('')}`);
 }
+assertNoDash('Airline lede', airline.blurb);
 assertNoDash('Page title', pageTitle);
 assertNoDash('Meta description', pageDescription);
 assertNoDash('H1', `${airline.name} ${seatMapLabel} (${airline.iata})`);
