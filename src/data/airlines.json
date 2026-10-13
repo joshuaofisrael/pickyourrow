@@ -249,7 +249,7 @@
     "name": "WestJet",
     "iata": "WS",
     "country": "Canada",
-    "blurb": "Canadian carrier with a large Boeing 737 fleet plus 787-9 long haul aircraft. Premium and all economy subfleets coexist after network changes."
+    "blurb": "Canadian carrier with a large Boeing 737 fleet plus Boeing 787-9 long haul aircraft. Premium and all economy subfleets coexist after network changes."
   },
   {
     "slug": "austrian",
