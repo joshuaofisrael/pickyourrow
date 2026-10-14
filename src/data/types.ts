@@ -8,6 +8,14 @@ export interface Airline {
   iata: string;
   country: string;
   blurb: string;
+  /** Optional verified public facts shown as an at a glance panel on the hub. */
+  glance?: {
+    alliance: string;
+    hubs: string[];
+    cabins: string;
+    seatTip: string;
+    source: string;
+  };
 }
 
 export interface SeatBlock {

@@ -404,6 +404,11 @@ for (const item of faqs) {
   assertNoDash('FAQ prose', `${item.question} ${item.parts.map((part) => part.text).join('')}`);
 }
 assertNoDash('Airline lede', airline.blurb);
+const glance = airline.glance;
+const glanceHubs = glance ? listNames(glance.hubs) : '';
+if (glance) {
+  assertNoDash('At a glance', `${glance.alliance} ${glanceHubs} ${glance.cabins} ${glance.seatTip}`);
+}
 assertNoDash('Page title', pageTitle);
 assertNoDash('Meta description', pageDescription);
 assertNoDash('H1', `${airline.name} ${seatMapLabel} (${airline.iata})`);
@@ -461,6 +466,24 @@ const jsonLd = [
     <p class="note">
       Pick Your Row is not affiliated with, endorsed by, or sponsored by {airline.name}. Maps are original schematics.
     </p>
+    {glance && (
+      <section aria-labelledby="at-a-glance" class="glance">
+        <h2 id="at-a-glance">{airline.name} at a glance</h2>
+        <dl class="specs">
+          <dt>Alliance</dt>
+          <dd>{glance.alliance}</dd>
+          <dt>Main hubs</dt>
+          <dd>{glanceHubs}</dd>
+          <dt>Cabins offered</dt>
+          <dd>{glance.cabins}</dd>
+          <dt>Seat tip</dt>
+          <dd>{glance.seatTip}</dd>
+        </dl>
+        <p class="note">
+          Public network and cabin facts, checked against the <a href={glance.source} rel="nofollow noopener" target="_blank">official {airline.name} website</a>. Products change, so confirm on your booking.
+        </p>
+      </section>
+    )}
     <p class="answer-block">
       {answerParts.map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
     </p>

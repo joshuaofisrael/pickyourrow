@@ -738,3 +738,10 @@ ul.clean li {
   max-width: 100%;
   min-width: 0;
 }
+
+/* Airline hub at a glance panel */
+.glance { margin: 1.25rem 0; }
+.glance .specs { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1rem; margin: 0.5rem 0; }
+.glance .specs dt { font-weight: 600; }
+.glance .specs dd { margin: 0; }
+@media (max-width: 560px) { .glance .specs { grid-template-columns: 1fr; } .glance .specs dd { margin-bottom: 0.5rem; } }

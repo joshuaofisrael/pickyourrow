@@ -11,7 +11,23 @@
     "name": "United Airlines",
     "iata": "UA",
     "country": "United States",
-    "blurb": "U.S. network carrier operating domestic and long haul fleets. Cabin layouts differ across subfleets."
+    "blurb": "U.S. network carrier operating domestic and long haul fleets. Cabin layouts differ across subfleets.",
+    "glance": {
+      "alliance": "Star Alliance (founding member)",
+      "hubs": [
+        "Chicago O'Hare",
+        "Denver",
+        "Houston Intercontinental",
+        "Los Angeles",
+        "Newark Liberty",
+        "San Francisco",
+        "Washington Dulles",
+        "Guam"
+      ],
+      "cabins": "United Polaris business on long haul widebodies, United Premium Plus premium economy, Economy Plus extra legroom rows, and standard economy",
+      "seatTip": "Economy Plus rows sit at the front of economy, so check which rows the map shades before paying for an upgrade.",
+      "source": "https://www.united.com/"
+    }
   },
   {
     "slug": "american",
@@ -116,7 +132,16 @@
     "name": "Cathay Pacific",
     "iata": "CX",
     "country": "Hong Kong",
-    "blurb": "Hong Kong network carrier operating A350, 777, and A330 fleets. Business and economy layouts vary by subfleet."
+    "blurb": "Hong Kong network carrier operating A350, 777, and A330 fleets. Business and economy layouts vary by subfleet.",
+    "glance": {
+      "alliance": "oneworld (founding member)",
+      "hubs": [
+        "Hong Kong International"
+      ],
+      "cabins": "Aria Suite business on retrofitted Boeing 777 aircraft, business on the Airbus A350, plus premium economy and economy on long haul widebodies",
+      "seatTip": "The same aircraft type can carry an older or newer business cabin, so check the configuration your flight shows.",
+      "source": "https://www.cathaypacific.com/"
+    }
   },
   {
     "slug": "klm",
@@ -144,7 +169,19 @@
     "name": "Qantas",
     "iata": "QF",
     "country": "Australia",
-    "blurb": "Australian flag carrier with domestic 737 fleets and long haul widebodies. Cabin products and densities vary by aircraft and route."
+    "blurb": "Australian flag carrier with domestic 737 fleets and long haul widebodies. Cabin products and densities vary by aircraft and route.",
+    "glance": {
+      "alliance": "oneworld (founding member)",
+      "hubs": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Perth"
+      ],
+      "cabins": "First on the Airbus A380, business, premium economy, and economy on long haul widebodies, and business plus economy on domestic Boeing 737 flights",
+      "seatTip": "Domestic and long haul layouts are very different, so match the aircraft on your booking to the right map below.",
+      "source": "https://www.qantas.com/"
+    }
   },
   {
     "slug": "etihad",
@@ -179,7 +216,17 @@
     "name": "ANA (All Nippon Airways)",
     "iata": "NH",
     "country": "Japan",
-    "blurb": "Japanese network carrier with domestic narrowbodies and long haul 787/777 fleets. Business and economy layouts differ by subfleet."
+    "blurb": "Japanese network carrier with domestic narrowbodies and long haul 787/777 fleets. Business and economy layouts differ by subfleet.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Tokyo Haneda",
+        "Tokyo Narita"
+      ],
+      "cabins": "THE Suite first and THE Room business on selected Boeing 777 aircraft, plus business, premium economy, and economy on other long haul widebodies",
+      "seatTip": "Long haul business products differ by aircraft, so confirm the aircraft type on your booking before comparing seats.",
+      "source": "https://www.ana.co.jp/en/"
+    }
   },
   {
     "slug": "japan-airlines",
@@ -228,7 +275,16 @@
     "name": "Wizz Air",
     "iata": "W6",
     "country": "Hungary",
-    "blurb": "Hungarian ultra low cost carrier with an all Airbus A320 family fleet. High density single cabin layouts and paid seat selection are typical."
+    "blurb": "Hungarian ultra low cost carrier with an all Airbus A320 family fleet. High density single cabin layouts and paid seat selection are typical.",
+    "glance": {
+      "alliance": "Not a member of an airline alliance",
+      "hubs": [
+        "Budapest (home base), with many more bases across Central and Eastern Europe"
+      ],
+      "cabins": "A single economy cabin with high density seating; seat selection is normally a paid extra",
+      "seatTip": "Without a paid seat you are assigned one at check in, so pick a seat early if sitting together or by an exit matters.",
+      "source": "https://wizzair.com/"
+    }
   },
   {
     "slug": "aer-lingus",
