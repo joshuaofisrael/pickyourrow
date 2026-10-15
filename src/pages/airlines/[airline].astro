@@ -423,7 +423,29 @@ if (configCount > 0) {
   }
 }
 
+const allianceName = glance ? ['Star Alliance', 'oneworld', 'SkyTeam'].find((name) => glance.alliance.startsWith(name)) : undefined;
+const airlineEntity = glance
+  ? {
+      '@type': 'Airline',
+      name: airline.name,
+      iataCode: airline.iata,
+      url: glance.source,
+      ...(allianceName ? { memberOf: { '@type': 'Organization', name: allianceName } } : {}),
+    }
+  : undefined;
+
 const jsonLd = [
+  ...(airlineEntity
+    ? [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: pageTitle,
+          url: new URL(pagePath, Astro.site ?? 'https://pickyourrow.com').toString(),
+          about: airlineEntity,
+        },
+      ]
+    : []),
   ...breadcrumbItemList({
     crumbs: [
       { name: 'Home', path: '/' },

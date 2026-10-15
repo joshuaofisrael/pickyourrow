@@ -4,7 +4,24 @@
     "name": "Delta Air Lines",
     "iata": "DL",
     "country": "United States",
-    "blurb": "Major U.S. carrier with a large narrowbody and widebody fleet. Configurations vary by registration and retrofit status."
+    "blurb": "Major U.S. carrier with a large narrowbody and widebody fleet. Configurations vary by registration and retrofit status.",
+    "glance": {
+      "alliance": "SkyTeam (founding member)",
+      "hubs": [
+        "Atlanta",
+        "Boston",
+        "Detroit",
+        "Los Angeles",
+        "Minneapolis St Paul",
+        "New York JFK",
+        "New York LaGuardia",
+        "Salt Lake City",
+        "Seattle"
+      ],
+      "cabins": "Delta One business on long haul widebodies, Delta Premium Select premium economy, Delta First on domestic flights, Delta Comfort extra legroom rows (formerly Comfort+), and Delta Main economy",
+      "seatTip": "Delta Comfort rows sit at the front of economy, so check which rows the map marks before you settle for a regular Delta Main seat.",
+      "source": "https://www.delta.com/"
+    }
   },
   {
     "slug": "united",
@@ -34,7 +51,25 @@
     "name": "American Airlines",
     "iata": "AA",
     "country": "United States",
-    "blurb": "U.S. carrier with extensive A321 and 737 fleets. Seat maps below are schematic reconstructions of typical public layouts."
+    "blurb": "U.S. carrier with extensive A321 and 737 fleets. Seat maps below are schematic reconstructions of typical public layouts.",
+    "glance": {
+      "alliance": "oneworld (founding member)",
+      "hubs": [
+        "Charlotte",
+        "Chicago O'Hare",
+        "Dallas Fort Worth",
+        "Los Angeles",
+        "Miami",
+        "New York JFK",
+        "New York LaGuardia",
+        "Philadelphia",
+        "Phoenix",
+        "Washington Reagan National"
+      ],
+      "cabins": "Flagship Business on long haul widebodies, Flagship Suite seats with privacy doors on the newest premium configured aircraft, Premium Economy on select long distance flights, First on domestic narrowbodies, Main Cabin Extra extra legroom rows, and Main Cabin",
+      "seatTip": "Main Cabin Extra rows sit near the front of economy and at some exit rows, so check which rows the map shades before paying for more legroom.",
+      "source": "https://www.aa.com/"
+    }
   },
   {
     "slug": "british-airways",
@@ -48,7 +83,21 @@
     "name": "easyJet",
     "iata": "U2",
     "country": "United Kingdom",
-    "blurb": "European low cost carrier operating an all Airbus A320 family fleet with largely single cabin layouts."
+    "blurb": "European low cost carrier operating an all Airbus A320 family fleet with largely single cabin layouts.",
+    "glance": {
+      "alliance": "None (not in a global alliance)",
+      "hubs": [
+        "London Gatwick",
+        "London Luton",
+        "Bristol",
+        "Manchester",
+        "Geneva",
+        "Milan Malpensa"
+      ],
+      "cabins": "One economy cabin on an all Airbus fleet, with paid Up Front and Extra Legroom seat options",
+      "seatTip": "Extra Legroom seats are in the first row and the overwing exit rows, and exit rows come with safety rules on who can sit there.",
+      "source": "https://www.easyjet.com/"
+    }
   },
   {
     "slug": "southwest",
@@ -90,7 +139,19 @@
     "name": "Ryanair",
     "iata": "FR",
     "country": "Ireland",
-    "blurb": "European ultra low cost carrier with a high density Boeing 737 fleet. Single cabin layouts are typical."
+    "blurb": "European ultra low cost carrier with a high density Boeing 737 fleet. Single cabin layouts are typical.",
+    "glance": {
+      "alliance": "None (not in a global alliance)",
+      "hubs": [
+        "Dublin",
+        "London Stansted",
+        "Milan Bergamo",
+        "Brussels Charleroi"
+      ],
+      "cabins": "One economy cabin on a Boeing 737 fleet, with paid Premium seats offering extra legroom at the front and over the wings",
+      "seatTip": "Seats are assigned at random unless you pay, so if sitting together matters, choose seats when you book.",
+      "source": "https://www.ryanair.com/"
+    }
   },
   {
     "slug": "emirates",
@@ -347,7 +408,16 @@
     "name": "Thai Airways",
     "iata": "TG",
     "country": "Thailand",
-    "blurb": "Thai flag carrier hubbed at Bangkok with A350 and 787 long haul fleets plus select 777 aircraft. Premium and economy products vary by aircraft and route."
+    "blurb": "Thai flag carrier hubbed at Bangkok with A350 and 787 long haul fleets plus select 777 aircraft. Premium and economy products vary by aircraft and route.",
+    "glance": {
+      "alliance": "Star Alliance (founding member)",
+      "hubs": [
+        "Bangkok Suvarnabhumi"
+      ],
+      "cabins": "Royal First on some Boeing 777 aircraft, Royal Silk business class, Premium Economy on some of the longest routes, and Economy",
+      "seatTip": "Cabins differ sharply by aircraft type on THAI, so match the aircraft on your booking to a card below before you pick a seat.",
+      "source": "https://www.thaiairways.com/"
+    }
   },
   {
     "slug": "lot-polish",
