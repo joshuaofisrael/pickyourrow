@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { airlines, aircraftConfigs, layoutString, getAircraftByAirline } from '../data';
 import { aircraftUrlParam } from '../lib/resolve';
 import guides from '../data/guides.json';
+import news from '../data/news.json';
 
 const featured = [
   ...aircraftConfigs.slice(-6),
@@ -13,6 +14,7 @@ const airlineCards = airlines.map((a) => ({
   ...a,
   count: getAircraftByAirline(a.slug).length,
 }));
+const latestNews = [...news].sort((a, b) => b.datePublished.localeCompare(a.datePublished)).slice(0, 3);
 const inventoryLine = `${airlines.length} airlines, ${aircraftConfigs.length} aircraft configs, ${guides.length} guides`;
 
 const featuredGuideSlugs = [
@@ -103,6 +105,20 @@ const jsonLd = [
       ))}
     </div>
   </section>
+
+  {latestNews.length > 0 && (
+    <section class="wrap" style="margin-bottom:2rem">
+      <div class="section-head">
+        <h2>Cabin news</h2>
+        <a href="/news/">All news</a>
+      </div>
+      <ul class="clean" style="margin-top:1rem">
+        {latestNews.map((n) => (
+          <li><a href={`/news/${n.slug}/`}>{n.title}</a>. {n.description}</li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <section class="wrap" style="margin-bottom:2rem">
     <div class="section-head">

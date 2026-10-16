@@ -7,6 +7,7 @@ import { aircraftUrlParam } from '../../lib/resolve';
 import { breadcrumbItemList } from '../../lib/schema';
 import { exitRowPhrase } from '../../lib/typeHubMeta';
 import guides from '../../data/guides.json';
+import news from '../../data/news.json';
 
 export function getStaticPaths() {
   assertIndefiniteArticleSamples();
@@ -404,6 +405,7 @@ for (const item of faqs) {
   assertNoDash('FAQ prose', `${item.question} ${item.parts.map((part) => part.text).join('')}`);
 }
 assertNoDash('Airline lede', airline.blurb);
+const airlineNews = news.filter((n) => n.airlineSlug === airline.slug).sort((x, y) => y.datePublished.localeCompare(x.datePublished)).slice(0, 3);
 const glance = airline.glance;
 const glanceHubs = glance ? listNames(glance.hubs) : '';
 if (glance) {
@@ -590,6 +592,17 @@ const jsonLd = [
         </div>
       ))}
     </div>
+
+    {airlineNews.length > 0 && (
+      <section style="margin-top:2rem" aria-labelledby="airline-news">
+        <h2 id="airline-news">Latest {airline.name} cabin news</h2>
+        <ul class="clean">
+          {airlineNews.map((n) => (
+            <li><a href={`/news/${n.slug}/`}>{n.title}</a>. {n.description}</li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <section style="margin-top:2rem">
       <h2>Helpful seat guides</h2>

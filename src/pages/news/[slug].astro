@@ -1,0 +1,105 @@
+---
+import { PUBLISHER } from '../../lib/schema';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import news from '../../data/news.json';
+
+type Source = { label: string; url: string; note?: string };
+type Post = {
+  slug: string;
+  title: string;
+  description: string;
+  datePublished: string;
+  dateModified?: string;
+  airlineSlug?: string;
+  body: string[];
+  sources: Source[];
+};
+
+/** Link targets may contain hyphens. Visible labels and prose may not. */
+function visibleProse(text: string): string {
+  return text.replace(/\[([^\]]+)\]\(\/[^)]+\)/g, '$1');
+}
+
+export function getStaticPaths() {
+  for (const post of news as Post[]) {
+    for (const text of [post.title, post.description, ...post.body]) {
+      if (/[-–—]/.test(visibleProse(text))) {
+        throw new Error(`News prose contains a dash (${post.slug}): ${text.slice(0, 60)}`);
+      }
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(post.datePublished)) throw new Error(`Bad news date (${post.slug})`);
+    if (post.sources.length < 2) throw new Error(`News post needs at least two sources (${post.slug})`);
+  }
+  return (news as Post[]).map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params;
+const post = (news as Post[]).find((p) => p.slug === slug)!;
+const pagePath = `/news/${post.slug}/`;
+const url = `https://pickyourrow.com${pagePath}`;
+const modified = post.dateModified ?? post.datePublished;
+const displayDate = new Date(`${post.datePublished}T12:00:00Z`).toLocaleDateString('en-GB', {
+  day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
+});
+
+function linkParts(text: string): { text: string; href?: string }[] {
+  return text
+    .split(/(\[[^\]]+\]\(\/[^)]+\))/g)
+    .filter(Boolean)
+    .map((part) => {
+      const match = part.match(/^\[([^\]]+)\]\((\/[^)]+)\)$/);
+      if (!match) return { text: part };
+      return { text: match[1], href: match[2] };
+    });
+}
+
+const jsonLd: Record<string, unknown>[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: post.title,
+    description: post.description,
+    url,
+    datePublished: post.datePublished,
+    dateModified: modified,
+    author: PUBLISHER,
+    publisher: PUBLISHER,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    citation: post.sources.map((s) => s.url),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'News', item: 'https://pickyourrow.com/news/' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: url },
+    ],
+  },
+];
+---
+<BaseLayout title={post.title} description={post.description} canonicalPath={pagePath} jsonLd={jsonLd}>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / <a href="/news/">News</a> / {post.title}</nav>
+    <h1 class="page-title">{post.title}</h1>
+    <p class="muted">Published <time datetime={post.datePublished}>{displayDate}</time> by Pick Your Row</p>
+    <p class="lede">{post.description}</p>
+    {post.body.map((p) => (
+      <p>{linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}</p>
+    ))}
+
+    <h2>Sources</h2>
+    <p class="muted">Written in our own words from the sources below. Airline products change, so confirm details with the airline before you fly.</p>
+    <ol class="sources">
+      {post.sources.map((s) => (
+        <li><a href={s.url} rel="noopener noreferrer">{s.label}</a>{s.note ? `. ${s.note}` : ''}</li>
+      ))}
+    </ol>
+
+    <p class="btn-row">
+      {post.airlineSlug && <a class="btn" href={`/airlines/${post.airlineSlug}/`}>Seat maps for this airline</a>}
+      <a class="btn secondary" href="/news/">All news</a>
+      <a class="btn secondary" href="/guides/">Seat guides</a>
+    </p>
+  </div>
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { breadcrumbItemList } from '../../lib/schema';
+import news from '../../data/news.json';
+
+const posts = [...news].sort((a, b) => b.datePublished.localeCompare(a.datePublished));
+const fmt = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const jsonLd = breadcrumbItemList({
+  crumbs: [ { name: 'Home', path: '/' }, { name: 'News', path: '/news/' } ],
+  listName: 'Pick Your Row cabin and seat news',
+  items: posts.map((p) => ({ name: p.title, path: `/news/${p.slug}/` })),
+});
+---
+<BaseLayout title="Airline cabin and seat news" description="Short, sourced news on airline cabins, seats and onboard products, with what each change means for picking your seat." canonicalPath="/news/" jsonLd={jsonLd}>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / News</nav>
+    <h1 class="page-title">Airline cabin and seat news</h1>
+    <p class="lede">Short news posts in our own words on cabin, seat and onboard product changes, each linked to the original sources and to our seat maps.</p>
+    <ul class="clean">
+      {posts.map((p) => (
+        <li><a href={`/news/${p.slug}/`}>{p.title}</a>. <time datetime={p.datePublished}>{fmt(p.datePublished)}</time>. {p.description}</li>
+      ))}
+    </ul>
+    <p><a href="/airlines/">All airline seat maps</a> · <a href="/guides/">Seat guides</a> · <a href="/methodology/">Methodology</a></p>
+  </div>
+</BaseLayout>
