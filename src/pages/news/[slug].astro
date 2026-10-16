@@ -15,12 +15,9 @@ type Post = {
   sources: Source[];
 };
 
-/** Link targets may contain hyphens. Visible labels and prose may not. */
-function visibleProse(text: string): string {
-  return text.replace(/\[([^\]]+)\]\(\/[^)]+\)/g, '$1');
-}
-
 export function getStaticPaths() {
+  // Link targets may contain hyphens. Visible labels and prose may not.
+  const visibleProse = (text: string) => text.replace(/\[([^\]]+)\]\(\/[^)]+\)/g, '$1');
   for (const post of news as Post[]) {
     for (const text of [post.title, post.description, ...post.body]) {
       if (/[-–—]/.test(visibleProse(text))) {
