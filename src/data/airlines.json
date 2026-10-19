@@ -158,7 +158,16 @@
     "name": "Emirates",
     "iata": "EK",
     "country": "United Arab Emirates",
-    "blurb": "Dubai based long haul carrier operating large widebody fleets. Multi cabin products vary substantially by aircraft and retrofit."
+    "blurb": "Dubai based long haul carrier operating large widebody fleets. Multi cabin products vary substantially by aircraft and retrofit.",
+    "glance": {
+      "alliance": "Not in a global alliance",
+      "hubs": [
+        "Dubai International"
+      ],
+      "cabins": "First class on the Airbus A380 and Boeing 777, Business class, Premium Economy on newer and refitted aircraft, and Economy",
+      "seatTip": "Emirates flies more than one layout of the same aircraft type, so confirm the configuration shown on your booking before you pick a seat.",
+      "source": "https://www.emirates.com/"
+    }
   },
   {
     "slug": "qatar",
@@ -186,7 +195,16 @@
     "name": "Singapore Airlines",
     "iata": "SQ",
     "country": "Singapore",
-    "blurb": "Singapore based long haul carrier known for premium heavy widebody fleets. Layouts differ substantially by aircraft and cabin product generation."
+    "blurb": "Singapore based long haul carrier known for premium heavy widebody fleets. Layouts differ substantially by aircraft and cabin product generation.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Singapore Changi"
+      ],
+      "cabins": "Suites on the Airbus A380, First on some Boeing 777s, Business class, Premium Economy, and Economy",
+      "seatTip": "Singapore Airlines runs several cabin versions on its long haul fleet, so check the seat map for your exact flight rather than the aircraft type alone.",
+      "source": "https://www.singaporeair.com/"
+    }
   },
   {
     "slug": "cathay-pacific",
