@@ -426,7 +426,7 @@
       "The trade offs keep stacking up. Evacuation is the biggest one. Every passenger in a bunk room still has to be part of a cabin that can empty within strict time limits, and a single stair is a choke point. Most likely the bunks would be closed for taxi, takeoff, landing, and turbulence, so every sleeper also needs a real seat upstairs. Weight is next. A module with structure, ventilation, plumbing for oxygen, and interiors weighs far more than the freight it replaces, and that freight was earning money. Center of gravity planning gets harder when a block of mass in the belly can be full or empty. Turn times suffer if crews must strip and remake twenty beds. And revenue density only works if enough people pay for sleep every single night on that route.",
       "There is also a quieter question about bags. If the module takes container positions, checked luggage and cargo capacity both shrink. On a full flight that can mean bags left behind or freight bumped, which is exactly the kind of irregular operation airlines try hardest to avoid. That is why concepts like this tend to show up in renders and trade show booths far more often than in real cabins.",
       "If a version ever flew, the seat you book upstairs would still matter. You would want a seat near the stair, away from the busiest galley traffic, so the walk down and back is short and quiet. Our editorial scores still assume today real seats. For practical advice right now, see [noise near galleys and lavatories](/guides/noise-near-galleys-and-lavatories/) and [jet lag and cabin position](/guides/jet-lag-and-cabin-position/).",
-      "For travelers, the useful takeaway is simple. A lower deck sleeper pod is a design brief, not a booking tip. The real lesson is that the belly of a widebody is a huge volume that passengers never see, and every idea for using it runs straight into fire, oxygen, and evacuation rules. For related speculative cabin ideas on this site, see [Family Mezzanine Suites](/guides/family-mezzanine-suites/), [Rotating Privacy Shells](/guides/rotating-privacy-shells/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/).",
+      "For travelers, the useful takeaway is simple. A lower deck sleeper pod is a design brief, not a booking tip. The real lesson is that the belly of a widebody is a huge volume that passengers never see, and every idea for using it runs straight into fire, oxygen, and evacuation rules. For related speculative cabin ideas on this site, see [Family Mezzanine Suites](/guides/family-mezzanine-suites/), [Rotating Privacy Shells](/guides/rotating-privacy-shells/), [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/), and [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/). Next in the series, [Window Wall Daybeds](/guides/window-wall-daybeds/) lays the bed along the cabin wall instead.",
       "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
     "sources": [
@@ -454,6 +454,66 @@
         "label": "ICAO Safety",
         "url": "https://www.icao.int/safety",
         "note": "International safety framework portal. Passengers sleeping in the hold is a standards problem, not just a design sketch."
+      }
+    ]
+  },
+  {
+    "slug": "window-wall-daybeds",
+    "title": "Window Wall Daybeds: Sleeping Lengthwise Along the Fuselage",
+    "description": "A speculative look at economy daybeds that run parallel to the aisle along the cabin sidewall, so a traveler could stretch out flat beside the window on a night flight without paying for a business class suite.",
+    "heroImage": {
+      "src": "/images/blog/window-wall-daybeds-thumbnail.png",
+      "alt": "Concept illustration looking down a dark widebody cabin at night, with long daybeds running lengthwise under the windows on both sides and forward facing economy seats in the center",
+      "caption": "Original concept illustration. Speculative lengthwise daybeds along an airliner sidewall. Not a certified product. Not affiliated with any airline."
+    },
+    "figures": [
+      {
+        "src": "/images/blog/window-wall-daybeds-plan.png",
+        "alt": "Top down concept plan of a cabin zone with rows of forward facing economy seats in the middle and blue lengthwise daybeds tucked against the curved sidewalls, each with a small side facing seat at one end",
+        "caption": "Plan view concept. Daybeds lie along the sidewall where window seats would normally sit, each with a side facing seat for taxi, takeoff, and landing. Speculative only. Original concept illustration."
+      },
+      {
+        "src": "/images/blog/window-wall-daybeds-closeup.png",
+        "alt": "Concept side view of a side facing seat with a shoulder harness beside a flat mattress that extends into a flat mattress running along the cabin wall under a window, with a reading light and a storage drawer below",
+        "caption": "Concept close up. A side facing seat with a harness for critical phases of flight, opening into a flat bed along the wall at cruise. Original concept illustration. Not a certified product."
+      }
+    ],
+    "body": [
+      "Every seat in a normal economy cabin points the same way, toward the cockpit. That is why your knees meet the seat in front and your body folds at the hips for ten hours. This week the Pick Your Row thought experiment turns the window seat ninety degrees: window wall daybeds, long flat beds that run lengthwise along the fuselage sidewall instead of across it.",
+      "Here is the idea. On each side of a widebody, in a zone of a few rows, the window and middle seats are removed. In their place sits a padded daybed roughly two meters long, laid parallel to the aisle and tucked against the curve of the wall. At one end is a short side facing seat with a shoulder harness. You sit there, facing across the cabin, for taxi, takeoff, landing, and turbulence. Once the seat belt sign goes off, the backrest folds down and the cushion joins the bed, and you lie flat with your head toward the front and the window beside you. A low screen on the aisle side gives some privacy, and a drawer underneath holds shoes and a small bag.",
+      "Why does the geometry tempt designers? A human body is long and narrow, and so is a fuselage. Forward facing seats fight that shape, because a bed placed across the cabin has to fit inside the width of one seat block. A bed laid along the wall can use the length of the cabin instead, which is the one dimension an airliner has plenty of. The sidewall curve also stops mattering much when you lie down, since the narrow part near the ceiling sits above your head rather than beside your shoulders. In theory, a daybed uses space that a standing passenger never needs.",
+      "Why do airlines not do more of this already? Something close exists. Private jets often carry side facing divans, and some first class suites on large widebodies have offered beds or couches beside the window. The trouble is bringing it down to economy money. Side facing seats are hard to certify for occupancy during takeoff and landing, because crash testing was built around people who face forward and get thrown into a seat back or a belt. A person sitting sideways can be thrown sideways, which loads the neck and spine in a different way. Regulators have accepted side facing seats with extra protections like shoulder harnesses, airbag belts, or energy absorbing structures, but each one adds cost and weight and paperwork.",
+      "Then the trade offs pile up. Revenue density is the big one. A daybed that takes the space of two seats across and three rows deep removes six sellable economy seats, so the airline would need to sell the bed for a lot more than one fare just to break even. Evacuation is next. The daybed and its screen must never block the aisle, and every occupant has to be able to stand up and leave quickly in the dark, which is harder from a horizontal mattress than from a seat. Overhead bins become awkward too, because a bin above a bed is hard to reach without stepping on the mattress. Boarding slows down when a few passengers need help with harnesses. And the bed has to be cleaned and remade on every turn, which costs time at the gate.",
+      "There is also a weight and balance question. A daybed module with a harness seat, folding structure, a drawer, and a screen likely weighs more than the seats it replaces, and it sits in fewer bodies per meter of cabin. Load planners care about where that mass is, and cabin zones with fewer passengers shift the numbers they work with every flight. None of this is impossible, but it explains why daybeds tend to live in renders and premium suites rather than in the back of the plane.",
+      "If a version ever flew, the seat choice would still matter. You would want a daybed away from the galley and lavatory traffic, and not right over the wing if you care about engine noise. For practical advice on today real seats, see [noise near galleys and lavatories](/guides/noise-near-galleys-and-lavatories/), [overnight long haul seat strategy](/guides/overnight-long-haul-seat-strategy/), and [tall traveler seat strategy](/guides/tall-traveler-seat-strategy/).",
+      "For travelers, the useful takeaway is simple. Window wall daybeds are a design brief, not a booking tip. The real lesson is that an airliner is long and thin, and almost every economy sleep idea is a fight over which direction your body gets to point. For related speculative cabin ideas on this site, see [Lower Deck Sleeper Pods](/guides/lower-deck-sleeper-pods/), [Family Mezzanine Suites](/guides/family-mezzanine-suites/), [Rotating Privacy Shells](/guides/rotating-privacy-shells/), and [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/).",
+      "Pick Your Row publishes original cabin schematics and editorial guides for Joshua Israel Ventures LLC. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 25.562 Emergency landing dynamic conditions",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.562",
+        "note": "The dynamic crash test rules that seats occupied for takeoff and landing must meet. Side facing seats need extra work to satisfy them."
+      },
+      {
+        "label": "U.S. eCFR 14 CFR 25.785 Seats, berths, safety belts, and harnesses",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.785",
+        "note": "Baseline rules for seats and berths in transport category airplanes, including how occupants must be protected."
+      },
+      {
+        "label": "U.S. eCFR 14 CFR 25.803 Emergency evacuation",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.803",
+        "note": "Transport category evacuation requirements. Any bed along the wall still has to fit the full cabin evacuation picture."
+      },
+      {
+        "label": "IATA Evacuation safety education",
+        "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
+        "note": "Public industry messaging on evacuation behavior, relevant to any layout where passengers start from a lying position."
+      },
+      {
+        "label": "ICAO Safety",
+        "url": "https://www.icao.int/safety",
+        "note": "International safety framework portal. New seat orientations are a standards question, not just a design sketch."
       }
     ]
   },
