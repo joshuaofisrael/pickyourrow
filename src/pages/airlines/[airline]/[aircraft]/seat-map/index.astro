@@ -6,7 +6,7 @@ import { airlines, aircraftConfigs, layoutString } from '../../../../../data';
 import { assertLeafMeta, leafDescription, leafHeading, leafTitle, softenProseDashes } from '../../../../../lib/leafMeta';
 import { peerSeatMaps, siblingSeatMaps, typeHubAnchor, typeHubPath } from '../../../../../lib/relatedSeatMaps';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../../lib/resolve';
-import { topSeats } from '../../../../../lib/scoring';
+import { topSeats, cautionSeats } from '../../../../../lib/scoring';
 import guides from '../../../../../data/guides.json';
 
 export function getStaticPaths() {
@@ -24,6 +24,8 @@ const resolved = resolveAirlineAircraft(aSlug!, acParam!);
 if (!resolved) throw new Error('Config not found');
 const { airline, config } = resolved;
 const tops = topSeats(config, 5);
+const rankedTops = topSeats(config, 10);
+const cautions = cautionSeats(config, 6);
 const bestSeatsHref = `/best-seats/${airline.slug}/${acParam}/`;
 const typeHubHref = typeHubPath(config);
 const typeHubLabel = typeHubAnchor(config.aircraftType);
@@ -193,7 +195,7 @@ const related = relatedGuides(config.slug);
 
     <p class="muted" style="margin-top:0.75rem">
       Green highlighted seats are sample editorial picks ({tops.map((s) => s.seatId).join(', ')}).
-      Full rationale on the <a href={bestSeatsHref}>best seats page</a>.
+      Full rankings and caution seats are <a href="#ranked-seats">below</a>.
     </p>
 
     <div id="booking-cta">
@@ -204,6 +206,26 @@ const related = relatedGuides(config.slug);
         bestSeatsHref={bestSeatsHref}
       />
     </div>
+
+
+    <h2 id="ranked-seats">Top ranked seats on this {config.aircraftType} (editorial)</h2>
+    <table class="seats">
+      <thead><tr><th>Seat</th><th>Score</th><th>Tags</th><th>Note</th></tr></thead>
+      <tbody>
+        {rankedTops.map((s) => (
+          <tr><td><strong>{s.seatId}</strong></td><td class="score">{s.score}</td><td><div class="tags">{s.tags.map((t) => <span class="tag">{t}</span>)}</div></td><td>{s.summary}</td></tr>
+        ))}
+      </tbody>
+    </table>
+    <h2>Caution seats on this {config.aircraftType}</h2>
+    <table class="seats">
+      <thead><tr><th>Seat</th><th>Score</th><th>Tags</th><th>Note</th></tr></thead>
+      <tbody>
+        {cautions.map((s) => (
+          <tr><td><strong>{s.seatId}</strong></td><td class="score">{s.score}</td><td><div class="tags">{s.tags.map((t) => <span class="tag">{t}</span>)}</div></td><td>{s.summary}</td></tr>
+        ))}
+      </tbody>
+    </table>
 
     <h2>Cabin sections</h2>
     <ul class="clean">

@@ -23,9 +23,8 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: (page) => !unlisted.has(page),
-      // llms.txt is a static file in public/, so it is listed by hand.
-      customPages: [`${site}/llms.txt`],
+      // Per airline and per aircraft best seats pages canonicalize to the airline hub and seat map pages.
+      filter: (page) => !unlisted.has(page) && !/\/best-seats\/[^/]+\//.test(page),
     }),
   ],
 });
