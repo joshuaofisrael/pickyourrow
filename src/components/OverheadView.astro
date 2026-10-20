@@ -1,0 +1,22 @@
+---
+import type { AircraftConfig } from '../data/types';
+import { buildOverhead, verifyOverhead } from '../lib/overheadSvg';
+const { config } = Astro.props as { config: AircraftConfig };
+const res = buildOverhead(config);
+const errs = verifyOverhead(config, res);
+if (errs.length) console.warn(`[overhead] skipped ${config.slug}: ${errs.join('; ')}`);
+---
+{errs.length === 0 && (
+  <section class="overhead" aria-labelledby="overhead-h">
+    <h2 id="overhead-h">Overhead cabin view</h2>
+    <p class="muted">A top down view of the same layout, nose on the left. Colours follow our editorial seat scores.</p>
+    <div class="overhead__scroll" set:html={res.svg} />
+    <ul class="overhead__legend">
+      <li><i style="background:#4fb46e"></i>Good</li><li><i style="background:#e8aa3c"></i>Caution</li><li><i style="background:#e14b41"></i>Exit row</li><li><i style="background:#afb6c3"></i>Standard</li><li><i style="background:#7896c8"></i>WC lav</li><li><i style="background:#c8aa6e"></i>G galley</li>
+    </ul>
+  </section>
+)}
+<style>
+.overhead{margin:1.5rem 0}.overhead__scroll{overflow-x:auto;border-radius:12px;background:#e8eaee;padding:6px}.overhead__scroll :global(svg){display:block;height:auto;max-width:none}
+.overhead__legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;list-style:none;padding:0;margin:.5rem 0 0;font-size:.9rem}.overhead__legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+</style>

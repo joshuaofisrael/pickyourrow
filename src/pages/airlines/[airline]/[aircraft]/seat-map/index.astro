@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../../../layouts/BaseLayout.astro';
 import SeatMap from '../../../../../components/SeatMap.astro';
+import OverheadView from '../../../../../components/OverheadView.astro';
 import BookingCTA from '../../../../../components/BookingCTA.astro';
 import { airlines, aircraftConfigs, layoutString } from '../../../../../data';
 import { assertLeafMeta, leafDescription, leafHeading, leafTitle, softenProseDashes } from '../../../../../lib/leafMeta';
@@ -197,6 +198,8 @@ const related = relatedGuides(config.slug);
       Green highlighted seats are sample editorial picks ({tops.map((s) => s.seatId).join(', ')}).
       Full rankings and caution seats are <a href="#ranked-seats">below</a>.
     </p>
+
+    <OverheadView config={config} />
 
     <div id="booking-cta">
       <BookingCTA
