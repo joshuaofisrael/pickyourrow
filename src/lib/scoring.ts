@@ -89,13 +89,13 @@ export function scoreSeats(config: AircraftConfig): SeatScore[] {
         score = Math.max(1, Math.min(10, Math.round(score * 10) / 10));
 
         let summary = 'Standard seat.';
-        if (exit && !lav) summary = 'Exit row — often more legroom; check airline eligibility.';
-        else if (bulk && !lav) summary = 'Bulkhead / cabin-front — space ahead; storage may be limited.';
-        else if (lav) summary = 'Near lavatory — expect traffic and noise.';
-        else if (galley) summary = 'Near galley — service noise possible.';
-        else if (tags.includes('middle')) summary = 'Middle seat — fine for groups, less ideal solo.';
-        else if (tags.includes('window')) summary = 'Window seat — good for rest and views.';
-        else if (tags.includes('aisle')) summary = 'Aisle seat — easy access to walk around.';
+        if (exit && !lav) summary = 'Exit row, often more legroom. Check airline eligibility.';
+        else if (bulk && !lav) summary = 'Bulkhead at the cabin front, space ahead. Storage may be limited.';
+        else if (lav) summary = 'Near lavatory, expect traffic and noise.';
+        else if (galley) summary = 'Near galley, service noise possible.';
+        else if (tags.includes('middle')) summary = 'Middle seat, fine for groups, less ideal solo.';
+        else if (tags.includes('window')) summary = 'Window seat, good for rest and views.';
+        else if (tags.includes('aisle')) summary = 'Aisle seat, easy access to walk around.';
         if (lastRows && !lav) summary += ' Toward the rear of this cabin.';
 
         scores.push({
