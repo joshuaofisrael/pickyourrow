@@ -111,7 +111,20 @@
     "name": "JetBlue",
     "iata": "B6",
     "country": "United States",
-    "blurb": "U.S. carrier known for A320 family aircraft and select Mint premium cabins. Layouts differ by route and retrofit."
+    "blurb": "U.S. carrier known for A320 family aircraft and select Mint premium cabins. Layouts differ by route and retrofit.",
+    "glance": {
+      "alliance": "Not in a global alliance",
+      "hubs": [
+        "New York JFK",
+        "Boston Logan",
+        "Fort Lauderdale",
+        "Orlando",
+        "San Juan"
+      ],
+      "cabins": "Mint business class with lie flat seats on longer flights, the new BlueFirst domestic first class from 8 December 2026, EvenMore extra legroom seats, and Main economy",
+      "seatTip": "BlueFirst is being installed aircraft by aircraft and may appear only on some dates, so check the seat map on your booking rather than the route alone.",
+      "source": "https://www.jetblue.com/"
+    }
   },
   {
     "slug": "alaska",
@@ -188,7 +201,18 @@
     "name": "Air Canada",
     "iata": "AC",
     "country": "Canada",
-    "blurb": "Canadian network carrier with narrowbody domestic fleets and long haul widebodies. Cabin products and densities vary by aircraft and retrofit."
+    "blurb": "Canadian network carrier with narrowbody domestic fleets and long haul widebodies. Cabin products and densities vary by aircraft and retrofit.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Toronto Pearson",
+        "Montreal Trudeau",
+        "Vancouver"
+      ],
+      "cabins": "Air Canada Signature Class with lie flat suites on Boeing 777, Boeing 787, Airbus A330 and Airbus A321XLR aircraft, North America Business Class, Premium Economy on widebodies, and Economy with Preferred seats",
+      "seatTip": "Air Canada Rouge and Air Canada Express flights use different cabins from mainline aircraft, so check who operates your flight before you choose a seat.",
+      "source": "https://www.aircanada.com/"
+    }
   },
   {
     "slug": "singapore",
@@ -234,7 +258,16 @@
     "name": "Virgin Atlantic",
     "iata": "VS",
     "country": "United Kingdom",
-    "blurb": "UK long haul carrier operating A350 and 787 fleets. Premium and economy products differ by aircraft."
+    "blurb": "UK long haul carrier operating A350 and 787 fleets. Premium and economy products differ by aircraft.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "London Heathrow"
+      ],
+      "cabins": "Upper Class with a fully flat bed and direct aisle access, Retreat Suites on selected Airbus A330neo aircraft, Premium, and Economy including Economy Delight seats with extra legroom",
+      "seatTip": "Economy Delight is an Economy fare with up to 34 inches of pitch, not the separate Premium cabin, so check which one you are booking before you compare seats.",
+      "source": "https://www.virginatlantic.com/"
+    }
   },
   {
     "slug": "iberia",
@@ -526,7 +559,16 @@
     "name": "Vueling",
     "iata": "VY",
     "country": "Spain",
-    "blurb": "Spanish low cost carrier in the IAG group with a large A320 family fleet based around Barcelona and other Spanish hubs. Most flying is dense single class economy with select extra space rows."
+    "blurb": "Spanish low cost carrier in the IAG group with a large A320 family fleet based around Barcelona and other Spanish hubs. Most flying is dense single class economy with select extra space rows.",
+    "glance": {
+      "alliance": "Not in a global alliance (part of the IAG group)",
+      "hubs": [
+        "Barcelona El Prat"
+      ],
+      "cabins": "Single cabin Economy on an Airbus A320 family fleet, with paid Space One (row 1), Space Plus (rows 2 to 4) and Space (exit row) seats",
+      "seatTip": "Space seats in the exit rows give the most legroom for the price, but they have no underseat storage, so plan to put your bag in the overhead locker.",
+      "source": "https://www.vueling.com/"
+    }
   },
   {
     "slug": "egyptair",
