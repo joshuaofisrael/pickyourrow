@@ -76,7 +76,17 @@
     "name": "British Airways",
     "iata": "BA",
     "country": "United Kingdom",
-    "blurb": "UK flag carrier. Short haul A320 family and long haul widebody configs vary by aircraft and route."
+    "blurb": "UK flag carrier. Short haul A320 family and long haul widebody configs vary by aircraft and route.",
+    "glance": {
+      "alliance": "oneworld",
+      "hubs": [
+        "London Heathrow",
+        "London Gatwick"
+      ],
+      "cabins": "First on selected long haul aircraft, Club Suite business class with a door on most long haul aircraft, World Traveller Plus premium economy, World Traveller economy, and Club Europe and Euro Traveller on short haul flights",
+      "seatTip": "Older long haul aircraft can still carry an earlier business cabin, so check the seat map on your booking rather than the route alone.",
+      "source": "https://www.britishairways.com/"
+    }
   },
   {
     "slug": "easyjet",
@@ -138,7 +148,17 @@
     "name": "Lufthansa",
     "iata": "LH",
     "country": "Germany",
-    "blurb": "German network carrier with short haul A320 family and long haul widebody fleets. Cabin products differ by aircraft."
+    "blurb": "German network carrier with short haul A320 family and long haul widebody fleets. Cabin products differ by aircraft.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Frankfurt",
+        "Munich"
+      ],
+      "cabins": "New Allegris long haul cabins on selected Airbus A350 and Boeing 787 aircraft, older First, Business and Premium Economy cabins on other widebodies, and Business and Economy on European flights",
+      "seatTip": "Allegris is only fitted to part of the fleet, so the same route can have very different seats from one day to the next. Check the aircraft on your booking.",
+      "source": "https://www.lufthansa.com/"
+    }
   },
   {
     "slug": "air-france",
@@ -187,14 +207,32 @@
     "name": "Qatar Airways",
     "iata": "QR",
     "country": "Qatar",
-    "blurb": "Doha based network carrier with modern widebody fleets. Business and economy layouts differ by subfleet."
+    "blurb": "Doha based network carrier with modern widebody fleets. Business and economy layouts differ by subfleet.",
+    "glance": {
+      "alliance": "oneworld",
+      "hubs": [
+        "Doha Hamad International"
+      ],
+      "cabins": "Qsuite business class with closing doors on many Boeing 777 and Airbus A350 aircraft, First on the Airbus A380, standard business class on other aircraft, and Economy",
+      "seatTip": "Qsuite is not on every aircraft, so check the seat map for your exact flight before you book a premium seat.",
+      "source": "https://www.qatarairways.com/"
+    }
   },
   {
     "slug": "turkish",
     "name": "Turkish Airlines",
     "iata": "TK",
     "country": "Turkey",
-    "blurb": "Istanbul based network carrier with a large narrowbody and widebody fleet. Cabin products and densities vary by aircraft and route."
+    "blurb": "Istanbul based network carrier with a large narrowbody and widebody fleet. Cabin products and densities vary by aircraft and route.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Istanbul Airport"
+      ],
+      "cabins": "Business Class with lie flat seats on widebody aircraft, Business Class on narrowbody flights, and Economy Class",
+      "seatTip": "Long transfers at Istanbul are common, so on overnight legs a window seat away from the galley is worth choosing early.",
+      "source": "https://www.turkishairlines.com/"
+    }
   },
   {
     "slug": "air-canada",
@@ -251,7 +289,16 @@
     "name": "KLM Royal Dutch Airlines",
     "iata": "KL",
     "country": "Netherlands",
-    "blurb": "Dutch flag carrier with short haul narrowbodies and long haul 787/777/A330 fleets. Schematics below are typical public layouts only."
+    "blurb": "Dutch flag carrier with short haul narrowbodies and long haul 787/777/A330 fleets. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Amsterdam Schiphol"
+      ],
+      "cabins": "World Business Class with lie flat seats on long haul aircraft, Premium Comfort premium economy, Economy Comfort extra legroom seats, Economy, and Europe Business on short haul flights",
+      "seatTip": "KLM Cityhopper regional jets have different cabins from mainline Boeing and Airbus aircraft, so check who operates your flight.",
+      "source": "https://www.klm.com/"
+    }
   },
   {
     "slug": "virgin-atlantic",
