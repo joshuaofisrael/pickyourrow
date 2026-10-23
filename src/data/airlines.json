@@ -114,7 +114,20 @@
     "name": "Southwest Airlines",
     "iata": "WN",
     "country": "United States",
-    "blurb": "U.S. low cost carrier with an all Boeing 737 fleet and primarily single cabin layouts. Configurations vary by subfleet."
+    "blurb": "U.S. low cost carrier with an all Boeing 737 fleet and primarily single cabin layouts. Configurations vary by subfleet.",
+    "glance": {
+      "alliance": "No alliance",
+      "hubs": [
+        "Dallas Love Field",
+        "Chicago Midway",
+        "Denver",
+        "Las Vegas",
+        "Baltimore Washington"
+      ],
+      "cabins": "An all Boeing 737 fleet with assigned seating, including Extra Legroom seats near the front and at the exit rows, and standard economy seats",
+      "seatTip": "Southwest moved from open seating to assigned seats, so choose your seat when you book or check in rather than relying on boarding position.",
+      "source": "https://www.southwest.com/"
+    }
   },
   {
     "slug": "jetblue",
@@ -141,7 +154,19 @@
     "name": "Alaska Airlines",
     "iata": "AS",
     "country": "United States",
-    "blurb": "U.S. carrier operating mainly Boeing 737s. First, Premium, and Main cabin products vary across the fleet."
+    "blurb": "U.S. carrier operating mainly Boeing 737s. First, Premium, and Main cabin products vary across the fleet.",
+    "glance": {
+      "alliance": "oneworld",
+      "hubs": [
+        "Seattle",
+        "Portland",
+        "Anchorage",
+        "San Francisco"
+      ],
+      "cabins": "First Class, Premium Class extra legroom economy, and Main Cabin on the Boeing 737 fleet, with regional jets on shorter routes",
+      "seatTip": "Premium Class rows sit just behind First and add legroom without the First fare, which makes them a good value pick on longer domestic flights.",
+      "source": "https://www.alaskaair.com/"
+    }
   },
   {
     "slug": "lufthansa",
@@ -165,7 +190,16 @@
     "name": "Air France",
     "iata": "AF",
     "country": "France",
-    "blurb": "French flag carrier operating short haul narrowbodies and long haul widebodies. Schematics below are typical public layouts only."
+    "blurb": "French flag carrier operating short haul narrowbodies and long haul widebodies. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Paris Charles de Gaulle"
+      ],
+      "cabins": "La Premiere on selected Boeing 777 aircraft, Business on long haul widebodies, Premium on most long haul aircraft, Economy, and Business and Economy on European flights",
+      "seatTip": "Air France has been refitting its long haul fleet in stages, so two flights on the same route can have different business seats. Check the aircraft on your booking before you pick.",
+      "source": "https://www.airfrance.com/"
+    }
   },
   {
     "slug": "ryanair",
@@ -321,7 +355,16 @@
     "name": "Iberia",
     "iata": "IB",
     "country": "Spain",
-    "blurb": "Spanish network carrier with short haul A320 family and long haul A330/A350 fleets. Cabin layouts vary by registration."
+    "blurb": "Spanish network carrier with short haul A320 family and long haul A330/A350 fleets. Cabin layouts vary by registration.",
+    "glance": {
+      "alliance": "oneworld",
+      "hubs": [
+        "Madrid Barajas"
+      ],
+      "cabins": "Business, Premium Economy and Economy on long haul Airbus A330 and A350 aircraft, and Business and Economy on short haul A320 family flights",
+      "seatTip": "On short haul flights Business uses standard seats with the middle seat kept free, so the gain is space and service rather than a bigger seat.",
+      "source": "https://www.iberia.com/"
+    }
   },
   {
     "slug": "qantas",
@@ -347,7 +390,16 @@
     "name": "Etihad Airways",
     "iata": "EY",
     "country": "United Arab Emirates",
-    "blurb": "Abu Dhabi based long haul carrier operating A380, 787, and narrowbody fleets. Multi cabin layouts differ by subfleet and retrofit."
+    "blurb": "Abu Dhabi based long haul carrier operating A380, 787, and narrowbody fleets. Multi cabin layouts differ by subfleet and retrofit.",
+    "glance": {
+      "alliance": "No alliance",
+      "hubs": [
+        "Abu Dhabi Zayed International"
+      ],
+      "cabins": "The Residence and First Apartments on the Airbus A380, Business Studios and Economy on most widebodies, and Business and Economy on narrowbody flights",
+      "seatTip": "Cabin products vary by aircraft type, so confirm whether your flight is an A380, a Boeing 787 or a narrowbody before comparing seats.",
+      "source": "https://www.etihad.com/"
+    }
   },
   {
     "slug": "hawaiian",
@@ -368,7 +420,17 @@
     "name": "SWISS",
     "iata": "LX",
     "country": "Switzerland",
-    "blurb": "Swiss flag carrier (Lufthansa Group) with short haul A320 family and long haul A330/777 fleets. Cabin products vary by aircraft."
+    "blurb": "Swiss flag carrier (Lufthansa Group) with short haul A320 family and long haul A330/777 fleets. Cabin products vary by aircraft.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Zurich",
+        "Geneva"
+      ],
+      "cabins": "First on long haul Boeing 777 and selected widebodies, Business on all long haul aircraft, Premium Economy on most long haul aircraft, Economy, and Business and Economy on European flights",
+      "seatTip": "Long haul business uses a staggered layout, and some rows have single seats with extra surface space on both sides. Solo travellers often pick those first.",
+      "source": "https://www.swiss.com/"
+    }
   },
   {
     "slug": "ana",
