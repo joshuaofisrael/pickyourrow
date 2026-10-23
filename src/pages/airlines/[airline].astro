@@ -1,4 +1,6 @@
 ---
+import Photo from '../../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline, getUniqueAircraftTypes, layoutString } from '../../data';
 import type { AircraftConfig } from '../../data/types';
@@ -487,6 +489,7 @@ const jsonLd = [
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/airlines/">Airlines</a> / {airline.name}</nav>
     <h1 class="page-title">{airline.name} {seatMapLabel} <span class="muted">({airline.iata})</span></h1>
     <p class="lede">{airline.blurb}</p>
+    <Photo name={pickPhoto(airline.slug, 'cabin')} variant="banner" />
     <p class="note">
       Pick Your Row is not affiliated with, endorsed by, or sponsored by {airline.name}. Maps are original schematics.
     </p>

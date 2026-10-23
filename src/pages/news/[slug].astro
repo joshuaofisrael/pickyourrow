@@ -1,4 +1,6 @@
 ---
+import Photo from '../../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import { PUBLISHER } from '../../lib/schema';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import news from '../../data/news.json';
@@ -81,6 +83,7 @@ const jsonLd: Record<string, unknown>[] = [
     <h1 class="page-title">{post.title}</h1>
     <p class="muted">Published <time datetime={post.datePublished}>{displayDate}</time> by Pick Your Row</p>
     <p class="lede">{post.description}</p>
+    <Photo name={photoForText(post.title, post.slug)} variant="banner" eager />
     {post.body.map((p) => (
       <p>{linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}</p>
     ))}

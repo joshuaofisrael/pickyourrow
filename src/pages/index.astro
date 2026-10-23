@@ -1,4 +1,6 @@
 ---
+import Photo from '../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../lib/photos';
 import { ORGANIZATION, PUBLISHER } from '../lib/schema';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { airlines, aircraftConfigs, layoutString, getAircraftByAirline } from '../data';
@@ -51,7 +53,8 @@ const jsonLd = [
   canonicalPath="/"
   jsonLd={jsonLd}
 >
-  <section class="hero wrap">
+  <section class="hero wrap home-hero">
+   <div>
     <p class="badge">Original schematics · editorial guidance</p>
     <h1>See the cabin. Pick a smarter row. Book with eyes open.</h1>
     <p class="lede">
@@ -68,6 +71,8 @@ const jsonLd = [
       Configurations vary by aircraft registration and retrofit. Treat every map as an illustrative schematic and
       confirm seats with your airline. We are not affiliated with any carrier.
     </p>
+   </div>
+   <Photo name="economy-cabin" variant="hero" eager />
   </section>
 
   <section class="wrap trust-row" aria-label="Trust signals">
@@ -99,6 +104,7 @@ const jsonLd = [
     <div class="grid cols-3" style="margin-top:1rem">
       {featuredGuides.map((g) => (
         <article class="card">
+          <Photo name={photoForText(g!.title + ' ' + g!.slug, g!.slug)} variant="thumb" />
           <h3><a href={`/guides/${g!.slug}/`}>{g!.title}</a></h3>
           <p>{g!.description}</p>
         </article>
@@ -112,11 +118,15 @@ const jsonLd = [
         <h2>Cabin news</h2>
         <a href="/news/">All news</a>
       </div>
-      <ul class="clean" style="margin-top:1rem">
+      <div class="grid cols-3" style="margin-top:1rem">
         {latestNews.map((n) => (
-          <li><a href={`/news/${n.slug}/`}>{n.title}</a>. {n.description}</li>
+          <article class="card">
+            <Photo name={photoForText(n.title, n.slug)} variant="thumb" />
+            <h3><a href={`/news/${n.slug}/`}>{n.title}</a></h3>
+            <p>{n.description}</p>
+          </article>
         ))}
-      </ul>
+      </div>
     </section>
   )}
 
@@ -137,9 +147,11 @@ const jsonLd = [
     <p class="muted" style="margin:0.35rem 0 0">
       Primary path for SEO and bookings: pick a carrier, open a seat map, then use the booking placeholder CTA.
     </p>
+    <p class="photo-note">Photos on this site are AI generated illustrations of typical cabins and aircraft, not specific airlines or aircraft. Seat diagrams are exact and separate.</p>
     <div class="grid cols-3" style="margin-top:1rem" id="airline-grid">
       {airlineCards.map((a) => (
         <article class="card airline-card" data-filter={`${a.name} ${a.iata} ${a.country} ${a.slug}`.toLowerCase()}>
+          <Photo name={pickPhoto(a.slug)} variant="thumb" />
           <span class="badge">{a.iata}</span>
           <h3><a class="stretched" href={`/airlines/${a.slug}/`}>{a.name}</a></h3>
           <p>{a.blurb}</p>
@@ -161,6 +173,7 @@ const jsonLd = [
         const ap = aircraftUrlParam(c);
         return (
           <article class="card">
+            <Photo name={photoForAircraft(c.aircraftType)} variant="thumb" />
             <span class="badge">{airline.name}</span>
             <h3><a href={`/airlines/${airline.slug}/${ap}/seat-map/`}>{c.aircraftType}</a></h3>
             <p>

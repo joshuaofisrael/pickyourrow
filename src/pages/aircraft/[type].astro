@@ -1,4 +1,6 @@
 ---
+import Photo from '../../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getUniqueAircraftTypes, layoutString } from '../../data';
 import { shortAircraftType } from '../../lib/leafMeta';
@@ -241,6 +243,7 @@ const jsonLd = [
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/aircraft/">Aircraft</a> / {entry.label}</nav>
     <h1 class="page-title">{heading}</h1>
+    <Photo name={photoForAircraft(heading)} variant="banner" />
     <p class="lede">
       {intro}
       Confirm the aircraft and the live seat map with your carrier before you pay for a row.

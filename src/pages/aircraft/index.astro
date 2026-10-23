@@ -1,4 +1,6 @@
 ---
+import Photo from '../../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getUniqueAircraftTypes } from '../../data';
 import { breadcrumbItemList } from '../../lib/schema';
@@ -34,6 +36,7 @@ const jsonLd = breadcrumbItemList({
     <nav class="breadcrumb"><a href="/">Home</a> / Aircraft</nav>
     <h1 class="page-title">Aircraft types</h1>
     <p class="lede">Each type page compares the airline seat maps drawn for that aircraft, including approximate seats, economy seat layout, and a link to the seating chart.</p>
+    <Photo name="aircraft-runway" variant="banner" />
     <nav class="hub-links" aria-label="Related hubs">
       <a href="/airlines/">Airlines directory</a>
       <a href="/best-seats/">Best seats index</a>
@@ -44,6 +47,7 @@ const jsonLd = breadcrumbItemList({
     <div class="grid cols-2">
       {types.map((t) => (
         <article class="card">
+          <Photo name={photoForAircraft(t.label)} variant="thumb" />
           <h2><a href={`/aircraft/${t.typeSlug}/`}>{t.label}</a></h2>
           <p>{t.configs.length} config{t.configs.length === 1 ? '' : 's'} across {new Set(t.configs.map((c) => c.airlineSlug)).size} airline(s)</p>
         </article>

@@ -745,3 +745,81 @@ ul.clean li {
 .glance .specs dt { font-weight: 600; }
 .glance .specs dd { margin: 0; }
 @media (max-width: 560px) { .glance .specs { grid-template-columns: 1fr; } .glance .specs dd { margin-bottom: 0.5rem; } }
+
+/* --- Photo decoration and design polish (Oct 2026) --- */
+.photo-banner {
+  margin: 1.1rem 0 1.4rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #0f172a;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.12);
+}
+.photo-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+.photo-banner.photo-hero img { max-height: 26rem; }
+.photo-banner.photo-banner img { max-height: 16rem; }
+.photo-banner figcaption {
+  padding: 0.5rem 0.85rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  background: #fff;
+}
+.photo-thumb {
+  position: relative;
+  margin: -1rem -1.1rem 0.8rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+  overflow: hidden;
+  background: #0f172a;
+}
+.photo-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+.card:hover .photo-thumb img { transform: scale(1.04); }
+.ai-tag {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(15, 23, 42, 0.65);
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+}
+.card { overflow: hidden; transition: box-shadow 0.2s ease, transform 0.2s ease; }
+.card:hover { box-shadow: 0 8px 22px rgba(15, 23, 42, 0.14); transform: translateY(-2px); }
+.photo-note { font-size: 0.82rem; color: var(--muted); margin: 0.25rem 0 0.75rem; }
+.home-hero {
+  position: relative;
+  display: grid;
+  gap: 1.25rem;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+@media (min-width: 820px) {
+  .home-hero { grid-template-columns: 1.1fr 1fr; gap: 2rem; }
+  .home-hero .photo-banner { margin: 0; }
+}
+.section-band {
+  background: linear-gradient(180deg, #eef6fb 0%, var(--bg) 100%);
+  padding: 1.5rem 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.privacy-line { font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; }
+@media (prefers-reduced-motion: reduce) {
+  .card, .photo-thumb img { transition: none; }
+  .card:hover { transform: none; }
+  .card:hover .photo-thumb img { transform: none; }
+}

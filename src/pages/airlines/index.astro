@@ -1,4 +1,6 @@
 ---
+import Photo from '../../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline } from '../../data';
 import { breadcrumbItemList } from '../../lib/schema';
@@ -37,6 +39,7 @@ const jsonLd = breadcrumbItemList({
       </label>
     </div>
     <p class="lede">Select a carrier to see illustrative aircraft configs. Names are used factually; we are not affiliated with any airline.</p>
+    <Photo name="widebody-gate" variant="banner" />
     <nav class="hub-links" aria-label="Related hubs">
       <a href="/best-seats/">Best seats index</a>
       <a href="/aircraft/">Aircraft index</a>
@@ -49,6 +52,7 @@ const jsonLd = breadcrumbItemList({
         const n = getAircraftByAirline(a.slug).length;
         return (
           <article class="card airline-card" data-filter={`${a.name} ${a.iata} ${a.country} ${a.slug}`.toLowerCase()}>
+            <Photo name={pickPhoto(a.slug)} variant="thumb" />
             <span class="badge">{a.iata}</span>
             <h2><a href={`/airlines/${a.slug}/`}>{a.name}</a></h2>
             <p>{a.blurb}</p>

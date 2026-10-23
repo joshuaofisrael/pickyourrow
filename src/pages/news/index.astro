@@ -1,4 +1,6 @@
 ---
+import Photo from '../../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { breadcrumbItemList } from '../../lib/schema';
 import news from '../../data/news.json';
@@ -16,11 +18,17 @@ const jsonLd = breadcrumbItemList({
     <nav class="breadcrumb"><a href="/">Home</a> / News</nav>
     <h1 class="page-title">Airline cabin and seat news</h1>
     <p class="lede">Short news posts in our own words on cabin, seat and onboard product changes, each linked to the original sources and to our seat maps.</p>
-    <ul class="clean">
+    <Photo name="airport-gate" variant="banner" />
+    <div class="grid cols-2">
       {posts.map((p) => (
-        <li><a href={`/news/${p.slug}/`}>{p.title}</a>. <time datetime={p.datePublished}>{fmt(p.datePublished)}</time>. {p.description}</li>
+        <article class="card">
+          <Photo name={photoForText(p.title, p.slug)} variant="thumb" />
+          <h2><a href={`/news/${p.slug}/`}>{p.title}</a></h2>
+          <p class="muted"><time datetime={p.datePublished}>{fmt(p.datePublished)}</time></p>
+          <p>{p.description}</p>
+        </article>
       ))}
-    </ul>
+    </div>
     <p><a href="/airlines/">All airline seat maps</a> · <a href="/guides/">Seat guides</a> · <a href="/methodology/">Methodology</a></p>
   </div>
 </BaseLayout>

@@ -1,4 +1,6 @@
 ---
+import Photo from '../../components/Photo.astro';
+import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import { PUBLISHER } from '../../lib/schema';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import guides from '../../data/guides.json';
@@ -115,6 +117,7 @@ if (faqs.length > 0) {
         {heroImage.caption && <figcaption>{heroImage.caption}</figcaption>}
       </figure>
     )}
+    {!heroImage && <Photo name={photoForText(guide.title + ' ' + guide.slug, guide.slug)} variant="banner" eager />}
     {guide.body.map((p) => (
       <p>
         {linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}

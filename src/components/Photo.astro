@@ -1,0 +1,35 @@
+---
+import { PHOTOS, type PhotoKey } from '../lib/photos';
+interface Props {
+  name: PhotoKey;
+  variant?: 'hero' | 'thumb' | 'banner';
+  caption?: boolean;
+  eager?: boolean;
+  alt?: string;
+}
+const { name, variant = 'banner', caption = true, eager = false, alt } = Astro.props;
+const p = PHOTOS[name];
+const thumb = variant === 'thumb';
+const src = thumb ? `/images/photos/${name}-sm.webp` : `/images/photos/${name}.webp`;
+const w = thumb ? 512 : 1024;
+const h = thumb ? 288 : 576;
+---
+{thumb ? (
+  <div class="photo-thumb">
+    <img src={src} alt={alt ?? p.alt} width={w} height={h} loading="lazy" decoding="async" />
+    <span class="ai-tag">AI image</span>
+  </div>
+) : (
+  <figure class={`photo-banner photo-${variant}`}>
+    <img
+      src={src}
+      alt={alt ?? p.alt}
+      width={w}
+      height={h}
+      loading={eager ? 'eager' : 'lazy'}
+      fetchpriority={eager ? 'high' : undefined}
+      decoding="async"
+    />
+    {caption && <figcaption>{p.caption}</figcaption>}
+  </figure>
+)}
