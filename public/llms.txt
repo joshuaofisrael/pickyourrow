@@ -2,7 +2,7 @@
 
 > Pick Your Row (pickyourrow.com) publishes original, illustrative airline seat maps and editorial best seat picks for 188 typical cabin configurations across 56 airlines and 33 aircraft types, plus 43 evergreen guides on choosing a seat. The maps are drawn from publicly known typical cabin facts, are not scraped from airlines or other seat map sites, and can differ from the aircraft on a given flight, so always confirm seats with the airline. Pick Your Row is not affiliated with, endorsed by, or sponsored by any airline.
 
-Operated by Joshua Israel Ventures LLC.
+Ownership, governing law and legal contact details are on the Terms page: https://pickyourrow.com/terms/
 
 Seat scores and picks are editorial opinions for planning, not guarantees and not airline advice. Interiors vary by aircraft registration and retrofit.
 
@@ -61,6 +61,6 @@ Seat scores and picks are editorial opinions for planning, not guarantees and no
 - [About](https://pickyourrow.com/about/): Who runs Pick Your Row.
 - [Affiliate disclosure](https://pickyourrow.com/disclosure/): How affiliate links, booking placeholders and editorial independence are handled.
 - [Contact](https://pickyourrow.com/contact/): Corrections, questions and partnership enquiries.
-- [Terms of Use](https://pickyourrow.com/terms/): Terms for using the site, with Joshua Israel Ventures LLC as the contracting party.
+- [Terms of Use](https://pickyourrow.com/terms/): Terms for using the site, including ownership and governing law.
 - [Privacy Policy](https://pickyourrow.com/privacy/): What personal data the site collects and how to contact the data controller.
 - [Disclaimer](https://pickyourrow.com/disclaimer/): Accuracy limits of illustrative seat maps and affiliate and advertising disclosure.
