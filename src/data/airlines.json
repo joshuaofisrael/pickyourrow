@@ -454,21 +454,51 @@
     "name": "Japan Airlines",
     "iata": "JL",
     "country": "Japan",
-    "blurb": "Japanese network carrier with domestic narrowbodies and long haul 787/777/A350 fleets. Cabin products and densities vary by aircraft and retrofit."
+    "blurb": "Japanese network carrier with domestic narrowbodies and long haul 787/777/A350 fleets. Cabin products and densities vary by aircraft and retrofit.",
+    "glance": {
+      "alliance": "oneworld",
+      "hubs": [
+        "Tokyo Haneda",
+        "Tokyo Narita",
+        "Osaka Kansai"
+      ],
+      "cabins": "First, Business, Premium Economy and Economy on long haul widebodies, with Class J and Economy on many domestic flights",
+      "seatTip": "Cabins differ by aircraft and retrofit, so check the aircraft type on your booking before you pick a row on a long haul flight.",
+      "source": "https://www.jal.co.jp/"
+    }
   },
   {
     "slug": "korean-air",
     "name": "Korean Air",
     "iata": "KE",
     "country": "South Korea",
-    "blurb": "South Korean flag carrier operating narrowbody regional fleets and long haul 777/787 widebodies. Schematics below are typical public layouts only."
+    "blurb": "South Korean flag carrier operating narrowbody regional fleets and long haul 777/787 widebodies. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Seoul Incheon",
+        "Seoul Gimpo"
+      ],
+      "cabins": "Prestige Class business and Economy across the fleet, with First on some long haul aircraft",
+      "seatTip": "Layouts vary between the Airbus and Boeing widebodies, so confirm the aircraft on your flight before choosing between window and aisle pairs.",
+      "source": "https://www.koreanair.com/"
+    }
   },
   {
     "slug": "air-new-zealand",
     "name": "Air New Zealand",
     "iata": "NZ",
     "country": "New Zealand",
-    "blurb": "New Zealand flag carrier with Pacific narrowbody flying and long haul 787/777 fleets. Layouts differ by subfleet and route."
+    "blurb": "New Zealand flag carrier with Pacific narrowbody flying and long haul 787/777 fleets. Layouts differ by subfleet and route.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Auckland"
+      ],
+      "cabins": "Business Premier, Premium Economy and Economy on long haul Boeing 787 and 777 aircraft, with Economy Skycouch rows that convert into a flat space",
+      "seatTip": "Economy Skycouch rows are sold as a set of seats in a row, so they suit couples or a parent with a child on long overnight flights.",
+      "source": "https://www.airnewzealand.co.nz/"
+    }
   },
   {
     "slug": "norwegian",
@@ -512,14 +542,34 @@
     "name": "Aer Lingus",
     "iata": "EI",
     "country": "Ireland",
-    "blurb": "Irish flag carrier (IAG) with short haul A320 family flying and transatlantic A321LR/A330 services. Cabin products and densities vary by aircraft and route."
+    "blurb": "Irish flag carrier (IAG) with short haul A320 family flying and transatlantic A321LR/A330 services. Cabin products and densities vary by aircraft and route.",
+    "glance": {
+      "alliance": "No alliance (part of IAG)",
+      "hubs": [
+        "Dublin",
+        "Shannon",
+        "Cork"
+      ],
+      "cabins": "Business and Economy on transatlantic Airbus A330 and A321 long range aircraft, and Economy with extra legroom options on European routes",
+      "seatTip": "Many flights to the United States from Dublin and Shannon offer US preclearance, so allow time at the airport rather than relying on a seat near the door.",
+      "source": "https://www.aerlingus.com/"
+    }
   },
   {
     "slug": "finnair",
     "name": "Finnair",
     "iata": "AY",
     "country": "Finland",
-    "blurb": "Finnish flag carrier hubbed at Helsinki with A320 family short haul and A350 long haul fleets. Business is often dynamically sized on narrowbodies."
+    "blurb": "Finnish flag carrier hubbed at Helsinki with A320 family short haul and A350 long haul fleets. Business is often dynamically sized on narrowbodies.",
+    "glance": {
+      "alliance": "oneworld",
+      "hubs": [
+        "Helsinki"
+      ],
+      "cabins": "Business, Premium Economy and Economy on long haul Airbus widebodies, with Economy and a European business offer on narrowbodies",
+      "seatTip": "Helsinki connections are often short, so a seat near the front of Economy can help you leave the aircraft sooner on a tight transfer.",
+      "source": "https://www.finnair.com/"
+    }
   },
   {
     "slug": "westjet",
@@ -533,7 +583,16 @@
     "name": "Austrian Airlines",
     "iata": "OS",
     "country": "Austria",
-    "blurb": "Austrian flag carrier (Lufthansa Group) with short haul A320 family flying and long haul 787/777 fleets. Schematics below are typical public layouts only."
+    "blurb": "Austrian flag carrier (Lufthansa Group) with short haul A320 family flying and long haul 787/777 fleets. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Vienna"
+      ],
+      "cabins": "Business, Premium Economy and Economy on long haul Boeing widebodies, and Economy with a European business offer on narrowbodies",
+      "seatTip": "On European flights business usually uses regular seats with the middle seat kept free, so compare the fare against an extra legroom row before upgrading.",
+      "source": "https://www.austrian.com/"
+    }
   },
   {
     "slug": "eva-air",
