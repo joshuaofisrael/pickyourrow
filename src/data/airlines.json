@@ -406,14 +406,32 @@
     "name": "Hawaiian Airlines",
     "iata": "HA",
     "country": "United States",
-    "blurb": "Hawaii based carrier with A321neo interisland/US mainland hops and long haul A330/787 widebodies. Schematics below are typical public layouts only."
+    "blurb": "Hawaii based carrier with A321neo interisland/US mainland hops and long haul A330/787 widebodies. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "No alliance (part of Alaska Air Group)",
+      "hubs": [
+        "Honolulu"
+      ],
+      "cabins": "First and Main Cabin with Extra Comfort rows on mainland and interisland flights, plus premium cabins on long haul widebodies",
+      "seatTip": "On flights from the mainland, a window on the side facing the islands is a favourite on approach, but check the aircraft type first because layouts differ.",
+      "source": "https://www.hawaiianairlines.com/"
+    }
   },
   {
     "slug": "spirit",
     "name": "Spirit Airlines",
     "iata": "NK",
     "country": "United States",
-    "blurb": "U.S. ultra low cost carrier with a high density A320 family fleet. Single cabin layouts and paid seat selection are typical."
+    "blurb": "U.S. ultra low cost carrier with a high density A320 family fleet. Single cabin layouts and paid seat selection are typical.",
+    "glance": {
+      "alliance": "No alliance",
+      "hubs": [
+        "Fort Lauderdale"
+      ],
+      "cabins": "Big Front Seat rows at the front and standard Economy seats behind on an Airbus A320 family fleet",
+      "seatTip": "Seat selection is usually an extra fee on low fares, so compare the price of a Big Front Seat with a standard seat before you pay for either.",
+      "source": "https://www.spirit.com/"
+    }
   },
   {
     "slug": "swiss",
@@ -505,21 +523,53 @@
     "name": "Norwegian",
     "iata": "DY",
     "country": "Norway",
-    "blurb": "Norwegian low cost carrier focused on narrowbody 737 and A320 family flying. Single cabin high density layouts are typical."
+    "blurb": "Norwegian low cost carrier focused on narrowbody 737 and A320 family flying. Single cabin high density layouts are typical.",
+    "glance": {
+      "alliance": "No alliance",
+      "hubs": [
+        "Oslo",
+        "Copenhagen",
+        "Stockholm Arlanda",
+        "Helsinki"
+      ],
+      "cabins": "A single Economy cabin on a Boeing 737 fleet, with extra legroom seats sold at exit rows and near the front",
+      "seatTip": "Exit row seats give the most legroom on a single cabin 737, but they come with age and mobility rules and often a fee.",
+      "source": "https://www.norwegian.com/"
+    }
   },
   {
     "slug": "sas",
     "name": "Scandinavian Airlines (SAS)",
     "iata": "SK",
     "country": "Sweden",
-    "blurb": "Scandinavian network carrier with short haul A320 family and 737 fleets plus select long haul types. Cabin products vary by aircraft and route."
+    "blurb": "Scandinavian network carrier with short haul A320 family and 737 fleets plus select long haul types. Cabin products vary by aircraft and route.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Copenhagen",
+        "Oslo",
+        "Stockholm Arlanda"
+      ],
+      "cabins": "SAS Business, SAS Plus and SAS Go on long haul Airbus widebodies, with SAS Plus and SAS Go in Europe",
+      "seatTip": "SAS Plus on European flights usually sits in the rows at the front, so it suits travellers who want a quick exit after landing.",
+      "source": "https://www.flysas.com/"
+    }
   },
   {
     "slug": "frontier",
     "name": "Frontier Airlines",
     "iata": "F9",
     "country": "United States",
-    "blurb": "U.S. ultra low cost carrier with a high density A320 family fleet. Single cabin layouts and paid seat selection are typical."
+    "blurb": "U.S. ultra low cost carrier with a high density A320 family fleet. Single cabin layouts and paid seat selection are typical.",
+    "glance": {
+      "alliance": "No alliance",
+      "hubs": [
+        "Denver"
+      ],
+      "cabins": "Economy on an Airbus A320 family fleet, with paid upgrade seats near the front and at exit rows",
+      "seatTip": "Seat selection is usually an extra fee on basic fares, so decide whether legroom or a quick exit matters most before paying for a seat.",
+      "source": "https://www.flyfrontier.com/"
+    }
   },
   {
     "slug": "wizz-air",
@@ -576,7 +626,18 @@
     "name": "WestJet",
     "iata": "WS",
     "country": "Canada",
-    "blurb": "Canadian carrier with a large Boeing 737 fleet plus Boeing 787-9 long haul aircraft. Premium and all economy subfleets coexist after network changes."
+    "blurb": "Canadian carrier with a large Boeing 737 fleet plus Boeing 787-9 long haul aircraft. Premium and all economy subfleets coexist after network changes.",
+    "glance": {
+      "alliance": "No alliance (codeshare partners)",
+      "hubs": [
+        "Calgary",
+        "Toronto Pearson",
+        "Vancouver"
+      ],
+      "cabins": "Business, Premium and Economy, with lie flat Business on Boeing 787 Dreamliners",
+      "seatTip": "WestJet flies both Boeing 737 and 787 aircraft, so check the aircraft type on your booking before choosing a row.",
+      "source": "https://www.westjet.com/"
+    }
   },
   {
     "slug": "austrian",
