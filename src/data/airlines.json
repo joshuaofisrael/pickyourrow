@@ -660,28 +660,69 @@
     "name": "EVA Air",
     "iata": "BR",
     "country": "Taiwan",
-    "blurb": "Taiwanese network carrier known for Royal Laurel business and strong premium economy products on 777/787 fleets, plus A321 narrowbodies for regional flying."
+    "blurb": "Taiwanese network carrier known for Royal Laurel business and strong premium economy products on 777/787 fleets, plus A321 narrowbodies for regional flying.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Taipei Taoyuan"
+      ],
+      "cabins": "Royal Laurel business class, Premium Economy and Economy on long haul Boeing 777 and 787 flights",
+      "seatTip": "Premium Economy is a separate cabin with more legroom than Economy, so on a long overnight flight compare its fare before booking an extra legroom Economy seat.",
+      "source": "https://www.evaair.com/"
+    }
   },
   {
     "slug": "tap-air-portugal",
     "name": "TAP Air Portugal",
     "iata": "TP",
     "country": "Portugal",
-    "blurb": "Portuguese flag carrier hubbed at Lisbon with A320 family European flying and A330neo long haul routes. Cabin products and densities vary by subfleet and route."
+    "blurb": "Portuguese flag carrier hubbed at Lisbon with A320 family European flying and A330neo long haul routes. Cabin products and densities vary by subfleet and route.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Lisbon",
+        "Porto"
+      ],
+      "cabins": "Business and Economy, with lie flat business seats on long haul Airbus A330neo flights and a smaller business cabin on narrowbodies",
+      "seatTip": "Long haul A321LR and A330neo cabins differ, so confirm the aircraft type on your booking before choosing a seat.",
+      "source": "https://www.flytap.com/"
+    }
   },
   {
     "slug": "latam",
     "name": "LATAM Airlines",
     "iata": "LA",
     "country": "Chile",
-    "blurb": "LATAM Group network carrier spanning South America with A320 family narrow bodies plus 787 and 777 long haul aircraft. Schematics below are typical public layouts only."
+    "blurb": "LATAM Group network carrier spanning South America with A320 family narrow bodies plus 787 and 777 long haul aircraft. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "No alliance (joint venture partnership with Delta)",
+      "hubs": [
+        "Santiago",
+        "Sao Paulo Guarulhos",
+        "Lima",
+        "Bogota"
+      ],
+      "cabins": "Premium Business on long haul Boeing 787 and 777 flights, Premium Economy and Economy on regional Airbus A320 family flights",
+      "seatTip": "On regional narrowbody flights, Premium Economy is the front rows with the middle seat kept free, which can be worth it on longer domestic sectors.",
+      "source": "https://www.latamairlines.com/"
+    }
   },
   {
     "slug": "air-india",
     "name": "Air India",
     "iata": "AI",
     "country": "India",
-    "blurb": "Indian flag carrier with a growing A320neo domestic and regional fleet plus 787 and 777 long haul aircraft. Cabin products are changing through fleet renewal."
+    "blurb": "Indian flag carrier with a growing A320neo domestic and regional fleet plus 787 and 777 long haul aircraft. Cabin products are changing through fleet renewal.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Delhi",
+        "Mumbai"
+      ],
+      "cabins": "First on some Boeing 777s, Business, Premium Economy and Economy, with layouts changing as the fleet is refurbished",
+      "seatTip": "Air India is refitting older aircraft and adding new ones, so check the exact aircraft and seat map close to departure because the cabin can change.",
+      "source": "https://www.airindia.com/"
+    }
   },
   {
     "slug": "thai-airways",
@@ -704,14 +745,34 @@
     "name": "LOT Polish Airlines",
     "iata": "LO",
     "country": "Poland",
-    "blurb": "Polish flag carrier hubbed at Warsaw with 737 narrow bodies, Embraer regionals, and 787 long haul aircraft. Layouts differ by subfleet and route."
+    "blurb": "Polish flag carrier hubbed at Warsaw with 737 narrow bodies, Embraer regionals, and 787 long haul aircraft. Layouts differ by subfleet and route.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Warsaw Chopin"
+      ],
+      "cabins": "Business, Premium Economy and Economy on long haul Boeing 787 flights, and Business and Economy on European flights",
+      "seatTip": "On European flights the business cabin is usually the front rows with the middle seat left empty, so a front row Economy seat is the cheaper way to sit forward.",
+      "source": "https://www.lot.com/"
+    }
   },
   {
     "slug": "aeromexico",
     "name": "Aeromexico",
     "iata": "AM",
     "country": "Mexico",
-    "blurb": "Mexican flag carrier hubbed at Mexico City with a large 737 fleet plus 787 long haul aircraft. Premium and economy products vary by aircraft and route."
+    "blurb": "Mexican flag carrier hubbed at Mexico City with a large 737 fleet plus 787 long haul aircraft. Premium and economy products vary by aircraft and route.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Mexico City",
+        "Monterrey",
+        "Guadalajara"
+      ],
+      "cabins": "Premier lie flat seats on long haul Boeing 787 flights, Premier on narrowbodies, AM Plus extra legroom rows and Economy",
+      "seatTip": "AM Plus rows give more legroom without the price of Premier, which helps on longer flights between Mexico and the US or Canada.",
+      "source": "https://aeromexico.com/"
+    }
   },
   {
     "slug": "ethiopian-airlines",
