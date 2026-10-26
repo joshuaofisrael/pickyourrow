@@ -516,7 +516,7 @@
       "Then the trade offs pile up. Revenue density is the big one. A daybed that takes the space of two seats across and three rows deep removes six sellable economy seats, so the airline would need to sell the bed for a lot more than one fare just to break even. Evacuation is next. The daybed and its screen must never block the aisle, and every occupant has to be able to stand up and leave quickly in the dark, which is harder from a horizontal mattress than from a seat. Overhead bins become awkward too, because a bin above a bed is hard to reach without stepping on the mattress. Boarding slows down when a few passengers need help with harnesses. And the bed has to be cleaned and remade on every turn, which costs time at the gate.",
       "There is also a weight and balance question. A daybed module with a harness seat, folding structure, a drawer, and a screen likely weighs more than the seats it replaces, and it sits in fewer bodies per meter of cabin. Load planners care about where that mass is, and cabin zones with fewer passengers shift the numbers they work with every flight. None of this is impossible, but it explains why daybeds tend to live in renders and premium suites rather than in the back of the plane.",
       "If a version ever flew, the seat choice would still matter. You would want a daybed away from the galley and lavatory traffic, and not right over the wing if you care about engine noise. For practical advice on today real seats, see [noise near galleys and lavatories](/guides/noise-near-galleys-and-lavatories/), [overnight long haul seat strategy](/guides/overnight-long-haul-seat-strategy/), and [tall traveler seat strategy](/guides/tall-traveler-seat-strategy/).",
-      "For travelers, the useful takeaway is simple. Window wall daybeds are a design brief, not a booking tip. The real lesson is that an airliner is long and thin, and almost every economy sleep idea is a fight over which direction your body gets to point. For related speculative cabin ideas on this site, see [Lower Deck Sleeper Pods](/guides/lower-deck-sleeper-pods/), [Family Mezzanine Suites](/guides/family-mezzanine-suites/), [Rotating Privacy Shells](/guides/rotating-privacy-shells/), and [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/).",
+      "For travelers, the useful takeaway is simple. Window wall daybeds are a design brief, not a booking tip. The real lesson is that an airliner is long and thin, and almost every economy sleep idea is a fight over which direction your body gets to point. For related speculative cabin ideas on this site, see [Lower Deck Sleeper Pods](/guides/lower-deck-sleeper-pods/), [Family Mezzanine Suites](/guides/family-mezzanine-suites/), [Rotating Privacy Shells](/guides/rotating-privacy-shells/), and [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/). Next in the series, [Aisle Lounge Night Mode](/guides/aisle-lounge-night-mode/) turns two economy rows into a place to stand and stretch.",
       "Pick Your Row publishes original cabin schematics and editorial guides. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
     "sources": [
@@ -544,6 +544,69 @@
         "label": "ICAO Safety",
         "url": "https://www.icao.int/safety",
         "note": "International safety framework portal. New seat orientations are a standards question, not just a design sketch."
+      }
+    ]
+  },
+  {
+    "slug": "aisle-lounge-night-mode",
+    "title": "Aisle Lounge Night Mode: Economy Rows That Fold Into a Stretch Zone After Dinner",
+    "description": "A speculative look at a small block of long haul economy rows whose seat backs fold into padded steps and benches at cruise, creating a shared place to stand, stretch, and lean before reverting to normal seats for landing.",
+    "heroImage": {
+      "src": "/images/blog/aisle-lounge-night-mode-render-hero.webp",
+      "alt": "Photorealistic AI concept render looking along a dim widebody economy aisle at night, where two rows of seats have folded flat into padded steps and benches, with wall lean panels and soft lighting on either side",
+      "caption": "AI concept render, not a real cabin. Not affiliated with any airline."
+    },
+    "figures": [
+      {
+        "src": "/images/blog/aisle-lounge-night-mode-render-detail.webp",
+        "alt": "Photorealistic AI concept render close up of an economy seat back folded down into a padded step and bench, with a lean rail on the cabin wall, a small reading light above, and glowing path lighting along the floor",
+        "caption": "AI concept render, not a real cabin. Not affiliated with any airline."
+      },
+      {
+        "src": "/images/blog/aisle-lounge-night-mode-plan.webp",
+        "alt": "Top down concept floor plan of a generic widebody economy zone with nine seats across in a three three three layout, shown twice. In day mode two orange rows behind the galley and exit doors are normal upright seats. In night mode the same two rows become a pale lounge block with lean rails and aisle path lights",
+        "caption": "Original Pick Your Row concept diagram. A generic three three three economy zone, not any airline layout. The two convertible rows behind the mid cabin galley and doors stay as certified seats in day mode and open into a stretch zone in night mode. Not to scale."
+      }
+    ],
+    "body": [
+      "Ten hours into a long haul flight, most economy passengers have the same problem. There is nowhere to go. You can sit, you can queue for the lavatory, or you can hover awkwardly by the galley until a flight attendant needs the space. This week the Pick Your Row thought experiment asks a simple question: what if a small part of the cabin changed shape after dinner and became a place to stand up properly?",
+      "We call it Aisle Lounge Night Mode. Picture a widebody with a normal nine across economy cabin. Just behind the mid cabin galley and exit doors sits a block of two rows that looks ordinary at boarding. Those seats are full, certified, and belted for taxi, take off, and climb. Once the aircraft reaches cruise and the seat belt sign goes off, the crew unlocks the block. The seat backs fold forward and flat, so each row becomes a padded step or a low bench. Panels on the cabin wall swing down into lean rails and narrow ledges, and small reading lights come on above them. Soft path lighting runs along the floor. For a few hours, that slice of cabin turns into a shared stretch zone where people can stand at full height, roll their shoulders, lean against a padded rail, or sit on a bench for a change of posture.",
+      "Before landing, or whenever the crew expects rough air, the process runs in reverse. Rails fold up, backs lift and lock upright, and the block becomes plain seating again. The passengers who were ticketed in those rows return to them, which is the hard part of the idea, and we will come back to it.",
+      "Why bother? The appeal is about movement. Public health guidance on long trips encourages travelers to move their legs, flex their ankles, and get up and walk from time to time, because sitting still for many hours is linked with a higher chance of blood clots in the legs, known as deep vein thrombosis. The overall risk for most people is small, and anyone with real concerns should talk to a doctor before flying. This post is not medical advice. The design point is narrower. Many travelers already want to stand up and stretch, and today the cabin gives them almost no polite place to do it. A lounge block makes moving around feel normal rather than in the way.",
+      "The space argument is interesting too. A typical economy cabin is all seats and thin aisles, and the only open floor sits near doors and galleys, where it is needed for crew work and evacuation. Aisle Lounge Night Mode does not add any floor. It borrows floor that already exists under two rows of seats and only uses it during the calmest part of the flight. In effect, the cabin gets a temporary room without giving up the certified seat count that the airline needs on the ground.",
+      "So why do airlines not do more of this? The honest answer is that every part of the concept touches a rule or a cost. Start with certification. Seats occupied for take off and landing in a transport category aircraft must meet strict design requirements, including dynamic crash tests that simulate a hard landing. A seat that folds, unlocks, and becomes a bench has more hinges, latches, and failure modes than a fixed seat. Each mechanism has to prove that it cannot release by accident in a crash, and that it always returns to a locked, upright position for taxi, take off, and landing. That is expensive testing for a product that only a few rows would use.",
+      "Evacuation is next. Aisle width minimums and access to exits are written into the rules, and new cabin layouts must support a full evacuation demonstration in which everyone leaves within ninety seconds with half the exits blocked. Folding furniture beside the aisle must never intrude into that path, even if a latch breaks or a rail gets stuck down. A lounge block placed right next to the main doors helps with crew supervision, but it also means any mistake sits exactly where the evacuation flow is busiest.",
+      "Turbulence may be the biggest worry. Aviation safety guidance repeatedly points out that most turbulence injuries happen to people who are not seated with a belt fastened. A stretch zone, by design, invites people to stand. Clear air turbulence can arrive with little warning, so the crew would need a fast way to clear the block, and passengers would need somewhere to sit and belt in quickly. Grab rails help, but they do not replace a seat belt.",
+      "Then come the business trade offs. Revenue density is a large one. If those two rows are sold as normal economy seats, the ticket holders lose their seat for part of the night, which few people would accept. If the rows are left unsold, the airline gives up perhaps eighteen fares on every flight. A middle path is to sell those seats at a discount with a clear warning, or at a premium as lounge rows with priority use, but either option is hard to explain at booking. Weight is a smaller cost, since folding mechanisms and wall panels add mass. Crew workload grows, because someone has to open, police, and close the zone. Noise matters for neighbours trying to sleep nearby, and a social space next to the galley and lavatories could create a crowd that blocks queues and carts. Bin access and the center of gravity are minor in comparison, but still need checking.",
+      "If a version ever flew, seat choice would still matter. Rows next to a lounge block would likely be livelier at night, so light sleepers would want to sit well away from it, just as they avoid seats beside galleys today. For practical advice on real cabins, see [noise near galleys and lavatories](/guides/noise-near-galleys-and-lavatories/) and [overnight long haul seat strategy](/guides/overnight-long-haul-seat-strategy/).",
+      "The takeaway is simple. Aisle Lounge Night Mode is a design brief, not a booking tip, and no airline offers it. The real lesson is that an economy cabin is built for its most demanding moments, take off, landing, and emergencies, and every idea that makes the calm middle of a flight more humane has to survive those moments first. For related speculative cabin ideas on this site, see [Window Wall Daybeds](/guides/window-wall-daybeds/) and [Herringbone Economy Sleepers](/guides/herringbone-economy-sleepers/).",
+      "Pick Your Row publishes original cabin schematics and editorial guides. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
+    ],
+    "sources": [
+      {
+        "label": "U.S. eCFR 14 CFR 25.785 Seats, berths, safety belts, and harnesses",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.785",
+        "note": "Baseline rules for seats occupied during take off and landing, which a convertible seat would still have to meet, along with the dynamic tests in section 25.562."
+      },
+      {
+        "label": "U.S. eCFR 14 CFR 25.815 Width of aisle",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.815",
+        "note": "Minimum passenger aisle widths. Folding benches and wall rails could never narrow this path."
+      },
+      {
+        "label": "U.S. eCFR 14 CFR 25.803 Emergency evacuation",
+        "url": "https://www.ecfr.gov/current/title-14/section-25.803",
+        "note": "Evacuation requirements, including the demonstration that a full cabin can leave within ninety seconds."
+      },
+      {
+        "label": "FAA Turbulence information for travelers",
+        "url": "https://www.faa.gov/travelers/fly_safe/turbulence",
+        "note": "Public safety guidance on turbulence and why staying belted matters, the core risk for any standing zone."
+      },
+      {
+        "label": "CDC Understanding your risk for blood clots with travel",
+        "url": "https://www.cdc.gov/blood-clots/risk-factors/travel.html",
+        "note": "General public health information on long distance travel and blood clots. Not a substitute for advice from a doctor."
       }
     ]
   },
