@@ -59,6 +59,7 @@ export const PUBLISHER = {
 export const ORGANIZATION = {
   '@context': 'https://schema.org',
   ...PUBLISHER,
+  parentOrganization: { '@type': 'Organization', name: 'Joshua Israel Ventures LLC' },
   description:
     'Pick Your Row publishes original airline cabin schematics and editorial best seat guidance. Not affiliated with any airline.',
 };

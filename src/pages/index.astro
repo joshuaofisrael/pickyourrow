@@ -20,6 +20,9 @@ const latestNews = [...news].sort((a, b) => b.datePublished.localeCompare(a.date
 const inventoryLine = `${airlines.length} airlines, ${aircraftConfigs.length} aircraft configs, ${guides.length} guides`;
 
 const featuredGuideSlugs = [
+  'southwest-assigned-seating-guide',
+  'do-exit-row-seats-recline',
+  'ryanair-737-8200-seats',
   'seat-map-glossary',
   'cabin-class-primer',
   'how-pickyourrow-scores-work',
@@ -36,6 +39,18 @@ const featuredGuides = [
 
 const jsonLd = [
   ORGANIZATION,
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+    { '@type': 'Question', name: "Are Pick Your Row seat maps official airline maps?", acceptedAnswer: { '@type': 'Answer', text: "No. They are original illustrative schematics drawn from public layout facts. Always confirm your seat on the airline's own seat map before you fly." } },
+    { '@type': 'Question', name: "How do I know which aircraft my flight uses?", acceptedAnswer: { '@type': 'Answer', text: "Check the aircraft type in your booking or the airline app, then open the matching map here. Our guide on verifying your aircraft type walks through it." } },
+    { '@type': 'Question', name: "Which seats are usually best on a short flight?", acceptedAnswer: { '@type': 'Answer', text: "An aisle near the front saves time at the gate, while an exit row gives extra legroom if you meet the rules. Seats beside lavatories and the last row are usually the ones to avoid." } },
+    { '@type': 'Question', name: "Do exit row seats recline?", acceptedAnswer: { '@type': 'Answer', text: "Often the rear exit row reclines and the row directly in front of an exit does not. See our exit row recline guide for the details." } },
+    { '@type': 'Question', name: "Does Southwest still have open seating?", acceptedAnswer: { '@type': 'Answer', text: "No. Southwest moved to assigned seats on flights from 27 Jan 2026, so you choose or are given a seat rather than picking one at boarding." } },
+    { '@type': 'Question', name: "Is Pick Your Row free to use?", acceptedAnswer: { '@type': 'Answer', text: "Yes. Every seat map and guide is free to read." } }
+    ],
+  },
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -211,6 +226,16 @@ const jsonLd = [
         <p>Affiliate ready placeholder with disclosure links.</p>
       </article>
     </div>
+  </section>
+  <section class="wrap" aria-labelledby="home-faq" style="margin-top:2rem">
+    <h2 id="home-faq">Seat selection FAQ</h2>
+    <details><summary>Are Pick Your Row seat maps official airline maps?</summary><p>No. They are original illustrative schematics drawn from public layout facts. Always confirm your seat on the airline's own seat map before you fly.</p></details>
+    <details><summary>How do I know which aircraft my flight uses?</summary><p>Check the aircraft type in your booking or the airline app, then open the matching map here. Our guide on verifying your aircraft type walks through it.</p></details>
+    <details><summary>Which seats are usually best on a short flight?</summary><p>An aisle near the front saves time at the gate, while an exit row gives extra legroom if you meet the rules. Seats beside lavatories and the last row are usually the ones to avoid.</p></details>
+    <details><summary>Do exit row seats recline?</summary><p>Often the rear exit row reclines and the row directly in front of an exit does not. See our exit row recline guide for the details.</p></details>
+    <details><summary>Does Southwest still have open seating?</summary><p>No. Southwest moved to assigned seats on flights from 27 Jan 2026, so you choose or are given a seat rather than picking one at boarding.</p></details>
+    <details><summary>Is Pick Your Row free to use?</summary><p>Yes. Every seat map and guide is free to read.</p></details>
+    <p><a href="/guides/how-to-verify-your-aircraft-type/">Verify your aircraft</a> · <a href="/guides/do-exit-row-seats-recline/">Exit row recline</a> · <a href="/guides/southwest-assigned-seating-guide/">Southwest assigned seating</a> · <a href="/guides/ryanair-737-8200-seats/">Ryanair 737 8200</a></p>
   </section>
 </BaseLayout>
 

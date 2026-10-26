@@ -383,13 +383,13 @@ const faqs: { question: string; parts: { text: string; href?: string }[] }[] = [
   },
 ];
 
-const pageTitle = `${airline.name} ${seatMapLabel} and seating plan`;
+const pageTitle = `${airline.name} ${seatMapLabel}: best seats and seating plan 2026`;
 const pageDescription =
   configCount === 0
     ? `No illustrative ${airline.name} seat map is published here yet. Confirm any seat with ${airline.name}.`
     : configCount === 1
-      ? `Illustrative ${airline.name} seat map for 1 aircraft. Drawn cabin: ${seatPhrase}. Match your ticket, then confirm with ${airline.name}.`
-      : `Illustrative ${airline.name} seat maps for ${configCount} aircraft. Drawn cabins: ${seatPhrase}. Match your ticket, then confirm with ${airline.name}.`;
+      ? `Illustrative ${airline.name} seat map for 1 aircraft. Best seats, exit rows and seats to avoid. Drawn cabin: ${seatPhrase}. Match your ticket, then confirm with ${airline.name}.`
+      : `Illustrative ${airline.name} seat maps for ${configCount} aircraft. Best seats, exit rows and seats to avoid. Drawn cabins: ${seatPhrase}. Match your ticket, then confirm with ${airline.name}.`;
 
 const allowedLabels = [airline.name, airline.iata, ...configs.map((config) => config.aircraftType)]
   .filter((label) => label.length > 0)
@@ -611,7 +611,7 @@ const jsonLd = [
       <h2>Helpful seat guides</h2>
       <p class="muted">Original Pick Your Row articles, useful alongside these {airline.name} schematics.</p>
       <ul class="clean">
-        {guides.filter((g) => ['how-to-verify-your-aircraft-type', 'seat-map-glossary', 'cabin-class-primer', 'exit-row-tips', 'how-pickyourrow-scores-work'].includes(g.slug)).map((g) => (
+        {guides.filter((g) => ['how-to-verify-your-aircraft-type', 'seat-map-glossary', 'do-exit-row-seats-recline', 'exit-row-tips', 'how-pickyourrow-scores-work', ...(airline.slug === 'southwest' ? ['southwest-assigned-seating-guide'] : []), ...(airline.slug === 'ryanair' ? ['ryanair-737-8200-seats'] : [])].includes(g.slug)).map((g) => (
           <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
         ))}
       </ul>

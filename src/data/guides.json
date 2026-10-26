@@ -2205,5 +2205,86 @@
         "note": "IATA passenger programs overview (industry context for passenger journey planning)."
       }
     ]
+  },
+  {
+    "slug": "southwest-assigned-seating-guide",
+    "title": "Southwest assigned seating: which seats to pick in 2026",
+    "description": "Southwest ended open seating on 27 Jan 2026. Here is how Extra Legroom, Preferred and Standard seats work on the 737, and which rows to target.",
+    "body": [
+      "Southwest Airlines flew its final open seating flight on 26 Jan 2026, a red eye from Honolulu to Los Angeles, and every flight from 27 Jan 2026 uses assigned seats. If your old habit was checking in exactly 24 hours out to grab a good boarding position, that trick no longer decides where you sit. Your fare bundle and your seat choice at booking do.",
+      "The cabin is still one class, but seats are now sold in three tiers. Extra Legroom seats sit at the front of the cabin and around the over wing exits, with up to five extra inches of pitch on the 737 700 according to Southwest. Preferred seats have standard legroom but sit near the front, so you get off sooner. Standard seats are the regular legroom rows further back.",
+      "On the 737 800 and 737 MAX 8, Extra Legroom covers the first five rows plus the rows around the mid cabin exit. On the smaller 737 700 it covers the first six rows plus the exit row. Exact row numbers can shift by aircraft, so open the live seat map in your booking rather than memorising a number.",
+      "Which bundle includes what matters. Basic fares get a Standard seat assigned at check in. Choice lets you pick a Standard seat at booking. Choice Preferred adds Preferred seats, and Choice Extra includes Extra Legroom. Anyone can pay to move up a tier.",
+      "Our picks: if you want space, an exit row window in the Extra Legroom zone is the best value seat on the plane, as long as you meet the exit row requirements. If you want a quick connection, a Preferred aisle near the front saves minutes at the gate. If you are on Basic and travelling with family, pay for selection or check in as early as allowed, because seats are assigned rather than chosen.",
+      "Use our Southwest 737 schematics to see where exits and lavatories sit, then match them to the live map in the Southwest app. Our drawings are illustrative and the airline map is the final word.",
+      "Last checked 26 Oct 2026 against the linked sources. Seat rules change, so confirm on your booking before you fly."
+    ],
+    "sources": [
+      {
+        "label": "Southwest assigned seating",
+        "url": "https://www.southwest.com/customer-enhancements/assigned-seating/",
+        "note": "Official Southwest page describing Extra Legroom, Preferred and Standard seats and fare bundles."
+      },
+      {
+        "label": "Southwest newsroom, 27 Jan 2026",
+        "url": "https://www.swamedia.com/news-and-stories/news-release/southwest-airlines-introduces-assigned-seating-and-more-offerings-for-customers-MC5YXLS6T3CVGSVEAME7UF2TLVRU",
+        "note": "Southwest release confirming the first assigned seating flights and the last open seating flight."
+      },
+      {
+        "label": "Southwest newsroom, 29 Jul 2025",
+        "url": "https://www.swamedia.com/news-and-stories/news-release/choose-what-you-prefer-new-fare-bundles-extra-legroom-seats-assigned-seating-and-MCPU7PTH3IMJHRNOCDQV52ZC2U7I",
+        "note": "Southwest release announcing assigned seating for travel from 27 Jan 2026."
+      }
+    ]
+  },
+  {
+    "slug": "do-exit-row-seats-recline",
+    "title": "Do exit row seats recline? Rules, requirements and the row in front",
+    "description": "Why some exit row seats do not recline, why the row ahead of an exit often cannot either, and who is allowed to sit in an exit row under FAA rules.",
+    "body": [
+      "Short answer: it depends on the row. Where an aircraft has two exit rows back to back, the front one usually has limited or no recline, so it never blocks the path to the exit behind it. The seats directly in front of an exit row also commonly have locked or reduced recline for the same reason. The rearmost exit row usually reclines normally.",
+      "That is why a seat map label matters. On a single over wing exit layout, the exit row itself typically reclines and the row ahead does not. On a double exit layout, such as many 737 800 and A321 cabins, the first exit row is usually the one that stays upright. Our schematics mark exit rows so you can spot which pattern your aircraft uses.",
+      "Sitting in an exit row comes with duties. In the United States, 14 CFR 121.585 sets the rules: the passenger must be able to open the exit and help others, must be at least 15 years old, must understand the safety instructions in the language used by the crew, and must be willing to help. Crew can move anyone who does not meet the criteria, even after boarding.",
+      "Other practical limits: you usually cannot keep a bag at your feet during take off and landing, armrests may hold the tray table so seats feel a little narrower, and the windows in some exit rows sit out of line with your shoulder. Exit rows can also feel cooler near the door.",
+      "Our verdict: book the rear exit row when you want both legroom and recline. Avoid the row directly in front of an exit unless legroom and recline do not matter to you. If you travel with a child under 15 or need help moving quickly, choose a bulkhead or Extra Legroom row instead.",
+      "Last checked 26 Oct 2026 against the linked sources. Seat rules change, so confirm on your booking before you fly."
+    ],
+    "sources": [
+      {
+        "label": "14 CFR 121.585 exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "US federal rule defining who may sit in exit seats."
+      },
+      {
+        "label": "FAA passengers hub",
+        "url": "https://www.faa.gov/passengers",
+        "note": "FAA passenger safety information."
+      }
+    ]
+  },
+  {
+    "slug": "ryanair-737-8200-seats",
+    "title": "Ryanair 737 8200 seat map: 197 seats and the best rows",
+    "description": "How the Ryanair Boeing 737 8200 differs from the 737 800, why it carries 197 seats, and which rows to pick for legroom, speed and a window view.",
+    "body": [
+      "The Boeing 737 8200 is a high density version of the 737 MAX 8 built for Ryanair, which took its first one on 16 Jun 2021. Each one carries 197 seats, against 189 on the Ryanair 737 800. To make that legal, it adds an extra pair of over wing exits, so the cabin has more exit rows than the older jet.",
+      "Ryanair says passengers still get more legroom and the newer Boeing Sky Interior, with larger overhead bins and LED lighting. The cabin is all economy in a three by three layout.",
+      "Best rows for legroom: the exit rows over the wing, which Ryanair sells as extra legroom seats. Remember the usual exit row rules about age and stowing bags overhead. Best rows for a fast exit: the first few rows, which Ryanair sells at a premium. Best for a view: a window well ahead of or behind the wing, since the over wing block hides the ground.",
+      "Rows to avoid: the very back row, which sits next to the lavatories and may have restricted recline, and the row directly in front of an exit, which usually does not recline.",
+      "How to tell which jet you have: Ryanair shows the aircraft type in its booking flow and app on many flights, and flight tracking sites show the registration once a plane is assigned. Our separate Ryanair 737 800 and 737 8200 schematics let you compare the two side by side.",
+      "Last checked 26 Oct 2026 against the linked sources. Seat rules change, so confirm on your booking before you fly."
+    ],
+    "sources": [
+      {
+        "label": "Ryanair corporate news, 16 Jun 2021",
+        "url": "https://corporate.ryanair.com/news/ryanair-takes-delivery-of-1st-boeing-737-gamechanger-aircraft/",
+        "note": "Ryanair release on its first 737 8200, confirming 197 seats versus 189 on its 737 800 fleet."
+      },
+      {
+        "label": "14 CFR 121.585 exit seating",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Reference for typical exit row eligibility rules."
+      }
+    ]
   }
 ]
