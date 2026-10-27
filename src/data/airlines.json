@@ -779,42 +779,100 @@
     "name": "Ethiopian Airlines",
     "iata": "ET",
     "country": "Ethiopia",
-    "blurb": "African Star Alliance carrier hubbed at Addis Ababa with a large 787 and A350 long haul fleet plus regional narrow bodies. Cabin products and densities vary by subfleet and route."
+    "blurb": "African Star Alliance carrier hubbed at Addis Ababa with a large 787 and A350 long haul fleet plus regional narrow bodies. Cabin products and densities vary by subfleet and route.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Addis Ababa Bole"
+      ],
+      "cabins": "Cloud Nine business class and Economy, with lie flat business seats on long haul Airbus A350 and Boeing 787 flights",
+      "seatTip": "Ethiopian flies several widebody types out of Addis Ababa, so check the aircraft type on your booking before you pick a seat.",
+      "source": "https://www.ethiopianairlines.com/"
+    }
   },
   {
     "slug": "malaysia-airlines",
     "name": "Malaysia Airlines",
     "iata": "MH",
     "country": "Malaysia",
-    "blurb": "Malaysian flag carrier hubbed at Kuala Lumpur with A330 and A350 long haul flying plus 737 narrow bodies for regional routes. Schematics below are typical public layouts only."
+    "blurb": "Malaysian flag carrier hubbed at Kuala Lumpur with A330 and A350 long haul flying plus 737 narrow bodies for regional routes. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "oneworld",
+      "hubs": [
+        "Kuala Lumpur"
+      ],
+      "cabins": "Business and Economy, with lie flat business seats on long haul Airbus A350 and A330 flights",
+      "seatTip": "Regional flights on the Boeing 737 have a much smaller business cabin than long haul widebodies, so confirm the aircraft before you choose a seat.",
+      "source": "https://www.malaysiaairlines.com/"
+    }
   },
   {
     "slug": "indigo",
     "name": "IndiGo",
     "iata": "6E",
     "country": "India",
-    "blurb": "Indian low cost carrier with a large A320 family fleet and ATR turboprops for thinner routes. Most flying is dense single class economy with select extra space rows."
+    "blurb": "Indian low cost carrier with a large A320 family fleet and ATR turboprops for thinner routes. Most flying is dense single class economy with select extra space rows.",
+    "glance": {
+      "alliance": "No alliance (codeshare partnerships with several carriers)",
+      "hubs": [
+        "Delhi",
+        "Mumbai",
+        "Bengaluru"
+      ],
+      "cabins": "Mostly all Economy on Airbus A320 family and ATR aircraft, with IndiGoStretch premium seats on selected routes",
+      "seatTip": "Most cabins are single class Economy, so exit rows and the front rows are the main way to get extra legroom; check the seat fee before you book.",
+      "source": "https://www.goindigo.in/"
+    }
   },
   {
     "slug": "copa-airlines",
     "name": "Copa Airlines",
     "iata": "CM",
     "country": "Panama",
-    "blurb": "Panamanian Star Alliance carrier hubbed at Panama City with an all Boeing 737 narrow body fleet linking North and South America. Premium and economy products vary by aircraft."
+    "blurb": "Panamanian Star Alliance carrier hubbed at Panama City with an all Boeing 737 narrow body fleet linking North and South America. Premium and economy products vary by aircraft.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Panama City Tocumen"
+      ],
+      "cabins": "Dreams business class and Economy on a Boeing 737 fleet",
+      "seatTip": "Nearly every Copa flight connects through Panama City on a Boeing 737, so the same seat choices apply on both legs of most trips.",
+      "source": "https://www.copaair.com/"
+    }
   },
   {
     "slug": "avianca",
     "name": "Avianca",
     "iata": "AV",
     "country": "Colombia",
-    "blurb": "Colombian Star Alliance carrier with A320 family narrow bodies and 787 long haul aircraft. Cabin products and layouts differ by subfleet and route."
+    "blurb": "Colombian Star Alliance carrier with A320 family narrow bodies and 787 long haul aircraft. Cabin products and layouts differ by subfleet and route.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Bogota El Dorado",
+        "San Salvador"
+      ],
+      "cabins": "Economy across the Airbus A320 family fleet, with business class seats on long haul Boeing 787 flights",
+      "seatTip": "Lower fare types may charge for seat selection, so check what your fare includes before you pay for a seat.",
+      "source": "https://www.avianca.com/"
+    }
   },
   {
     "slug": "saudia",
     "name": "Saudia",
     "iata": "SV",
     "country": "Saudi Arabia",
-    "blurb": "Saudi flag carrier hubbed at Jeddah and Riyadh with 777 and 787 long haul fleets plus A320 family narrow bodies. Premium and economy products vary by aircraft and route."
+    "blurb": "Saudi flag carrier hubbed at Jeddah and Riyadh with 777 and 787 long haul fleets plus A320 family narrow bodies. Premium and economy products vary by aircraft and route.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Jeddah",
+        "Riyadh"
+      ],
+      "cabins": "Business and Economy, with lie flat business seats on long haul Boeing 777 and 787 flights",
+      "seatTip": "Saudia flies different widebody layouts on similar routes, so confirm the aircraft type on your booking before choosing a seat.",
+      "source": "https://www.saudia.com/"
+    }
   },
   {
     "slug": "vietnam-airlines",
