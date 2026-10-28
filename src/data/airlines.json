@@ -879,28 +879,68 @@
     "name": "Vietnam Airlines",
     "iata": "VN",
     "country": "Vietnam",
-    "blurb": "Vietnamese SkyTeam flag carrier hubbed at Hanoi and Ho Chi Minh City with A321 narrow bodies plus 787 and A350 long haul aircraft. Cabin products and densities vary by subfleet and route."
+    "blurb": "Vietnamese SkyTeam flag carrier hubbed at Hanoi and Ho Chi Minh City with A321 narrow bodies plus 787 and A350 long haul aircraft. Cabin products and densities vary by subfleet and route.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Hanoi Noi Bai",
+        "Ho Chi Minh City Tan Son Nhat"
+      ],
+      "cabins": "Business, Premium Economy and Economy, with lie flat business seats on long haul Boeing 787 and Airbus A350 flights",
+      "seatTip": "Domestic and regional flights often use Airbus A321 aircraft with a small business cabin, so check the aircraft type before you pick a seat.",
+      "source": "https://www.vietnamairlines.com/"
+    }
   },
   {
     "slug": "philippine-airlines",
     "name": "Philippine Airlines",
     "iata": "PR",
     "country": "Philippines",
-    "blurb": "Philippine flag carrier hubbed at Manila with A321 family narrow bodies plus A330, A350, and 777 long haul flying. Schematics below are typical public layouts only."
+    "blurb": "Philippine flag carrier hubbed at Manila with A321 family narrow bodies plus A330, A350, and 777 long haul flying. Schematics below are typical public layouts only.",
+    "glance": {
+      "alliance": "No alliance (codeshare partnerships with several carriers)",
+      "hubs": [
+        "Manila Ninoy Aquino",
+        "Cebu Mactan"
+      ],
+      "cabins": "Business, Premium Economy and Economy on long haul Airbus A350 and Boeing 777 flights, with lie flat business seats on those aircraft",
+      "seatTip": "Cabin layouts differ a lot between the long haul widebodies and the domestic narrow bodies, so confirm the aircraft on your booking first.",
+      "source": "https://www.philippineairlines.com/"
+    }
   },
   {
     "slug": "garuda-indonesia",
     "name": "Garuda Indonesia",
     "iata": "GA",
     "country": "Indonesia",
-    "blurb": "Indonesian SkyTeam flag carrier hubbed at Jakarta with 737 narrow bodies and A330 plus 777 long haul aircraft. Cabin products and layouts differ by subfleet and route."
+    "blurb": "Indonesian SkyTeam flag carrier hubbed at Jakarta with 737 narrow bodies and A330 plus 777 long haul aircraft. Cabin products and layouts differ by subfleet and route.",
+    "glance": {
+      "alliance": "SkyTeam",
+      "hubs": [
+        "Jakarta Soekarno Hatta",
+        "Denpasar Bali"
+      ],
+      "cabins": "Business and Economy on most flights, with lie flat business seats on many long haul Boeing 777 and Airbus A330 flights",
+      "seatTip": "Garuda flies several widebody and narrow body types, so check which aircraft your flight uses before you choose a seat.",
+      "source": "https://www.garuda-indonesia.com/"
+    }
   },
   {
     "slug": "aegean-airlines",
     "name": "Aegean Airlines",
     "iata": "A3",
     "country": "Greece",
-    "blurb": "Greek Star Alliance carrier hubbed at Athens with an A320 family fleet for European and regional flying. Premium and economy products vary by aircraft and route length."
+    "blurb": "Greek Star Alliance carrier hubbed at Athens with an A320 family fleet for European and regional flying. Premium and economy products vary by aircraft and route length.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Athens",
+        "Thessaloniki"
+      ],
+      "cabins": "Business and Economy on Airbus A320 family aircraft, with Business using standard seats and the middle seat kept free",
+      "seatTip": "Business on Aegean is about the free middle seat, service and priority, not a bigger seat, so in Economy a front row or exit row is the main legroom upgrade.",
+      "source": "https://en.aegeanair.com/"
+    }
   },
   {
     "slug": "vueling",
@@ -923,6 +963,15 @@
     "name": "EgyptAir",
     "iata": "MS",
     "country": "Egypt",
-    "blurb": "Egyptian Star Alliance flag carrier hubbed at Cairo with 787 and 777 long haul fleets plus A320 family narrow bodies. Premium and economy products vary by aircraft and route."
+    "blurb": "Egyptian Star Alliance flag carrier hubbed at Cairo with 787 and 777 long haul fleets plus A320 family narrow bodies. Premium and economy products vary by aircraft and route.",
+    "glance": {
+      "alliance": "Star Alliance",
+      "hubs": [
+        "Cairo International"
+      ],
+      "cabins": "Business and Economy, with lie flat business seats on long haul Boeing 787, Boeing 777 and Airbus A350 flights",
+      "seatTip": "EgyptAir uses different aircraft on similar routes, so check the aircraft type on your booking before you pay for a seat.",
+      "source": "https://www.egyptair.com/"
+    }
   }
 ]
