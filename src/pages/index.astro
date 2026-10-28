@@ -162,7 +162,7 @@ const jsonLd = [
     <p class="muted" style="margin:0.35rem 0 0">
       Primary path for SEO and bookings: pick a carrier, open a seat map, then use the booking placeholder CTA.
     </p>
-    <p class="photo-note">Photos on this site are AI generated illustrations of typical cabins and aircraft, not specific airlines or aircraft. Seat diagrams are exact and separate.</p>
+    <p class="photo-note">Photos on this site are AI generated illustrations of typical cabins and aircraft, not specific airlines or aircraft. Seat diagrams are separate: they are illustrative schematic seat maps based on published airline configurations, not exact layouts for any specific aircraft, so confirm the layout for your exact flight with the airline.</p>
     <div class="grid cols-3" style="margin-top:1rem" id="airline-grid">
       {airlineCards.map((a) => (
         <article class="card airline-card" data-filter={`${a.name} ${a.iata} ${a.country} ${a.slug}`.toLowerCase()}>
