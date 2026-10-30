@@ -16,6 +16,8 @@ export interface Airline {
     seatTip: string;
     source: string;
   };
+  /** Optional cited authoritative public sources (official airline pages, regulators). */
+  sources?: { label: string; url: string; note?: string }[];
 }
 
 export interface SeatBlock {

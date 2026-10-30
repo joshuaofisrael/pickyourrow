@@ -44,7 +44,19 @@
       "cabins": "United Polaris business on long haul widebodies, United Premium Plus premium economy, Economy Plus extra legroom rows, and standard economy",
       "seatTip": "Economy Plus rows sit at the front of economy, so check which rows the map shades before paying for an upgrade.",
       "source": "https://www.united.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "United's fleet",
+        "url": "https://www.united.com/en/us/fly/company/aircraft/uniteds-fleet.html",
+        "note": "Official United fleet list with links to each aircraft seat map, seat counts and cabin specifications."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "U.S. federal rule on who may sit in an exit row on U.S. airlines."
+      }
+    ]
   },
   {
     "slug": "american",
@@ -218,7 +230,14 @@
       "cabins": "One economy cabin on a Boeing 737 fleet, with paid Premium seats offering extra legroom at the front and over the wings",
       "seatTip": "Seats are assigned at random unless you pay, so if sitting together matters, choose seats when you book.",
       "source": "https://www.ryanair.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Ryanair Our Fleet",
+        "url": "https://corporate.ryanair.com/about-us/our-fleet/",
+        "note": "Official Ryanair corporate fleet page."
+      }
+    ]
   },
   {
     "slug": "emirates",
@@ -383,7 +402,14 @@
       "cabins": "First on the Airbus A380, business, premium economy, and economy on long haul widebodies, and business plus economy on domestic Boeing 737 flights",
       "seatTip": "Domestic and long haul layouts are very different, so match the aircraft on your booking to the right map below.",
       "source": "https://www.qantas.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Qantas fleet and seat maps",
+        "url": "https://www.qantas.com/en-au/onboard/fleet",
+        "note": "Official Qantas fleet page with seat maps by aircraft."
+      }
+    ]
   },
   {
     "slug": "etihad",
@@ -465,7 +491,14 @@
       "cabins": "THE Suite first and THE Room business on selected Boeing 777 aircraft, plus business, premium economy, and economy on other long haul widebodies",
       "seatTip": "Long haul business products differ by aircraft, so confirm the aircraft type on your booking before comparing seats.",
       "source": "https://www.ana.co.jp/en/"
-    }
+    },
+    "sources": [
+      {
+        "label": "ANA Seat Map",
+        "url": "https://www.ana.co.jp/en/us/travel-information/seat-map/",
+        "note": "Official ANA seat maps by aircraft and cabin."
+      }
+    ]
   },
   {
     "slug": "japan-airlines",
@@ -585,7 +618,14 @@
       "cabins": "A single economy cabin with high density seating; seat selection is normally a paid extra",
       "seatTip": "Without a paid seat you are assigned one at check in, so pick a seat early if sitting together or by an exit matters.",
       "source": "https://wizzair.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "About WIZZ",
+        "url": "https://www.wizzair.com/en-gb/information-and-services/about-us/about-wizz",
+        "note": "Official Wizz Air fleet facts, including the 239 seat Airbus A321neo."
+      }
+    ]
   },
   {
     "slug": "aer-lingus",

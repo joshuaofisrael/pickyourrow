@@ -407,6 +407,7 @@ for (const item of faqs) {
   assertNoDash('FAQ prose', `${item.question} ${item.parts.map((part) => part.text).join('')}`);
 }
 assertNoDash('Airline lede', airline.blurb);
+for (const src of airline.sources ?? []) assertNoDash('Airline sources', `${src.label} ${src.note ?? ''}`);
 const airlineNews = news.filter((n) => n.airlineSlug === airline.slug).sort((x, y) => y.datePublished.localeCompare(x.datePublished)).slice(0, 3);
 const glance = airline.glance;
 const glanceHubs = glance ? listNames(glance.hubs) : '';
@@ -509,6 +510,23 @@ const jsonLd = [
         <p class="note">
           Public network and cabin facts. For current details see the <a href={glance.source} rel="nofollow noopener" target="_blank">official {airline.name} website</a>, since products change, and confirm on your booking.
         </p>
+      </section>
+    )}
+    {airline.sources && airline.sources.length > 0 && (
+      <section aria-labelledby="hub-sources" class="hub-sources">
+        <h2 id="hub-sources">Sources and references</h2>
+        <p class="muted">
+          Official {airline.name} pages and regulators we check against. Fleet and rule facts are <strong>fact</strong>;
+          our seat scores remain <strong>editorial</strong>. See our <a href="/methodology/">Methodology &amp; sources</a> page.
+        </p>
+        <ol class="sources">
+          {airline.sources.map((s) => (
+            <li>
+              <a href={s.url} rel="noopener noreferrer">{s.label}</a>
+              {s.note ? `. ${s.note}` : ''}
+            </li>
+          ))}
+        </ol>
       </section>
     )}
     <p class="answer-block">
