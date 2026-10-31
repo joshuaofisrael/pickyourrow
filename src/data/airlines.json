@@ -119,7 +119,19 @@
       "cabins": "One economy cabin on an all Airbus fleet, with paid Up Front and Extra Legroom seat options",
       "seatTip": "Extra Legroom seats are in the first row and the overwing exit rows, and exit rows come with safety rules on who can sit there.",
       "source": "https://www.easyjet.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "easyJet Our fleet",
+        "url": "https://www.easyjet.com/en/help/boarding-and-flying/our-fleet",
+        "note": "Official easyJet fleet page, including the 235 seat Airbus A321neo."
+      },
+      {
+        "label": "easyJet plc About easyJet Airline",
+        "url": "https://corporate.easyjet.com/about/easyJet-Airline/default.aspx",
+        "note": "Official key facts with aircraft numbers and seats per aircraft type (156, 180 or 186, and 235 seats)."
+      }
+    ]
   },
   {
     "slug": "southwest",
@@ -211,7 +223,24 @@
       "cabins": "La Premiere on selected Boeing 777 aircraft, Business on long haul widebodies, Premium on most long haul aircraft, Economy, and Business and Economy on European flights",
       "seatTip": "Air France has been refitting its long haul fleet in stages, so two flights on the same route can have different business seats. Check the aircraft on your booking before you pick.",
       "source": "https://www.airfrance.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Air France Our aircraft",
+        "url": "https://wwws.airfrance.fr/en/information/prepare/nos-avions",
+        "note": "Official Air France fleet page with cabin layouts and seat maps for each aircraft type."
+      },
+      {
+        "label": "Air France World class Travel Cabins",
+        "url": "https://corporate.airfrance.com/en/world-class-travel-cabins",
+        "note": "Official description of La Première, Business, Premium and Economy cabins."
+      },
+      {
+        "label": "EASA Easy Access Rules for Air Operations",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations",
+        "note": "Consolidated EU rules for commercial air operations, including passenger seating and exit row requirements."
+      }
+    ]
   },
   {
     "slug": "ryanair",
@@ -253,7 +282,14 @@
       "cabins": "First class on the Airbus A380 and Boeing 777, Business class, Premium Economy on newer and refitted aircraft, and Economy",
       "seatTip": "Emirates flies more than one layout of the same aircraft type, so confirm the configuration shown on your booking before you pick a seat.",
       "source": "https://www.emirates.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Emirates Our fleet",
+        "url": "https://www.emirates.com/english/experience/our-fleet/",
+        "note": "Official Emirates fleet page covering the A380, Boeing 777 and A350."
+      }
+    ]
   },
   {
     "slug": "qatar",
@@ -285,7 +321,19 @@
       "cabins": "Business Class with lie flat seats on widebody aircraft, Business Class on narrowbody flights, and Economy Class",
       "seatTip": "Long transfers at Istanbul are common, so on overnight legs a window seat away from the galley is worth choosing early.",
       "source": "https://www.turkishairlines.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Turkish Airlines Our Fleet",
+        "url": "https://www.turkishairlines.com/en-int/flights/fly-different/fleet/",
+        "note": "Official fleet page covering each aircraft type from the A319 to the 777 300ER and 787 9."
+      },
+      {
+        "label": "Turkish Airlines Seat selection",
+        "url": "https://www.turkishairlines.com/en-int/flights/fly-different/seat-selection/",
+        "note": "Official seat selection rules, including extra legroom, bassinet and emergency exit seats."
+      }
+    ]
   },
   {
     "slug": "air-canada",
@@ -425,7 +473,14 @@
       "cabins": "The Residence and First Apartments on the Airbus A380, Business Studios and Economy on most widebodies, and Business and Economy on narrowbody flights",
       "seatTip": "Cabin products vary by aircraft type, so confirm whether your flight is an A380, a Boeing 787 or a narrowbody before comparing seats.",
       "source": "https://www.etihad.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Discover the Etihad fleet",
+        "url": "https://www.etihad.com/en/plan/fly-with-etihad/our-fleet",
+        "note": "Official Etihad fleet page with seat maps and details for each aircraft type."
+      }
+    ]
   },
   {
     "slug": "hawaiian",
@@ -643,7 +698,19 @@
       "cabins": "Business and Economy on transatlantic Airbus A330 and A321 long range aircraft, and Economy with extra legroom options on European routes",
       "seatTip": "Many flights to the United States from Dublin and Shannon offer US preclearance, so allow time at the airport rather than relying on a seat near the door.",
       "source": "https://www.aerlingus.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Aer Lingus welcomes two new XLR aircraft",
+        "url": "https://mediacentre.aerlingus.com/pressrelease/details/108/21611",
+        "note": "Official Aer Lingus press release on its first Airbus A321XLR aircraft for transatlantic routes."
+      },
+      {
+        "label": "EASA Easy Access Rules for Air Operations",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations",
+        "note": "Consolidated EU rules for commercial air operations, including passenger seating and exit row requirements."
+      }
+    ]
   },
   {
     "slug": "finnair",
@@ -828,7 +895,24 @@
       "cabins": "Cloud Nine business class and Economy, with lie flat business seats on long haul Airbus A350 and Boeing 787 flights",
       "seatTip": "Ethiopian flies several widebody types out of Addis Ababa, so check the aircraft type on your booking before you pick a seat.",
       "source": "https://www.ethiopianairlines.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Ethiopian Airlines Our fleet",
+        "url": "https://www.ethiopianairlines.com/explore/fleet",
+        "note": "Official fleet page with cabin interiors, seat maps and aircraft virtual tours."
+      },
+      {
+        "label": "Ethiopian Airlines Seat Map Journey Planning",
+        "url": "https://www.ethiopianairlines.com/explore/fleet/seat-map",
+        "note": "Official seat maps by aircraft and registration, with seat counts per cabin."
+      },
+      {
+        "label": "Ethiopian current commercial fleet",
+        "url": "https://corporate.ethiopianairlines.com/AboutEthiopian/OurFleets",
+        "note": "Official corporate fleet list by aircraft type, plus aircraft on order."
+      }
+    ]
   },
   {
     "slug": "malaysia-airlines",
@@ -878,7 +962,14 @@
       "cabins": "Dreams business class and Economy on a Boeing 737 fleet",
       "seatTip": "Nearly every Copa flight connects through Panama City on a Boeing 737, so the same seat choices apply on both legs of most trips.",
       "source": "https://www.copaair.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Copa Airlines Fleet",
+        "url": "https://www.copaair.com/en-us/discover-copa-airlines/experience-on-board/fleet/",
+        "note": "Official Copa fleet page for its Boeing 737 MAX 9 and MAX 8 aircraft."
+      }
+    ]
   },
   {
     "slug": "avianca",
@@ -996,7 +1087,19 @@
       "cabins": "Single cabin Economy on an Airbus A320 family fleet, with paid Space One (row 1), Space Plus (rows 2 to 4) and Space (exit row) seats",
       "seatTip": "Space seats in the exit rows give the most legroom for the price, but they have no underseat storage, so plan to put your bag in the overhead locker.",
       "source": "https://www.vueling.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Vueling Fleet (Vueling help)",
+        "url": "https://help.vueling.com/hc/en-gb/articles/19798800208273-Vueling-Fleet",
+        "note": "Official Vueling help page on its Airbus fleet, with seat, emergency exit and toilet locations."
+      },
+      {
+        "label": "EASA Easy Access Rules for Air Operations",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations",
+        "note": "Consolidated EU rules for commercial air operations, including passenger seating and exit row requirements."
+      }
+    ]
   },
   {
     "slug": "egyptair",
