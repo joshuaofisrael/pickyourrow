@@ -21,7 +21,19 @@
       "cabins": "Delta One business on long haul widebodies, Delta Premium Select premium economy, Delta First on domestic flights, Delta Comfort extra legroom rows (formerly Comfort+), and Delta Main economy",
       "seatTip": "Delta Comfort rows sit at the front of economy, so check which rows the map marks before you settle for a regular Delta Main seat.",
       "source": "https://www.delta.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Delta Aircraft Overview",
+        "url": "https://www.delta.com/us/en/aircraft/overview",
+        "note": "Official Delta page listing each aircraft type in its fleet with links to seat maps and cabin details."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "U.S. federal rule on who may sit in an exit row on U.S. airlines."
+      }
+    ]
   },
   {
     "slug": "united",
@@ -98,7 +110,14 @@
       "cabins": "First on selected long haul aircraft, Club Suite business class with a door on most long haul aircraft, World Traveller Plus premium economy, World Traveller economy, and Club Europe and Euro Traveller on short haul flights",
       "seatTip": "Older long haul aircraft can still carry an earlier business cabin, so check the seat map on your booking rather than the route alone.",
       "source": "https://www.britishairways.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "British Airways Factsheets (media centre)",
+        "url": "https://mediacentre.britishairways.com/factsheets",
+        "note": "Official British Airways media centre factsheets, including its fleet."
+      }
+    ]
   },
   {
     "slug": "easyjet",
@@ -190,7 +209,19 @@
       "cabins": "First Class, Premium Class extra legroom economy, and Main Cabin on the Boeing 737 fleet, with regional jets on shorter routes",
       "seatTip": "Premium Class rows sit just behind First and add legroom without the First fare, which makes them a good value pick on longer domestic flights.",
       "source": "https://www.alaskaair.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Alaska Airlines Information about the planes we fly",
+        "url": "https://www.alaskaair.com/content/travel-info/our-aircraft",
+        "note": "Official Alaska Airlines aircraft page with seat maps and cabin details for each type it flies."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "U.S. federal rule on who may sit in an exit row on U.S. airlines."
+      }
+    ]
   },
   {
     "slug": "lufthansa",
@@ -367,7 +398,14 @@
       "cabins": "Suites on the Airbus A380, First on some Boeing 777s, Business class, Premium Economy, and Economy",
       "seatTip": "Singapore Airlines runs several cabin versions on its long haul fleet, so check the seat map for your exact flight rather than the aircraft type alone.",
       "source": "https://www.singaporeair.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Singapore Airlines Our Fleet",
+        "url": "https://www.singaporeair.com/en_UK/us/flying-withus/our-story/our-fleet/",
+        "note": "Official Singapore Airlines fleet page covering its A380, A350, 777, 787 and 737 aircraft."
+      }
+    ]
   },
   {
     "slug": "cathay-pacific",
