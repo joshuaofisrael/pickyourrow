@@ -4116,8 +4116,7 @@
             "letters": [
               "D",
               "E",
-              "F",
-              "G"
+              "F"
             ]
           },
           {
@@ -4182,8 +4181,8 @@
       }
     ],
     "notes": [
-      "BA A350-1000 typically publishes dense Club World plus WT+ and WT.",
-      "Economy often 3-3-3; shown here as 3-4-3 schematic for denser published fits — confirm your aircraft."
+      "BA A350 1000 typically publishes dense Club World plus WT+ and WT.",
+      "World Traveller economy is typically 3 3 3 (ABC DEF HJK). Confirm your aircraft on the airline seat map."
     ]
   },
   {
@@ -8961,20 +8960,19 @@
           {
             "letters": [
               "A",
-              "B",
-              "C"
+              "B"
             ]
           },
           {
             "letters": [
               "D",
               "E",
-              "F"
+              "F",
+              "G"
             ]
           },
           {
             "letters": [
-              "H",
               "J",
               "K"
             ]
@@ -9029,7 +9027,7 @@
       }
     ],
     "notes": [
-      "Economy commonly 2-4-2 or 3-3-3 depending on retrofit; shown as typical 3-3-3.",
+      "Economy is typically 2 4 2 (AB DEFG JK) on Turkish Airlines A330 300 aircraft.",
       "Business products differ across the A330 subfleet.",
       "Confirm exact aircraft with the airline."
     ]
@@ -11010,7 +11008,7 @@
     "aircraftFamily": "777",
     "name": "SWISS 777-300ER (typical)",
     "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially — confirm with your airline.",
-    "totalSeatsApprox": 340,
+    "totalSeatsApprox": 320,
     "cabins": [
       {
         "id": "first",
@@ -11105,13 +11103,14 @@
             "letters": [
               "D",
               "E",
-              "F"
+              "F",
+              "G"
             ]
           },
           {
             "letters": [
-              "G",
               "H",
+              "J",
               "K"
             ]
           }
@@ -11178,8 +11177,8 @@
       }
     ],
     "notes": [
-      "Four-cabin 777-300ER schematic; first and business products are highly retrofit-specific.",
-      "Economy often 3-3-3 on many SWISS 777s — treat as illustrative."
+      "Four cabin 777 300ER schematic; first and business products are highly retrofit specific.",
+      "Economy is typically 3 4 3 (ABC DEFG HJK), ten abreast, on SWISS 777 300ER aircraft. Confirm your flight on the airline seat map."
     ]
   },
   {
@@ -12482,8 +12481,7 @@
             "letters": [
               "D",
               "E",
-              "F",
-              "G"
+              "F"
             ]
           },
           {
@@ -12551,8 +12549,8 @@
       }
     ],
     "notes": [
-      "Higher-density A350 schematic often associated with domestic/regional high-capacity JL flying; international A350s may be premium-heavier.",
-      "Economy shown as 3-4-3 style blocks — confirm live map for your registration."
+      "Higher density A350 schematic often associated with domestic or regional high capacity JL flying; international A350s may be premium heavier.",
+      "Economy is typically 3 3 3 (ABC DEF HJK) on JAL A350 900 aircraft. Confirm the live map for your registration."
     ]
   },
   {
@@ -13352,7 +13350,7 @@
     "aircraftFamily": "777",
     "name": "Air New Zealand 777-300ER (typical)",
     "configNote": "Illustrative schematic from publicly known typical widebody layout facts. Subfleets differ substantially — confirm with your airline.",
-    "totalSeatsApprox": 332,
+    "totalSeatsApprox": 342,
     "cabins": [
       {
         "id": "biz",
@@ -13426,13 +13424,14 @@
             "letters": [
               "D",
               "E",
-              "F"
+              "F",
+              "G"
             ]
           },
           {
             "letters": [
-              "G",
               "H",
+              "J",
               "K"
             ]
           }
@@ -13494,8 +13493,8 @@
       }
     ],
     "notes": [
-      "Long-haul 777 schematic; NZ 777 densities and premium counts have varied by retrofit.",
-      "Economy shown as 3-3-3 — confirm your flight’s live map before paying for a seat."
+      "Long haul 777 schematic; NZ 777 densities and premium counts have varied by retrofit.",
+      "Economy is typically 3 4 3 (ABC DEFG HJK), ten abreast, on Air New Zealand 777 300ER aircraft. Confirm your flight live map before paying for a seat."
     ]
   },
   {
