@@ -1083,7 +1083,8 @@
       "Sitting across an aisle as two-and-two (or window-aisle pairs facing each other) can be easier than trapping a child in a middle. On 3-3 narrow-bodies, a window-aisle-aisle-window split across the aisle keeps adults on the aisle for bathroom trips.",
       "Near-lav seats score lower in our editorial heuristic for noise and foot traffic, but for toddlers they can be convenient. Decide based on age: infants may need bassinets more than quiet; older kids may sleep better mid-cabin.",
       "Our maps mark bulkheads, exits, and lavatories so you can plan \u2014 they are original schematics, not airline manuals. Always confirm family seating and bassinet rules with the carrier for your exact flight.",
-      "If the airline\u2019s seat map shows scattered seats, message the airline or check in early. Paid seat selection is often cheaper than hoping gate agents can reunite a family of four at the last minute."
+      "If the airline\u2019s seat map shows scattered seats, message the airline or check in early. Paid seat selection is often cheaper than hoping gate agents can reunite a family of four at the last minute.",
+      "Rules that shape where families sit are covered in [car seats on planes](/guides/car-seats-on-planes-faa-rules/) and [lap infant seating rules](/guides/lap-infant-seating-rules/)."
     ],
     "sources": [
       {
@@ -1808,7 +1809,8 @@
       "Lavatory proximity matters more when mobility is limited \u2014 but \u201cnear lav\u201d also means foot traffic and odor risk. A seat one or two rows away on the aisle is a common compromise on our editorial maps.",
       "Regulator and airline pages describe passenger rights and assistance frameworks at a high level. Use those official sources for service animal policies, wheelchair handling, and complaint processes.",
       "Pick Your Row tags such as aisle, bulkhead, exit, and near-lav help you shortlist \u2014 then confirm armrest types, movable aisle armrests, and assistance seating with the carrier.",
-      "Travel with any required documentation for assistive devices. Seat choice cannot replace airline-approved handling of wheelchairs or cushions."
+      "Travel with any required documentation for assistive devices. Seat choice cannot replace airline-approved handling of wheelchairs or cushions.",
+      "For the specific seats U.S. rules require airlines to provide, see [disability seating rights on flights](/guides/disability-seating-rights-on-flights/)."
     ],
     "sources": [
       {
@@ -2107,7 +2109,8 @@
       "Codeshare itineraries add another layer. The operating carrier controls the cabin product. A marketing carrier seat map can look different from the aircraft that actually shows up.",
       "Arrive earlier than usual on swap days. Gate agents may reopen seat selection or move passengers for weight and balance. Calm, specific requests beat vague complaints.",
       "If your paid seat disappears, ask about refund of the seat fee or a comparable free seat. Keep the conversation factual: original seat, fee amount, and the new map options.",
-      "Pick Your Row schematics are illustrative by design. After a swap, treat them as a planning filter, then confirm the live airline map for the registration you will fly."
+      "Pick Your Row schematics are illustrative by design. After a swap, treat them as a planning filter, then confirm the live airline map for the registration you will fly.",
+      "If you paid for the seat you lost, read [paid seat refund rules](/guides/paid-seat-refund-rules/) for what U.S. rules require the airline to refund."
     ],
     "sources": [
       {
@@ -2400,6 +2403,411 @@
         "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Exit seat suitability rules that can block some passengers from exit rows even when those rows look convenient."
+      }
+    ]
+  },
+  {
+    "slug": "boeing-787-dreamliner-seat-guide",
+    "title": "Boeing 787 Dreamliner seats: what to pick on the 787 8, 787 9 and 787 10",
+    "description": "How the 787 cabin differs, why economy is almost always nine across, and which rows to target on the 787 8, 787 9 and 787 10.",
+    "body": [
+      "The Boeing 787 Dreamliner comes in three lengths. Boeing lists typical two class seating of 200 to 275 on the 787 8, 250 to 325 on the 787 9 and 300 to 375 on the 787 10. The cabin width is the same on all three, so the seat choice logic carries over: the stretch versions simply add more rows.",
+      "In economy, almost every airline we map fits nine seats across in three blocks of three. Every 787 8, 787 9 and 787 10 schematic on Pick Your Row uses that layout. Nine across on a 787 is a tighter fit than nine across on a wider 777, so if seat width matters most to you, compare the airline's published seat width before you pay for a specific row. Our [seat pitch and width guide](/guides/seat-pitch-and-width-explained/) explains what those numbers mean.",
+      "What the 787 changes for passengers: Boeing says the 787 has the largest windows of any widebody flying today and that they are electronically dimmable, so there are no pull down shades. Boeing says passengers and crew can both control the dimming, which matters on day flights when you want light. Boeing also says composites let the cabin stay pressurised at a 6,000 foot altitude, about 2,000 feet lower than conventional jets, with higher humidity than older types.",
+      "Where to sit in economy: the rows right behind the exit doors usually give the most legroom, but they sit next to galleys and lavatories on many layouts, and bassinet positions are often there too. Aisle seats in the forward economy rows trade a little legroom for a quicker exit. For sleep on overnight flights, a window away from the galleys is usually the safest pick; see [overnight long haul seat strategy](/guides/overnight-long-haul-seat-strategy/).",
+      "Premium cabins vary far more than economy. Business ranges from reverse herringbone suites in a one by two by one layout to older two by two by two seats without direct aisle access. Premium economy is usually seven or eight across. Check the airline map before you assume a direct aisle seat.",
+      "Start with the 787 type pages, which list every airline we map: [787 8 seat maps](/aircraft/787-8/), [787 9 seat maps](/aircraft/787-9/) and [787 10 seat maps](/aircraft/787-10/). Popular examples include [United 787 9](/airlines/united/787-9/seat-map/), [British Airways 787 9](/airlines/british-airways/787-9/seat-map/) and [Air Canada 787 9](/airlines/air-canada/787-9/seat-map/).",
+      "Our maps are illustrative schematics of typical layouts. Airlines run several configurations of the same type, so always confirm the live seat map in the airline app after booking. We are not affiliated with Boeing or any airline."
+    ],
+    "faq": [
+      {
+        "question": "How many seats across is the 787 in economy?",
+        "answer": "Nine across in three blocks of three on nearly every airline. All 787 schematics on Pick Your Row use that layout."
+      },
+      {
+        "question": "Do 787 windows have shades?",
+        "answer": "No. Boeing says 787 windows are electronically dimmable, so passengers and crew dim them with a button instead of a pull down shade."
+      },
+      {
+        "question": "Is the 787 more comfortable on long flights?",
+        "answer": "Boeing says the cabin is pressurised to a 6,000 foot altitude, about 2,000 feet lower than conventional jets, with higher humidity, which it links to less fatigue. Seat pitch and width still depend on the airline."
+      },
+      {
+        "question": "What is the difference between the 787 8, 787 9 and 787 10?",
+        "answer": "Length and capacity. Boeing lists 200 to 275 typical two class seats on the 787 8, 250 to 325 on the 787 9 and 300 to 375 on the 787 10. Cabin width is the same."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Boeing 787 Dreamliner",
+        "url": "https://www.boeing.com/commercial/787",
+        "note": "Official Boeing page with 787 8, 787 9 and 787 10 seating and range specifications."
+      },
+      {
+        "label": "Boeing 787 by design",
+        "url": "https://www.boeing.com/commercial/787/by-design",
+        "note": "Boeing description of 787 windows, cabin altitude, humidity and noise."
+      }
+    ]
+  },
+  {
+    "slug": "airbus-a350-seat-guide",
+    "title": "Airbus A350 seats: how to pick a good seat on the A350 900 and A350 1000",
+    "description": "A350 900 and A350 1000 seat tips: the nine across economy most airlines use, the Airspace cabin, and which rows to target or avoid.",
+    "body": [
+      "The Airbus A350 comes in two passenger lengths. Airbus quotes 332 to 352 seats in a typical three class layout on the A350 900, with a maximum of 440, and 375 to 400 seats on the longer A350 1000, with a maximum of 480. Most airlines fly far fewer seats than the maximum.",
+      "Economy on most A350s is nine across in three blocks of three. A few airlines squeeze in ten across, which leaves noticeably narrower seats, so check the layout on the airline seat map before you choose. Our [A350 900 seat maps](/aircraft/a350-900/) and [A350 1000 seat maps](/aircraft/a350-1000/) pages list every carrier we map.",
+      "Airbus markets the A350 cabin as Airspace. It says the A350 has the quietest twin aisle cabin, a low cabin altitude with controlled temperature and humidity, LED mood lighting and electro dimmable windows on newer cabins. In practice the airline's seat product matters far more to your comfort than the airframe.",
+      "Good economy picks: rows directly behind a door exit often give extra legroom, but bassinets and galleys sit nearby. The first rows of the main economy cabin get off sooner. Rows near the very back narrow slightly as the fuselage tapers, and on some layouts the final rows have only two seats by the window, which couples like; see [choosing seats for couples](/guides/choosing-seats-for-couples/).",
+      "Business class varies widely. Many A350 operators fit one by two by one suites with direct aisle access, while some use two by two by two. Premium economy is usually seven or eight across. Compare examples such as [Delta A350 900](/airlines/delta/a350-900/seat-map/), [Qatar Airways A350 900](/airlines/qatar/a350-900/seat-map/) and [Singapore Airlines A350 900](/airlines/singapore/a350-900/seat-map/).",
+      "Torn between an A350 and a 787 on the same route? Our [A350 vs 787 economy guide](/guides/a350-vs-787-economy/) compares the two. Pick Your Row maps are illustrative; confirm the live seat map with the airline after booking. We are not affiliated with Airbus or any airline."
+    ],
+    "faq": [
+      {
+        "question": "How many seats across is A350 economy?",
+        "answer": "Usually nine across in three blocks of three. Some airlines fit ten across, which makes each seat narrower."
+      },
+      {
+        "question": "What is the difference between the A350 900 and A350 1000?",
+        "answer": "The A350 1000 is longer. Airbus lists 332 to 352 typical three class seats for the A350 900 and 375 to 400 for the A350 1000."
+      },
+      {
+        "question": "Is the A350 quiet?",
+        "answer": "Airbus says the A350 has the quietest twin aisle cabin. Seats near galleys, lavatories and the engines can still be noisier."
+      },
+      {
+        "question": "What is the Airspace cabin?",
+        "answer": "Airbus branding for its cabin design, including mood lighting, cabin air and humidity control, and newer interior features. The seats themselves are chosen by each airline."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Airbus A350 family",
+        "url": "https://aircraft.airbus.com/en/aircraft/a350",
+        "note": "Official Airbus page on the A350 family and the Airspace cabin."
+      },
+      {
+        "label": "Airbus A350 900",
+        "url": "https://aircraft.airbus.com/en/aircraft/a350/a350-900",
+        "note": "Airbus capacity figures for the A350 900."
+      },
+      {
+        "label": "Airbus A350 1000",
+        "url": "https://aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "note": "Airbus capacity figures for the A350 1000."
+      }
+    ]
+  },
+  {
+    "slug": "a350-vs-787-economy",
+    "title": "A350 vs 787 economy: which widebody is better for your seat?",
+    "description": "Comparing Airbus A350 and Boeing 787 economy: both are usually nine across, but the A350 cabin is wider. What that means for seat width and picks.",
+    "body": [
+      "On long haul routes you will often choose between an Airbus A350 and a Boeing 787. In economy both are usually configured nine across in three blocks of three. The difference is the space those nine seats share.",
+      "The A350 cabin is wider than the 787 cabin, so with the same nine across layout airlines can give each A350 economy seat a little more width or a wider aisle. On the 787, nine across is a snug fit. If an airline puts ten across on the A350, that advantage disappears. Our [seat pitch and width guide](/guides/seat-pitch-and-width-explained/) explains how to read the airline's published width.",
+      "Both are modern composite jets. Boeing says the 787 cabin is pressurised to a 6,000 foot altitude with higher humidity and large dimmable windows. Airbus says the A350 has the quietest twin aisle cabin and a low cabin altitude with humidity control. For most travellers the jet lag difference between them is small compared with seat choice and sleep.",
+      "Windows: 787 windows are larger and dimmed electronically, so a window seat keeps a view even when dimmed. Airbus lists electro dimmable windows among its Airspace cabin features, but window size and shades vary by cabin.",
+      "How to decide: if the price and schedule are close, check the seat width each airline lists for both types and the economy layout on the seat map. Then pick the same row logic on either jet: forward rows to leave fast, exit door rows for legroom, a window away from galleys for sleep.",
+      "Seat maps: [787 9 seat maps](/aircraft/787-9/), [A350 900 seat maps](/aircraft/a350-900/), plus our [787 guide](/guides/boeing-787-dreamliner-seat-guide/) and [A350 guide](/guides/airbus-a350-seat-guide/). Always confirm the aircraft type before flying; see [how to verify your aircraft type](/guides/how-to-verify-your-aircraft-type/)."
+    ],
+    "faq": [
+      {
+        "question": "Is A350 economy wider than 787 economy?",
+        "answer": "When both use nine across, generally yes, because the A350 cabin is wider. Check each airline's published seat width, since some airlines fit ten across on the A350."
+      },
+      {
+        "question": "Which is quieter, the A350 or the 787?",
+        "answer": "Airbus says the A350 has the quietest twin aisle cabin and Boeing also highlights 787 noise reduction. Your seat position relative to galleys and engines matters more."
+      },
+      {
+        "question": "Which has bigger windows?",
+        "answer": "The 787. Boeing says it has the largest windows of any widebody flying today."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Boeing 787 by design",
+        "url": "https://www.boeing.com/commercial/787/by-design",
+        "note": "Boeing description of 787 windows, cabin altitude and humidity."
+      },
+      {
+        "label": "Airbus A350 family",
+        "url": "https://aircraft.airbus.com/en/aircraft/a350",
+        "note": "Airbus description of the A350 Airspace cabin."
+      }
+    ]
+  },
+  {
+    "slug": "boeing-777-300er-seat-guide",
+    "title": "Boeing 777 300ER seats: nine across vs ten across economy",
+    "description": "Most airlines fly the 777 300ER ten across in economy, a few keep nine. How to tell which one you have and which rows to pick.",
+    "body": [
+      "The Boeing 777 300ER is one of the most common long haul jets. Boeing lists typical two class seating of 350 to 425. Because the cabin is long, seat choice matters: the best and worst economy seats can be thirty rows apart.",
+      "The big question is width. Most airlines now fit ten seats across in economy, arranged three, four, three. A smaller group keeps nine across, three by three by three, which gives every seat noticeably more width. Before you pick a row, look at the airline's seat map: count the seats in one economy row. Ten letters across, usually A to K skipping I, means ten abreast.",
+      "If you are on a ten across 777, aisle seats matter more because the aisle is narrower and service carts brush past. Middle seats in the centre block of four are the hardest to escape; see [middle seat survival](/guides/middle-seat-survival/). Couples can look for rows near the tail where the layout drops to two seats by the window on some aircraft.",
+      "Rows behind each door exit usually have the most legroom but sit by galleys and lavatories. Forward economy rows get off first, which helps on [tight connections](/guides/tight-connections-and-seat-choice/).",
+      "Business varies from one by two by one suites to older two by two by two layouts. Browse every airline we map on the [777 300ER seat maps](/aircraft/777-300er/) page, including [Emirates](/airlines/emirates/777-300er/seat-map/), [Turkish Airlines](/airlines/turkish/777-300er/seat-map/) and [Air Canada](/airlines/air-canada/777-300er/seat-map/).",
+      "Pick Your Row schematics show a typical layout. Airlines run several 777 configurations, so confirm the live seat map in the airline app. We are not affiliated with Boeing or any airline."
+    ],
+    "faq": [
+      {
+        "question": "Is the 777 300ER nine or ten across in economy?",
+        "answer": "Most airlines fly it ten across in a three, four, three layout. A minority keep nine across. Count the seats in one row on the airline seat map to check."
+      },
+      {
+        "question": "How many seats does a 777 300ER have?",
+        "answer": "Boeing lists 350 to 425 seats in a typical two class layout. Real airline cabins range widely depending on how many premium seats they fit."
+      },
+      {
+        "question": "What is the best economy seat on a 777 300ER?",
+        "answer": "Usually an aisle or window in a row behind a door exit for legroom, or a forward economy row for a quick exit. Avoid rows next to lavatories if you want to sleep."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Boeing 777",
+        "url": "https://www.boeing.com/commercial/777",
+        "note": "Official Boeing page with 777 200ER, 777 200LR and 777 300ER seating and range specifications."
+      }
+    ]
+  },
+  {
+    "slug": "turkish-airlines-seat-selection-guide",
+    "title": "Turkish Airlines seat selection: EcoFly, ExtraFly, PrimeFly and free seats",
+    "description": "When Turkish Airlines seat selection is free, when you pay, who can sit in exit rows, and which seats to pick on its 777, A330, A321 and 737.",
+    "body": [
+      "Turkish Airlines ties seat selection to the fare package you buy. On its own pages the airline says EcoFly passengers, and on international flights ExtraFly passengers too, get a randomly assigned standard seat at online check in unless they pay for one. FlexFly on international routes and PrimeFly include free standard seat selection, and PrimeFly also includes the front economy seats Turkish calls preferred seats. Business Class seat selection is free.",
+      "Timing: Turkish says online check in opens 24 hours before departure and closes 90 minutes before. Paid seat selection, including extra legroom and emergency exit seats, is sold until four hours before the flight. Once your boarding pass is printed, you can no longer select or buy a seat. Miles and Smiles Elite and Elite Plus members, and passengers on the same booking, get free standard seats.",
+      "Exit rows: Turkish says emergency exit seats go only to passengers able to help in an evacuation, over 16 years of age, proficient in Turkish or English and physically able to do the tasks. They cannot be assigned to passengers with disabilities or limited mobility. Compare U.S. rules in our [exit row tips](/guides/exit-row-tips/).",
+      "Which seats to target on the long haul fleet: on the [Turkish 777 300ER](/airlines/turkish/777-300er/seat-map/) economy is typically ten across, so an aisle seat or a row behind a door is worth paying for on a long flight. On the [Turkish A330 300](/airlines/turkish/a330-300/seat-map/), check the economy layout on the airline map before you pay; seat counts and layouts vary by aircraft. On short haul, the [A321](/airlines/turkish/a321/seat-map/) and [737 800](/airlines/turkish/737-800/seat-map/) are six across; forward rows help on connections at Istanbul.",
+      "If you are on EcoFly and do not want to pay, check in exactly when the window opens to get a better random seat. If you need to sit with a child or a travel companion, buy seats early rather than hoping; see [group travel seat strategy](/guides/group-travel-seat-strategy/).",
+      "Rules can change. These details come from Turkish Airlines pages we checked in November 2026. Confirm on the airline site before you pay. Pick Your Row is not affiliated with Turkish Airlines, and our maps are illustrative schematics."
+    ],
+    "faq": [
+      {
+        "question": "Is seat selection free on Turkish Airlines?",
+        "answer": "It depends on the fare package. PrimeFly, FlexFly on international routes, ExtraFly on domestic routes and Business Class include free seat selection. EcoFly, and ExtraFly on international routes, get a random standard seat unless you pay."
+      },
+      {
+        "question": "When can I choose a seat for free on Turkish Airlines?",
+        "answer": "Eligible packages can select from booking until 90 minutes before departure. Online check in opens 24 hours before departure for everyone."
+      },
+      {
+        "question": "How old do you have to be to sit in a Turkish Airlines exit row?",
+        "answer": "Turkish Airlines says over 16, proficient in Turkish or English, and physically able to assist in an evacuation."
+      },
+      {
+        "question": "Can I buy a seat after check in?",
+        "answer": "Paid seats are sold until four hours before departure, and no seat selection is possible after your boarding pass is printed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Turkish Airlines seat selection terms and conditions",
+        "url": "https://www.turkishairlines.com/en-us/any-questions/seat-selection-terms-and-conditions/",
+        "note": "Official rules on free and paid seat selection by fare package, preferred seats and exit row eligibility."
+      },
+      {
+        "label": "Turkish Airlines check in",
+        "url": "https://www.turkishairlines.com/en-us/any-questions/check-in/",
+        "note": "Official online check in window and seat selection table by fare package."
+      }
+    ]
+  },
+  {
+    "slug": "paid-seat-refund-rules",
+    "title": "Paid for a seat you did not get? U.S. refund rules for seat fees",
+    "description": "Under U.S. DOT rules, airlines must automatically refund seat selection fees when the seat is not provided through no fault of yours.",
+    "body": [
+      "You paid extra for an aisle, an exit row or extra legroom, then an aircraft swap or a schedule change put you somewhere else. In the United States, federal rules now cover this. The Department of Transportation rule in 14 CFR Part 260 treats advance seat selection and seat upgrades as ancillary services, and requires a prompt and automatic refund of the fee when the service is not provided through no fault of the passenger.",
+      "The rule gives examples of when the service was not provided: a cancellation, a significant schedule change or an oversale meant you did not use it, or an aircraft substitution or equipment problem meant it was not available. If the seat problem hits only you or a few passengers rather than everyone, the airline's duty to refund starts once you tell the operating airline and it confirms the issue. Telling the airline counts as a request for a refund.",
+      "Prompt means fast. Part 260 defines a prompt refund as within 7 business days for credit card purchases and within 20 calendar days for other payment methods. Under 14 CFR 260.10 the refund goes back in the original form of payment unless you agree to a cash equivalent, and the airline may not keep a processing fee.",
+      "What to do at the airport: if you are moved from the seat you paid for, ask the gate agent or crew to note the change, keep your boarding pass, and take a screenshot of your original seat assignment. After the flight, report it through the airline's refund or feedback form. Then see our guide to [aircraft swaps and seat reassignment](/guides/aircraft-swap-and-seat-reassignment/) for ways to recover a good seat.",
+      "Who this covers: Part 260 defines covered carriers as U.S. and foreign airlines running scheduled passenger service to, from or within the United States. When a travel agency sold the seat fee, the airline that failed to provide the service is generally responsible. Outside the U.S., check local rules such as EU passenger rights and the airline's conditions of carriage.",
+      "This is general information, not legal advice. Read the regulation text linked below, and the DOT refund page, for the exact wording."
+    ],
+    "faq": [
+      {
+        "question": "Do I get a refund if the airline changes my paid seat?",
+        "answer": "On flights covered by U.S. DOT rules, yes, if the seat you paid for was not provided through no fault of your own, for example because of an aircraft swap. The airline must refund the seat fee promptly and automatically."
+      },
+      {
+        "question": "How fast must the airline refund a seat fee?",
+        "answer": "Within 7 business days for credit card purchases and within 20 calendar days for other payment methods, as defined in 14 CFR Part 260."
+      },
+      {
+        "question": "Do I have to ask for the refund?",
+        "answer": "If the problem affected everyone who bought the service, the refund should be automatic. If only you were affected, tell the operating airline; that notice counts as your refund request."
+      },
+      {
+        "question": "Does this apply to seat upgrades and extra legroom?",
+        "answer": "Yes. The rule lists advance seat selection and seat upgrades among ancillary services."
+      }
+    ],
+    "sources": [
+      {
+        "label": "14 CFR 260.2 Definitions (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-II/subchapter-A/part-260/section-260.2",
+        "note": "Defines ancillary services, including advance seat selection and seat upgrades, and prompt refund timing."
+      },
+      {
+        "label": "14 CFR 260.4 Refunding fees for ancillary services (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-II/subchapter-A/part-260/section-260.4",
+        "note": "Requires prompt automatic refunds of fees for services paid for but not provided."
+      },
+      {
+        "label": "U.S. DOT refunds",
+        "url": "https://www.transportation.gov/airconsumer/refunds",
+        "note": "DOT consumer page on airline refunds."
+      }
+    ]
+  },
+  {
+    "slug": "disability-seating-rights-on-flights",
+    "title": "Disability seating rights on U.S. flights: armrests, bulkheads and companion seats",
+    "description": "What 14 CFR Part 382 requires: movable aisle armrests, bulkhead seats for service animals and fused legs, adjoining seats for assistants, and how to ask.",
+    "body": [
+      "U.S. rules in 14 CFR Part 382 require airlines to provide specific seating accommodations to passengers who self identify as having certain disabilities, when that type of seat exists on the aircraft. These rules apply to U.S. airlines everywhere they fly, and to foreign airlines on flights that begin or end at a U.S. airport.",
+      "Four situations are named in the rule. A passenger who uses an aisle chair to board and cannot readily transfer over a fixed armrest must get a seat in a row with a movable aisle armrest. A passenger travelling with a personal care attendant, a reader for a vision impairment, an interpreter for a hearing impairment, or a safety assistant the airline requires, must get an adjoining seat for that person. A passenger with a service animal can ask for either a bulkhead seat or a non bulkhead seat. A passenger with a fused or immobilised leg must get a bulkhead seat or another seat with more legroom, on the side of the aisle that works best.",
+      "Movable aisle armrests: on aircraft with 30 or more seats where aisle seats have armrests, at least half of the aisle seats in rows where passengers with mobility impairments may sit must have movable armrests on newer aircraft, spread proportionately across cabins. Airlines must be able to tell you which specific rows have them.",
+      "How to ask: airlines that assign seats in advance either block suitable seats or designate them as priority seats. If you request at least 24 hours before departure, the airline must assign a qualifying seat when you ask. Later requests are met as far as practicable. Airlines may ask you to check in an hour early in some cases. Airlines must not reassign you to accommodate a later request without your consent.",
+      "Limits: airlines do not have to give you more than one seat per ticket, or a seat in a higher class than you bought. Safety rules still apply, so a passenger may be kept out of an exit row under the exit seating rule; see [exit row tips](/guides/exit-row-tips/). Practical seat ideas are in [choosing seats with mobility needs](/guides/choosing-seats-for-mobility-needs/).",
+      "This is general information, not legal advice. Each airline also has a disability desk; DOT's disability page explains how to file a complaint."
+    ],
+    "faq": [
+      {
+        "question": "Can I get a seat with a movable armrest?",
+        "answer": "If you use an aisle chair to board and cannot readily transfer over a fixed armrest, U.S. rules require the airline to give you a seat in a row with a movable aisle armrest, where the aircraft has them."
+      },
+      {
+        "question": "Does my travel companion get a seat next to me?",
+        "answer": "An adjoining seat must be provided for a personal care attendant, a reader, an interpreter, or a safety assistant the airline requires, when they perform those functions on the flight."
+      },
+      {
+        "question": "How early should I request a disability seat?",
+        "answer": "At least 24 hours before departure. After that the airline must help as far as practicable but does not have to move another passenger."
+      },
+      {
+        "question": "Can an airline make me sit in a particular seat because of my disability?",
+        "answer": "No, except to comply with FAA or foreign safety rules such as exit row requirements."
+      }
+    ],
+    "sources": [
+      {
+        "label": "14 CFR 382.81 Seating accommodations (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-II/subchapter-A/part-382/subpart-F/section-382.81",
+        "note": "The four categories of passengers who must receive specific seating accommodations."
+      },
+      {
+        "label": "14 CFR 382.83 How seating accommodations are made (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-II/subchapter-A/part-382/subpart-F/section-382.83",
+        "note": "Seat blocking and priority seat methods and the 24 hour timing."
+      },
+      {
+        "label": "14 CFR 382.87 Other seating requirements (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-II/subchapter-A/part-382/subpart-F/section-382.87",
+        "note": "No seat restrictions based on disability except safety rules; one seat per ticket."
+      },
+      {
+        "label": "14 CFR 382.61 Movable aisle armrests (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-II/subchapter-A/part-382/subpart-E/section-382.61",
+        "note": "Movable armrest requirements on aircraft with 30 or more seats."
+      },
+      {
+        "label": "U.S. DOT passengers with disabilities",
+        "url": "https://www.transportation.gov/airconsumer/disability",
+        "note": "DOT consumer guidance and complaints."
+      }
+    ]
+  },
+  {
+    "slug": "car-seats-on-planes-faa-rules",
+    "title": "Car seats on planes: FAA rules, approved labels and where they go",
+    "description": "FAA rules for using a car seat on a U.S. flight: the red approval label, buying a seat for your child, forward facing seats, and devices not allowed.",
+    "body": [
+      "The FAA says the safest place for a child under two on a U.S. airplane is an approved child restraint system or device in their own seat, not a parent's lap, and it strongly urges parents to use one for the whole flight. Buying a ticket for your child is the only way to guarantee you can use one.",
+      "The label: under 14 CFR 121.311, a U.S. car seat made since 26 February 1985 must carry two labels, including the statement that it is certified for use in motor vehicles and aircraft in red lettering. Seats approved by a foreign government or made to United Nations standards need markings showing that approval. The FAA approved CARES harness is a separate device for children who have outgrown a car seat.",
+      "What is not allowed: the same rule says booster seats, vest and harness type restraints, and lap held child restraints are not approved for use on aircraft and may not be used during taxi, takeoff and landing. The FAA notes airlines set their own policies on non approved devices during cruise.",
+      "Your rights: an airline may not stop a parent from using an approved car seat if the child has a ticketed seat, the seat is properly labelled, the child is within its weight limits and it is secured to a forward facing seat. The airline may still choose the most appropriate seat location for it.",
+      "Where to sit: airline policies usually place car seats at a window so they do not block anyone's path to the aisle, and never in an exit row. Bulkhead rows can be tricky because fixed armrests can make installation harder. Plan with our guides to [choosing seats with kids](/guides/choosing-seats-with-kids/) and [bassinet and bulkhead seats](/guides/bassinet-bulkhead-seats/), and read [lap infant rules](/guides/lap-infant-seating-rules/) if your child will fly on your lap.",
+      "Check your airline's child policy before you fly, and measure your car seat against the airline's seat width if it is a wide model."
+    ],
+    "faq": [
+      {
+        "question": "Can I bring a car seat on a plane?",
+        "answer": "Yes, if it is approved for aircraft use. U.S. car seats need the label stating they are certified for motor vehicles and aircraft, in red lettering on seats made since 26 February 1985."
+      },
+      {
+        "question": "Do I need to buy a seat for a car seat?",
+        "answer": "The FAA says buying a ticket for your child is the only way to guarantee you can use a car seat on board."
+      },
+      {
+        "question": "Can I use a booster seat on a plane?",
+        "answer": "Not during taxi, takeoff and landing. Federal rules say booster seats, vest and harness restraints and lap held restraints are not approved for aircraft use."
+      },
+      {
+        "question": "Where do car seats go on a plane?",
+        "answer": "In a forward facing seat, usually a window seat so it does not block other passengers, and never in an exit row."
+      }
+    ],
+    "sources": [
+      {
+        "label": "FAA child safety in flight",
+        "url": "https://www.faa.gov/travelers/fly_children",
+        "note": "FAA guidance urging approved child restraints for children under two."
+      },
+      {
+        "label": "14 CFR 121.311 Seats, safety belts and child restraints (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-K/section-121.311",
+        "note": "Labels for approved child restraints, devices not approved, and when airlines must allow them."
+      }
+    ]
+  },
+  {
+    "slug": "lap-infant-seating-rules",
+    "title": "Lap infant seating rules: where you can sit with a baby on your lap",
+    "description": "Flying with a lap infant: the under two rule, why exit rows are off limits, devices you cannot use, and how to pick the best seat with a baby.",
+    "body": [
+      "In the United States a child who has not reached their second birthday may fly on an adult's lap, under 14 CFR 121.311, as long as the child does not occupy or use any restraining device. The FAA strongly discourages lap travel and recommends a ticketed seat with an approved car seat instead; see [car seats on planes](/guides/car-seats-on-planes-faa-rules/).",
+      "No exit rows: the federal exit seating rule bars anyone from an exit row seat if they have responsibilities, such as caring for small children, that might stop them helping in an evacuation. In practice an adult with a lap infant is never seated in an exit row, and that includes the row next to an over wing exit. The same rule sets a minimum age of 15 for exit seats. More in [exit row tips](/guides/exit-row-tips/).",
+      "Fewer seats than you think: airlines typically limit lap infants per seat block because each block has a fixed number of spare oxygen masks, so two families with lap infants may not be seated side by side. Book seats early so the airline can place you correctly.",
+      "Devices: federal rules say vest and harness type restraints and lap held child restraints are not approved for aircraft use during taxi, takeoff and landing. The FAA notes there is no rule against a baby carrier during cruise, but airlines set their own policies, so ask first.",
+      "Best seats with a lap infant: a bulkhead row on a long haul flight may have a bassinet position; check weight and length limits in our [bassinet and bulkhead guide](/guides/bassinet-bulkhead-seats/). On short flights, an aisle seat makes walking and lavatory trips easier, and a window gives a wall to lean on during feeds. Rows near lavatories have changing tables close by but more foot traffic.",
+      "Check your airline's infant policy, lap infant fees on international tickets, and its seat map before booking."
+    ],
+    "faq": [
+      {
+        "question": "Until what age can a baby fly on my lap?",
+        "answer": "In the U.S., until the child's second birthday. After that the child must have their own seat."
+      },
+      {
+        "question": "Can I sit in an exit row with a lap infant?",
+        "answer": "No. The exit seating rule excludes passengers caring for small children, and airlines do not seat lap infants in exit rows."
+      },
+      {
+        "question": "Can I use a baby carrier during takeoff?",
+        "answer": "No. Vest, harness and lap held restraints are not approved during taxi, takeoff and landing. Some airlines allow carriers during cruise; check first."
+      },
+      {
+        "question": "Does the FAA recommend lap infants?",
+        "answer": "No. The FAA says the safest place for a child under two is an approved car seat or device in their own seat."
+      }
+    ],
+    "sources": [
+      {
+        "label": "FAA child safety in flight",
+        "url": "https://www.faa.gov/travelers/fly_children",
+        "note": "FAA guidance on lap children and approved restraints."
+      },
+      {
+        "label": "14 CFR 121.311 Seats, safety belts and child restraints (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-K/section-121.311",
+        "note": "Children under two may be held by an adult; devices not approved for aircraft."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Exit seat criteria, including the age of 15 and responsibilities such as caring for small children."
       }
     ]
   }
