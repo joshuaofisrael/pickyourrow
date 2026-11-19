@@ -1,0 +1,47 @@
+---
+import { photoForText, type PhotoKey } from '../lib/photos';
+
+interface Item {
+  href: string;
+  title: string;
+  description?: string;
+  photo?: PhotoKey;
+}
+interface Props {
+  heading?: string;
+  items: Item[];
+}
+const { heading = 'Related reading', items } = Astro.props;
+const prepared = items.slice(0, 4).map((item) => ({
+  ...item,
+  photo: item.photo ?? photoForText(item.title + ' ' + item.href),
+}));
+---
+{prepared.length > 0 && (
+  <section class="related-reads" aria-labelledby="related-reads-heading">
+    <h2 id="related-reads-heading">{heading}</h2>
+    <ul class="related-reads-grid">
+      {prepared.map((item) => (
+        <li>
+          <a class="related-read-card" href={item.href}>
+            <span class="related-read-thumb">
+              <img
+                src={`/images/photos/${item.photo}-sm.webp`}
+                alt=""
+                width="512"
+                height="288"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="ai-tag">AI image</span>
+            </span>
+            <span class="related-read-body">
+              <span class="related-read-title">{item.title}</span>
+              {item.description && <span class="related-read-desc">{item.description}</span>}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

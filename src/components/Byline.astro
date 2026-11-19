@@ -1,0 +1,18 @@
+---
+interface Props {
+  /** Optional ISO date shown after the byline. */
+  date?: string;
+  /** Visible date label when date is set. */
+  dateLabel?: string;
+}
+const { date, dateLabel } = Astro.props;
+---
+<p class="byline">
+  {date && dateLabel ? (
+    <>
+      <time datetime={date}>{dateLabel}</time>
+      {' · '}
+    </>
+  ) : null}
+  By the <a href="/methodology/">Pick Your Row editorial team</a>
+</p>

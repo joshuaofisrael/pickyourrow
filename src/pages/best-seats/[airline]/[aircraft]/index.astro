@@ -2,10 +2,14 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import SeatMap from '../../../../components/SeatMap.astro';
 import BookingCTA from '../../../../components/BookingCTA.astro';
+import Byline from '../../../../components/Byline.astro';
+import RelatedReads from '../../../../components/RelatedReads.astro';
+import CompareBox from '../../../../components/CompareBox.astro';
 import { aircraftConfigs } from '../../../../data';
 import { seatMapAnchor, typeHubAnchor, typeHubPath } from '../../../../lib/relatedSeatMaps';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../lib/resolve';
 import { topSeats, cautionSeats } from '../../../../lib/scoring';
+import { photoForText } from '../../../../lib/photos';
 import guides from '../../../../data/guides.json';
 
 export function getStaticPaths() {
@@ -100,6 +104,24 @@ const jsonLd = [
     ],
   },
 ];
+const moreAdvice = guides
+  .filter((g) =>
+    [
+      'how-pickyourrow-scores-work',
+      'seat-map-glossary',
+      'exit-row-tips',
+      'aisle-vs-window',
+      'seat-pitch-and-width-explained',
+      'how-to-verify-your-aircraft-type',
+    ].includes(g.slug),
+  )
+  .slice(0, 4)
+  .map((g) => ({
+    href: `/guides/${g.slug}/`,
+    title: g.title,
+    description: g.description,
+    photo: photoForText(g.title, g.slug),
+  }));
 ---
 <BaseLayout
   title={`Best seats on ${airline.name} ${config.aircraftType} (editorial)`}
@@ -115,6 +137,7 @@ const jsonLd = [
       {config.aircraftType}
     </nav>
     <h1 class="page-title">Best seats on {airline.name} {config.aircraftType}</h1>
+    <Byline />
     <p class="lede">
       Editorial heuristic scores from 1 to 10. Higher usually means more space or a quieter location on this schematic.
       Not airline advice and not a guarantee.
@@ -156,6 +179,19 @@ const jsonLd = [
         seatMapHref={seatMapHref}
       />
     </div>
+
+    {moreAdvice.length > 0 && <RelatedReads heading="Keep reading" items={moreAdvice} />}
+
+    <CompareBox
+      heading="Check another shortlist"
+      intro={`Open the full seat map for this cabin, another ${airline.name} shortlist, or the shared ${config.aircraftType} type page.`}
+      links={[
+        { href: seatMapHref, label: seatMapLabel },
+        { href: typeHubHref, label: typeHubLabel },
+        { href: `/best-seats/${airline.slug}/`, label: `${airline.name} best seats hub` },
+        { href: '/best-seats/', label: 'All best seats' },
+      ]}
+    />
 
     <h2>Top ranked seats (editorial)</h2>
     <table class="seats">
@@ -218,12 +254,7 @@ const jsonLd = [
       <p>No. Airline names appear factually. We never imply endorsement. See <a href="/about/">About</a>.</p>
     </div>
 
-    <h2>More seat selection advice</h2>
-    <ul class="clean">
-      {guides.filter((g) => ['how-pickyourrow-scores-work', 'seat-map-glossary', 'exit-row-tips', 'aisle-vs-window', 'seat-pitch-and-width-explained', 'how-to-verify-your-aircraft-type'].includes(g.slug)).map((g) => (
-        <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
-      ))}
-    </ul>
+    {moreAdvice.length > 0 && <RelatedReads heading="More seat selection advice" items={moreAdvice} />}
     <p class="btn-row">
       <a class="btn secondary" href={seatMapHref}>Full seat map</a>
       <a class="btn secondary" href={`/airlines/${airline.slug}/`}>More {airline.name}</a>

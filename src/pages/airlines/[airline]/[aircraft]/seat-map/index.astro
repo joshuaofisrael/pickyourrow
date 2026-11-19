@@ -3,11 +3,15 @@ import BaseLayout from '../../../../../layouts/BaseLayout.astro';
 import SeatMap from '../../../../../components/SeatMap.astro';
 import OverheadView from '../../../../../components/OverheadView.astro';
 import BookingCTA from '../../../../../components/BookingCTA.astro';
+import Byline from '../../../../../components/Byline.astro';
+import RelatedReads from '../../../../../components/RelatedReads.astro';
+import CompareBox from '../../../../../components/CompareBox.astro';
 import { airlines, aircraftConfigs, layoutString } from '../../../../../data';
 import { assertLeafMeta, leafDescription, leafHeading, leafTitle, softenProseDashes } from '../../../../../lib/leafMeta';
 import { peerSeatMaps, siblingSeatMaps, typeHubAnchor, typeHubPath } from '../../../../../lib/relatedSeatMaps';
 import { resolveAirlineAircraft, aircraftUrlParam } from '../../../../../lib/resolve';
 import { topSeats, cautionSeats } from '../../../../../lib/scoring';
+import { photoForText } from '../../../../../lib/photos';
 import guides from '../../../../../data/guides.json';
 
 export function getStaticPaths() {
@@ -164,6 +168,20 @@ function relatedGuides(seed: string, count = 4) {
   return scored.slice(0, count).map((x) => x.g);
 }
 const related = relatedGuides(config.slug);
+const relatedItems = related.map((g) => ({
+  href: `/guides/${g.slug}/`,
+  title: softenProseDashes(g.title),
+  description: softenProseDashes(g.description),
+  photo: photoForText(g.title, g.slug),
+}));
+/** Do not repeat sibling or peer seat map hrefs here: check-internal-links requires an exact set. */
+const compareLinks = [
+  { href: bestSeatsHref, label: `Best seats on this ${config.aircraftType}` },
+  { href: typeHubHref, label: typeHubLabel },
+  { href: `/airlines/${airline.slug}/`, label: `All ${airline.name} aircraft` },
+  { href: '/aircraft/', label: 'Aircraft index' },
+  { href: '/airlines/', label: 'Airlines directory' },
+];
 ---
 <BaseLayout
   title={pageTitle}
@@ -180,6 +198,7 @@ const related = relatedGuides(config.slug);
       Seat map
     </nav>
     <h1 class="page-title">{heading}</h1>
+    <Byline />
     <p class="lede">
       Typical layout. About {config.totalSeatsApprox} seats. Economy style layout {layoutString(config)}.
       Exit rows {config.exitRows.join(', ') || 'none marked'}. Cabins: {cabinSummary}.
@@ -210,6 +229,15 @@ const related = relatedGuides(config.slug);
       />
     </div>
 
+    {relatedItems.length > 0 && (
+      <RelatedReads heading="Keep reading" items={relatedItems} />
+    )}
+
+    <CompareBox
+      heading="Compare another cabin"
+      intro={`Check the editorial shortlist for this drawing, another ${airline.name} map, or the same ${config.aircraftType} on a different carrier.`}
+      links={compareLinks}
+    />
 
     <h2 id="ranked-seats">Top ranked seats on this {config.aircraftType} (editorial)</h2>
     <table class="seats">
@@ -294,12 +322,9 @@ const related = relatedGuides(config.slug);
       )}
     </section>
 
-    <h2>Related reading</h2>
-    <ul class="clean">
-      {related.map((g) => (
-        <li><a href={`/guides/${g.slug}/`}>{softenProseDashes(g.title)}</a>. {softenProseDashes(g.description)}</li>
-      ))}
-    </ul>
+    {relatedItems.length > 0 && (
+      <RelatedReads heading="Related reading" items={relatedItems} />
+    )}
     <p class="btn-row">
       <a class="btn secondary" href="/guides/">All guides</a>
       <a class="btn secondary" href="/methodology/">Methodology</a>

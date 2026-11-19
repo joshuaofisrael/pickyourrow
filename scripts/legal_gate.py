@@ -29,7 +29,7 @@ REVIEW=CR+"/bin/chatgpt_review.py"
 # repo copies so CI (no box access) honours approvals/clearances/restrictions for exact hashes
 REPO_LISTS=os.path.join(ROOT,"legal")
 HIGH={1,2,6,8}; OBJECTIVE={3,4}
-LEGAL_PAGES=("privacy","terms","contact","disclaimer","disclosure","about")
+LEGAL_PAGES=("privacy","terms","contact","disclaimer","disclosure","about","image-policy","methodology")
 EMAIL_OK=("@pickyourrow.com","joshuaofisrael@gmail.com")
 KW={
  1:r"\b(fraud\w*|scam\w*|corrupt(ion|ly)?|embezzl\w*|arrested|indicted|charged with|convicted|lawsuits?|sued|suing|misconduct|abus(e|ed|ive)|dishonest\w*|cover[ -]?up|criminal|bribe\w*|negligen\w*|cheat(s|ed|ing)?|rip[ -]?off)\b",

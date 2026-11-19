@@ -1,6 +1,9 @@
 ---
 import Photo from '../../components/Photo.astro';
-import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
+import Byline from '../../components/Byline.astro';
+import RelatedReads from '../../components/RelatedReads.astro';
+import CompareBox from '../../components/CompareBox.astro';
+import { photoForText } from '../../lib/photos';
 import { PUBLISHER } from '../../lib/schema';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import guides from '../../data/guides.json';
@@ -25,10 +28,19 @@ const relatedPriority = [
   'aisle-vs-window',
   'bulkhead-seats',
 ];
-const related = [
+const relatedGuides = [
   ...guides.filter((g) => g.slug !== slug && relatedPriority.includes(g.slug)),
   ...guides.filter((g) => g.slug !== slug && !relatedPriority.includes(g.slug)),
 ].slice(0, 4);
+const relatedItems = relatedGuides.map((g) => ({
+  href: `/guides/${g.slug}/`,
+  title: g.title,
+  description: g.description,
+  photo: photoForText(g.title + ' ' + g.slug, g.slug),
+}));
+const midSplit = Math.max(1, Math.ceil(guide.body.length / 2));
+const bodyFirst = guide.body.slice(0, midSplit);
+const bodyRest = guide.body.slice(midSplit);
 
 function linkParts(text: string): { text: string; href?: string }[] {
   return text
@@ -110,15 +122,27 @@ if (faqs.length > 0) {
   <div class="wrap prose">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / {guide.title}</nav>
     <h1 class="page-title">{guide.title}</h1>
+    <Byline />
     <p class="lede">{guide.description}</p>
     {heroImage && (
       <figure class="guide-hero">
         <img src={heroImage.src} alt={heroImage.alt} width="1200" height="675" loading="eager" />
-        {heroImage.caption && <figcaption>{heroImage.caption}</figcaption>}
+        <figcaption>
+          {heroImage.caption ? heroImage.caption + ' ' : 'AI generated illustration. '}
+          <a href="/image-policy/">Image policy</a>.
+        </figcaption>
       </figure>
     )}
     {!heroImage && <Photo name={photoForText(guide.title + ' ' + guide.slug, guide.slug)} variant="banner" eager />}
-    {guide.body.map((p) => (
+    {bodyFirst.map((p) => (
+      <p>
+        {linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
+      </p>
+    ))}
+    {relatedItems.length > 0 && (
+      <RelatedReads heading="Keep reading" items={relatedItems} />
+    )}
+    {bodyRest.map((p) => (
       <p>
         {linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
       </p>
@@ -126,7 +150,10 @@ if (faqs.length > 0) {
     {figures.map((f) => (
       <figure class="guide-figure">
         <img src={f.src} alt={f.alt} width="900" height="675" loading="lazy" />
-        {f.caption && <figcaption>{f.caption}</figcaption>}
+        <figcaption>
+          {f.caption ? f.caption + ' ' : 'AI generated illustration. '}
+          <a href="/image-policy/">Image policy</a>.
+        </figcaption>
       </figure>
     ))}
 
@@ -163,20 +190,24 @@ if (faqs.length > 0) {
       </>
     )}
 
+    <CompareBox
+      heading="Check a seat map"
+      intro="When you are ready to match this guide to a cabin drawing, open an airline hub or the aircraft index."
+      links={[
+        { href: '/airlines/', label: 'Airlines directory' },
+        { href: '/aircraft/', label: 'Aircraft index' },
+        { href: '/best-seats/', label: 'Best seats directory' },
+        { href: '/guides/', label: 'All guides' },
+      ]}
+    />
+
     <p class="btn-row">
       <a class="btn" href="/airlines/">Browse airline seat maps</a>
       <a class="btn secondary" href="/methodology/">Methodology</a>
       <a class="btn secondary" href="/guides/">More guides</a>
     </p>
-    {related.length > 0 && (
-      <>
-        <h2>Related guides</h2>
-        <ul class="clean">
-          {related.map((g) => (
-            <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
-          ))}
-        </ul>
-      </>
+    {relatedItems.length > 0 && (
+      <RelatedReads heading="Related guides" items={relatedItems} />
     )}
   </div>
 </BaseLayout>

@@ -30,6 +30,11 @@ const h = thumb ? 288 : 576;
       fetchpriority={eager ? 'high' : undefined}
       decoding="async"
     />
-    {caption && <figcaption>{p.caption}</figcaption>}
+    {caption && (
+      <figcaption>
+        {p.caption}{' '}
+        <a href="/image-policy/">Image policy</a>.
+      </figcaption>
+    )}
   </figure>
 )}

@@ -177,7 +177,7 @@
     "name": "JetBlue",
     "iata": "B6",
     "country": "United States",
-    "blurb": "U.S. carrier known for A320 family aircraft and select Mint premium cabins. Layouts differ by route and retrofit.",
+    "blurb": "U.S. carrier known for A320 family aircraft, Mint lie flat cabins on longer flights, and BlueFirst domestic first class rolling out from 8 December 2026. Layouts differ by route and which aircraft already have BlueFirst.",
     "glance": {
       "alliance": "Not in a global alliance",
       "hubs": [
@@ -189,8 +189,25 @@
       ],
       "cabins": "Mint business class with lie flat seats on longer flights, the new BlueFirst domestic first class from 8 December 2026, EvenMore extra legroom seats, and Main economy",
       "seatTip": "BlueFirst is being installed aircraft by aircraft and may appear only on some dates, so check the seat map on your booking rather than the route alone.",
-      "source": "https://www.jetblue.com/"
-    }
+      "source": "https://www.jetblue.com/flying-with-us/bluefirst"
+    },
+    "sources": [
+      {
+        "label": "JetBlue BlueFirst domestic first class experience (checked 19 November 2026)",
+        "url": "https://www.jetblue.com/flying-with-us/bluefirst",
+        "note": "Official product page for BlueFirst seat features, fare types, meal rule on flights of 899 miles or longer, and the note that BlueFirst expands by flight rather than by route alone."
+      },
+      {
+        "label": "JetBlue newsroom: JetBlue's BlueFirst new domestic first class now on sale (15 October 2026)",
+        "url": "https://news.jetblue.com/latest-news/press-release-details/2026/JetBlues-BlueFirst-New-Domestic-First-Class-Now-on-Sale/default.aspx",
+        "note": "Primary announcement for booking opening on 15 October 2026 and first revenue flying from 8 December 2026."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "U.S. federal rule on who may sit in an exit row on U.S. airlines."
+      }
+    ]
   },
   {
     "slug": "alaska",

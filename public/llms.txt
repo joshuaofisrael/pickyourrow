@@ -64,3 +64,5 @@ Seat scores and picks are editorial opinions for planning, not guarantees and no
 - [Terms of Use](https://pickyourrow.com/terms/): Terms for using the site, including ownership and governing law.
 - [Privacy Policy](https://pickyourrow.com/privacy/): What personal data the site collects and how to contact the data controller.
 - [Disclaimer](https://pickyourrow.com/disclaimer/): Accuracy limits of illustrative seat maps and affiliate and advertising disclosure.
+- [Image policy](https://pickyourrow.com/image-policy/): How AI generated photographs and concept cabin renders are labelled on the site.
+- [Editorial policy](https://pickyourrow.com/methodology/): How schematics and editorial seat scores are sourced and labelled.
