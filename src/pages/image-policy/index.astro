@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pagePath = '/image-policy/';
+const description =
+  'How Pick Your Row uses AI generated cabin and aircraft photographs, and where the Image policy link under those images leads.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Image policy',
+  description,
+  url: `https://pickyourrow.com${pagePath}`,
+  dateModified: '2026-11-19',
+  inLanguage: 'en',
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Pick Your Row',
+    url: 'https://pickyourrow.com/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Pick Your Row',
+    url: 'https://pickyourrow.com/',
+  },
+};
+---
+<BaseLayout
+  title="Image policy"
+  description={description}
+  canonicalPath={pagePath}
+  jsonLd={jsonLd}
+>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Image policy</nav>
+    <h1 class="page-title">Image policy</h1>
+    <p class="lede">Last updated: 19 November 2026</p>
+    <p>
+      This page explains how Pick Your Row uses pictures. Ownership details are on the
+      <a href="/terms/">Terms</a> page. Questions about an image can be sent through the
+      <a href="/contact/">contact page</a>.
+    </p>
+
+    <h2>AI generated photographs</h2>
+    <p>
+      The photographs and photo style illustrations on this site are AI generated images. They are not
+      photographs of a specific airline cabin, airport, or aircraft registration, and they are not pictures of
+      real people as they appeared. They are decorative illustrations that sit beside seat maps and guides. A
+      caption under each of these images says that it is an AI generated illustration and includes a link back to
+      this page.
+    </p>
+
+    <h2>Seat map schematics</h2>
+    <p>
+      Seat diagrams are separate from the photographs. They are original SVG schematics drawn from publicly known
+      typical configuration facts. They are labelled as illustrative and can differ by registration. Confirm the
+      layout for your flight with the airline. How those drawings are made is explained on the
+      <a href="/methodology/">Methodology and sources</a> page.
+    </p>
+
+    <h2>Concept cabin renders</h2>
+    <p>
+      A few guides show speculative cabin concepts. Those images are labelled as concept art or AI concept renders.
+      They are design briefs, not certified products and not booking advice.
+    </p>
+
+    <h2>Credits and questions</h2>
+    <p>
+      If a licensed or Creative Commons photograph is added later, its caption will name the source. Until then,
+      treat every photo style image on this site as an AI generated illustration and use this page as the source
+      credit. If you have a question about an image, use the <a href="/contact/">contact page</a>.
+    </p>
+    <p>
+      See also our <a href="/terms/">Terms of Use</a>, <a href="/privacy/">Privacy Policy</a>,
+      <a href="/disclaimer/">Disclaimer</a>, and <a href="/methodology/">Methodology and sources</a>.
+    </p>
+  </div>
+</BaseLayout>

@@ -1,5 +1,8 @@
 ---
 import Photo from '../../components/Photo.astro';
+import Byline from '../../components/Byline.astro';
+import RelatedReads from '../../components/RelatedReads.astro';
+import CompareBox from '../../components/CompareBox.astro';
 import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getAircraftByAirline, getUniqueAircraftTypes, layoutString } from '../../data';
@@ -479,6 +482,30 @@ const jsonLd = [
     })),
   },
 ];
+const helpfulGuideSlugs = [
+  'how-to-verify-your-aircraft-type',
+  'seat-map-glossary',
+  'do-exit-row-seats-recline',
+  'exit-row-tips',
+  'how-pickyourrow-scores-work',
+  ...(airline.slug === 'southwest' ? ['southwest-assigned-seating-guide'] : []),
+  ...(airline.slug === 'ryanair' ? ['ryanair-737-8200-seats'] : []),
+];
+const helpfulGuides = guides.filter((g) => helpfulGuideSlugs.includes(g.slug));
+const relatedReadItems = helpfulGuides.slice(0, 4).map((g) => ({
+  href: `/guides/${g.slug}/`,
+  title: g.title,
+  description: g.description,
+  photo: photoForText(g.title, g.slug),
+}));
+const peerAirlines = airlines
+  .filter((a) => a.slug !== airline.slug)
+  .sort((a, b) => {
+    const ha = [...airline.slug].reduce((n, ch) => (n * 31 + ch.charCodeAt(0)) >>> 0, 0);
+    const score = (x: typeof a) => ((ha + [...x.slug].reduce((n, ch) => (n * 17 + ch.charCodeAt(0)) >>> 0, 0)) % 97);
+    return score(a) - score(b);
+  })
+  .slice(0, 3);
 ---
 <BaseLayout
   title={pageTitle}
@@ -489,6 +516,7 @@ const jsonLd = [
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/airlines/">Airlines</a> / {airline.name}</nav>
     <h1 class="page-title">{airline.name} {seatMapLabel} <span class="muted">({airline.iata})</span></h1>
+    <Byline />
     <p class="lede">{airline.blurb}</p>
     <Photo name={pickPhoto(airline.slug, 'cabin')} variant="banner" />
     <p class="note">
@@ -625,14 +653,26 @@ const jsonLd = [
       </section>
     )}
 
+    {relatedReadItems.length > 0 && (
+      <RelatedReads heading="Keep reading" items={relatedReadItems} />
+    )}
+
+    <CompareBox
+      heading="Check another airline"
+      intro={`Open a different carrier hub if your ticket is not on ${airline.name}, or jump to the aircraft index when you know the type first.`}
+      links={[
+        ...peerAirlines.map((a) => ({ href: `/airlines/${a.slug}/`, label: `${a.name} seat maps` })),
+        { href: '/airlines/', label: 'All airlines' },
+        { href: '/aircraft/', label: 'Aircraft index' },
+      ]}
+    />
+
     <section style="margin-top:2rem">
       <h2>Helpful seat guides</h2>
       <p class="muted">Original Pick Your Row articles, useful alongside these {airline.name} schematics.</p>
-      <ul class="clean">
-        {guides.filter((g) => ['how-to-verify-your-aircraft-type', 'seat-map-glossary', 'do-exit-row-seats-recline', 'exit-row-tips', 'how-pickyourrow-scores-work', ...(airline.slug === 'southwest' ? ['southwest-assigned-seating-guide'] : []), ...(airline.slug === 'ryanair' ? ['ryanair-737-8200-seats'] : [])].includes(g.slug)).map((g) => (
-          <li><a href={`/guides/${g.slug}/`}>{g.title}</a>. {g.description}</li>
-        ))}
-      </ul>
+      {relatedReadItems.length > 0 && (
+        <RelatedReads heading="Related guides" items={relatedReadItems} />
+      )}
       <p><a href="/guides/">All guides</a> · <a href="/methodology/">Methodology</a> · <a href="/aircraft/">Aircraft index</a> · {configs.length > 0 ? <a href={`/best-seats/${airline.slug}/`}>Best seats</a> : <a href="/best-seats/">Best seats</a>} · <a href="/disclosure/">Disclosure</a></p>
     </section>
 

@@ -1,9 +1,13 @@
 ---
 import Photo from '../../components/Photo.astro';
-import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
+import Byline from '../../components/Byline.astro';
+import RelatedReads from '../../components/RelatedReads.astro';
+import CompareBox from '../../components/CompareBox.astro';
+import { photoForText } from '../../lib/photos';
 import { PUBLISHER } from '../../lib/schema';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import news from '../../data/news.json';
+import guides from '../../data/guides.json';
 
 type Source = { label: string; url: string; note?: string };
 type Post = {
@@ -52,6 +56,33 @@ function linkParts(text: string): { text: string; href?: string }[] {
     });
 }
 
+const otherNews = (news as Post[])
+  .filter((n) => n.slug !== post.slug)
+  .slice(0, 2)
+  .map((n) => ({
+    href: `/news/${n.slug}/`,
+    title: n.title,
+    description: n.description,
+    photo: photoForText(n.title, n.slug),
+  }));
+const relatedGuides = guides
+  .filter((g) =>
+    ['how-to-verify-your-aircraft-type', 'seat-map-glossary', 'cabin-class-primer', 'how-pickyourrow-scores-work'].includes(
+      g.slug,
+    ),
+  )
+  .slice(0, 2)
+  .map((g) => ({
+    href: `/guides/${g.slug}/`,
+    title: g.title,
+    description: g.description,
+    photo: photoForText(g.title, g.slug),
+  }));
+const relatedItems = [...otherNews, ...relatedGuides].slice(0, 4);
+const midSplit = Math.max(1, Math.ceil(post.body.length / 2));
+const bodyFirst = post.body.slice(0, midSplit);
+const bodyRest = post.body.slice(midSplit);
+
 const jsonLd: Record<string, unknown>[] = [
   {
     '@context': 'https://schema.org',
@@ -81,10 +112,14 @@ const jsonLd: Record<string, unknown>[] = [
   <div class="wrap prose">
     <nav class="breadcrumb"><a href="/">Home</a> / <a href="/news/">News</a> / {post.title}</nav>
     <h1 class="page-title">{post.title}</h1>
-    <p class="muted">Published <time datetime={post.datePublished}>{displayDate}</time> by Pick Your Row</p>
+    <Byline date={post.datePublished} dateLabel={`Published ${displayDate}`} />
     <p class="lede">{post.description}</p>
     <Photo name={photoForText(post.title, post.slug)} variant="banner" eager />
-    {post.body.map((p) => (
+    {bodyFirst.map((p) => (
+      <p>{linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}</p>
+    ))}
+    {relatedItems.length > 0 && <RelatedReads heading="Keep reading" items={relatedItems} />}
+    {bodyRest.map((p) => (
       <p>{linkParts(p).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}</p>
     ))}
 
@@ -96,10 +131,26 @@ const jsonLd: Record<string, unknown>[] = [
       ))}
     </ol>
 
+    <CompareBox
+      heading="Check related maps"
+      intro="Open the matching airline hub or a seat selection guide after you read the announcement."
+      links={[
+        ...(post.airlineSlug
+          ? [
+              { href: `/airlines/${post.airlineSlug}/`, label: 'Seat maps for this airline' },
+              { href: `/best-seats/${post.airlineSlug}/`, label: 'Best seats for this airline' },
+            ]
+          : []),
+        { href: '/news/', label: 'All news' },
+        { href: '/guides/', label: 'Seat guides' },
+      ]}
+    />
+
     <p class="btn-row">
       {post.airlineSlug && <a class="btn" href={`/airlines/${post.airlineSlug}/`}>Seat maps for this airline</a>}
       <a class="btn secondary" href="/news/">All news</a>
       <a class="btn secondary" href="/guides/">Seat guides</a>
     </p>
+    {relatedItems.length > 0 && <RelatedReads heading="Related reading" items={relatedItems} />}
   </div>
 </BaseLayout>

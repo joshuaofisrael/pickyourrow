@@ -1,0 +1,21 @@
+---
+interface Link {
+  href: string;
+  label: string;
+}
+interface Props {
+  heading?: string;
+  intro: string;
+  links: Link[];
+}
+const { heading = 'Check another map', intro, links } = Astro.props;
+---
+<aside class="compare-box" aria-label={heading}>
+  <h2>{heading}</h2>
+  <p>{intro}</p>
+  <ul class="compare-box-links">
+    {links.map((link) => (
+      <li><a href={link.href}>{link.label}</a></li>
+    ))}
+  </ul>
+</aside>
