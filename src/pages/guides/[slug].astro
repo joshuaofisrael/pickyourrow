@@ -55,6 +55,8 @@ function linkParts(text: string): { text: string; href?: string }[] {
 
 type FaqItem = { question: string; answer: string };
 const faqs = ((guide as { faq?: FaqItem[] }).faq ?? []) as FaqItem[];
+const datePublished = (guide as { datePublished?: string }).datePublished;
+const dateModified = (guide as { dateModified?: string }).dateModified ?? datePublished;
 
 /** Link targets may contain hyphens. Visible labels and prose may not. */
 function visibleProse(text: string): string {
@@ -71,6 +73,7 @@ const jsonLd: Record<string, unknown>[] = [
     url: `https://pickyourrow.com${pagePath}`,
     author: PUBLISHER,
     publisher: PUBLISHER,
+    ...(datePublished ? { datePublished, dateModified } : {}),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://pickyourrow.com${pagePath}`,
