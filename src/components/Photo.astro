@@ -17,7 +17,7 @@ const h = thumb ? 288 : 576;
 {thumb ? (
   <div class="photo-thumb">
     <img src={src} alt={alt ?? p.alt} width={w} height={h} loading="lazy" decoding="async" />
-    <span class="ai-tag">AI image</span>
+    <a class="ai-tag" href="/image-policy/">AI image</a>
   </div>
 ) : (
   <figure class={`photo-banner photo-${variant}`}>

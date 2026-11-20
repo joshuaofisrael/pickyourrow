@@ -40,7 +40,7 @@
     "name": "United Airlines",
     "iata": "UA",
     "country": "United States",
-    "blurb": "U.S. network carrier operating domestic and long haul fleets. Cabin layouts differ across subfleets.",
+    "blurb": "U.S. network carrier operating domestic and long haul fleets. Cabin layouts differ across subfleets. Its fleet page, checked 20 November 2026, links seat maps for the Airbus A321neo and the Airbus A321XLR as well as the Boeing types drawn here.",
     "glance": {
       "alliance": "Star Alliance (founding member)",
       "hubs": [
@@ -59,9 +59,9 @@
     },
     "sources": [
       {
-        "label": "United's fleet",
+        "label": "United fleet page (checked 20 November 2026)",
         "url": "https://www.united.com/en/us/fly/company/aircraft/uniteds-fleet.html",
-        "note": "Official United fleet list with links to each aircraft seat map, seat counts and cabin specifications."
+        "note": "Official United fleet list. On 20 November 2026 the Airbus section linked seat maps for the A319, A320, A321neo and A321XLR, and listed capacity as 126 to 200 passengers. Boeing seat map links on the same page include the 737, 757, 767, 777 and 787."
       },
       {
         "label": "14 CFR 121.585 Exit seating (eCFR)",
@@ -93,7 +93,19 @@
       "cabins": "Flagship Business on long haul widebodies, Flagship Suite seats with privacy doors on the newest premium configured aircraft, Premium Economy on select long distance flights, First on domestic narrowbodies, Main Cabin Extra extra legroom rows, and Main Cabin",
       "seatTip": "Main Cabin Extra rows sit near the front of economy and at some exit rows, so check which rows the map shades before paying for more legroom.",
       "source": "https://www.aa.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "American Airlines Our planes (checked 20 November 2026)",
+        "url": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+        "note": "Official seat count, pitch and width tables. Under Airbus A321 the page lists a 190 seat version, a 102 seat version, a 196 seat version and a 155 seat version. It does not print the word neo on those version headings, so match the seat count on your booking before you treat one table as your aircraft."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "U.S. federal rule on who may sit in an exit row on U.S. airlines. Page opened 20 November 2026."
+      }
+    ]
   },
   {
     "slug": "british-airways",
@@ -295,7 +307,7 @@
     "name": "Ryanair",
     "iata": "FR",
     "country": "Ireland",
-    "blurb": "European ultra low cost carrier with a high density Boeing 737 fleet. Single cabin layouts are typical.",
+    "blurb": "European ultra low cost carrier. Its corporate fleet page, dated 03/11/2026, lists 647 aircraft: 411 Boeing 737 Next Generation jets (189 seats), 210 Boeing 737 8200 Gamechangers (197 seats) and 26 Airbus A320 aircraft (180 seats). Boeing 737 MAX 10 jets at 228 seats are on order.",
     "glance": {
       "alliance": "None (not in a global alliance)",
       "hubs": [
@@ -304,15 +316,15 @@
         "Milan Bergamo",
         "Brussels Charleroi"
       ],
-      "cabins": "One economy cabin on a Boeing 737 fleet, with paid Premium seats offering extra legroom at the front and over the wings",
+      "cabins": "One economy cabin. The group flies Boeing 737 jets and a smaller set of Airbus A320 aircraft, with paid extra legroom seats at the front and over the wings",
       "seatTip": "Seats are assigned at random unless you pay, so if sitting together matters, choose seats when you book.",
       "source": "https://www.ryanair.com/"
     },
     "sources": [
       {
-        "label": "Ryanair Our Fleet",
+        "label": "Ryanair Our Fleet (count dated 03/11/2026, checked 20 November 2026)",
         "url": "https://corporate.ryanair.com/about-us/our-fleet/",
-        "note": "Official Ryanair corporate fleet page."
+        "note": "Official Ryanair corporate fleet page. On 20 November 2026 it listed 647 aircraft, 197 seats on the 737 8200, 189 seats on the 737 Next Generation, 180 seats on 26 Airbus A320 aircraft, and 228 seats on the 737 MAX 10, with the first 16 of those due in spring 2027."
       }
     ]
   },
@@ -399,7 +411,14 @@
       "cabins": "Air Canada Signature Class with lie flat suites on Boeing 777, Boeing 787, Airbus A330 and Airbus A321XLR aircraft, North America Business Class, Premium Economy on widebodies, and Economy with Preferred seats",
       "seatTip": "Air Canada Rouge and Air Canada Express flights use different cabins from mainline aircraft, so check who operates your flight before you choose a seat.",
       "source": "https://www.aircanada.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Air Canada Airbus A220 page (checked 20 November 2026)",
+        "url": "https://www.aircanada.com/ca/en/aco/home/fly/onboard/fleet/a220.html",
+        "note": "Air Canada says it introduced 45 Airbus A220 300 aircraft, with a first flight on 16 January 2020. Economy seats are 19 inches wide, which the page calls the widest Economy seat in the fleet. Business Class is described as giving every seat a window or an aisle. Pitch is not printed on this page."
+      }
+    ]
   },
   {
     "slug": "singapore",
@@ -551,7 +570,19 @@
       "cabins": "First and Main Cabin with Extra Comfort rows on mainland and interisland flights, plus premium cabins on long haul widebodies",
       "seatTip": "On flights from the mainland, a window on the side facing the islands is a favourite on approach, but check the aircraft type first because layouts differ.",
       "source": "https://www.hawaiianairlines.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Alaska Air Group current fleet (checked 20 November 2026)",
+        "url": "https://news.alaskaair.com/current-fleet/",
+        "note": "The page says the table is as of October 2026. It lists 18 Airbus A321neo aircraft with 189 seats, split 16 first, 44 premium and 129 main cabin. Hawaiian is part of Alaska Air Group. This is the group table, not a per registration seat map, and it does not print pitch or width."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "U.S. federal rule on who may sit in an exit row on U.S. airlines. Page opened 20 November 2026."
+      }
+    ]
   },
   {
     "slug": "spirit",

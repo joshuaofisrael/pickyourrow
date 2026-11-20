@@ -2275,13 +2275,19 @@
       "Best rows for legroom: the exit rows over the wing, which Ryanair sells as extra legroom seats. Remember the usual exit row rules about age and stowing bags overhead. Best rows for a fast exit: the first few rows, which Ryanair sells at a premium. Best for a view: a window well ahead of or behind the wing, since the over wing block hides the ground.",
       "Rows to avoid: the very back row, which sits next to the lavatories and may have restricted recline, and the row directly in front of an exit, which usually does not recline.",
       "How to tell which jet you have: Ryanair shows the aircraft type in its booking flow and app on many flights, and flight tracking sites show the registration once a plane is assigned. Our separate Ryanair 737 800 and 737 8200 schematics let you compare the two side by side.",
-      "Last checked 26 Oct 2026 against the linked sources. Seat rules change, so confirm on your booking before you fly."
+      "Fleet size is separate from the seat map. Ryanair's corporate fleet page, which dates the count 03/11/2026, lists 647 aircraft in the group: 411 Boeing 737 Next Generation jets with 189 seats, 210 Boeing 737 8200 Gamechangers with 197 seats, and 26 Airbus A320 aircraft with 180 seats. It also says the first 16 Boeing 737 MAX 10 aircraft, listed at 228 seats, are due in spring 2027, with 300 of that type on order by 2034. Those MAX 10 jets are not in our drawings yet.",
+      "Last checked 20 November 2026 against the linked sources. Seat rules change, so confirm on your booking before you fly."
     ],
     "sources": [
       {
         "label": "Ryanair corporate news, 16 Jun 2021",
         "url": "https://corporate.ryanair.com/news/ryanair-takes-delivery-of-1st-boeing-737-gamechanger-aircraft/",
         "note": "Ryanair release on its first 737 8200, confirming 197 seats versus 189 on its 737 800 fleet."
+      },
+      {
+        "label": "Ryanair Our Fleet (count dated 03/11/2026)",
+        "url": "https://corporate.ryanair.com/about-us/our-fleet/",
+        "note": "Group fleet totals opened 20 November 2026: 647 aircraft, 197 seat Gamechangers, 189 seat Next Generation jets, 180 seat A320s, and MAX 10 aircraft on order."
       },
       {
         "label": "14 CFR 121.585 exit seating",

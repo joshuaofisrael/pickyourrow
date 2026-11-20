@@ -1,0 +1,342 @@
+[
+  {
+    "airline": "Delta Air Lines",
+    "aircraft": "Airbus A220 100",
+    "cabin": "First",
+    "pitch": "37 in",
+    "width": "20.5 in",
+    "sourceUrl": "https://www.delta.com/us/en/aircraft/airbus/a220-100",
+    "sourceLabel": "Delta Airbus A220 100 seat specifications",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "aircraft": "Airbus A220 100",
+    "cabin": "Comfort",
+    "pitch": "33 in",
+    "width": "18.6 in",
+    "sourceUrl": "https://www.delta.com/us/en/aircraft/airbus/a220-100",
+    "sourceLabel": "Delta Airbus A220 100 seat specifications",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "aircraft": "Airbus A220 100",
+    "cabin": "Main",
+    "pitch": "30 to 32 in",
+    "width": "18.6 in",
+    "sourceUrl": "https://www.delta.com/us/en/aircraft/airbus/a220-100",
+    "sourceLabel": "Delta Airbus A220 100 seat specifications",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "aircraft": "Airbus A220 300",
+    "cabin": "First",
+    "pitch": "37 in",
+    "width": "20.5 in",
+    "sourceUrl": "https://www.delta.com/us/en/aircraft/airbus/a220-300",
+    "sourceLabel": "Delta Airbus A220 300 seat specifications",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "aircraft": "Airbus A220 300",
+    "cabin": "Comfort",
+    "pitch": "33 to 34 in",
+    "width": "18.6 in",
+    "sourceUrl": "https://www.delta.com/us/en/aircraft/airbus/a220-300",
+    "sourceLabel": "Delta Airbus A220 300 seat specifications",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "aircraft": "Airbus A220 300",
+    "cabin": "Main",
+    "pitch": "31 to 32 in",
+    "width": "18.6 in",
+    "sourceUrl": "https://www.delta.com/us/en/aircraft/airbus/a220-300",
+    "sourceLabel": "Delta Airbus A220 300 seat specifications",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A220",
+    "cabin": "Economy seats AC",
+    "pitch": "Not published",
+    "width": "18.5 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A220",
+    "cabin": "Economy seats DEF",
+    "pitch": "Not published",
+    "width": "19 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A320 Classic",
+    "cabin": "Economy",
+    "pitch": "Not published",
+    "width": "17.8 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A320 Restyled",
+    "cabin": "Economy",
+    "pitch": "Not published",
+    "width": "18 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A321 Classic",
+    "cabin": "Economy",
+    "pitch": "Not published",
+    "width": "18 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A321neo",
+    "cabin": "Economy",
+    "pitch": "Not published",
+    "width": "18 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A321neo with Mint",
+    "cabin": "Main",
+    "pitch": "Not published",
+    "width": "18 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "JetBlue",
+    "aircraft": "Airbus A321 Long Range",
+    "cabin": "Main",
+    "pitch": "Not published",
+    "width": "18 in",
+    "sourceUrl": "https://www.jetblue.com/help/seats",
+    "sourceLabel": "JetBlue seats",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Breeze Airways",
+    "aircraft": "Airbus A220 300",
+    "cabin": "Breeze Ascent",
+    "pitch": "39 in",
+    "width": "20.5 in",
+    "sourceUrl": "https://www.flybreeze.com/shopping/en-us/breeze-air-a",
+    "sourceLabel": "Breeze, What it is like to fly Breeze",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Breeze Airways",
+    "aircraft": "Airbus A220 300",
+    "cabin": "Extra Legroom",
+    "pitch": "33 in",
+    "width": "18 in",
+    "sourceUrl": "https://www.flybreeze.com/shopping/en-us/breeze-air-a",
+    "sourceLabel": "Breeze, What it is like to fly Breeze",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Breeze Airways",
+    "aircraft": "Airbus A220 300",
+    "cabin": "Standard",
+    "pitch": "30 in",
+    "width": "18 in",
+    "sourceUrl": "https://www.flybreeze.com/shopping/en-us/breeze-air-a",
+    "sourceLabel": "Breeze, What it is like to fly Breeze",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Air Canada",
+    "aircraft": "Airbus A220 300",
+    "cabin": "Economy",
+    "pitch": "Not published",
+    "width": "19 in",
+    "sourceUrl": "https://www.aircanada.com/ca/en/aco/home/fly/onboard/fleet/a220.html",
+    "sourceLabel": "Air Canada Airbus A220 page",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Aer Lingus",
+    "aircraft": "Airbus A321XLR",
+    "cabin": "Business",
+    "pitch": "Lie flat",
+    "width": "Not published",
+    "sourceUrl": "https://mediacentre.aerlingus.com/news/19122024/going-the-distance-aer-lingus-welcomes-two-new-xlr-aircraft-to-its-fleet",
+    "sourceLabel": "Aer Lingus newsroom, 19 December 2024",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Aer Lingus",
+    "aircraft": "Airbus A321XLR",
+    "cabin": "Economy",
+    "pitch": "30 to 31 in",
+    "width": "Not published",
+    "sourceUrl": "https://mediacentre.aerlingus.com/news/19122024/going-the-distance-aer-lingus-welcomes-two-new-xlr-aircraft-to-its-fleet",
+    "sourceLabel": "Aer Lingus newsroom, 19 December 2024",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 190 seat version",
+    "cabin": "First",
+    "pitch": "37 in",
+    "width": "21 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 190 seat version",
+    "cabin": "Main Cabin Extra",
+    "pitch": "34 in plus bulkhead and exit row",
+    "width": "16.6 to 18.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 190 seat version",
+    "cabin": "Main Cabin",
+    "pitch": "30 in",
+    "width": "16.3 to 18.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 102 seat version",
+    "cabin": "Flagship First",
+    "pitch": "Lie flat",
+    "width": "21 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 102 seat version",
+    "cabin": "Flagship Business",
+    "pitch": "Lie flat",
+    "width": "19 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 102 seat version",
+    "cabin": "Main Cabin Extra",
+    "pitch": "35 in plus bulkhead",
+    "width": "17.3 to 17.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 102 seat version",
+    "cabin": "Main Cabin",
+    "pitch": "31 in",
+    "width": "17.3 to 17.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 196 seat version",
+    "cabin": "First",
+    "pitch": "37 in",
+    "width": "21 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 196 seat version",
+    "cabin": "Main Cabin Extra",
+    "pitch": "34 to 39 in",
+    "width": "16.6 to 18.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 196 seat version",
+    "cabin": "Main Cabin",
+    "pitch": "30 in",
+    "width": "16.3 to 18.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 155 seat version",
+    "cabin": "Flagship Suite",
+    "pitch": "Lie flat",
+    "width": "21 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 155 seat version",
+    "cabin": "Premium Economy",
+    "pitch": "38 in",
+    "width": "21.3 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 155 seat version",
+    "cabin": "Main Cabin Extra",
+    "pitch": "34 in or more",
+    "width": "16.6 to 18.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "American Airlines",
+    "aircraft": "Airbus A321 155 seat version",
+    "cabin": "Main Cabin",
+    "pitch": "32 in",
+    "width": "16.3 to 18.7 in",
+    "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
+    "sourceLabel": "American Airlines Our planes",
+    "dateChecked": "2026-11-20"
+  }
+]

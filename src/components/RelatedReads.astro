@@ -22,9 +22,9 @@ const prepared = items.slice(0, 4).map((item) => ({
     <h2 id="related-reads-heading">{heading}</h2>
     <ul class="related-reads-grid">
       {prepared.map((item) => (
-        <li>
-          <a class="related-read-card" href={item.href}>
-            <span class="related-read-thumb">
+        <li class="related-read-card">
+          <span class="related-read-thumb">
+            <a href={item.href}>
               <img
                 src={`/images/photos/${item.photo}-sm.webp`}
                 alt=""
@@ -33,12 +33,12 @@ const prepared = items.slice(0, 4).map((item) => ({
                 loading="lazy"
                 decoding="async"
               />
-              <span class="ai-tag">AI image</span>
-            </span>
-            <span class="related-read-body">
-              <span class="related-read-title">{item.title}</span>
-              {item.description && <span class="related-read-desc">{item.description}</span>}
-            </span>
+            </a>
+            <a class="ai-tag" href="/image-policy/">AI image</a>
+          </span>
+          <a class="related-read-body" href={item.href}>
+            <span class="related-read-title">{item.title}</span>
+            {item.description && <span class="related-read-desc">{item.description}</span>}
           </a>
         </li>
       ))}

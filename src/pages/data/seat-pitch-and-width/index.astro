@@ -1,0 +1,276 @@
+---
+import Photo from '../../../components/Photo.astro';
+import Byline from '../../../components/Byline.astro';
+import RelatedReads from '../../../components/RelatedReads.astro';
+import CompareBox from '../../../components/CompareBox.astro';
+import { photoForText } from '../../../lib/photos';
+import { PUBLISHER } from '../../../lib/schema';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import guides from '../../../data/guides.json';
+import rows from '../../../data/seat-pitch.json';
+
+const pagePath = '/data/seat-pitch-and-width/';
+const title = "Seat pitch and width by airline: numbers from each carrier's own page";
+const description =
+  'Pitch and width copied from airline pages on 20 November 2026, with a source link on every row and a CSV download.';
+
+if (description.length > 155) {
+  throw new Error(`Meta description is ${description.length} characters`);
+}
+
+const published = '2026-11-20';
+const relatedSlugs = [
+  'seat-pitch-and-width-explained',
+  'exit-row-tips',
+  'boeing-787-dreamliner-seat-guide',
+  'airbus-a350-seat-guide',
+];
+const relatedItems = relatedSlugs.flatMap((slug) => {
+  const guide = guides.find((item) => item.slug === slug);
+  if (!guide) return [];
+  return [
+    {
+      href: `/guides/${guide.slug}/`,
+      title: guide.title,
+      description: guide.description,
+      photo: photoForText(guide.title, guide.slug),
+    },
+  ];
+});
+
+const airlinesInTable = [...new Set(rows.map((row) => row.airline))];
+const sourceList = [...new Map(rows.map((row) => [row.sourceUrl, row])).values()];
+
+function assertNoDash(kind: string, text: string) {
+  if (/[-–—]/.test(text)) throw new Error(`${kind} contains a dash: ${text}`);
+}
+
+assertNoDash('title', title);
+assertNoDash('description', description);
+for (const row of rows) {
+  assertNoDash('table airline', row.airline);
+  assertNoDash('table aircraft', row.aircraft);
+  assertNoDash('table cabin', row.cabin);
+  assertNoDash('table pitch', row.pitch);
+  assertNoDash('table width', row.width);
+  assertNoDash('table label', row.sourceLabel);
+}
+
+const faqs = [
+  {
+    question: 'Where do these pitch and width numbers come from?',
+    answer:
+      'Each row is copied from the airline page linked in that row. The date checked column is the day we opened that page, 20 November 2026. We did not use seat map blogs, competitor diagrams, or airline PDF files.',
+  },
+  {
+    question: 'Why do some rows say not published?',
+    answer:
+      'JetBlue publishes seat width by aircraft and does not publish pitch on the same seats page. Air Canada publishes a 19 inch Economy width for the A220 300 and does not publish pitch there. Aer Lingus publishes Economy pitch for the A321XLR and does not publish width in that newsroom post. The cell says not published instead of a guessed number.',
+  },
+  {
+    question: 'Will these numbers match the seat on my ticket?',
+    answer:
+      'Not always. American lists four Airbus A321 versions with different pitch and width, and the page does not label which version is a neo. Delta lists two A220 lengths with different Main cabin pitch. Confirm the aircraft name and the seat map in the airline booking before you pay for a row.',
+  },
+  {
+    question: 'How should I cite this table?',
+    answer:
+      'Cite Pick Your Row, the seat pitch and width table on pickyourrow.com, checked 20 November 2026, and quote the airline page named on the row you use. The CSV download has the same rows.',
+  },
+];
+
+for (const item of faqs) {
+  assertNoDash('faq', `${item.question} ${item.answer}`);
+}
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description,
+    url: `https://pickyourrow.com${pagePath}`,
+    datePublished: published,
+    dateModified: published,
+    author: PUBLISHER,
+    publisher: PUBLISHER,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://pickyourrow.com${pagePath}` },
+    image: 'https://pickyourrow.com/images/photos/economy-cabin.webp',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: 'Airline seat pitch and width',
+    description,
+    url: `https://pickyourrow.com${pagePath}`,
+    dateModified: published,
+    creator: PUBLISHER,
+    distribution: {
+      '@type': 'DataDownload',
+      encodingFormat: 'text/csv',
+      contentUrl: 'https://pickyourrow.com/data/seat-pitch-and-width.csv',
+    },
+    citation: sourceList.map((row) => row.sourceUrl),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pickyourrow.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Seat pitch and width', item: `https://pickyourrow.com${pagePath}` },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  },
+];
+---
+<BaseLayout title={title} description={description} canonicalPath={pagePath} ogImage="/images/photos/economy-cabin.webp" jsonLd={jsonLd}>
+  <div class="wrap prose">
+    <nav class="breadcrumb"><a href="/">Home</a> / Seat pitch and width</nav>
+    <h1 class="page-title">{title}</h1>
+    <Byline date={published} dateLabel="20 November 2026" />
+    <p class="lede">{description}</p>
+    <Photo name="economy-cabin" variant="banner" eager />
+    <p>
+      This table is the citable list. It holds only numbers we could read on an airline's own page on 20 November 2026.
+      {rows.length} rows cover {airlinesInTable.length} airlines. If a page did not print pitch, or did not print width, the cell says not published.
+      Nothing here is estimated from a photo of a cabin.
+    </p>
+    <p>
+      Pitch is the spacing airlines print, not a promise of how the seat feels. Width is usually between the armrests, and a range means the airline itself printed a range.
+      Our <a href="/guides/seat-pitch-and-width-explained/">seat pitch and width guide</a> explains how to use the two numbers.
+      Exit rows follow a separate rule: on U.S. airlines, who may sit there is set by <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585">14 CFR 121.585</a>, which we also checked on 20 November 2026.
+    </p>
+
+    <h2>What the comparison shows</h2>
+    <p>
+      On the pages in this table, the widest economy seats are Air Canada's 19 inch A220 300 seat and JetBlue's 19 inch A220 seats D, E and F.
+      JetBlue's A220 pair, seats A and C, is narrower at 18.5 inches. Delta prints 18.6 inches for both A220 Main cabins, and Breeze prints 18 inches for A220 300 Standard and Extra Legroom.
+      American's 196 seat Airbus A321 Main Cabin is a range, 16.3 to 18.7 inches, at 30 inches of pitch. The narrow end of that range is tighter than Delta's A220 Main seat. The wide end matches it.
+    </p>
+    <p>
+      Length changes pitch even when width does not. Delta's A220 100 Main cabin is 30 to 32 inches. The longer A220 300 Main cabin is 31 to 32 inches, and Comfort on that jet is 33 to 34 inches rather than the 33 inches on the A220 100.
+      Breeze prints three products on one A220 300: Ascent at 39 inches and 20.5 inches wide, Extra Legroom at 33 and 18, Standard at 30 and 18.
+      Delta First on both A220 lengths matches that 20.5 inch width, at 37 inches of pitch.
+    </p>
+    <p>
+      Delta's child seat fit column is a second width, and it does not always match the seat width. On both A220 pages, Comfort seat width is 18.6 inches and the child seat fit width is 18.1 inches. The table below uses the seat width and pitch row, not the child seat fit row.
+      JetBlue's seats page also says EvenMore includes up to 38 inches of legroom. That line is a product claim, not a pitch for one aircraft, so it is not a row in the table.
+    </p>
+    <p>
+      American's planes page lists four Airbus A321 versions and does not print the word neo on those headings. The 196 seat version has 20 first seats at 37 inches of pitch and 21 inches wide, 35 Main Cabin Extra seats at 34 to 39 inches, and 141 Main Cabin seats at 30 inches.
+      The 190 seat version is close on width and puts Main Cabin Extra at 34 inches plus bulkhead and exit rows. The 155 seat version is the one with a 32 inch Main Cabin and a 38 inch premium economy seat at 21.3 inches wide.
+      The 102 seat version is the lie flat layout, with Main Cabin at 31 inches and 17.3 to 17.7 inches wide. Match the seat count in your booking to a version before you trust a row.
+      Our <a href="/airlines/american/a321/seat-map/">American A321 seat map</a> is an illustrative drawing of about 181 seats, not one of those four published versions.
+    </p>
+
+    <h2>The table</h2>
+    <p>
+      Open a carrier hub while you read a row: <a href="/airlines/delta/">Delta</a>, <a href="/airlines/jetblue/">JetBlue</a>, <a href="/airlines/american/">American</a>, <a href="/airlines/air-canada/">Air Canada</a>, or <a href="/airlines/aer-lingus/">Aer Lingus</a>.
+      Aircraft type pages for the jets we draw include the <a href="/aircraft/a220-100/">A220 100</a> and the <a href="/aircraft/a220-300/">A220 300</a>.
+      Breeze is in the table because it publishes pitch and width. We do not draw a Breeze cabin.
+    </p>
+    <div class="table-scroll">
+      <table class="fleet hub-fleet">
+        <caption>Airline seat pitch and width, checked 20 November 2026</caption>
+        <thead>
+          <tr>
+            <th scope="col">Airline</th>
+            <th scope="col">Aircraft</th>
+            <th scope="col">Cabin</th>
+            <th scope="col">Pitch</th>
+            <th scope="col">Width</th>
+            <th scope="col">Source</th>
+            <th scope="col">Date checked</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr>
+              <td>{row.airline}</td>
+              <td>{row.aircraft}</td>
+              <td>{row.cabin}</td>
+              <td>{row.pitch}</td>
+              <td>{row.width}</td>
+              <td><a href={row.sourceUrl} rel="noopener noreferrer">{row.sourceLabel}</a></td>
+              <td>20 November 2026</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p>
+      <a href="/data/seat-pitch-and-width.csv">Download the CSV</a> (same rows: airline, aircraft, cabin, pitch, width, source URL, date checked).
+    </p>
+
+    <aside class="cite-box" aria-label="Cite this table">
+      <h2>Cite this</h2>
+      <p>
+        Pick Your Row editorial team, Airline seat pitch and width, pickyourrow.com, checked 20 November 2026.
+        Quote the airline page named on the row you use. Figures stay on this page until we open those airline pages again and change a number.
+      </p>
+    </aside>
+
+    {relatedItems.length > 0 && <RelatedReads heading="Keep reading" items={relatedItems} />}
+
+    <h2>How to use a row</h2>
+    <p>
+      Start with the aircraft name on your ticket, then find that name in the table. If the airline lists more than one version, use the seat count.
+      A wider seat does not fix a lavatory row or a missing recline. JetBlue's seats page, the same one that prints the widths above, says the A220 has no recline in row 11 and limited recline in row 28.
+      Read <a href="/guides/exit-row-tips/">exit row tips</a> before you pay for space at a door, and <a href="/guides/how-to-verify-your-aircraft-type/">how to verify your aircraft type</a> if the booking name and this table disagree.
+    </p>
+    <p>
+      Two widebody guides use the same habit of reading the airline's own layout before picking a row: the <a href="/guides/boeing-787-dreamliner-seat-guide/">787 seat guide</a> and the <a href="/guides/airbus-a350-seat-guide/">A350 seat guide</a>.
+      Those jets are not in this table because this pass stayed with the narrowbody pages we opened on 20 November 2026.
+    </p>
+
+    <h2>FAQ</h2>
+    <div class="faq-block">
+      {faqs.map((item) => (
+        <div>
+          <h3>{item.question}</h3>
+          <p>{item.answer}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2>Sources and references</h2>
+    <p class="muted">
+      Each link is the airline page a row was copied from, opened 20 November 2026. Seat scores on our maps remain editorial.
+      See <a href="/methodology/">Methodology and sources</a>.
+    </p>
+    <ol class="sources">
+      {sourceList.map((row) => (
+        <li>
+          <a href={row.sourceUrl} rel="noopener noreferrer">{row.sourceLabel}</a>.
+          Checked 20 November 2026.
+        </li>
+      ))}
+      <li>
+        <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585" rel="noopener noreferrer">14 CFR 121.585 Exit seating (eCFR)</a>.
+        Checked 20 November 2026. Exit seat rules, not pitch or width.
+      </li>
+    </ol>
+
+    <CompareBox
+      heading="Check another cabin"
+      intro="The table is a measurement list. The seat maps are drawings of typical layouts. Open both before you pay."
+      links={[
+        { href: '/airlines/delta/', label: 'Delta seat maps' },
+        { href: '/airlines/jetblue/', label: 'JetBlue seat maps' },
+        { href: '/airlines/american/', label: 'American seat maps' },
+        { href: '/aircraft/', label: 'Aircraft index' },
+        { href: '/guides/seat-pitch-and-width-explained/', label: 'What pitch and width mean' },
+      ]}
+    />
+
+    {relatedItems.length > 0 && <RelatedReads heading="Related guides" items={relatedItems} />}
+  </div>
+</BaseLayout>
