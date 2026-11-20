@@ -59,7 +59,7 @@ Seat scores and picks are editorial opinions for planning, not guarantees and no
 ## Optional
 
 - [About](https://pickyourrow.com/about/): Who runs Pick Your Row.
-- [Affiliate disclosure](https://pickyourrow.com/disclosure/): How affiliate links, booking placeholders and editorial independence are handled.
+- [Affiliate disclosure](https://pickyourrow.com/disclosure/): How advertising, affiliate links and editorial independence are handled.
 - [Contact](https://pickyourrow.com/contact/): Corrections, questions and partnership enquiries.
 - [Terms of Use](https://pickyourrow.com/terms/): Terms for using the site, including ownership and governing law.
 - [Privacy Policy](https://pickyourrow.com/privacy/): What personal data the site collects and how to contact the data controller.
