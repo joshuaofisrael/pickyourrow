@@ -1,0 +1,35 @@
+airline,aircraft,cabin,pitch,width,source_url,date_checked
+Delta Air Lines,Airbus A220 100,First,37 in,20.5 in,https://www.delta.com/us/en/aircraft/airbus/a220-100,2026-11-20
+Delta Air Lines,Airbus A220 100,Comfort,33 in,18.6 in,https://www.delta.com/us/en/aircraft/airbus/a220-100,2026-11-20
+Delta Air Lines,Airbus A220 100,Main,30 to 32 in,18.6 in,https://www.delta.com/us/en/aircraft/airbus/a220-100,2026-11-20
+Delta Air Lines,Airbus A220 300,First,37 in,20.5 in,https://www.delta.com/us/en/aircraft/airbus/a220-300,2026-11-20
+Delta Air Lines,Airbus A220 300,Comfort,33 to 34 in,18.6 in,https://www.delta.com/us/en/aircraft/airbus/a220-300,2026-11-20
+Delta Air Lines,Airbus A220 300,Main,31 to 32 in,18.6 in,https://www.delta.com/us/en/aircraft/airbus/a220-300,2026-11-20
+JetBlue,Airbus A220,Economy seats AC,Not published,18.5 in,https://www.jetblue.com/help/seats,2026-11-20
+JetBlue,Airbus A220,Economy seats DEF,Not published,19 in,https://www.jetblue.com/help/seats,2026-11-20
+JetBlue,Airbus A320 Classic,Economy,Not published,17.8 in,https://www.jetblue.com/help/seats,2026-11-20
+JetBlue,Airbus A320 Restyled,Economy,Not published,18 in,https://www.jetblue.com/help/seats,2026-11-20
+JetBlue,Airbus A321 Classic,Economy,Not published,18 in,https://www.jetblue.com/help/seats,2026-11-20
+JetBlue,Airbus A321neo,Economy,Not published,18 in,https://www.jetblue.com/help/seats,2026-11-20
+JetBlue,Airbus A321neo with Mint,Main,Not published,18 in,https://www.jetblue.com/help/seats,2026-11-20
+JetBlue,Airbus A321 Long Range,Main,Not published,18 in,https://www.jetblue.com/help/seats,2026-11-20
+Breeze Airways,Airbus A220 300,Breeze Ascent,39 in,20.5 in,https://www.flybreeze.com/shopping/en-us/breeze-air-a,2026-11-20
+Breeze Airways,Airbus A220 300,Extra Legroom,33 in,18 in,https://www.flybreeze.com/shopping/en-us/breeze-air-a,2026-11-20
+Breeze Airways,Airbus A220 300,Standard,30 in,18 in,https://www.flybreeze.com/shopping/en-us/breeze-air-a,2026-11-20
+Air Canada,Airbus A220 300,Economy,Not published,19 in,https://www.aircanada.com/ca/en/aco/home/fly/onboard/fleet/a220.html,2026-11-20
+Aer Lingus,Airbus A321XLR,Business,Lie flat,Not published,https://mediacentre.aerlingus.com/news/19122024/going-the-distance-aer-lingus-welcomes-two-new-xlr-aircraft-to-its-fleet,2026-11-20
+Aer Lingus,Airbus A321XLR,Economy,30 to 31 in,Not published,https://mediacentre.aerlingus.com/news/19122024/going-the-distance-aer-lingus-welcomes-two-new-xlr-aircraft-to-its-fleet,2026-11-20
+American Airlines,Airbus A321 190 seat version,First,37 in,21 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 190 seat version,Main Cabin Extra,34 in plus bulkhead and exit row,16.6 to 18.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 190 seat version,Main Cabin,30 in,16.3 to 18.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 102 seat version,Flagship First,Lie flat,21 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 102 seat version,Flagship Business,Lie flat,19 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 102 seat version,Main Cabin Extra,35 in plus bulkhead,17.3 to 17.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 102 seat version,Main Cabin,31 in,17.3 to 17.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 196 seat version,First,37 in,21 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 196 seat version,Main Cabin Extra,34 to 39 in,16.6 to 18.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 196 seat version,Main Cabin,30 in,16.3 to 18.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 155 seat version,Flagship Suite,Lie flat,21 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 155 seat version,Premium Economy,38 in,21.3 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 155 seat version,Main Cabin Extra,34 in or more,16.6 to 18.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20
+American Airlines,Airbus A321 155 seat version,Main Cabin,32 in,16.3 to 18.7 in,https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html,2026-11-20

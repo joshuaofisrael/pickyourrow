@@ -14,6 +14,7 @@ Seat scores and picks are editorial opinions for planning, not guarantees and no
 - [Best seats directory](https://pickyourrow.com/best-seats/): Editorial best seat shortlists for all 188 illustrated cabin configurations.
 - [Guides](https://pickyourrow.com/guides/): Index of evergreen seat selection guides with cited sources.
 - [Methodology and sources](https://pickyourrow.com/methodology/): How the schematics and editorial seat scores are made, with citations to FAA, DOT, EU, IATA, ICAO and other public sources.
+- [Seat pitch and width table](https://pickyourrow.com/data/seat-pitch-and-width/): Pitch and width copied from airline pages, with a source link on every row and a CSV download.
 
 ## Top guides
 

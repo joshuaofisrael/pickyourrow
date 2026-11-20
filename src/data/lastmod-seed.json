@@ -1,0 +1,1418 @@
+{
+  "https://pickyourrow.com/": {
+    "date": "2026-11-20",
+    "hash": "4840261a53608192e414fbd00bbf2d8550b975c82959cea37aed729fe2626101"
+  },
+  "https://pickyourrow.com/about/": {
+    "date": "2026-10-24",
+    "hash": "89ed3400d63aa67d30b11b541c190daaf83592e98ed114b9366b920bd950cfa1"
+  },
+  "https://pickyourrow.com/aircraft/": {
+    "date": "2026-11-20",
+    "hash": "48a03b6e7db92adc864c4997f9bc33963651fa2d901e5f951521de691d996eb1"
+  },
+  "https://pickyourrow.com/airlines/": {
+    "date": "2026-11-20",
+    "hash": "7f4fe1262b78efa696c98a6e84adc6fdda37f0d07d40bd98f5c9640e02aff697"
+  },
+  "https://pickyourrow.com/best-seats/": {
+    "date": "2026-11-09",
+    "hash": "6bc30832839e91fb4ea85f64d9e25ee03850f9bca662e658dff9f6ef8df27226"
+  },
+  "https://pickyourrow.com/contact/": {
+    "date": "2026-10-30",
+    "hash": "ebfd47de18d056e722408d286305b452635603876c1415374d65a5356ed971da"
+  },
+  "https://pickyourrow.com/disclaimer/": {
+    "date": "2026-11-20",
+    "hash": "b23a16f83958e5f2e7439dfa83ffa17ce98eb2f4d08b717e86820034c190c79e"
+  },
+  "https://pickyourrow.com/disclosure/": {
+    "date": "2026-11-20",
+    "hash": "768784a62334f1e04705976871d79aa73b2d0ff0be7853d59f1fc3d2d11904e5"
+  },
+  "https://pickyourrow.com/guides/": {
+    "date": "2026-11-20",
+    "hash": "351bf033a02de80890e514fe5cb49650fe73271c774f81afb0423ef2e0ae0383"
+  },
+  "https://pickyourrow.com/image-policy/": {
+    "date": "2026-11-19",
+    "hash": "372e590094a5cd3052bef3a42bb509d353c88fa39f19462e626385339b871916"
+  },
+  "https://pickyourrow.com/methodology/": {
+    "date": "2026-11-19",
+    "hash": "102e91832c907804f22a63430f02934cbf4d6cb8a70049f452e3db99667fbfe9"
+  },
+  "https://pickyourrow.com/news/": {
+    "date": "2026-10-23",
+    "hash": "35bc84c3f8e92520825e57c7ddff6473720290adb465825ccb20f581887d0494"
+  },
+  "https://pickyourrow.com/privacy/": {
+    "date": "2026-11-20",
+    "hash": "c40926692038433c325f96dc477e39e284b604f397989d8d2641431c6ac7e564"
+  },
+  "https://pickyourrow.com/terms/": {
+    "date": "2026-10-26",
+    "hash": "a407ec0227a68b72115f794a6ac10659d5d269e6f481de839d44433200ba47c5"
+  },
+  "https://pickyourrow.com/data/seat-pitch-and-width/": {
+    "date": "2026-11-20",
+    "hash": "6d5cb965cb5b2b97cad899bae5bb976adc4b0f2362951aad1dd84877f8858add"
+  },
+  "https://pickyourrow.com/airlines/delta/": {
+    "date": "2026-11-01",
+    "hash": "c4144e1e09129b569ca6ceb8e47dddc934b21122385b963ab6e00d42e55890d4"
+  },
+  "https://pickyourrow.com/airlines/united/": {
+    "date": "2026-11-20",
+    "hash": "72466d3ff3ea8caba932bcdf19c21446ee5b1d21d0a04e2651a60d7527edfdfb"
+  },
+  "https://pickyourrow.com/airlines/american/": {
+    "date": "2026-11-20",
+    "hash": "76aff032d6281dcfcea8768acc241e314f1b9770f8cad6401413cf5146c40b22"
+  },
+  "https://pickyourrow.com/airlines/british-airways/": {
+    "date": "2026-11-09",
+    "hash": "c7b6488d6b849ce3415d25180516351f8f1b48e1526207984d7c56af8f161b59"
+  },
+  "https://pickyourrow.com/airlines/easyjet/": {
+    "date": "2026-10-31",
+    "hash": "09243931b1c9df6e9a5508cb7b4651fb0773ba057bb932a7a584a1c820e1e8e4"
+  },
+  "https://pickyourrow.com/airlines/southwest/": {
+    "date": "2026-10-26",
+    "hash": "6457b0ff536d5402adbdb611e4dc23d51f2cef308ac71bb702804f34cd1d6d71"
+  },
+  "https://pickyourrow.com/airlines/jetblue/": {
+    "date": "2026-11-19",
+    "hash": "f568c74320f05ca57a5c2e50181b657177b8a68d64f2d84b296960b6836be2b6"
+  },
+  "https://pickyourrow.com/airlines/alaska/": {
+    "date": "2026-11-01",
+    "hash": "0a5ea93f9e7c9482a775be210e0500ac39bab0020afbe7c77a12ec3630d84472"
+  },
+  "https://pickyourrow.com/airlines/lufthansa/": {
+    "date": "2026-10-21",
+    "hash": "eaea94d2f4162149f93c794ca05023cec57d0febae17d9fd08c3f4ea0ebbfa43"
+  },
+  "https://pickyourrow.com/airlines/air-france/": {
+    "date": "2026-10-31",
+    "hash": "1cce31bfc6fa663a80b0432362bebbb2fa7316aefaca34dba9c1c5cadc7c6a6c"
+  },
+  "https://pickyourrow.com/airlines/ryanair/": {
+    "date": "2026-11-20",
+    "hash": "adaa2c875c2c5142e75624d75031722323fe958c7bdef64ce7614b132a1e768c"
+  },
+  "https://pickyourrow.com/airlines/emirates/": {
+    "date": "2026-10-31",
+    "hash": "1d2ea6dbf0f0bb7d44c66bbe0d08e1988e52497496df7cc5bab118c80146b09d"
+  },
+  "https://pickyourrow.com/airlines/qatar/": {
+    "date": "2026-10-21",
+    "hash": "a7c0827575bbec31eca4205793fe981725d76b880f95b45090e70b69d8fcb440"
+  },
+  "https://pickyourrow.com/airlines/turkish/": {
+    "date": "2026-11-09",
+    "hash": "419636a0deaf73baaccb7001ea3b8c754b3aa778e42a6c152641b0f5a4977ad9"
+  },
+  "https://pickyourrow.com/airlines/air-canada/": {
+    "date": "2026-11-20",
+    "hash": "84579e47d0c6eded3d7aff7c63ac86d6b94621b72a450f0e9b6993ecfab88e72"
+  },
+  "https://pickyourrow.com/airlines/singapore/": {
+    "date": "2026-11-01",
+    "hash": "a27a5f422826f86f1b61dc7b4d83f2a58164b676189c092b8c5d8ec223277bce"
+  },
+  "https://pickyourrow.com/airlines/cathay-pacific/": {
+    "date": "2026-10-20",
+    "hash": "be98083e223b2033bd8f262d75c6416ea33b01a049c440eec72cd86e228e9de8"
+  },
+  "https://pickyourrow.com/airlines/klm/": {
+    "date": "2026-10-21",
+    "hash": "080b6c3931fefa4f2ef3eb0403f6323dda0f01096ef46394ac1c31337b9753b1"
+  },
+  "https://pickyourrow.com/airlines/virgin-atlantic/": {
+    "date": "2026-10-20",
+    "hash": "903c7e02f5af57b4e0a0b657fc2c0a47150f1e2a45af5d2b30ae903fdc8d8d30"
+  },
+  "https://pickyourrow.com/airlines/iberia/": {
+    "date": "2026-10-23",
+    "hash": "9779aad1224d68368684d5e4ac62e44ae91bb274a90bc78750a5a42f5801273e"
+  },
+  "https://pickyourrow.com/airlines/qantas/": {
+    "date": "2026-10-30",
+    "hash": "5805ba06e7804e427259ed6f0a75d84a3ab222d2571bb5f1e25421f39efdd2c0"
+  },
+  "https://pickyourrow.com/airlines/etihad/": {
+    "date": "2026-10-31",
+    "hash": "2ffae195cc479bda5d50994f40a4b558e76f7d6e802fec448a357ebd0d3dec08"
+  },
+  "https://pickyourrow.com/airlines/hawaiian/": {
+    "date": "2026-11-20",
+    "hash": "c56fd425e21daa45d79dc310aaf724d467b3cb0f97891f12ea0a209fe877001f"
+  },
+  "https://pickyourrow.com/airlines/spirit/": {
+    "date": "2026-10-25",
+    "hash": "8b0f5f87761b683168fed5afe059d71127c3177517f1e490196df4188a0a96ce"
+  },
+  "https://pickyourrow.com/airlines/swiss/": {
+    "date": "2026-11-09",
+    "hash": "9cca26d20ec0825eddd2c7963e99f15089570993f68131fac747aef218412de5"
+  },
+  "https://pickyourrow.com/airlines/ana/": {
+    "date": "2026-10-30",
+    "hash": "c7705ab8841cea0c92281d54cadc9ed4000e5322398849274d45b66dde9cdac7"
+  },
+  "https://pickyourrow.com/airlines/japan-airlines/": {
+    "date": "2026-11-09",
+    "hash": "b9fc3cbcd76a8f67e92e865eda5dad454c26566b170d3bd7a8c90a76003a6e1c"
+  },
+  "https://pickyourrow.com/airlines/korean-air/": {
+    "date": "2026-10-24",
+    "hash": "43bdb66b132e841183b529b219af403f5c66cc731d8b2f85a365f78dd5655b9d"
+  },
+  "https://pickyourrow.com/airlines/air-new-zealand/": {
+    "date": "2026-11-09",
+    "hash": "f276baf1441d5d8e2a6db80da4758decd58fe30504295434235015a2e936ba99"
+  },
+  "https://pickyourrow.com/airlines/norwegian/": {
+    "date": "2026-10-25",
+    "hash": "015c2e5485fb1110b5a71d2c446013b8f7394061d3b022ecbecc1d2ee85c91c7"
+  },
+  "https://pickyourrow.com/airlines/sas/": {
+    "date": "2026-10-25",
+    "hash": "1865a1fb687d42e0e4be55eb5da8c76fc178e0c7d0bb4a8d37fd0800ad579b01"
+  },
+  "https://pickyourrow.com/airlines/frontier/": {
+    "date": "2026-10-25",
+    "hash": "aa358092a433d8ff2d65ec054694e2e0896beea05a5a838696c0a0feab70eae1"
+  },
+  "https://pickyourrow.com/airlines/wizz-air/": {
+    "date": "2026-10-30",
+    "hash": "8c0a99e7ed7c2e69e94b9c678a8fb5886e763d0cd5dd72bb21dc836de0f41ec5"
+  },
+  "https://pickyourrow.com/airlines/aer-lingus/": {
+    "date": "2026-10-31",
+    "hash": "28e2a2a4116c04ea89d48c8bc0e9dd54c1230f9a05a8e6a624bfb0bbfe296595"
+  },
+  "https://pickyourrow.com/airlines/finnair/": {
+    "date": "2026-10-24",
+    "hash": "2d84af74577c41a9504fd55c558bda6452df16911ff8c84e089e64d0d8624e91"
+  },
+  "https://pickyourrow.com/airlines/westjet/": {
+    "date": "2026-10-25",
+    "hash": "7b37e13857b21b2624347535b20cbaa8aa1290726742d603aecb2def259cefc5"
+  },
+  "https://pickyourrow.com/airlines/austrian/": {
+    "date": "2026-10-24",
+    "hash": "4ec4a4868d049829a43cddfb0d318fff3e2157f1e067445e88e24a17c8f178b8"
+  },
+  "https://pickyourrow.com/airlines/eva-air/": {
+    "date": "2026-10-26",
+    "hash": "02bdcb3f35a341e039f8ebf906a3258bdcc7f318f2c1ad2142806b1193b4b85d"
+  },
+  "https://pickyourrow.com/airlines/tap-air-portugal/": {
+    "date": "2026-10-26",
+    "hash": "531b9b0eaa3c9609d45d0433548df610588034d4d89f66c0b2b58bb93d010cd5"
+  },
+  "https://pickyourrow.com/airlines/latam/": {
+    "date": "2026-10-26",
+    "hash": "c8af9fac24ad5b8aee613d53ce5258eeb4651b7cc2b3791de00a5586fc951a9d"
+  },
+  "https://pickyourrow.com/airlines/air-india/": {
+    "date": "2026-10-26",
+    "hash": "6dcc0ca67107d785c67b00e82e24e344ba153e8d57bb394364d261696fb19f16"
+  },
+  "https://pickyourrow.com/airlines/thai-airways/": {
+    "date": "2026-10-15",
+    "hash": "337983c62a229a47136b9ebe096998698feb7723692c07ddea4935cd9be418fe"
+  },
+  "https://pickyourrow.com/airlines/lot-polish/": {
+    "date": "2026-10-26",
+    "hash": "3c7cbd544ed67cf9585ae9afaa4a83bcc2f1c76a034496ec8ae89a80ada5f535"
+  },
+  "https://pickyourrow.com/airlines/aeromexico/": {
+    "date": "2026-10-26",
+    "hash": "6ca7bee30cceecf505edc572a761c29d45c678974c46f4115f3f6db8e0f6c7c6"
+  },
+  "https://pickyourrow.com/airlines/ethiopian-airlines/": {
+    "date": "2026-10-31",
+    "hash": "9f23f9a863a74f5f6c8383290ec1b4940432d58bd0206f9c27f49bc4d5b69b56"
+  },
+  "https://pickyourrow.com/airlines/malaysia-airlines/": {
+    "date": "2026-10-27",
+    "hash": "105fd4c5a8e8d9a5d46f6ee462b33445629d8ff6e5b623f208b8f5a3c5ced33f"
+  },
+  "https://pickyourrow.com/airlines/indigo/": {
+    "date": "2026-10-27",
+    "hash": "2c7ecebe765666eb2d7935f7c14a6536d82ea41aad18a05dd500df92183d76cb"
+  },
+  "https://pickyourrow.com/airlines/copa-airlines/": {
+    "date": "2026-10-31",
+    "hash": "2c47ab6e846afcd66f63e8bf49c2d93ac0362e541f94aa6544fbd554bdf3f100"
+  },
+  "https://pickyourrow.com/airlines/avianca/": {
+    "date": "2026-10-27",
+    "hash": "dc58c53fda267a8a88ebcbf21daa1de229ccf8167a5d9ab26727a1ed9f2c39b4"
+  },
+  "https://pickyourrow.com/airlines/saudia/": {
+    "date": "2026-10-27",
+    "hash": "88420d11054cd0a647bd64f41d0a4a67942758e3c4220820fca7c42d36ea7897"
+  },
+  "https://pickyourrow.com/airlines/vietnam-airlines/": {
+    "date": "2026-10-28",
+    "hash": "f135ba373f83a6d0b92f9ef7c7afcdf0edd9d09a04aea90d52b9121bd48b9cb2"
+  },
+  "https://pickyourrow.com/airlines/philippine-airlines/": {
+    "date": "2026-10-28",
+    "hash": "5e4cbf3fb95d8e66ebf08d5bfa817ab9b345ef168c1748495a399c86b72ff504"
+  },
+  "https://pickyourrow.com/airlines/garuda-indonesia/": {
+    "date": "2026-10-28",
+    "hash": "3ad1ae377b06f5e306a43d907b4b34efdaa8359004e2ca1f6fd91c1b5d52d028"
+  },
+  "https://pickyourrow.com/airlines/aegean-airlines/": {
+    "date": "2026-10-28",
+    "hash": "4fdeaaff84a68a1a57f7f549ab7aa99a4e4051de9e70d5ee136d4d9b9301879b"
+  },
+  "https://pickyourrow.com/airlines/vueling/": {
+    "date": "2026-10-31",
+    "hash": "a8d7ae2738b71ac6d17d898cc20236eaeca31f88809cf246475b252a3adb9054"
+  },
+  "https://pickyourrow.com/airlines/egyptair/": {
+    "date": "2026-10-28",
+    "hash": "80a84207f0c6e90569b80d5a37637b2fda9d813c5dfad08e95dfe16889385cdd"
+  },
+  "https://pickyourrow.com/airlines/delta/737-900er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "82eac98fb001073a55ee609520e61da08e3696ca1f624630eaba5b7c7823b123"
+  },
+  "https://pickyourrow.com/airlines/delta/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6356f01f5713f2e0a30b99a28f8f8507855e81f7aa1370c30df817da571ccf77"
+  },
+  "https://pickyourrow.com/airlines/united/777-200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "f7ece268ab8693cfa2750aff90480d962798db7601ef378044c695f31d684a0f"
+  },
+  "https://pickyourrow.com/airlines/united/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "16e3676d43c6f35c7a42f4c2981bfd005f3e820f6e8405fb1f78e2e87bf5ff23"
+  },
+  "https://pickyourrow.com/airlines/american/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ac3ae0310f5dd54f05a58366f44ca24649cdff9280d6cd497bffc6eef7f64aaf"
+  },
+  "https://pickyourrow.com/airlines/american/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "96c2879c731de4591727d4cc3b9a3500d910a2c7f717c7654f8d0519669c56fc"
+  },
+  "https://pickyourrow.com/airlines/british-airways/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "0fc9fde42ef1df6615c3f976c18c3a59b4e22dbbbe500df1174f33a0caf8cbc9"
+  },
+  "https://pickyourrow.com/airlines/british-airways/777-200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d0702168953eb4f47affb4c8ec55224566fc9782976f6b72b2202d9cc20371d0"
+  },
+  "https://pickyourrow.com/airlines/easyjet/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "863664a0eba9fa25449d41db9042a3ba754879881062356ce7a925ef7e3c448e"
+  },
+  "https://pickyourrow.com/airlines/easyjet/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c1d972994268b088fb27b40dacb882285f28b4d74b46db2fcca57eb8dad051e0"
+  },
+  "https://pickyourrow.com/airlines/delta/a220-100/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "71f5bcb84dc2dc625396d0f7237b5f8f7f3f1a7b4e22c56f14bf578fc828feca"
+  },
+  "https://pickyourrow.com/airlines/united/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b1422caf67f8e9ca38552221a2fe4b4fb0caf1ed0821aefd1e43551df8fb842e"
+  },
+  "https://pickyourrow.com/airlines/southwest/737-700/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7a422c21f944130c4e9bd96298ce41527da43bd4f1b9f4357029b5639061432f"
+  },
+  "https://pickyourrow.com/airlines/southwest/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "90321b00cfe44a6fd8bc9bb57e2fa78c57ab26b424f62b0c9edf7280221e6b6d"
+  },
+  "https://pickyourrow.com/airlines/jetblue/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7709e98a4205a6e0f0688ce682a12dd1d3d93f8261d8c9bca87c1a1d5ddec9da"
+  },
+  "https://pickyourrow.com/airlines/jetblue/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c16d9917287e54d6a99f27b861021d4d28927790e83278058602808c1de73a06"
+  },
+  "https://pickyourrow.com/airlines/alaska/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8e67687a26bd4f83411e3297a35ead972f4984ea974411b862a4fb38293dece7"
+  },
+  "https://pickyourrow.com/airlines/alaska/737-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "f837a13e94b0f90bdb1df7211a51cc4fa955e186aa1b3070b709a07352eb1e52"
+  },
+  "https://pickyourrow.com/airlines/lufthansa/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d4f0f2496a8c01956fba71a9d496c6c1ba7afe1da1a84862140c8743061d6c5f"
+  },
+  "https://pickyourrow.com/airlines/lufthansa/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b37ca78d4581e893e05f848c05729759a36f9a50c6a43e733bc3e8c2dc60442f"
+  },
+  "https://pickyourrow.com/airlines/air-france/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8aac55ce82f1120bb8d7170401c4693d9bb589fefc2ccec9ef358ac9462cdd81"
+  },
+  "https://pickyourrow.com/airlines/air-france/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "e730aa22356fb8fb9c57a7a0c2da183caa4f1d22cd8d83081b018bae1de9b4da"
+  },
+  "https://pickyourrow.com/airlines/ryanair/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "a6095dd6819244ce72b8c4161c298085031a5586a860a3d9e083bb6e97d13742"
+  },
+  "https://pickyourrow.com/airlines/ryanair/737-8200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "0670cd586b207160b82a716e331164926572361f5b9dc94dd749c38a03702ec1"
+  },
+  "https://pickyourrow.com/airlines/emirates/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "234b4bbfe32bd31f32bfe5be15a714870d5ea4f8454bdd288b6cd7514501e462"
+  },
+  "https://pickyourrow.com/airlines/emirates/a380/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "91ccaa830dcf14ea7f1e15adf3dc790d091f7e896c125f987b17ae89e79c54cd"
+  },
+  "https://pickyourrow.com/airlines/qatar/787-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "562ce560c49023ae47fccff6feb0def2e2b39ecd773267c87b1bcb9d6b12d051"
+  },
+  "https://pickyourrow.com/airlines/qatar/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "9e4f6abb86823aa45e4d8862f41450c4d36362904051c6bd2f53110db7621926"
+  },
+  "https://pickyourrow.com/airlines/delta/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "bab05d8629f30d36c1729a1b067f5b93cea20855035edb555cca32a5c124fa84"
+  },
+  "https://pickyourrow.com/airlines/united/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8e275862bb8f36e71733c980d4f0fe3f6ceb0b2b989f0bc2b6032c48831114dc"
+  },
+  "https://pickyourrow.com/airlines/american/787-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "1cbd13a904cc693a31f9e6fa9745b3e904b18a5864b466607a03588b40a82372"
+  },
+  "https://pickyourrow.com/airlines/british-airways/a350-1000/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "520e8e4d5fc09d23acd8e6436fbf584b416a214a9337406c4136aa1e2f9ca1f7"
+  },
+  "https://pickyourrow.com/airlines/easyjet/a319/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "89d0cd5e91ec2f60bd16deed8e561e30fb7bd2d0ce4c3b09195bf57630bb17b0"
+  },
+  "https://pickyourrow.com/airlines/delta/757-200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7a5afad2b3efe47b1ac748145504a33c33719ac3b4c042cbe317a183536562a2"
+  },
+  "https://pickyourrow.com/airlines/united/737-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "106838b72b979099e52fa89c8cdfb6c28ad902daf8a6d98f265c46cb6618e3af"
+  },
+  "https://pickyourrow.com/airlines/american/777-200er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "2de58e77f6fa1bbd3b08d56a3e6c4e026f93041b065057e45c83385ff9409c93"
+  },
+  "https://pickyourrow.com/airlines/british-airways/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "df681a54b4ebae58d4e3b55c2923704688e615d09103f17b147d5c283212cba7"
+  },
+  "https://pickyourrow.com/airlines/southwest/737-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "aa31c529c6a9ed8c396a9db76b8f4d8d395f5da18a25007f19b195cb3b5c7a0b"
+  },
+  "https://pickyourrow.com/airlines/jetblue/a220-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "a46c2e5be188d4e55dc006b1ba318be9c3ab4a4e6f983102141de10fb6719abd"
+  },
+  "https://pickyourrow.com/airlines/alaska/737-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "f0aba9f201e6f6a52f924277132a31e334ded47ca021380e311772eeea32c957"
+  },
+  "https://pickyourrow.com/airlines/lufthansa/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d6d931c3266f2939e2a905a0b2c351204f1680ef54616ed83773ca29e19a6d71"
+  },
+  "https://pickyourrow.com/airlines/air-france/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "106288351207d4ab1bda76e43b6494e774b967e689652fa9aadef6b38f88c6dc"
+  },
+  "https://pickyourrow.com/airlines/qatar/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b9217d4c6e82ddfc9f968f2afbc9c126d9bf75781027c4febc992192ea42d85d"
+  },
+  "https://pickyourrow.com/airlines/emirates/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6f6b80b5807de654837a6d1867ee04bfaab550cdf4349a41921b4e3e9b7a1a32"
+  },
+  "https://pickyourrow.com/airlines/delta/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ae8ce79ee0ee94225fd5b84d2016085912fcbb10e3173b6cd0c75503d3a6f936"
+  },
+  "https://pickyourrow.com/airlines/turkish/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "de9c84d38ebe41f021f8b364d7a5f424979d3b53b1630f59c5580a3f6470e369"
+  },
+  "https://pickyourrow.com/airlines/turkish/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "4a569086d86c2cfa6568a15c37c3fcd0c7ff7afd841fa499c31624be249c06e5"
+  },
+  "https://pickyourrow.com/airlines/air-canada/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "07d7fd4f241eab0d0b9484d8ba6f81a8fe3fd0001a900ef07e1176e32800d454"
+  },
+  "https://pickyourrow.com/airlines/air-canada/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "eccb3e1020ea0f7a33814cc03ce656f26b27fc78d12a52b1901acc21dec8a461"
+  },
+  "https://pickyourrow.com/airlines/air-canada/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ae0f9154a42b71a5992cba210052c035b33c0283579446c572a27a171c5034e7"
+  },
+  "https://pickyourrow.com/airlines/singapore/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "98c54b9cb1ae202fc20150a2e75464cfccf5b37f38012e471e2b150c9ea6138b"
+  },
+  "https://pickyourrow.com/airlines/singapore/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "04bbcf3bee71593530545354cf1410e69c8916e86e550674ae3f305749d8a9b7"
+  },
+  "https://pickyourrow.com/airlines/singapore/a380/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "283ab50662f198025471afd4dc3f47176a62e1f3915487fc9efbd72bd66b497e"
+  },
+  "https://pickyourrow.com/airlines/cathay-pacific/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ea3563d02390ae73bb6c3ba85367aef5f12416d5191ae3ed1ad23a76db3d2b27"
+  },
+  "https://pickyourrow.com/airlines/cathay-pacific/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6b95c03d113dd5d9b2f4161175f0430d046f8f65e2ee618e6491ffed507c1e61"
+  },
+  "https://pickyourrow.com/airlines/cathay-pacific/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7f33650415c264e170cfcabde2b7bc341b4538957113c6816fcc032760c62681"
+  },
+  "https://pickyourrow.com/airlines/klm/787-10/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b0f75866a674920ab276e22b133f600118c9e317927a03de4ef629473494f1e0"
+  },
+  "https://pickyourrow.com/airlines/klm/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "5eac390ac1d2d79b10bc97d4f77c3f241f1727c1727552f196a8c63a235a08af"
+  },
+  "https://pickyourrow.com/airlines/klm/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "961e5091d8b0fa3ec3d3fafd542db66b25fa45176e9fe7c47e67a92f0e0404e9"
+  },
+  "https://pickyourrow.com/airlines/virgin-atlantic/a350-1000/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "fdec68dc1baa336ae9001c6bb605fc4a2bee8df6580bc27555d722b890a32407"
+  },
+  "https://pickyourrow.com/airlines/virgin-atlantic/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "fcd9b3eefb53df6579bca50801ceea88537b8d234b83545ab97625a09d66a41f"
+  },
+  "https://pickyourrow.com/airlines/iberia/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "30cb924cf04b85c536e3d22dae367a09b5d0bc8f4843fcfded9a65c3b5cb6eb9"
+  },
+  "https://pickyourrow.com/airlines/iberia/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "299d49ff9baf75c24e663f793d8470a454363600ca653d52c3eeb7eea0fd9ae4"
+  },
+  "https://pickyourrow.com/airlines/turkish/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "79b224b1031d55edcac8859ce736785fbf36656a7750c40431c212c6ef3226ee"
+  },
+  "https://pickyourrow.com/airlines/turkish/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6366dc98949ab213ee6ead79e5edb95b54e732b845d08ad6c2b7946f888ba271"
+  },
+  "https://pickyourrow.com/airlines/air-france/a330-200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "dea40ce5c7ce5ff377ea5898b1f5245d77c3888a912eb9a2af9ffdd283332a38"
+  },
+  "https://pickyourrow.com/airlines/qatar/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "56ddf36bd0c52824caf10893f4527bf69dfd920573caa83c854d9e9c66db84a2"
+  },
+  "https://pickyourrow.com/airlines/lufthansa/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b2de08c40f956e581aea29a1a81c25225f71313b6ad774231d318834119f2de5"
+  },
+  "https://pickyourrow.com/airlines/qantas/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "29fb29cb8e70893f6418e8736f81daef43b801f773c24650252154bb1e32bb67"
+  },
+  "https://pickyourrow.com/airlines/qantas/a330-200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8d9d7a9a1df3f4ad0fa2c58e50c45c3ef18aa9f05d08cf013a44def4ade815bf"
+  },
+  "https://pickyourrow.com/airlines/qantas/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "a67af23cb6190967d3218620e43d88526c287bae8a686ee957b6d3a2f2597662"
+  },
+  "https://pickyourrow.com/airlines/etihad/a380/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "10173d3be4dcf9216766dda697dd9041e84e3f9830760ece46be5aae614a2876"
+  },
+  "https://pickyourrow.com/airlines/etihad/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "3b1e671598d25a6f01f28dec11a7a64c487c0092f2df82b287b7497c582f1bef"
+  },
+  "https://pickyourrow.com/airlines/etihad/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "cbd80bec5940c581e498c4dcf6d7636f19faf4c9b306b671840661833b2db8bd"
+  },
+  "https://pickyourrow.com/airlines/hawaiian/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "4c36d2017e877482988565039d4e8de6d14328b8d30e3aef8e9fa1407ff602fe"
+  },
+  "https://pickyourrow.com/airlines/hawaiian/a330-200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b2e505ecdc2dc2e76030c5cb69a93bdb67f6cd14469680da0ad393f9d794751b"
+  },
+  "https://pickyourrow.com/airlines/hawaiian/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b3eba31b9771252bd1d6708071c6414c9cc9c75890ab5bf5e2eab489cfa8963a"
+  },
+  "https://pickyourrow.com/airlines/spirit/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "79cd6d132bc84d154099ad764461184acbc2078388377db89906937a4efe8735"
+  },
+  "https://pickyourrow.com/airlines/spirit/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "f2f6f8e1d2abeec0339f45c6523f7bfbc81fd62c5ce5d69b6237d2069ebbdc27"
+  },
+  "https://pickyourrow.com/airlines/swiss/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7ba4c40cb381a830f04da7600c6d7bbf9e77dfe589e550aefa0e285476bfc802"
+  },
+  "https://pickyourrow.com/airlines/swiss/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8f1feed80cd211ff8e937efb3c95de860af01b2f7abf2dc5d91dda6f59edbc9d"
+  },
+  "https://pickyourrow.com/airlines/swiss/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6de458c2c008f364b816d75215a68584409fb3b893aefba6324fbc9ad1ce4f0c"
+  },
+  "https://pickyourrow.com/airlines/ana/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "27c943f90d215a781fd64f20ba31ad4916b385485493d23b40e6dec753c4d96c"
+  },
+  "https://pickyourrow.com/airlines/ana/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "37ccc2f6e9ce716b664ec8b9e0bf73ea961672e1c80dc0de842e658c0573eddb"
+  },
+  "https://pickyourrow.com/airlines/ana/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c861b48c018d4cc437528ae2b1ebb2db9c10a5b9e9f74a85f4f5164d688a7bf7"
+  },
+  "https://pickyourrow.com/airlines/virgin-atlantic/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "1549c4ea60c1bf10c0a0f13199f176eb078ddab032a686c3a56b68671ffab64e"
+  },
+  "https://pickyourrow.com/airlines/iberia/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "31050def07e3ea422995de120f5ffa0db715205d1b5c780e76d5565a4f3def58"
+  },
+  "https://pickyourrow.com/airlines/iberia/a330-200/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "da2537cddaab31fcb1c890da6f20e1d71cea71449a2b186a2435a0f1451d0a9b"
+  },
+  "https://pickyourrow.com/airlines/klm/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "13cb6397f74ad7a77afd752f80f591219b54515e08af075ca9bea4a9072c984f"
+  },
+  "https://pickyourrow.com/airlines/japan-airlines/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "bc47796807c5d29f60874aa0b842f0b467cd9efcbbe1c4f98b85f20c3e21b37b"
+  },
+  "https://pickyourrow.com/airlines/japan-airlines/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "17ec4bbc26b9e014ffafc5e5581693e306c41d741ef9adf0672de371e6466930"
+  },
+  "https://pickyourrow.com/airlines/japan-airlines/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6a33399082f18cc259f1346cb6a815e8663a784b158b8ea95bedb9153068f585"
+  },
+  "https://pickyourrow.com/airlines/japan-airlines/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ad62eb7c7a3fb0a4710143780f36fbe6a88473b5a20711f004c1de8616495d41"
+  },
+  "https://pickyourrow.com/airlines/korean-air/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c63178e852bb053d678502c03848bc2366102145db0d33930791c2a2c96d0cd1"
+  },
+  "https://pickyourrow.com/airlines/korean-air/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "933077b249d2e4bb8c07d371e049e92836774b72eb5c1da31c4ebec8215e16ee"
+  },
+  "https://pickyourrow.com/airlines/korean-air/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8d0b7dc4d866051406a1f19cc96f85b96e229947f9452babbcf3b1da6301c272"
+  },
+  "https://pickyourrow.com/airlines/air-new-zealand/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "e48219e7cd0f3eaf80d7ed27478febaeb4b84a58b49a4d19534e9aa15b9bd1f7"
+  },
+  "https://pickyourrow.com/airlines/air-new-zealand/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "dbc35889e7564bd9df3a6ce01064141278e4e1e946175f254a687288e3e7dea8"
+  },
+  "https://pickyourrow.com/airlines/air-new-zealand/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "151196250afb6a1f9dd65b20f2ee9caaab0c2001e77902cfbb4dc70c39243f5f"
+  },
+  "https://pickyourrow.com/airlines/norwegian/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d9ad78dbd799f32300af796f003c0ed27ec4e8bac65f21f68c481b3c6d1d2b97"
+  },
+  "https://pickyourrow.com/airlines/norwegian/737-max-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7d956d47d16b58409c0c153bbff7d073a9b855d470995be948916c07946b7472"
+  },
+  "https://pickyourrow.com/airlines/norwegian/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6d12eea90f9bd98221297b2f0bc446af5b623d52946ccae751ab020c8d4a39f0"
+  },
+  "https://pickyourrow.com/airlines/sas/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8f297dfc87ed02ff84e524dec4a17d4ebbeca4a1c99655258530e8221573fb8c"
+  },
+  "https://pickyourrow.com/airlines/sas/a321lr/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "cfa4ef305b1db578703507ae6676120e96a4cf9243621dd44d9564ada0446cf9"
+  },
+  "https://pickyourrow.com/airlines/sas/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "4edd3e813f1c0d63a47a6eaa3aebbdc879a7de56b1e0ede7569cb8d1c02d228f"
+  },
+  "https://pickyourrow.com/airlines/frontier/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "331f7892ab3b53e25d0e8dacbe18d05a2619a4b76418de6b1ace1e16bf18feec"
+  },
+  "https://pickyourrow.com/airlines/frontier/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "75c2a9cd14d63edb1af2edf4a904c6264868920cf3c4f104ad3a08dfa98a452f"
+  },
+  "https://pickyourrow.com/airlines/frontier/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "498352c384844634da38faf6fdd82c71c0458679291386fb98950be831dbc7b8"
+  },
+  "https://pickyourrow.com/airlines/wizz-air/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "3e2aeb74e7065f6d7e9b63ede669e3c213764c337813b41ecda08b039b200e36"
+  },
+  "https://pickyourrow.com/airlines/wizz-air/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "54634e00a1890bab7b890fcd927f941c0c488479148ef51ca95bd40a5d51a5a7"
+  },
+  "https://pickyourrow.com/airlines/wizz-air/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "534a35e34d3dc3d5ff2b8544a08c988e2197a39cda651859037bd5217c9e9835"
+  },
+  "https://pickyourrow.com/airlines/aer-lingus/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "0cb5c8c735ef396f70387dd863a2cd74494c00486c1423abab5c2f5bde9ee5c5"
+  },
+  "https://pickyourrow.com/airlines/aer-lingus/a321lr/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b7d40ed05935fa66a5718b1e5f8e31eb04b0540e0335a5f8ea5afa8275d6080f"
+  },
+  "https://pickyourrow.com/airlines/aer-lingus/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "2ac78ac9ead7d95c927943b29b2019983808e36b326f1277ff3f7f7f3c884ad6"
+  },
+  "https://pickyourrow.com/airlines/finnair/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6ed8927e6b202ae6684216266e429fb3c2b179d2914ce6961cb56b52381c825c"
+  },
+  "https://pickyourrow.com/airlines/finnair/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6986d5f435cbdadfe9ea9fe6d82a6640c17cdebdfe62f97bfdba58d268c39169"
+  },
+  "https://pickyourrow.com/airlines/finnair/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "91a6b4af5754fabb753d348aad6f8425769811116dcd14feae7f13ddd26f652e"
+  },
+  "https://pickyourrow.com/airlines/westjet/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "a14638ae30a1b8d20a19467e4047ae3b3f1f3dc3b1bd065ec106a44224d897ee"
+  },
+  "https://pickyourrow.com/airlines/westjet/737-max-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "eb81044ddf3b802908b711ae3816b6ee0caa7b8ae3b51ea25efe1275c420e93e"
+  },
+  "https://pickyourrow.com/airlines/westjet/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8b3ffe8eaa222af8a91336bdaee80f6cbc70fdb9b1400653306727eb86a75f84"
+  },
+  "https://pickyourrow.com/airlines/austrian/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "959a754b1ea6bc4956caf8ba1769fe8a6a5764d7d3d58fef150d252acb206b2f"
+  },
+  "https://pickyourrow.com/airlines/austrian/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "2a1328f57f1ae4198c36bd7ca8f68ab8a3a5b0c03b1d74921c6897c49d1de54e"
+  },
+  "https://pickyourrow.com/airlines/austrian/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "a89ae86714b52e482b76ce2d17ca2a0340e8c991c73c691febd5888376857996"
+  },
+  "https://pickyourrow.com/airlines/eva-air/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "12e4afe08c8dc1cbfb9a0dd22dda7c1e6a7c01302ed658551c32f4441cede304"
+  },
+  "https://pickyourrow.com/airlines/eva-air/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "9bbe6e1319a69e6c7d114353e15fb2aad9a2d92b9253283ee903d0db95829350"
+  },
+  "https://pickyourrow.com/airlines/eva-air/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c511b69356de1a75783de3f91a2216f95eaef7980f15ed4902295cab79dc10a9"
+  },
+  "https://pickyourrow.com/airlines/tap-air-portugal/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "127e13feee2c001ffbcdc67d164cf13f85386b52b005d6c8f220d4320b53dbad"
+  },
+  "https://pickyourrow.com/airlines/tap-air-portugal/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "a49f77fb6bf49d6745ddd84bed199c930d9b536c582c761251b19432c9281432"
+  },
+  "https://pickyourrow.com/airlines/tap-air-portugal/a330-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c55197184e560d9cea953131f72f225f9a8a558eb408c3723de07d205847c0a8"
+  },
+  "https://pickyourrow.com/airlines/latam/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d47df5842111b3b91065604093488891ba8af2125ff1c84f26ccbfafa04f3fe1"
+  },
+  "https://pickyourrow.com/airlines/latam/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "99be09bbf4278210e3124840d0963bdfe3888a228e1b9be4b514059911165fbf"
+  },
+  "https://pickyourrow.com/airlines/latam/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "f1912ca41ad1e8ff57fe9f107b58ba347bce004564602d41798f9e0671899331"
+  },
+  "https://pickyourrow.com/airlines/air-india/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "39d09a86f9a1f44be56cda50f02de8e1b3e176869099dfb2b05991b203996298"
+  },
+  "https://pickyourrow.com/airlines/air-india/787-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "4e04375635bc636c3f84f36b94f64d4f50c5e54b975cb51fe1e69ce8a7d0bc9d"
+  },
+  "https://pickyourrow.com/airlines/air-india/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8c8116100d708a0470063dae89077cdba8a8fd274b8e62fff8fdb464b1ba2fcb"
+  },
+  "https://pickyourrow.com/airlines/thai-airways/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "2402cba08be55bb97c5c935d8d63b80ddc782aff8978b93d936d05f38172bf09"
+  },
+  "https://pickyourrow.com/airlines/thai-airways/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "9286430f47ec1aadf603b82812df6e15019303dc044ee1a75c2e7a238a55f30a"
+  },
+  "https://pickyourrow.com/airlines/thai-airways/787-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "41f7d6a2bf2ab03b7c446b746724286f8ae1c69fb92fc16dc18516e39b4e34aa"
+  },
+  "https://pickyourrow.com/airlines/lot-polish/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "e55291d271f85e9d4dfcb7143b261c34608f6fd27faf80bda1eff34397ca2198"
+  },
+  "https://pickyourrow.com/airlines/lot-polish/787-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "00846768f07eae0d92dc6226bf2f74ac259c6e0bd8272b547b6dfa48fa611c3e"
+  },
+  "https://pickyourrow.com/airlines/lot-polish/e195/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "fb5f5d43b5a66abdde668d9d3cc9cc4cb117a41812e6461d91a58057675356fa"
+  },
+  "https://pickyourrow.com/airlines/aeromexico/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "53eb6495668379504401b59aecf3e33e250e549220772aeb2252501a6d7474f1"
+  },
+  "https://pickyourrow.com/airlines/aeromexico/737-max-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "574be5e7bf2b6eb07b67a8d8c32ff2b66e8225e6db072a8a668c8d4a913eced8"
+  },
+  "https://pickyourrow.com/airlines/aeromexico/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "07bb8e795793cfc5650eae2f069fa9ebec0edc908d35ba66785177fd12bde9e1"
+  },
+  "https://pickyourrow.com/airlines/ethiopian-airlines/787-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "3bad302102a43f387f8afd1ab096fd77fa9a09dcbe8369cef4b8c50c892e0e5f"
+  },
+  "https://pickyourrow.com/airlines/ethiopian-airlines/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ab602f1966b19eff31ff3766051b431d2beeef515fc71a44653e03cca5b8c097"
+  },
+  "https://pickyourrow.com/airlines/ethiopian-airlines/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "35b045ad92f357bab4b79b42981e49a10a3262ef743d9bf50e69eec1cb7e06ed"
+  },
+  "https://pickyourrow.com/airlines/malaysia-airlines/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "9969d9240bddd6bb5c5a1ed388400c4510457340048801388c8c8000cb6a42f3"
+  },
+  "https://pickyourrow.com/airlines/malaysia-airlines/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b9f512cad05e0de33b37220b1915e5a7143fb6b6aece8c4c4f403945bbf529fa"
+  },
+  "https://pickyourrow.com/airlines/malaysia-airlines/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ecffbd40cdbd45b0457c86c1d839e7b77c037547837665f528c488c9974d2467"
+  },
+  "https://pickyourrow.com/airlines/indigo/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "3126a2d4f7fa46f506669b8ecebe9a0d34d7a75d07c02d58a5e18930c6fd9f9e"
+  },
+  "https://pickyourrow.com/airlines/indigo/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "4fe5883317c18465d0228c5f2fff732dd2bfd9ebf5bb1aa4638efd48b94396bc"
+  },
+  "https://pickyourrow.com/airlines/indigo/atr-72/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b18b8b64000a165e8460803d25ca1cde44e9233ead9cd6bf8356b9f15f2b2368"
+  },
+  "https://pickyourrow.com/airlines/copa-airlines/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d19744807032d4dee66b49e57fa310759c933aaeafa13158db9ac1f9a55c7779"
+  },
+  "https://pickyourrow.com/airlines/copa-airlines/737-max-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "b2ce65a94a81e53b3ae7e9833f65c8537e54f13fd9a3027f3848acd4cd2e0162"
+  },
+  "https://pickyourrow.com/airlines/copa-airlines/737-max-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d6c0fd18ff3d8f50b1e793cbddc49b3bd95f7dd1fa389bdc8efff8688130f21a"
+  },
+  "https://pickyourrow.com/airlines/avianca/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "0fe75eb07e3c1a1e996083670cc385a657a8d95e455b95b5f7916acf0bbd49c3"
+  },
+  "https://pickyourrow.com/airlines/avianca/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d43735e85a54e82f6ece592cec5a3ddfc41315ab23cdf2ad2b6f8dfbf9d3321e"
+  },
+  "https://pickyourrow.com/airlines/avianca/787-8/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d8d24c105b32a05c64a9be5ec8062814205ad9b978c5c9f4cc3ea544812f10b5"
+  },
+  "https://pickyourrow.com/airlines/saudia/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7504a4eddecb67496278f8a95a3c5d410edf342e6e1ccb0b2cd8ea3c083f0326"
+  },
+  "https://pickyourrow.com/airlines/saudia/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "80d498ef55fe3c413dde6eaca8a4ecd50a280278d945c76f6f349d9c2f02db7d"
+  },
+  "https://pickyourrow.com/airlines/saudia/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "d3157e7a7d8cd4b043630d87a371ae4421cfd236ff2df59cb7e33532b6d4b2d7"
+  },
+  "https://pickyourrow.com/airlines/vietnam-airlines/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "3936b4e718094bdebad2665ca8ef96f14982625e667afbab991fbf444ef9e2b1"
+  },
+  "https://pickyourrow.com/airlines/vietnam-airlines/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8c59ae2ac7d6ecb28cd4e351a867802cc3fdf0e766acdbf89103415b9134c4ff"
+  },
+  "https://pickyourrow.com/airlines/vietnam-airlines/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "a756b63e277745e646a74ed888ae2f4375b4eb5fda1e43f6eaabc48b581262de"
+  },
+  "https://pickyourrow.com/airlines/philippine-airlines/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ab290dab5cd7b1020c0dce64f0efe4558756a52a8c5c88e946b4a5e5757adb5e"
+  },
+  "https://pickyourrow.com/airlines/philippine-airlines/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "4cea9715e93479de996a524c01a1c137cc6cd4cb7e7f678d245eb4f19fc0dd12"
+  },
+  "https://pickyourrow.com/airlines/philippine-airlines/a350-900/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "1f320bbb1fc6a29171ad479ed2df158decb3e697b3fc82e8c4b79bdbd1dc0717"
+  },
+  "https://pickyourrow.com/airlines/garuda-indonesia/737-800/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "77d3b27830f837d4488517959e28ee4f85d7c49e0833803aa53e91dd85bf2f29"
+  },
+  "https://pickyourrow.com/airlines/garuda-indonesia/a330-300/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "31cbd324fed9fb6751cd5994b71a620fa977096a5901c9d093072ecf9ed537e9"
+  },
+  "https://pickyourrow.com/airlines/garuda-indonesia/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "154e7986a5f1840681e0e8129f4b7a09d5015d9ba586e522ebc261ed24563d27"
+  },
+  "https://pickyourrow.com/airlines/aegean-airlines/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8640ac2ced869d1704572216e378b0737987af6067f966fb98a26bde66ada193"
+  },
+  "https://pickyourrow.com/airlines/aegean-airlines/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c337c6e928ee32809f4c8e92add945a202644eb027f9fc0e289c1cb796a89fe9"
+  },
+  "https://pickyourrow.com/airlines/aegean-airlines/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "0019bc5fd5e9341cacbf1e6ef5fc1ef2be4874743116a7af028b0b2253226966"
+  },
+  "https://pickyourrow.com/airlines/vueling/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "2598340fcef487ae00fa6df82ac0f8a055a9d0dd2c824db98971214210e81e2e"
+  },
+  "https://pickyourrow.com/airlines/vueling/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "009a9c8965757786ca63bbe32218ea0cd4349ae9e793305f8a2118cdd998c8c7"
+  },
+  "https://pickyourrow.com/airlines/vueling/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "28ceea15db7a6a1a4d2848f2129015a35f468d591d547d5c804b2a3e8f330f2e"
+  },
+  "https://pickyourrow.com/airlines/egyptair/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "543bd71f8c9b4786224eceac6ee580815093588e1fd80079434277623d3498e4"
+  },
+  "https://pickyourrow.com/airlines/egyptair/787-9/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "8778265821fda75202cd4cc21ebb86dca596923248bba58674d0831b7164b7ee"
+  },
+  "https://pickyourrow.com/airlines/egyptair/777-300er/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "ab36a58a9f2b674c2001c3dfbaf042b9590bd83d7d63c0645ecaa1fd266db4a4"
+  },
+  "https://pickyourrow.com/airlines/spirit/a321/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "287f003cb76849af7994b3077618525f9f148240fc9fb5fa7122e8e42fca4585"
+  },
+  "https://pickyourrow.com/airlines/spirit/a319/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "0c8f76e7b3d3e46ccd128024cd8d9f1ae42a4e6b6e31e4eaf70650cc07b6883c"
+  },
+  "https://pickyourrow.com/airlines/easyjet/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "4acbd3369f78d81adf2352c5bc47673ed368edfa147e6f08466111f95c752988"
+  },
+  "https://pickyourrow.com/airlines/jetblue/a321neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "c655eecb5b61c8145d873b3acf42c608f2588a0ce1edf619c4d46e101f83d731"
+  },
+  "https://pickyourrow.com/airlines/wizz-air/a320neo/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "574d2a0e7b426890d4a411bda5352c5d077b7e83049fb8e53027c0d09cf58f9c"
+  },
+  "https://pickyourrow.com/airlines/vueling/a319/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "f3ff6395e382591ba38b5e53c318b24e7d34ddf83af985fa2b826c009b688490"
+  },
+  "https://pickyourrow.com/airlines/indigo/a320/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "6a3e4f99f26f12e47a7907f19d1b1a478102da13bef8eb3eb5bbf99995c0357c"
+  },
+  "https://pickyourrow.com/airlines/southwest/737-max-7/seat-map/": {
+    "date": "2026-11-20",
+    "hash": "7f79b4ca319bad435737e46489c92cee5a528c6f462bffba1242815ea1f3ea33"
+  },
+  "https://pickyourrow.com/aircraft/737-900er/": {
+    "date": "2026-09-08",
+    "hash": "602245a5cff517ec0fa582681919b74cb791a9e77ec078df484ccf666f83902e"
+  },
+  "https://pickyourrow.com/aircraft/a321/": {
+    "date": "2026-10-20",
+    "hash": "8abe874f6a220afb5484b13173d6baee2eb7dfd6d52c7aa50cb569b7e8e277b0"
+  },
+  "https://pickyourrow.com/aircraft/777-200/": {
+    "date": "2026-10-13",
+    "hash": "c7035992dc0eb64e732e060e69cf58fd5e6734312fe1a38867cec88767c38ea0"
+  },
+  "https://pickyourrow.com/aircraft/737-800/": {
+    "date": "2026-10-20",
+    "hash": "02d6a71af9a8cbfdb7d41b3b41fef3c2f2f0cfbbcb906c8b378da3a393a89231"
+  },
+  "https://pickyourrow.com/aircraft/a320/": {
+    "date": "2026-10-20",
+    "hash": "15abe55abaecf9da33368dd7313d175c36aff85b288436a092098c5c472c9af2"
+  },
+  "https://pickyourrow.com/aircraft/a321neo/": {
+    "date": "2026-10-20",
+    "hash": "656dfd44a4e6505ee29315cdfe928189e1fc7f78cce90cedfedbdf8d091f57e2"
+  },
+  "https://pickyourrow.com/aircraft/a220-100/": {
+    "date": "2026-09-08",
+    "hash": "04b625f8217114664df3a5e9ef10aa39f7e23250250340da51751c82d70c8bd2"
+  },
+  "https://pickyourrow.com/aircraft/737-700/": {
+    "date": "2026-10-26",
+    "hash": "59ed623e8c7104763bbfce3a8bf94e6132e365f444b99181d0f7615105072d13"
+  },
+  "https://pickyourrow.com/aircraft/737-900/": {
+    "date": "2026-09-08",
+    "hash": "ae6fe39291a06e6b7f05751254a6d06612789dea51d8bb7f870e27feebea458e"
+  },
+  "https://pickyourrow.com/aircraft/a350-900/": {
+    "date": "2026-11-09",
+    "hash": "f48de90c1d236c29dc7452fca0c15cca0b448c229e4b9a372b063063b45f295c"
+  },
+  "https://pickyourrow.com/aircraft/777-300er/": {
+    "date": "2026-11-09",
+    "hash": "23f047208c5fb3c95973d037493eaad445174d0dc056dfc2493d80f9ebfcbba2"
+  },
+  "https://pickyourrow.com/aircraft/737-8200/": {
+    "date": "2026-10-20",
+    "hash": "9706d93a44c1a8be5f1574696b5be264318588b92f96b609d9005d779302d7da"
+  },
+  "https://pickyourrow.com/aircraft/a380/": {
+    "date": "2026-10-20",
+    "hash": "80aa6e7c27f40c6ba739f46096622db2385445fd9b3933109b87abfa7f91e900"
+  },
+  "https://pickyourrow.com/aircraft/787-8/": {
+    "date": "2026-10-20",
+    "hash": "e80697e82753e124f1fc450819e3a1020dbb02adee41b3937837cc253cb90869"
+  },
+  "https://pickyourrow.com/aircraft/a330-300/": {
+    "date": "2026-11-09",
+    "hash": "ca35da161ced6e806342e78687659d6234376281437a34e77cfce086a99788cb"
+  },
+  "https://pickyourrow.com/aircraft/787-9/": {
+    "date": "2026-10-20",
+    "hash": "4784e378149a10cf5bfe917aa508193491e3e0c4ca8dd73a4c0ce405f741e4f5"
+  },
+  "https://pickyourrow.com/aircraft/a350-1000/": {
+    "date": "2026-11-09",
+    "hash": "a9e7a0f8a3179fb371674ccec327e58dfad428b13db65d1d2fa8920b215baec1"
+  },
+  "https://pickyourrow.com/aircraft/a319/": {
+    "date": "2026-09-17",
+    "hash": "5f7f33971c178601c4fb10e8fe2d30a203d28a7891fd1f9498bbc56580840ef2"
+  },
+  "https://pickyourrow.com/aircraft/757-200/": {
+    "date": "2026-09-08",
+    "hash": "9ba3b3588402b0eccdbb1f0b7c528b68f194d0890664397fc849f78b667754cb"
+  },
+  "https://pickyourrow.com/aircraft/777-200er/": {
+    "date": "2026-09-08",
+    "hash": "f5ae628b16e968cda6b7cf40e1016d3fb64d941dea4eb7413faee07e516f4bdc"
+  },
+  "https://pickyourrow.com/aircraft/737-8/": {
+    "date": "2026-10-26",
+    "hash": "f5168f39257bf54351c923bd93080838639d0a60a8cfc56458837bf15c04a598"
+  },
+  "https://pickyourrow.com/aircraft/a220-300/": {
+    "date": "2026-09-08",
+    "hash": "64548e8de3dab7c8043b6313fe06aa4f9c605f388c18afe9d3e6b3bbe3bc00ad"
+  },
+  "https://pickyourrow.com/aircraft/737-9/": {
+    "date": "2026-10-20",
+    "hash": "0b46c9261c5578ff023f75c6173aca73182cef9aeadc5cd3ba589ccfc858602b"
+  },
+  "https://pickyourrow.com/aircraft/787-10/": {
+    "date": "2026-10-20",
+    "hash": "a167eef719b413319e0d5484e88783efc324f3f0c8362174b061ef67cfe688d3"
+  },
+  "https://pickyourrow.com/aircraft/a330-200/": {
+    "date": "2026-10-20",
+    "hash": "437ec87930003d24feebe240095c1f260d0578fb56dd586101af89c5dc903d3a"
+  },
+  "https://pickyourrow.com/aircraft/a320neo/": {
+    "date": "2026-10-20",
+    "hash": "64c4a9a8ef0a58cce46634d445bdbdf213811543e921b83225de1e556db6ed2c"
+  },
+  "https://pickyourrow.com/aircraft/737-max-8/": {
+    "date": "2026-10-20",
+    "hash": "098892f7e28fd5334cf9d3265b370d210445b3082bb7db40f9cbca2f7762b98d"
+  },
+  "https://pickyourrow.com/aircraft/a321lr/": {
+    "date": "2026-10-20",
+    "hash": "fea33b4137eac89a0d2aaf79de336a356f545998e9944fbf32753eb7a01cb4d0"
+  },
+  "https://pickyourrow.com/aircraft/a330-900/": {
+    "date": "2026-09-15",
+    "hash": "4865ed5ef3ecd4cf2be8aeafc23e9ca521030c4bd80996183232fc6a5052a82f"
+  },
+  "https://pickyourrow.com/aircraft/embraer-e195/": {
+    "date": "2026-10-20",
+    "hash": "026bb119bf9c258d3124b88e4c4b6f7c46b0d00c6b9cbce422398d6775275ba7"
+  },
+  "https://pickyourrow.com/aircraft/atr-72-600/": {
+    "date": "2026-09-16",
+    "hash": "4555d0f26458d616da3b9fedf06b7fd7ff661a6c60b854b855ddc91f166d6183"
+  },
+  "https://pickyourrow.com/aircraft/737-max-9/": {
+    "date": "2026-09-16",
+    "hash": "68ed3737899c01b8dbb78be581c7dc159fe85b19af9a2054a76680b493310a9d"
+  },
+  "https://pickyourrow.com/aircraft/737-max-7/": {
+    "date": "2026-10-26",
+    "hash": "0e54980dcdac782f1f791b3df6de19f4acb7cd2c79c105d2dabb91b991a60766"
+  },
+  "https://pickyourrow.com/guides/unassigned-seats-versus-paid-selection/": {
+    "date": "2026-11-20",
+    "hash": "9a9e0dd30993b9a723ea5343c66033d2669ddfb795e3c6964ce06ca05ed03c72"
+  },
+  "https://pickyourrow.com/guides/seat-selection-checklist-before-you-fly/": {
+    "date": "2026-11-20",
+    "hash": "847822804c128359d49caebdb45b50732b5f2180b536b6b8221136786a065785"
+  },
+  "https://pickyourrow.com/guides/how-to-verify-your-aircraft-type/": {
+    "date": "2026-09-17",
+    "hash": "c602f541ecd11665d32ace0cf87f62bd48a218a885dcb6214a2be8ae47ee8e23"
+  },
+  "https://pickyourrow.com/guides/seat-pitch-and-width-explained/": {
+    "date": "2026-11-20",
+    "hash": "3d48c71a468216c4ce35b87678aae774c747a0c6b60c851401cecdccf3e91e4e"
+  },
+  "https://pickyourrow.com/guides/herringbone-economy-sleepers/": {
+    "date": "2026-11-05",
+    "hash": "7969fc8f5024b79c9e9b21bb691a4f3b149f0fc11ca2bb1aa998012644d06bc9"
+  },
+  "https://pickyourrow.com/guides/vertical-lay-flat-skyscraper-seats/": {
+    "date": "2026-11-05",
+    "hash": "d5402f2597fa8951ed17025dcc6d9639ac7e742b11ebaed26a27781cb0a29581"
+  },
+  "https://pickyourrow.com/guides/capsule-bunks-over-the-wing/": {
+    "date": "2026-10-24",
+    "hash": "159ec4b84dfede97495bec3fed67540a51ba90ebdb65a45453657812512d8140"
+  },
+  "https://pickyourrow.com/guides/rotating-privacy-shells/": {
+    "date": "2026-10-24",
+    "hash": "6a3c19e6089776461c544b7d9a9f02fd613ea1b70adcd4fca102343f1f7aac2d"
+  },
+  "https://pickyourrow.com/guides/family-mezzanine-suites/": {
+    "date": "2026-10-24",
+    "hash": "7ed52ec4c29c28a270ec015896d01de3fd526bacd9d17d16d8bba7195076efae"
+  },
+  "https://pickyourrow.com/guides/lower-deck-sleeper-pods/": {
+    "date": "2026-10-24",
+    "hash": "86930cea02bcf27b309081dbbd4186fa24eed3ce20d2b73e9b31f0f091ef52b5"
+  },
+  "https://pickyourrow.com/guides/window-wall-daybeds/": {
+    "date": "2026-10-26",
+    "hash": "befdd8516e1c1a3055206e3ba23dbdbf9700dcdfc13a2dfcf32bea0572a638dd"
+  },
+  "https://pickyourrow.com/guides/aisle-lounge-night-mode/": {
+    "date": "2026-10-26",
+    "hash": "261a05daf04bcf15f7d425766f975eee5b4a6c5971f67a7f228feade4799ba08"
+  },
+  "https://pickyourrow.com/guides/how-to-read-a-seat-map/": {
+    "date": "2026-11-05",
+    "hash": "d0951b6529fe2bab109d2169a8029942ecd14d9a804d479922d7c3cadbcfd889"
+  },
+  "https://pickyourrow.com/guides/exit-row-vs-bulkhead/": {
+    "date": "2026-11-05",
+    "hash": "24c0bcb344a90b5e90bdd5576c9cce6bb242515012dd24a244a8cbd1eb62e545"
+  },
+  "https://pickyourrow.com/guides/exit-row-tips/": {
+    "date": "2026-11-05",
+    "hash": "09064bcaf4d6b8f4c953a0ee1b5d6e16e9202f9bca1102e76be8072a893c2ee3"
+  },
+  "https://pickyourrow.com/guides/window-alignment/": {
+    "date": "2026-11-05",
+    "hash": "807d56ce0409dee3ca1db6acc94339e6b58382af4a9bbb2c34809792e0ac1842"
+  },
+  "https://pickyourrow.com/guides/bulkhead-seats/": {
+    "date": "2026-11-05",
+    "hash": "d844dc6f6c16f347fa9f1db6143887cab83fb41cf4dc0c027c0d86b4ff60303f"
+  },
+  "https://pickyourrow.com/guides/quiet-vs-convenient/": {
+    "date": "2026-11-05",
+    "hash": "80e2a9c37e40ce917f049f4b285d422d8c8dcd52216b061789b2a045cc65090b"
+  },
+  "https://pickyourrow.com/guides/aisle-vs-window/": {
+    "date": "2026-11-05",
+    "hash": "eaca979d91fd4a0c095f414de6d7cf9ecee7f14f25e8af97e97aa2ae74e60800"
+  },
+  "https://pickyourrow.com/guides/premium-economy-tips/": {
+    "date": "2026-11-05",
+    "hash": "6857430ab55dc35eebbe1f2d8c9d324cbc525dfe897d15f225c67d997016ccaf"
+  },
+  "https://pickyourrow.com/guides/choosing-seats-with-kids/": {
+    "date": "2026-11-09",
+    "hash": "0e13af9647d6b3e354d8183edfa34e9ee2682cf7ecf1806010cb79cbf7dc205b"
+  },
+  "https://pickyourrow.com/guides/overnight-long-haul-seat-strategy/": {
+    "date": "2026-11-05",
+    "hash": "85082a7af38ac2d69caf348c94ed3bfe2dbd2a2d9826647befce67f0a9293bee"
+  },
+  "https://pickyourrow.com/guides/low-cost-carrier-seat-fees/": {
+    "date": "2026-11-05",
+    "hash": "82dcd2539f3b37644f297b33e8b51d07b25d65ae458238ee13b6ec4775cb4aeb"
+  },
+  "https://pickyourrow.com/guides/how-pickyourrow-scores-work/": {
+    "date": "2026-11-05",
+    "hash": "f067e63d5b15faae497a03c624ab43899d006439ab9fcb3b17f1a6407c85138d"
+  },
+  "https://pickyourrow.com/guides/bassinet-bulkhead-seats/": {
+    "date": "2026-11-05",
+    "hash": "1ac4f10f4ce03c99062cc5fa686e1c121a4e597880a3a7de58d2a5c6673fe3e0"
+  },
+  "https://pickyourrow.com/guides/choosing-seats-for-couples/": {
+    "date": "2026-11-05",
+    "hash": "603f8645ae23034c367be2e2724de32e6972a40805a4769fddc1f13da615d09a"
+  },
+  "https://pickyourrow.com/guides/wing-vs-overwing-views/": {
+    "date": "2026-11-05",
+    "hash": "00a3b4423d92c0c1d565379cf5f210d9dd9f02b82ee0830accf0b0b27340164a"
+  },
+  "https://pickyourrow.com/guides/seat-map-glossary/": {
+    "date": "2026-11-05",
+    "hash": "593d5481f83f56ae05c8bdd8db964def53f3088081d7bc008c9279188d80a882"
+  },
+  "https://pickyourrow.com/guides/cabin-class-primer/": {
+    "date": "2026-11-05",
+    "hash": "52fc41df468171312ee06a0040f4aa5b53dabdd38f9042db25c1c17824857695"
+  },
+  "https://pickyourrow.com/guides/middle-seat-survival/": {
+    "date": "2026-11-05",
+    "hash": "c88e75d054514648ca099f730a48a6c50c6df3b49b6812080627c94d138565d0"
+  },
+  "https://pickyourrow.com/guides/red-eye-seat-strategy/": {
+    "date": "2026-11-05",
+    "hash": "bf73da2e9db136571ea786b7b73e5f6243eb0275691557bb79b2cfba31c55f25"
+  },
+  "https://pickyourrow.com/guides/overhead-bin-and-seat-choice/": {
+    "date": "2026-11-05",
+    "hash": "f4be199b9b11dc92560ecf8ee5a421102117458aa87cce95e0508fe1e024bc99"
+  },
+  "https://pickyourrow.com/guides/power-outlets-and-usb-seat-planning/": {
+    "date": "2026-11-05",
+    "hash": "c20d24700f8698c5c5a2c159ab8c1d43ff8d421d10a0d9ed93f8c93672601a48"
+  },
+  "https://pickyourrow.com/guides/forward-vs-aft-cabin/": {
+    "date": "2026-11-05",
+    "hash": "a1afc04fed29728b60937886d8c0994660bbac803700921efe3ab6f6e1858329"
+  },
+  "https://pickyourrow.com/guides/extra-legroom-upsells-explained/": {
+    "date": "2026-11-05",
+    "hash": "438297564eac9440c8bff7052a377532fafd839d2a925b10eedbe5ba31caf338"
+  },
+  "https://pickyourrow.com/guides/cabin-retrofits-and-seat-maps/": {
+    "date": "2026-11-05",
+    "hash": "6f8e9fd670e46300552c83a8c43b63ed9d7ab4ea263ab0812738a154bf34e3d5"
+  },
+  "https://pickyourrow.com/guides/choosing-seats-for-mobility-needs/": {
+    "date": "2026-11-09",
+    "hash": "c54566ba851c10215b1945d4149baef92ec4bddd03cbf4b2f41063405948c8a4"
+  },
+  "https://pickyourrow.com/guides/when-to-select-your-seats/": {
+    "date": "2026-09-15",
+    "hash": "565154cb4f37dce110b676867dfdc7e675e455b86e471c0048af708f22040ba8"
+  },
+  "https://pickyourrow.com/guides/group-travel-seat-strategy/": {
+    "date": "2026-09-15",
+    "hash": "49dd95069629789f544f89915348bcaca78ee792fffb140d9688c3ef989b028d"
+  },
+  "https://pickyourrow.com/guides/short-haul-versus-long-haul-priorities/": {
+    "date": "2026-09-15",
+    "hash": "8a230a6652703b61fd271c25b4b94d37809a07e15d14b0714ce87d7117770bab"
+  },
+  "https://pickyourrow.com/guides/jet-lag-and-cabin-position/": {
+    "date": "2026-09-16",
+    "hash": "284e5bee86497b7d0b4db4244cb7e59a4c6fce5cc0ac47ba4c2d790cd722c95e"
+  },
+  "https://pickyourrow.com/guides/connecting-flight-seat-strategy/": {
+    "date": "2026-11-05",
+    "hash": "eb962f22c82015e0d59d0ab4cfdd275dd6c7ba5984c6d23bf5a9afd399d603be"
+  },
+  "https://pickyourrow.com/guides/tall-traveler-seat-strategy/": {
+    "date": "2026-09-17",
+    "hash": "e74634dd0aaadf8be39cb84d8377b26038cf2e0c07bad61f9de30c6419ea2dfe"
+  },
+  "https://pickyourrow.com/guides/aircraft-swap-and-seat-reassignment/": {
+    "date": "2026-11-09",
+    "hash": "2c6d2b4033ea08f3c00d28bce3d0eaa756e4a8fdfce041267b4e3621ac4e5c47"
+  },
+  "https://pickyourrow.com/guides/noise-near-galleys-and-lavatories/": {
+    "date": "2026-09-17",
+    "hash": "b093e0f43f91c755e87530c060beebde9d2d3c4109fa7801545b01f1415b54de"
+  },
+  "https://pickyourrow.com/guides/sunrise-and-sunset-window-seats/": {
+    "date": "2026-10-26",
+    "hash": "ea9f4e258467ce63b47d05c17bc398482ea3fe464d347d0c01fc2079d6a9b312"
+  },
+  "https://pickyourrow.com/guides/southwest-assigned-seating-guide/": {
+    "date": "2026-10-26",
+    "hash": "f9a22e3d9613318558033cf00d17552f706ba680a8bbcc84ae0006d379bb4a4f"
+  },
+  "https://pickyourrow.com/guides/do-exit-row-seats-recline/": {
+    "date": "2026-10-26",
+    "hash": "d500b9fe33996d23066da0c7ea8fd712801c537904394fb5f522e51e32ec1408"
+  },
+  "https://pickyourrow.com/guides/ryanair-737-8200-seats/": {
+    "date": "2026-11-20",
+    "hash": "44ab15d37c60296082ed04f86a8d59dfeafacb84feb411bb3401a6d0f89f8045"
+  },
+  "https://pickyourrow.com/guides/seat-reclining-etiquette/": {
+    "date": "2026-11-05",
+    "hash": "aae7d84fd8dd1d1d753ae733fab40d527ed80bfc9b0197efb0bdead330af9493"
+  },
+  "https://pickyourrow.com/guides/tight-connections-and-seat-choice/": {
+    "date": "2026-11-09",
+    "hash": "f6b3f6c328661bcc89a4316d05afb73148a152ead75e079338a1fb8d28ed1e05"
+  },
+  "https://pickyourrow.com/guides/boeing-787-dreamliner-seat-guide/": {
+    "date": "2026-11-09",
+    "hash": "c0d28972f0e6af4aae93313efd2be6b7b839b761fafec4d88057e4f2caeeae1f"
+  },
+  "https://pickyourrow.com/guides/airbus-a350-seat-guide/": {
+    "date": "2026-11-09",
+    "hash": "166a650a3da83246c45ec50d169cff581db30d57bc4375a2e00747c81bec4543"
+  },
+  "https://pickyourrow.com/guides/a350-vs-787-economy/": {
+    "date": "2026-11-09",
+    "hash": "a69d676f0eed6bc75b12dc82c49aa42ed1d1ab603518e24bbcfbe1febf1f1f7e"
+  },
+  "https://pickyourrow.com/guides/boeing-777-300er-seat-guide/": {
+    "date": "2026-11-09",
+    "hash": "c7f6eb8c6b705cf57128cdd33a7fe1df7a4f4e8986aac956f8d7bdbd78a72769"
+  },
+  "https://pickyourrow.com/guides/turkish-airlines-seat-selection-guide/": {
+    "date": "2026-11-09",
+    "hash": "9791562e6b50ede24a44ae7e169d03700afba469aefb3b8906dc6a001852e0e6"
+  },
+  "https://pickyourrow.com/guides/paid-seat-refund-rules/": {
+    "date": "2026-11-09",
+    "hash": "00b2e4200c7ddea540a13a9f9e268d23c7675548cdb731f3256dbb5c73479135"
+  },
+  "https://pickyourrow.com/guides/disability-seating-rights-on-flights/": {
+    "date": "2026-11-09",
+    "hash": "35f2afa95c668a7c92cb975c2544dc8359899e3286c36609802a47df60292eac"
+  },
+  "https://pickyourrow.com/guides/car-seats-on-planes-faa-rules/": {
+    "date": "2026-11-09",
+    "hash": "57b77477fb6d0f81d2169be9b39d2b99e69f39f9f56a31d1528b11acaf42387d"
+  },
+  "https://pickyourrow.com/guides/lap-infant-seating-rules/": {
+    "date": "2026-11-09",
+    "hash": "336aecfa2edec29988eca603d3e86e620e6c8228131f9b5e36ffe6d94fb99c75"
+  },
+  "https://pickyourrow.com/news/jetblue-bluefirst-domestic-first-class-on-sale-2026/": {
+    "date": "2026-10-20",
+    "hash": "67d99db6cd7c77c1d644e6d07e82cfc1bc0e352873f4edbc89a5ff4bfe748037"
+  },
+  "https://pickyourrow.com/news/delta-one-refresh-los-angeles-2026/": {
+    "date": "2026-10-16",
+    "hash": "4a426257f15cd4ed32484489972b016c18dd98e0f6d805346d43ca02c3068de1"
+  }
+}
