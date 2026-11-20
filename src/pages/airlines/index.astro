@@ -19,7 +19,7 @@ const jsonLd = breadcrumbItemList({
 ---
 <BaseLayout
   title="Airlines directory: seat maps by carrier"
-  description="Browse original cabin schematics by airline. Pick a carrier, open a seat map or best seats page, then use the booking placeholder when ready. Not affiliated with any airline."
+  description="Browse original cabin schematics by airline. Pick a carrier, open a seat map or best seats page, then confirm the layout with the airline when you book. Not affiliated with any airline."
   canonicalPath="/airlines/"
   jsonLd={jsonLd}
 >
@@ -45,7 +45,6 @@ const jsonLd = breadcrumbItemList({
       <a href="/aircraft/">Aircraft index</a>
       <a href="/guides/">Guides index</a>
       <a href="/methodology/">Methodology</a>
-      <a href="/book/">Booking stub</a>
     </nav>
     <div class="grid cols-2" id="airline-grid">
       {airlines.map((a) => {
