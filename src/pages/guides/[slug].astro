@@ -28,10 +28,18 @@ const relatedPriority = [
   'aisle-vs-window',
   'bulkhead-seats',
 ];
-const relatedGuides = [
-  ...guides.filter((g) => g.slug !== slug && relatedPriority.includes(g.slug)),
-  ...guides.filter((g) => g.slug !== slug && !relatedPriority.includes(g.slug)),
-].slice(0, 4);
+const explicitRelated = ((guide as { related?: string[] }).related ?? []).filter((item) => item !== slug);
+const relatedGuides = (
+  explicitRelated.length
+    ? explicitRelated.flatMap((item) => {
+        const found = guides.find((g) => g.slug === item);
+        return found ? [found] : [];
+      })
+    : [
+        ...guides.filter((g) => g.slug !== slug && relatedPriority.includes(g.slug)),
+        ...guides.filter((g) => g.slug !== slug && !relatedPriority.includes(g.slug)),
+      ]
+).slice(0, 4);
 const relatedItems = relatedGuides.map((g) => ({
   href: `/guides/${g.slug}/`,
   title: g.title,
@@ -62,6 +70,14 @@ function visibleProse(text: string): string {
 }
 
 const pagePath = `/guides/${guide.slug}/`;
+const published = (guide as { published?: string }).published;
+const updated = (guide as { updated?: string }).updated ?? published;
+const photoName = photoForText(guide.title + ' ' + guide.slug, guide.slug);
+const imagePath = heroImage?.src ?? `/images/photos/${photoName}.webp`;
+type CompareLink = { href: string; label: string };
+const compare = (
+  guide as { compare?: { heading?: string; intro: string; links: CompareLink[] } }
+).compare;
 const jsonLd: Record<string, unknown>[] = [
   {
     '@context': 'https://schema.org',
@@ -69,13 +85,14 @@ const jsonLd: Record<string, unknown>[] = [
     headline: guide.title,
     description: guide.description,
     url: `https://pickyourrow.com${pagePath}`,
+    ...(published ? { datePublished: published, dateModified: updated } : {}),
     author: PUBLISHER,
     publisher: PUBLISHER,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://pickyourrow.com${pagePath}`,
     },
-    ...(heroImage ? { image: new URL(heroImage.src, 'https://pickyourrow.com').toString() } : {}),
+    image: new URL(imagePath, 'https://pickyourrow.com').toString(),
   },
   {
     '@context': 'https://schema.org',
@@ -191,14 +208,19 @@ if (faqs.length > 0) {
     )}
 
     <CompareBox
-      heading="Check a seat map"
-      intro="When you are ready to match this guide to a cabin drawing, open an airline hub or the aircraft index."
-      links={[
-        { href: '/airlines/', label: 'Airlines directory' },
-        { href: '/aircraft/', label: 'Aircraft index' },
-        { href: '/best-seats/', label: 'Best seats directory' },
-        { href: '/guides/', label: 'All guides' },
-      ]}
+      heading={compare?.heading ?? 'Check a seat map'}
+      intro={
+        compare?.intro ??
+        'When you are ready to match this guide to a cabin drawing, open an airline hub or the aircraft index.'
+      }
+      links={
+        compare?.links ?? [
+          { href: '/airlines/', label: 'Airlines directory' },
+          { href: '/aircraft/', label: 'Aircraft index' },
+          { href: '/best-seats/', label: 'Best seats directory' },
+          { href: '/guides/', label: 'All guides' },
+        ]
+      }
     />
 
     <p class="btn-row">

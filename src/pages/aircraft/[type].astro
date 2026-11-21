@@ -1,5 +1,6 @@
 ---
 import Photo from '../../components/Photo.astro';
+import CompareBox from '../../components/CompareBox.astro';
 import { photoForText, pickPhoto, photoForAircraft } from '../../lib/photos';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { airlines, getUniqueAircraftTypes, layoutString } from '../../data';
@@ -25,7 +26,10 @@ export function getStaticPaths() {
 }
 
 const { type } = Astro.params;
-const entry = getUniqueAircraftTypes().find((t) => t.typeSlug === type)!;
+const allTypes = getUniqueAircraftTypes();
+const entry = allTypes.find((t) => t.typeSlug === type)!;
+const typeIndex = allTypes.findIndex((t) => t.typeSlug === type);
+const otherTypes = [1, 2, 3].map((step) => allTypes[(typeIndex + step) % allTypes.length]);
 const pagePath = `/aircraft/${entry.typeSlug}/`;
 
 function listNames(names: string[]): string {
@@ -311,6 +315,15 @@ const jsonLd = [
         );
       })}
     </div>
+
+    <CompareBox
+      heading="Check another aircraft"
+      intro="Open a different type if the jet on your ticket is not this one. Each card is a separate cabin drawing."
+      links={otherTypes.map((item) => ({
+        href: `/aircraft/${item.typeSlug}/`,
+        label: `${item.label.replace(/[-–—]/g, ' ').replace(/\s{2,}/g, ' ')} seat maps`,
+      }))}
+    />
 
     <h2>Aircraft type FAQ</h2>
     <div class="prose faq-block">

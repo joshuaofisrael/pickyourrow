@@ -1,32 +1,93 @@
 [
   {
     "slug": "unassigned-seats-versus-paid-selection",
-    "title": "Unassigned seats versus paid selection",
-    "description": "How free random assignment, open seating, and paid seat maps differ, plus when paying is worth it for families, tall travelers, and tight connections.",
+    "title": "Unassigned seats versus paid selection: three ways a fare hands you a seat",
+    "description": "Assigned when you buy, assigned later, or a paid map. How to tell which system your fare uses before you assume you can sit together.",
+    "published": "2026-09-17",
+    "updated": "2026-11-21",
+    "related": [
+      "basic-economy-seat-selection",
+      "when-to-select-your-seats",
+      "family-seating-rules",
+      "low-cost-carrier-seat-fees"
+    ],
+    "compare": {
+      "heading": "Check another airline",
+      "intro": "Open the carrier hub if you want the cabin drawings that sit behind this fare rule.",
+      "links": [
+        {
+          "href": "/airlines/american/",
+          "label": "American Airlines seat maps"
+        },
+        {
+          "href": "/airlines/delta/",
+          "label": "Delta Air Lines seat maps"
+        },
+        {
+          "href": "/airlines/united/",
+          "label": "United Airlines seat maps"
+        },
+        {
+          "href": "/airlines/alaska/",
+          "label": "Alaska Airlines seat maps"
+        },
+        {
+          "href": "/airlines/jetblue/",
+          "label": "JetBlue seat maps"
+        },
+        {
+          "href": "/airlines/southwest/",
+          "label": "Southwest seat maps"
+        }
+      ]
+    },
     "body": [
-      "Airlines sell seats in different ways. Some include a free assigned seat. Some charge for every map pick. Some use open seating where boarding group matters more than a locked row. Know which system you bought.",
-      "Paid selection is often worth it when you travel with kids who must sit together, when you need an aisle for mobility reasons, or when a tight connection makes forward cabin access valuable. It is less critical for solo travelers on short day flights who can accept a middle seat.",
-      "ULCC brands frequently unbundle seats. The base fare looks low until you add bags and rows. Compare the total, not the seat fee alone. Our low cost carrier seat fees guide covers the pattern.",
-      "Open seating cultures reward early boarding more than a prepicked letter. If that is your carrier, prioritize boarding position and a clear goal (window for sleep, aisle for mobility) instead of obsessing over a schematic row number.",
-      "Editorial scores on Pick Your Row still help when the map is paid. They highlight exit and bulkhead space and flag lavatory traffic. They do not tell you whether the fee is fair for your wallet.",
-      "Consumer rights pages explain delay and cancellation themes. They rarely force free seat choice. Treat fees as contract of carriage territory and read the airline rules for your fare brand.",
-      "Next: browse airlines that match your trip, open a seat map, run the seat selection checklist, then confirm the seat in the airline seat selection tool when you book."
+      "Airlines hand out seats in three ways, and the fare name is the clue. Some fares let you pick a seat when you buy. Some assign a seat later, at check in, at the gate, or before boarding. A few still sold open seating, where boarding order mattered more than a locked row. Southwest left that third system on January 27, 2026. If you cannot tell which one you bought, you are guessing about sitting together.",
+      "A seat included at purchase is the simple case. You see a map, you choose a letter, and the fee is either zero or bundled into a higher fare. JetBlue says Main and Main Flex have no seat fee. Southwest says Choice lets you select a Standard seat at booking, Choice Preferred includes a Preferred seat, and Choice Extra includes Extra Legroom. Those are pick now fares. The seat can still move if the airline swaps aircraft. [How to verify your aircraft type](/guides/how-to-verify-your-aircraft-type/) is the recheck.",
+      "A seat assigned later is what the cheap fare usually means in 2026. American Basic Economy assigns a free seat at check in if you do not pay. Delta Main Basic assigns after check in, or at the gate if the boarding pass is blank. United says it chooses the Basic Economy seat and tells you before boarding. Alaska Saver assigns at check in, or at the gate if check in does not. JetBlue Main Base assigns before departure if you skip the fee. Southwest Basic assigns a Standard seat at check in. The line by line version is [basic economy seat selection](/guides/basic-economy-seat-selection/). Paying earlier buys the letter. Waiting accepts the letter the airline has left.",
+      "Open seating is the system people still describe from habit. You did not have a row until you boarded, and an early boarding group was the product. Southwest's assigned seating page says that model is gone for travel from January 27, 2026. If a blog still tells you to check in at 24 hours to pick a Southwest seat, it is describing the old cabin. The current bundles are on [Southwest assigned seating](/guides/southwest-assigned-seating-guide/).",
+      "Sitting together is not automatic on an assigned later fare, and it is not the same rule as a family commitment. American, JetBlue, and Alaska each publish a family promise that can cover the cheap fare if you follow their conditions, including choosing seats for the whole reservation or skipping seats for the whole reservation. Delta's children page says it strives to seat families together and tells you to call if the app cannot. United's children page lets the first adult sit next to up to two children under 12 for free if the seats are open, and its Basic Economy terms say families will not sit together. Those pages are compared on [family seating rules](/guides/family-seating-rules/). A couple with no child is outside every one of those promises. Two adults on Saver, or on Basic Economy, should assume they can be split unless they pay.",
+      "The fee is worth it when the row changes the trip. A child who must be beside you, an exit row you are eligible to sit in, or a forward aisle before a tight connection are the usual reasons. A solo traveler on a one hour flight can often take the assigned later seat. [Low cost carrier seat fees](/guides/low-cost-carrier-seat-fees/) is the longer version of that trade. Editorial scores on a Pick Your Row map still show exits, bulkheads, and lavatories. They do not tell you the fee, and they do not hold the seat.",
+      "Before you pay, open the airline seat map for that flight, not a generic drawing. Then decide whether the letter is included, delayed, or for sale. [When to select your seats](/guides/when-to-select-your-seats/) covers the clock from purchase to the gate. Pick Your Row is not affiliated with any airline."
+    ],
+    "faq": [
+      {
+        "question": "What is the difference between an assigned seat and a paid seat?",
+        "answer": "An assigned seat is any seat the airline attaches to your name, including one it picks for you at check in. A paid seat is one you choose on the map for a fee, or one bundled into a higher fare. The cheap fare on the airlines in this guide is usually assigned later unless you pay."
+      },
+      {
+        "question": "Does open seating still exist on Southwest?",
+        "answer": "Not for travel from January 27, 2026. Southwest assigns seats. Basic gets a Standard seat at check in. Higher bundles let you choose earlier."
+      },
+      {
+        "question": "If I do nothing, when do I learn my seat?",
+        "answer": "It depends on the fare. American says check in. Delta says after check in or at the gate. United says before boarding. Alaska says check in or the gate. JetBlue says before departure. Southwest Basic says check in. Confirm on your booking, because a swap can change the letter again."
+      },
+      {
+        "question": "Should two adults pay to sit together?",
+        "answer": "On the cheap fares described here, yes if sitting together matters. The family promises are about a child and an adult, not about two adults. Alaska says it does not recommend Saver for a party of two or more."
+      }
     ],
     "sources": [
       {
+        "label": "American Airlines Basic Economy (opened 21 November 2026)",
+        "url": "https://www.aa.com/i18n/travel-info/experience/seats/basic-economy.jsp",
+        "note": "Fee to choose a seat, otherwise assignment at check in."
+      },
+      {
+        "label": "Delta Main Basic (opened 21 November 2026)",
+        "url": "https://www.delta.com/us/en/onboard/onboard-experience/delta-main-basic",
+        "note": "Assignment after check in or at the gate, with a paid option in advance."
+      },
+      {
+        "label": "Southwest assigned seating (opened 21 November 2026)",
+        "url": "https://www.southwest.com/customer-enhancements/assigned-seating/",
+        "note": "Assigned seating for travel from January 27, 2026, and the Basic seat assigned at check in."
+      },
+      {
         "label": "U.S. DOT Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
-        "note": "U.S. aviation consumer protection overview."
-      },
-      {
-        "label": "Your Europe Air passenger rights",
-        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
-        "note": "EU passenger rights summary for in scope itineraries."
-      },
-      {
-        "label": "EASA topic page on EU air passenger rights",
-        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
-        "note": "Points readers to Commission managed passenger rights material."
+        "note": "Consumer overview. It does not force a free seat choice."
       }
     ]
   },
@@ -146,11 +207,11 @@
     ],
     "body": [
       "Most true beds in the sky buy sleep the expensive way. They claim a long rectangle of floor. On a narrow body that footprint is revenue gold, which is why full flat beds usually live in business class, not coach. So here is a Pick Your Row thought experiment that aims at economy rest another way: the herringbone economy sleeper. Angled nearly flat beds staggered like fishbones, pointing into the aisle so neighbors share volume that is usually wasted walking space.",
-      "Picture a seat that boards upright, then unfolds into a nearly horizontal shell that is not parallel to the fuselage. Each bed is rotated about thirty degrees toward the center aisle. The head end nests toward the sidewall. The foot end steps into a pocket of aisle air that passengers already leave clear while walking. Because left and right sides stagger, one traveler\u2019s toes occupy a slice of aisle that the opposite footwell does not need at the same station. Seat count can stay closer to dense economy while sleep length grows.",
+      "Picture a seat that boards upright, then unfolds into a nearly horizontal shell that is not parallel to the fuselage. Each bed is rotated about thirty degrees toward the center aisle. The head end nests toward the sidewall. The foot end steps into a pocket of aisle air that passengers already leave clear while walking. Because left and right sides stagger, one traveler’s toes occupy a slice of aisle that the opposite footwell does not need at the same station. Seat count can stay closer to dense economy while sleep length grows.",
       "Why bother? Horizontal lie flats win for rest, but they wreck how many tickets an airline can sell. Classic recliner rows keep density and lose sleep quality. Herringbone geometry tries to monetize aisle dead space as footwell length instead of asking for a full business class suite. The cabin width is already paid for in structure and drag. The question is whether an angled privacy shell can turn that shared center strip into rest without collapsing boarding flow.",
       "Why do airlines not do more of this already? Parts of the idea are familiar. Some premium cabins already use reverse herringbone suites. The hard leap is bringing a similar angle into high density coach while keeping evacuation, weight, and boarding times acceptable. Certification does not care how pretty the render looks. Aisle width, assist paths near exits, passenger assist criteria, oxygen, fireworthiness, and how fast a full load can leave still rule the design. Angled shells also complicate under seat bags, service carts, and who can stand up without blocking neighbors.",
       "Trade offs stack quickly. Structure and fittings get heavier when every shell is a capsule. Center of gravity shifts if rows stagger unevenly. Overhead bins compete for the same wall volume privacy canopies want. Boarding slows if people must crab into angled nests. Revenue density can rise if you keep seat count and sell sleep as a premium coach upsell, or it can fall if you lose too many seats to make the angle work. None of the images on this page are certified products. They are original concept illustrations meant to make the geometry intuitive.",
-      "If a design ever worked, traveler trade offs would feel familiar to anyone who studies seat maps. Privacy shells help rest but can feel tight. Window side pods may suit solo sleepers more than families who want to face each other. Aisle access gets odd if you must step over a footwell. Nearly flat is still not a true hotel bed. Our editorial scores on live configs still assume today\u2019s real seats: exit rows, bulkheads, lav proximity, not speculative sleep pods.",
+      "If a design ever worked, traveler trade offs would feel familiar to anyone who studies seat maps. Privacy shells help rest but can feel tight. Window side pods may suit solo sleepers more than families who want to face each other. Aisle access gets odd if you must step over a footwell. Nearly flat is still not a true hotel bed. Our editorial scores on live configs still assume today’s real seats: exit rows, bulkheads, lav proximity, not speculative sleep pods.",
       "For travelers, the useful takeaway is simpler than the art. When you pick a row today, you are still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than whether a future cabin might share aisle volume. Use our original schematics to plan the aircraft you actually booked, and treat herringbone economy sleepers as a design brief, not a booking tip. For related speculative cabin ideas on this site, see [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/), [The Skyscraper Seat](/guides/vertical-lay-flat-skyscraper-seats/), and [Rotating Privacy Shells](/guides/rotating-privacy-shells/).",
       "Pick Your Row publishes original cabin schematics and editorial guides. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
@@ -184,7 +245,7 @@
     "heroImage": {
       "src": "/images/blog/vertical-layflat-thumbnail.png",
       "alt": "AI concept render of a cabin aisle lined with stacked vertical sleep pods using floor-to-ceiling height",
-      "caption": "AI concept art \u2014 speculative cabin using vertical space for stacked sleep pods. Not a real certified product."
+      "caption": "AI concept art — speculative cabin using vertical space for stacked sleep pods. Not a real certified product."
     },
     "figures": [
       {
@@ -199,34 +260,34 @@
       }
     ],
     "body": [
-      "Most \u201clie-flat\u201d seats buy sleep the expensive way: they claim a long rectangle of floor. On a narrow-body, that footprint is gold. So here\u2019s a thought experiment Pick Your Row keeps coming back to \u2014 the skyscraper seat: a theoretical lay-flat that sleeps you by borrowing unused vertical cabin space instead of stealing the next row.",
-      "Imagine a seat that starts as a normal upright for boarding and meal service, then unfolds into a nearly horizontal surface by rising into the empty air above today\u2019s headrest \u2014 the same volume that currently holds only bin doors, reading lights, and awkward hat space. The passenger isn\u2019t standing to sleep; the bed is still mostly flat. The trick is stacking length upward into a capsule or shell so two sleepers might share roughly the floor of one classic recliner.",
+      "Most “lie-flat” seats buy sleep the expensive way: they claim a long rectangle of floor. On a narrow-body, that footprint is gold. So here’s a thought experiment Pick Your Row keeps coming back to — the skyscraper seat: a theoretical lay-flat that sleeps you by borrowing unused vertical cabin space instead of stealing the next row.",
+      "Imagine a seat that starts as a normal upright for boarding and meal service, then unfolds into a nearly horizontal surface by rising into the empty air above today’s headrest — the same volume that currently holds only bin doors, reading lights, and awkward hat space. The passenger isn’t standing to sleep; the bed is still mostly flat. The trick is stacking length upward into a capsule or shell so two sleepers might share roughly the floor of one classic recliner.",
       "Why bother? Because economy density and true flat beds are usually enemies. Horizontal lie-flats win for rest, but they wreck seat count. Vertical space is the last underpriced dimension in many cabins: fuselage height is already paid for in drag and structure, yet most of the upper third above economy seats is dead air. A vertical lay-flat concept tries to monetize that air as sleep length.",
-      "The hard constraints are not the render \u2014 they\u2019re physics and regulation. Evacuation paths must stay clear. Center of gravity and load paths change if bunks climb the wall. Baggage bins compete for the same volume. Turbulence loads, oxygen masks, passenger assist criteria near exits, and fireworthiness all get stricter when people sleep in stacked shells. None of the images on this page are certified products; they\u2019re AI concept illustrations to make the geometry intuitive.",
-      "If a design ever worked, the passenger trade-offs would look familiar to anyone who studies seat maps: privacy shells help rest but can feel claustrophobic; upper berths may suit solo sleepers more than parents with kids; aisle access gets weird if you must climb; and \u201cnearly flat\u201d is not the same as a true bed. Our editorial seat scores on live configs still assume today\u2019s real seats \u2014 exit rows, bulkheads, lav proximity \u2014 not sci-fi bunks.",
-      "For travelers, the useful takeaway is simpler than the concept art: when you pick a row today, you\u2019re still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than ceiling height. Use our original schematics to plan the aircraft you actually booked \u2014 and treat vertical lay-flats as a design brief, not a booking tip. For related speculative cabin ideas on this site, see [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/) and [Rotating Privacy Shells](/guides/rotating-privacy-shells/).",
+      "The hard constraints are not the render — they’re physics and regulation. Evacuation paths must stay clear. Center of gravity and load paths change if bunks climb the wall. Baggage bins compete for the same volume. Turbulence loads, oxygen masks, passenger assist criteria near exits, and fireworthiness all get stricter when people sleep in stacked shells. None of the images on this page are certified products; they’re AI concept illustrations to make the geometry intuitive.",
+      "If a design ever worked, the passenger trade-offs would look familiar to anyone who studies seat maps: privacy shells help rest but can feel claustrophobic; upper berths may suit solo sleepers more than parents with kids; aisle access gets weird if you must climb; and “nearly flat” is not the same as a true bed. Our editorial seat scores on live configs still assume today’s real seats — exit rows, bulkheads, lav proximity — not sci-fi bunks.",
+      "For travelers, the useful takeaway is simpler than the concept art: when you pick a row today, you’re still choosing among horizontal compromises. Pitch, recline, and who sits beside you matter more than ceiling height. Use our original schematics to plan the aircraft you actually booked — and treat vertical lay-flats as a design brief, not a booking tip. For related speculative cabin ideas on this site, see [Capsule Bunks Over the Wing](/guides/capsule-bunks-over-the-wing/) and [Rotating Privacy Shells](/guides/rotating-privacy-shells/).",
       "Pick Your Row publishes original cabin schematics and editorial guides. We are not affiliated with any airline. Speculative concepts like this one are labeled clearly so they never get confused with live fleet maps."
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Exit-seat passenger criteria remind us stacked sleep concepts near exits would face strict assist/evacuation rules."
       },
       {
-        "label": "IATA \u2014 Evacuation safety education",
+        "label": "IATA — Evacuation safety education",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
-        "note": "Public industry messaging on evacuation behavior \u2014 relevant to any denser or enclosed seating idea."
+        "note": "Public industry messaging on evacuation behavior — relevant to any denser or enclosed seating idea."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA traveler safety hub (public); speculative cabin products would still live under real certification regimes."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
-        "note": "International safety framework portal \u2014 stacked berths are a standards problem, not just a design sketch."
+        "note": "International safety framework portal — stacked berths are a standards problem, not just a design sketch."
       }
     ]
   },
@@ -649,22 +710,22 @@
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
         "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }
@@ -708,22 +769,22 @@
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }
@@ -772,22 +833,22 @@
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
         "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
         "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
       }
@@ -832,17 +893,17 @@
     ],
     "sources": [
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
         "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
@@ -892,22 +953,22 @@
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "TSA \u2014 TSA Cares (passengers who need assistance)",
+        "label": "TSA — TSA Cares (passengers who need assistance)",
         "url": "https://www.tsa.gov/travel/tsa-cares",
         "note": "U.S. TSA program and guidance for travelers who need screening assistance (mobility and medical context)."
       }
@@ -952,17 +1013,17 @@
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }
@@ -1011,17 +1072,17 @@
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
@@ -1045,10 +1106,10 @@
   {
     "slug": "premium-economy-tips",
     "title": "Premium economy tips before you pay",
-    "description": "What premium economy usually buys you \u2014 pitch, cabin position, and when standard exit-row economy is the smarter spend.",
+    "description": "What premium economy usually buys you — pitch, cabin position, and when standard exit-row economy is the smarter spend.",
     "body": [
       "Premium economy (and similar branded cabins) typically sits between business and main cabin: wider seats or better pitch, a quieter forward cabin, and sometimes better meal or baggage perks.",
-      "You are still in a multi-seat row on most airlines \u2014 not a lie-flat suite. Compare the airline\u2019s published pitch and width against a standard exit-row economy seat before you pay up.",
+      "You are still in a multi-seat row on most airlines — not a lie-flat suite. Compare the airline’s published pitch and width against a standard exit-row economy seat before you pay up.",
       "Bulkhead premium rows can feel roomier ahead but may lose under-seat storage. Mid-cabin premium rows can be quieter if they sit away from galleys and lavatories.",
       "On our schematics, premium sections are drawn as their own cabin blocks. Scores often favor aisle/window in those blocks unless they sit next to service centers.",
       "If the fare difference is large, check whether Main Cabin Extra / Economy Plus / Even More Space exit rows deliver most of the legroom you care about for less.",
@@ -1056,17 +1117,17 @@
     ],
     "sources": [
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }
@@ -1074,38 +1135,86 @@
   },
   {
     "slug": "choosing-seats-with-kids",
-    "title": "Choosing seats with kids",
-    "description": "Practical seat strategy for families: bulkheads, bassinets, lavatory distance, and when to split across an aisle.",
+    "title": "Choosing seats with kids: the window, the bulkhead, and the row to skip",
+    "description": "Where to sit with a child: a window for a car seat, a bulkhead for a bassinet, and why an exit row is the wrong backup.",
+    "published": "2026-09-09",
+    "updated": "2026-11-21",
+    "related": [
+      "family-seating-rules",
+      "bassinet-bulkhead-seats",
+      "car-seats-on-planes-faa-rules",
+      "lap-infant-seating-rules"
+    ],
+    "compare": {
+      "heading": "Check another cabin",
+      "intro": "The family rule depends on the airline. The row geometry depends on the aircraft.",
+      "links": [
+        {
+          "href": "/guides/family-seating-rules/",
+          "label": "Family seating rules"
+        },
+        {
+          "href": "/guides/bassinet-bulkhead-seats/",
+          "label": "Bassinet and bulkhead seats"
+        },
+        {
+          "href": "/aircraft/",
+          "label": "Aircraft index"
+        },
+        {
+          "href": "/airlines/",
+          "label": "Airline seat maps"
+        }
+      ]
+    },
     "body": [
-      "Traveling with children changes what a \u201cgood\u201d seat looks like. Legroom still matters, but so do proximity to lavatories, bassinet options, and whether you can sit together without relying on a middle seat stranger.",
-      "Bulkhead rows are popular with families because some have bassinet mounts and nobody reclines into you. Trade-offs include limited under-seat storage for takeoff and landing, and sometimes a busier cabin feel if multiple families share the same wall.",
-      "Exit rows are usually the wrong pick with young kids. Airlines often restrict who may sit there, and you may be asked to move if you do not meet the briefing criteria. Prefer standard or bulkhead rows instead.",
-      "Sitting across an aisle as two-and-two (or window-aisle pairs facing each other) can be easier than trapping a child in a middle. On 3-3 narrow-bodies, a window-aisle-aisle-window split across the aisle keeps adults on the aisle for bathroom trips.",
-      "Near-lav seats score lower in our editorial heuristic for noise and foot traffic, but for toddlers they can be convenient. Decide based on age: infants may need bassinets more than quiet; older kids may sleep better mid-cabin.",
-      "Our maps mark bulkheads, exits, and lavatories so you can plan \u2014 they are original schematics, not airline manuals. Always confirm family seating and bassinet rules with the carrier for your exact flight.",
-      "If the airline\u2019s seat map shows scattered seats, message the airline or check in early. Paid seat selection is often cheaper than hoping gate agents can reunite a family of four at the last minute.",
-      "Rules that shape where families sit are covered in [car seats on planes](/guides/car-seats-on-planes-faa-rules/) and [lap infant seating rules](/guides/lap-infant-seating-rules/)."
+      "A good seat with a child is a seat you can use, not the quietest seat on the drawing. Start with the rule that decides whether you are even together, then pick the row. On U.S. airlines the together question is on [family seating rules](/guides/family-seating-rules/). The row question is about windows, bulkheads, lavatories, and exit rows.",
+      "A car seat wants a window. The FAA child page and the restraint rule are about an approved seat in its own ticketed place, and airlines commonly put that installation at the window so it does not block the aisle. Measure the car seat against the width on the airline page for that aircraft before you buy a wide model. Our [car seats on planes](/guides/car-seats-on-planes-faa-rules/) guide covers the red label and the devices that are not allowed during taxi, takeoff, and landing. A booster is not the backup.",
+      "A bassinet wants a wall. It hangs in front of a bulkhead, not in front of another passenger's seatback. Many bulkheads are only a closet or a screen, with no fitting. Request it when the reservation exists, and keep a second plan if the crib is gone. The full trade, including the bag that cannot live under the seat, is on [bassinet and bulkhead seats](/guides/bassinet-bulkhead-seats/). A lap infant under two is a third arrangement, weaker in turbulence, and it is not allowed in an exit row. See [lap infant seating rules](/guides/lap-infant-seating-rules/).",
+      "Skip the exit row. On U.S. part 121 flights, 14 CFR 121.585 says a passenger under 15 may not occupy an exit seat, and an adult whose responsibility for a small child would get in the way of the assist functions is not a suitable exit passenger. Crew can move you after you have paid. [Exit row tips](/guides/exit-row-tips/) is the longer version. Extra legroom that is not an exit, or a standard row where you already sit together, is the backup.",
+      "On a narrow body with two blocks of three, there is no pair of seats that avoids a middle. A window and an aisle in the same block still put a child or a stranger in the center. Two adults can sit in the aisle seats across from each other so each child, or each adult, has a path out. That split fails if the child is too young to sit alone in the middle. Then buy the block of three, or use the family assignment the airline actually offers, and accept the middle.",
+      "Lavatory rows are loud, and they are also where the changing table is on some wide bodies. United's children page lists changing tables on the 757 300, the 767, the 777, the 787, some 757 200s, and the 737 800, and tells you to ask the crew which lavatory. A toddler who will make several trips can sit nearer that lavatory. An infant who needs sleep can sit farther from it, with one adult close enough to help. Do not split the adults several cabins apart for the sake of a quieter window.",
+      "Cheap fares change the timing, not the geometry. If the airline assigns the seat at check in, you may not see the window you wanted until late. American tells Basic Economy families to let the system search, and its plan says to skip choosing seats for the whole reservation if you want the family commitment. JetBlue includes Main Base in its plan. Read [basic economy seat selection](/guides/basic-economy-seat-selection/) before you pay for one seat and leave the child unassigned, because that split can step outside the conditions.",
+      "Pick Your Row drawings mark bulkheads, exits, and lavatories so you can see the pattern. Two aircraft with the same type name can put the wall on a different row. Confirm the live map in the airline booking, including after a swap. We are not affiliated with any carrier."
+    ],
+    "faq": [
+      {
+        "question": "Where should a car seat go?",
+        "answer": "In a forward facing seat that the airline accepts, usually a window so the installation does not block other people, and never in an exit row. The child needs a ticket for that seat."
+      },
+      {
+        "question": "Is every bulkhead a bassinet seat?",
+        "answer": "No. The crib needs a fitting on the wall. A plain divider stops the row ahead from reclining and does not hold a bassinet."
+      },
+      {
+        "question": "Can we sit in the exit row if the child is quiet?",
+        "answer": "Plan on no. U.S. exit seat rules exclude passengers under 15 and can exclude an adult who is caring for a small child. Crew can move the party."
+      },
+      {
+        "question": "What if the airline assigns our seats?",
+        "answer": "Follow that airline's family conditions. On several U.S. carriers you either choose every seat on the reservation or skip every seat. Mixing the two is how families end up split. The family seating guide quotes the plans."
+      }
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
-        "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
+        "note": "Exit seat criteria, including passengers under 15 and responsibilities such as caring for small children."
       },
       {
-        "label": "TSA \u2014 TSA Cares (passengers who need assistance)",
-        "url": "https://www.tsa.gov/travel/tsa-cares",
-        "note": "U.S. TSA program and guidance for travelers who need screening assistance (mobility and medical context)."
+        "label": "FAA child safety in flight",
+        "url": "https://www.faa.gov/travelers/fly_children",
+        "note": "FAA guidance urging an approved restraint in the child's own seat."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
-        "url": "https://www.transportation.gov/airconsumer/fly-rights",
-        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+        "label": "United traveling with children (opened 21 November 2026)",
+        "url": "https://www.united.com/en/us/fly/travel/accessibility-and-assistance/traveling-with-children.html",
+        "note": "Window guidance for car seats, aircraft with changing tables, and the free adjacent seat for up to two children under 12."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
-        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
-        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+        "label": "DOT Airline Family Seating Dashboard (opened 21 November 2026)",
+        "url": "https://www.transportation.gov/airconsumer/airline-family-seating-dashboard",
+        "note": "Which airlines commit to an adjacent seat at no extra cost."
       }
     ]
   },
@@ -1116,30 +1225,30 @@
     "body": [
       "This guide covers overnight long haul flights: wide body sectors of many hours with a full meal and sleep cycle. It is not a short domestic red eye. For those, use the [red eye seat strategy](/guides/red-eye-seat-strategy/) guide. On a long haul overnight, the goal is usually uninterrupted sleep. That pushes many travelers toward a window seat in the middle of the cabin, away from galleys and lavatories, so you are not climbed over and can lean on the sidewall.",
       "Aisle seats win if you wake often or need frequent walks. The cost is cart bumps, boarding traffic, and neighbors waking you to get out. For deep sleepers, window usually wins; for restless flyers, aisle often does.",
-      "Avoid the last few rows when you can. Rear cabins are closer to lavatories and galleys on many wide-bodies, which means light, noise, and queues during the overnight service lull \u2014 exactly when you want quiet.",
+      "Avoid the last few rows when you can. Rear cabins are closer to lavatories and galleys on many wide-bodies, which means light, noise, and queues during the overnight service lull — exactly when you want quiet.",
       "Overwing rows can feel slightly noisier from engine and airflow vibration, but they are often away from lavatory clusters. If sleep matters more than the view, prioritize distance from service centers over perfect window alignment.",
-      "Premium economy (or similar) can be worth it when the pitch gain and quieter forward cabin buy you real sleep \u2014 not just a nicer meal. Compare the fare delta against a standard exit-row economy seat before you pay up.",
+      "Premium economy (or similar) can be worth it when the pitch gain and quieter forward cabin buy you real sleep — not just a nicer meal. Compare the fare delta against a standard exit-row economy seat before you pay up.",
       "Our editorial scores boost quiet mid-cabin windows and discount near-lav and rear seats. Use the seat-map page for location and the best-seats list for a quick shortlist, then verify the registration on your booking.",
-      "Layouts and cabin products change by aircraft. Pick Your Row schematics are illustrative reconstructions from publicly known typical patterns \u2014 always confirm with the airline."
+      "Layouts and cabin products change by aircraft. Pick Your Row schematics are illustrative reconstructions from publicly known typical patterns — always confirm with the airline."
     ],
     "sources": [
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       }
@@ -1147,72 +1256,135 @@
   },
   {
     "slug": "low-cost-carrier-seat-fees",
-    "title": "Low-cost carrier seat fees explained",
-    "description": "Why LCCs charge for seats, what \u201cpriority\u201d and exit-row fees usually buy, and how to decide whether paying is worth it.",
+    "title": "Low cost seat fees: what the cheap fare leaves out",
+    "description": "What a cheap fare leaves out on Alaska, JetBlue, Frontier, and Southwest, and when the seat fee is the price of sitting together.",
+    "published": "2026-09-09",
+    "updated": "2026-11-21",
+    "related": [
+      "basic-economy-seat-selection",
+      "unassigned-seats-versus-paid-selection",
+      "family-seating-rules",
+      "extra-legroom-upsells-explained"
+    ],
+    "compare": {
+      "heading": "Check another airline",
+      "intro": "Open the carrier hub if you want the cabin drawings that sit behind this fare rule.",
+      "links": [
+        {
+          "href": "/airlines/american/",
+          "label": "American Airlines seat maps"
+        },
+        {
+          "href": "/airlines/delta/",
+          "label": "Delta Air Lines seat maps"
+        },
+        {
+          "href": "/airlines/united/",
+          "label": "United Airlines seat maps"
+        },
+        {
+          "href": "/airlines/alaska/",
+          "label": "Alaska Airlines seat maps"
+        },
+        {
+          "href": "/airlines/jetblue/",
+          "label": "JetBlue seat maps"
+        },
+        {
+          "href": "/airlines/southwest/",
+          "label": "Southwest seat maps"
+        }
+      ]
+    },
     "body": [
-      "Low-cost carriers often unbundle the seat from the fare. The base ticket may assign a seat at check-in; anything earlier \u2014 a specific row, extra legroom, or sitting together \u2014 is usually a paid add-on.",
-      "Exit-row and front-cabin fees typically buy pitch or faster deplaning, not a different cabin class. Read the fine print: some \u201cpreferred\u201d seats are standard pitch closer to the front, while true extra-legroom rows sit at exits or bulkheads.",
-      "Groups should decide early whether sitting together is worth the fee. Random assignment can split couples and families across the cabin. Paying for two aisle seats across from each other is often cheaper than four random middles.",
-      "If you travel light and board late, a free random seat can be fine on short hops. On longer LCC sectors, an exit row or front seat can be the difference between tolerable and miserable \u2014 especially if you are tall.",
-      "Our LCC schematics (for example easyJet and Ryanair configs) mark exits, lavatories, and bulkheads so you can see what you are paying for. Scores are editorial opinions on original drawings, not airline rankings.",
-      "Fees and product names change constantly. Use Pick Your Row maps for orientation, then compare the carrier\u2019s live seat map and price before you click pay. We are not affiliated with any airline."
+      "A low fare unbundles the seat. The base ticket gets you onto the aircraft. The letter, the extra inches, and sometimes the right to sit beside the person you booked with are sold separately, or they arrive later when the airline assigns what is left. The pages opened 21 November 2026 do not print one fee for every route, so this guide does not invent prices. It says what each cheap fare withholds.",
+      "Alaska Saver assigns the seat at check in, or at the gate if check in does not. Alaska says it cannot promise that a party of two or more will sit together, and it tells parties of two or more to buy a different seat product if they want to choose in advance. First Class, Premium Class, and Main Preferred are the products that unlock the map. Saver still includes a carry on, unlike some basic fares, and it boards in group F, so the overhead bin is a first come space. The family exception for a child 13 or under is on the 2023 newsroom post, not on the Saver limitations list. Read both before you assume a child is covered and a partner is not. Details are on [basic economy seat selection](/guides/basic-economy-seat-selection/).",
+      "JetBlue Main Base is the fee row on its seats chart. Main and Main Flex have no seat fee. Main Base does. If you do not pay, JetBlue says the seats are assigned before departure. EvenMore, extra legroom, and preferred seats are further upsells, and Mosaic complimentary seat perks are excluded on Main Base. The family plan includes Main Base in automatic adjacent seating when the seats exist, and it says a later change to those seats can cost a fee. Paying for one adult and leaving the child to the algorithm is the move the plan warns you about.",
+      "Frontier's customer service plan does not publish a seat price in the family section. It does say a child 13 or younger and an accompanying adult over 13 get adjacent seats at no additional cost, for all fare types, if the conditions in section 13 are met, with the assignment no later than the day before departure. That is a family rule, not a free choice of any row. An exit or a specific window can still be a paid seat. Our Frontier drawings, where we have them, show the exits and lavatories so you can see what a paid row is buying. The price is on Frontier's map for that flight.",
+      "Southwest Basic is the assigned later fare inside a cabin that used to be open seating. From January 27, 2026, Basic includes a Standard seat assigned at check in. Choice is the fare that lets you pick a Standard seat at booking. Preferred and Extra Legroom sit in the higher bundles, and anyone can pay to move up. Basic boards in Group 8. If you only need any seat, Basic is the bundle. If you need the front or the exit, you are buying a different bundle or a seat fee. The row guide is [Southwest assigned seating](/guides/southwest-assigned-seating-guide/).",
+      "European low cost cabins on this site, including easyJet and Ryanair, follow the same idea with different names. The drawing shows exits, lavatories, and the front rows. The carrier sets the fee in its own booking flow, and this page does not copy a third party price list. Ryanair's 737 8200 guide explains why the extra exit rows exist. It is not a fee table.",
+      "Decide before check in closes. A short hop with one person and a personal item is the trip where an assigned later seat is rational. A family, a couple who refuse a middle stranger, or a tight connection at the front of the cabin is the trip where the fee is part of the fare. Add it before you compare two airlines. [Unassigned seats versus paid selection](/guides/unassigned-seats-versus-paid-selection/) is the three system version of that choice. [Family seating rules](/guides/family-seating-rules/) is the no extra cost adjacent seat list, which is narrower than a free seat map.",
+      "Pick Your Row scores are opinions about space and noise on our drawings. They are not a ranking of fees, and we are not affiliated with these airlines."
+    ],
+    "faq": [
+      {
+        "question": "Does the cheap fare include a seat choice?",
+        "answer": "On the pages opened 21 November 2026, Alaska Saver, JetBlue Main Base, and Southwest Basic do not include a free choice of a specific seat. You pay, you buy a higher bundle, or you take the seat the airline assigns."
+      },
+      {
+        "question": "Can a family avoid the seat fee?",
+        "answer": "Sometimes, and only for an adjacent seat, not for any row. Alaska, Frontier, and JetBlue publish conditions for a child beside an adult at no extra cost. Two adults without a child are outside those promises. Read the family seating guide before you skip the fee."
+      },
+      {
+        "question": "Is an exit row a different product?",
+        "answer": "Often yes. Extra legroom at an exit is sold separately from a standard seat, and you still have to be eligible to sit there. The fee does not waive the exit rule."
+      },
+      {
+        "question": "Why is there no price on this page?",
+        "answer": "The airline pages opened for this update do not print one fee for every route. A number copied from a different day or a different airport would be a guess. Use the live map."
+      }
     ],
     "sources": [
       {
-        "label": "Your Europe \u2014 Air passenger rights",
-        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
-        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+        "label": "Alaska Saver fares (opened 21 November 2026)",
+        "url": "https://www.alaskaair.com/content/travel-info/flight-experience/saver",
+        "note": "Assignment at check in, no promise for parties of two or more, boarding group F."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
-        "url": "https://www.transportation.gov/airconsumer/fly-rights",
-        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+        "label": "JetBlue seats (opened 21 November 2026)",
+        "url": "https://www.jetblue.com/help/seats",
+        "note": "Main Base is the fare with a seat fee. Main and Main Flex are not."
       },
       {
-        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
-        "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
-        "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
+        "label": "Frontier customer service plan (opened 21 November 2026)",
+        "url": "https://www.flyfrontier.com/legal/customer-service-plan",
+        "note": "Section 13 family seating at no additional cost, separate from a paid choice of a specific row."
+      },
+      {
+        "label": "Southwest assigned seating (opened 21 November 2026)",
+        "url": "https://www.southwest.com/customer-enhancements/assigned-seating/",
+        "note": "Basic assigns a Standard seat at check in. Higher bundles select earlier."
       }
     ]
   },
   {
     "slug": "how-pickyourrow-scores-work",
     "title": "How Pick Your Row scores work",
-    "description": "What our 1\u201310 editorial seat scores mean, which tags we apply, how we separate editorial opinions from regulatory facts, and why scores are planning tools \u2014 not guarantees.",
+    "description": "What our 1–10 editorial seat scores mean, which tags we apply, how we separate editorial opinions from regulatory facts, and why scores are planning tools — not guarantees.",
     "body": [
-      "Editorial vs facts: our 1\u201310 scores and tags are editorial opinions about comfort and location on original schematics. Exit-row eligibility rules, passenger rights, and safety briefings are facts set by regulators and airlines \u2014 we cite public sources below and on our methodology page; we do not invent legal rules.",
-      "Every scored seat on Pick Your Row gets a 1\u201310 editorial heuristic. Higher usually means more space, a better position for rest or access, and fewer obvious annoyances like lavatory queues.",
+      "Editorial vs facts: our 1–10 scores and tags are editorial opinions about comfort and location on original schematics. Exit-row eligibility rules, passenger rights, and safety briefings are facts set by regulators and airlines — we cite public sources below and on our methodology page; we do not invent legal rules.",
+      "Every scored seat on Pick Your Row gets a 1–10 editorial heuristic. Higher usually means more space, a better position for rest or access, and fewer obvious annoyances like lavatory queues.",
       "Tags explain the score at a glance: exit and extra-legroom for pitch, bulkhead for the first cabin row, window / aisle / middle for letter position, near-lav and near-galley for traffic, rear for aft cabin location, and quiet for mid-cabin calm.",
       "Scores are opinions on our original schematics. They are not airline ratings, not scraped competitor data, and not a promise that your flight will match the drawing. Aircraft change by registration and retrofit.",
-      "We deliberately discount middle seats and seats next to lavatories or galleys in most cases. We boost clear exit-row and bulkhead space when the geometry suggests more pitch \u2014 while noting airline eligibility rules separately in guides.",
+      "We deliberately discount middle seats and seats next to lavatories or galleys in most cases. We boost clear exit-row and bulkhead space when the geometry suggests more pitch — while noting airline eligibility rules separately in guides.",
       "Use scores to shortlist, then look at the map. A high-scoring exit row is useless if you cannot sit there with an infant. A lower-scoring aisle near a lavatory might still be right if mobility matters more than quiet.",
-      "Best-seats pages sort the editorial list for each config. Seat-map pages show the full cabin geometry with the same tags. Together they are a planning aid \u2014 the airline\u2019s booking tools remain the source of truth.",
+      "Best-seats pages sort the editorial list for each config. Seat-map pages show the full cabin geometry with the same tags. Together they are a planning aid — the airline’s booking tools remain the source of truth.",
       "If a score looks wrong for your priorities, trust your use case. Our heuristic optimizes for a typical leisure traveler who wants space and sleep; business travelers chasing fast deplanes may prefer different rows.",
       "For a fuller walkthrough of public data we use, scoring weights, and what we never scrape, see the Methodology & sources page."
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
         "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       }
@@ -1262,22 +1434,22 @@
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "TSA \u2014 TSA Cares (passengers who need assistance)",
+        "label": "TSA — TSA Cares (passengers who need assistance)",
         "url": "https://www.tsa.gov/travel/tsa-cares",
         "note": "U.S. TSA program and guidance for travelers who need screening assistance (mobility and medical context)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
@@ -1305,31 +1477,85 @@
   },
   {
     "slug": "choosing-seats-for-couples",
-    "title": "Choosing seats for couples",
-    "description": "How pairs can sit together without a middle stranger \u2014 2-4-2 tips, aisle-aisle tricks, and when to pay for seats.",
+    "title": "Choosing seats for couples: where a pair can sit without a middle",
+    "description": "Where two travelers can sit without a stranger in the middle: a pair by the window, or aisle seats across the aisle on a narrow body.",
+    "published": "2026-09-10",
+    "updated": "2026-11-21",
+    "related": [
+      "aisle-vs-window",
+      "basic-economy-seat-selection",
+      "unassigned-seats-versus-paid-selection",
+      "choosing-seats-with-kids"
+    ],
+    "compare": {
+      "heading": "Check another layout",
+      "intro": "The pair only exists if the airline's drawing has a two seat block. Open the aircraft if you know the type.",
+      "links": [
+        {
+          "href": "/aircraft/",
+          "label": "Aircraft index"
+        },
+        {
+          "href": "/guides/aisle-vs-window/",
+          "label": "Aisle versus window"
+        },
+        {
+          "href": "/airlines/delta/",
+          "label": "Delta seat maps"
+        },
+        {
+          "href": "/airlines/united/",
+          "label": "United seat maps"
+        }
+      ]
+    },
     "body": [
-      "Couples usually want two seats together without a stranger in the middle. The easiest win is a 2-seat block: window-aisle pairs on many wide-body premium cabins, or the side pairs in a 2-4-2 economy layout.",
-      "On 2-4-2 economy (common on many A330s), the A-C and H-K pairs are couple gold. The center four is better as a family of four than as a pair \u2014 you would still touch strangers unless you buy all four.",
-      "On 3-3 narrow-bodies, there is no perfect couple pair without a middle. Common tactics: window + middle (accept the middle), or aisle + aisle across the aisle so you face each other and both have aisle access.",
-      "Avoid leaving a single empty middle between two window seats you do not own \u2014 another passenger will likely take it. If you must split, prefer aisle-aisle across rather than window-window with a gap.",
-      "Paid seat selection is often cheaper than hoping random assignment keeps you together, especially on low-cost carriers. Decide before check-in closes.",
-      "Our schematics show letter blocks so you can see pair geometry at a glance. Scores are editorial opinions on original drawings \u2014 confirm the live map and fees with your airline."
+      "Two people want two seats that touch, with no stranger in the leftover middle. That seat exists only when the cabin has a block of two. On a narrow body with two blocks of three, it does not. The fare then decides whether you can grab the least bad pair before the airline assigns you apart.",
+      "Look at the letters before you look at the score. A block of two is a window and an aisle with nobody between them. You see it in some business cabins, in some premium economy cabins, and in economy on aircraft that use a pair at the side and a larger block in the center. Our seat map page for that aircraft shows the blocks. If the economy section is two groups of three, every pair inside a group includes a middle seat. The practical substitute is the two aisle seats across the aisle, so you face each other and both can stand up. You will not be shoulder to shoulder. You also will not trap one person against the window behind a stranger.",
+      "Do not leave a single empty middle between two seats you do not both own. Someone else will be assigned that middle. Window and window with a gap is the same mistake. If you can buy only one seat, buy the aisle and accept that the other person may be elsewhere, or buy both and stop hoping.",
+      "The cheap fare is how couples get separated even when the perfect pair exists. Alaska Saver says it cannot promise that a party of two or more will sit together, and it does not recommend Saver for that party. American Basic Economy says it cannot promise companions on the same ticket will sit together, unless you are in the family rule for children under 15. United's Basic Economy terms say customers traveling together, including families, will not sit together, while a separate children page covers up to two children under 12 next to the first adult. A couple with no child should read the terms line and pay for the seats if the pair matters. The fare by fare version is [basic economy seat selection](/guides/basic-economy-seat-selection/).",
+      "Who wants the window is a second choice, after you know you are together. The window sleeps and loses the aisle. The aisle gets up and gets bumped by carts. [Aisle versus window](/guides/aisle-vs-window/) is that trade. On a pair of two, you can have both. On a block of three, one of you is in the middle or you split across the aisle.",
+      "Pay attention to the row in front of an exit and to a bulkhead. Those change recline and bag space, which matters more on a long flight than on a one hour hop. [Bulkhead seats](/guides/bulkhead-seats/) and [exit row tips](/guides/exit-row-tips/) cover the rules. An exit pair is useful only if both of you meet the eligibility rules. If one of you does not, the airline can move both of you.",
+      "Reopen the map the day you fly. A swap can turn a pair of two into a block of three, or move you from a forward pair to a rear assignment. [Aircraft swaps and seat reassignment](/guides/aircraft-swap-and-seat-reassignment/) is the habit. Our drawings are illustrations of typical layouts. The airline map on your booking is the pair that exists. We are not affiliated with any carrier."
+    ],
+    "faq": [
+      {
+        "question": "Can two people sit together on a narrow body without a middle seat?",
+        "answer": "Not inside one block of three. The usual substitute is the two aisle seats across the aisle. A true pair with no middle needs a block of two, which some cabins have and many economy cabins do not."
+      },
+      {
+        "question": "Will a cheap fare keep a couple together?",
+        "answer": "Do not count on it. Alaska Saver, American Basic Economy, and United Basic Economy each say companions may be separated. The family promises are about a child and an adult. Pay for the two seats if the pair matters."
+      },
+      {
+        "question": "Is an aisle across the aisle good enough?",
+        "answer": "It keeps both people mobile and avoids a stranger directly between you. It does not let you share an armrest. It is the best geometry on a lot of single aisle jets."
+      },
+      {
+        "question": "What if the aircraft changes?",
+        "answer": "The pair can disappear. Check the seat map in the airline app on the day of travel and move if the new cabin splits you."
+      }
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
-        "url": "https://www.transportation.gov/airconsumer/fly-rights",
-        "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
+        "label": "Alaska Saver fares (opened 21 November 2026)",
+        "url": "https://www.alaskaair.com/content/travel-info/flight-experience/saver",
+        "note": "No promise that parties of two or more sit together."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
-        "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
-        "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
+        "label": "American Airlines Basic Economy (opened 21 November 2026)",
+        "url": "https://www.aa.com/i18n/travel-info/experience/seats/basic-economy.jsp",
+        "note": "Companions on the same ticket are not promised a seat together, with a separate process for children under 15."
       },
       {
-        "label": "FAA \u2014 Travelers",
-        "url": "https://www.faa.gov/travelers",
-        "note": "FAA public traveler safety and consumer information hub."
+        "label": "United Basic Economy (opened 21 November 2026)",
+        "url": "https://www.united.com/en/us/fly/travel/inflight/basic-economy.html",
+        "note": "Terms say customers traveling together, including families, will not be able to sit together. The Seats section describes a children exception."
+      },
+      {
+        "label": "14 CFR 121.585 Exit seating (eCFR)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
+        "note": "Both people in an exit pair still have to meet the eligibility rule."
       }
     ]
   },
@@ -1338,26 +1564,26 @@
     "title": "Wing vs overwing views: picking a window seat",
     "description": "Why overwing windows disappoint, where views open up, and how to use schematics without expecting a perfect pane.",
     "body": [
-      "Many travelers pick a window letter and still get a poor view. Overwing rows sit above the wing box: you may see wing structure, engine cowlings, or only a sliver of sky. Great for photography of the wing \u2014 less great for landscape scenery.",
-      "On narrow-bodies, overwing rows often coincide with exit rows. You might gain pitch and lose the view. Decide which matters more before you pay for \u201cextra legroom.\u201d",
+      "Many travelers pick a window letter and still get a poor view. Overwing rows sit above the wing box: you may see wing structure, engine cowlings, or only a sliver of sky. Great for photography of the wing — less great for landscape scenery.",
+      "On narrow-bodies, overwing rows often coincide with exit rows. You might gain pitch and lose the view. Decide which matters more before you pay for “extra legroom.”",
       "Forward of the wing usually opens the view sooner after climb; aft of the wing can be quieter relative to engines on some types but may sit nearer rear lavatories. Mid-cabin just clear of the wing is a common scenery compromise.",
-      "Our maps mark window letters by cabin geometry, not by a pane-by-pane survey. Treat \u201cwindow\u201d as a letter position. Structural sections and door plugs can still spoil a view.",
-      "If the view is the priority, prefer window letters away from marked exit/overwing clusters when the schematic suggests it \u2014 then double-check the airline\u2019s map for your registration.",
+      "Our maps mark window letters by cabin geometry, not by a pane-by-pane survey. Treat “window” as a letter position. Structural sections and door plugs can still spoil a view.",
+      "If the view is the priority, prefer window letters away from marked exit/overwing clusters when the schematic suggests it — then double-check the airline’s map for your registration.",
       "Pick Your Row drawings are illustrative reconstructions from publicly known typical layouts. We are not affiliated with any airline; always verify before you fly."
     ],
     "sources": [
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler safety and consumer information hub."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
         "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       }
@@ -1407,27 +1633,27 @@
     ],
     "sources": [
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "ICAO \u2014 Safety",
+        "label": "ICAO — Safety",
         "url": "https://www.icao.int/safety",
         "note": "International Civil Aviation Organization public safety portal (standards framework; not a seat map)."
       }
@@ -1476,27 +1702,27 @@
     ],
     "sources": [
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Federal rule defining exit seats and passenger suitability criteria for U.S. part 121 carriers (facts; not our editorial score)."
       },
       {
-        "label": "IATA \u2014 Save a Life, Not a Bag (evacuation safety)",
+        "label": "IATA — Save a Life, Not a Bag (evacuation safety)",
         "url": "https://www.iata.org/en/youandiata/travelers/evacuation-safety/",
         "note": "Industry passenger education on evacuation behavior (leave bags, follow crew). Supported publicly by FAA/EASA messaging."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
         "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
         "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
       }
@@ -1505,29 +1731,29 @@
   {
     "slug": "middle-seat-survival",
     "title": "Middle seat survival: how to make the worst seat work",
-    "description": "Practical tactics for middle seats \u2014 armrest etiquette, bag strategy, when to pay to move, and passenger-rights basics if things go wrong.",
+    "description": "Practical tactics for middle seats — armrest etiquette, bag strategy, when to pay to move, and passenger-rights basics if things go wrong.",
     "body": [
       "Middle seats are the most requested avoid on most narrow-bodies: no window view, no free aisle access, and two neighbors. If you still land in one, treat it as a planning problem rather than bad luck.",
-      "Claim the shared armrests early and politely. A common courtesy pattern is that the middle passenger uses both armrests while window and aisle keep the outer ones \u2014 but clear, friendly negotiation beats silent elbows.",
-      "Store essentials in the seat-back pocket or under the seat in front of you so you are not climbing over people for a charger or snack. Keep your carry-on overhead near your row if possible so deplaning is not blocked by someone else\u2019s bag hunt.",
-      "If the flight is not full, ask the gate agent or cabin crew whether adjacent seats opened up after boarding. Paid same-day moves to aisle or window are often cheaper than missing sleep or arriving sore \u2014 compare the fee to the length of the flight.",
-      "On wide-bodies, middle seats in a 3-3-3 or 3-4-3 block feel different: a center-section middle can be quieter than a window-side middle next to a lavatory. Use Pick Your Row schematics to see which \u201cmiddle\u201d you actually have before you pay to change.",
+      "Claim the shared armrests early and politely. A common courtesy pattern is that the middle passenger uses both armrests while window and aisle keep the outer ones — but clear, friendly negotiation beats silent elbows.",
+      "Store essentials in the seat-back pocket or under the seat in front of you so you are not climbing over people for a charger or snack. Keep your carry-on overhead near your row if possible so deplaning is not blocked by someone else’s bag hunt.",
+      "If the flight is not full, ask the gate agent or cabin crew whether adjacent seats opened up after boarding. Paid same-day moves to aisle or window are often cheaper than missing sleep or arriving sore — compare the fee to the length of the flight.",
+      "On wide-bodies, middle seats in a 3-3-3 or 3-4-3 block feel different: a center-section middle can be quieter than a window-side middle next to a lavatory. Use Pick Your Row schematics to see which “middle” you actually have before you pay to change.",
       "Know the basics of passenger rights for delays, cancellations, and denied boarding in your jurisdiction. Seat discomfort alone is rarely a refund trigger, but knowing official consumer guidance helps when the disruption is operational rather than personal preference.",
-      "Our editorial scores flag middle seats as lower preference by default. Confirm the live airline map for your registration \u2014 layouts and paid-seat inventory change with retrofits."
+      "Our editorial scores flag middle seats as lower preference by default. Confirm the live airline map for your registration — layouts and paid-seat inventory change with retrofits."
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights."
       },
       {
-        "label": "FAA \u2014 Packing tips for travelers",
+        "label": "FAA — Packing tips for travelers",
         "url": "https://www.faa.gov/travelers/fly_safe/packing",
         "note": "FAA traveler guidance on packing and security-related carry-on practices (not seat maps)."
       }
@@ -1577,22 +1803,22 @@
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. aviation consumer protection overview useful when overnight delays cascade into missed connections."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "EU passenger rights summary for delays and cancellations that often hit overnight schedules."
       },
       {
-        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
         "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
         "note": "EASA topic page pointing to official EU air passenger rights managed by the European Commission."
       },
       {
-        "label": "IATA \u2014 Passenger experience overview",
+        "label": "IATA — Passenger experience overview",
         "url": "https://www.iata.org/en/programs/passenger/",
         "note": "IATA industry passenger programs hub (high-level; not a seat map)."
       },
@@ -1621,34 +1847,34 @@
   {
     "slug": "overhead-bin-and-seat-choice",
     "title": "Overhead bins and seat choice: where your bag actually ends up",
-    "description": "How seat position affects overhead-bin access, boarding strategy, and when a \u201cgreat\u201d seat fails because your bag is ten rows away.",
+    "description": "How seat position affects overhead-bin access, boarding strategy, and when a “great” seat fails because your bag is ten rows away.",
     "body": [
       "A perfect seat is less perfect if your roller bag is stranded near the boarding door. On full flights, bins fill from the front; late boarders in rear seats often find space only far forward or must gate-check.",
-      "If you must keep medication, electronics, or a laptop with you, prioritize boarding group and a seat near available bin space \u2014 not only legroom. Exit-row and bulkhead seats sometimes lack under-seat storage, which makes nearby overhead space even more important.",
+      "If you must keep medication, electronics, or a laptop with you, prioritize boarding group and a seat near available bin space — not only legroom. Exit-row and bulkhead seats sometimes lack under-seat storage, which makes nearby overhead space even more important.",
       "Forward seats help you board into emptier bins if your group is early, and they help you retrieve a bag quickly on arrival. Rear seats can still work if you board early enough to claim space above your row before the cabin fills.",
       "Families and couples should decide whether bags stay together. Splitting across rows looks fine on a seat map until one person cannot reach the shared overhead without blocking the aisle during boarding.",
-      "Ultra-low-cost and basic-economy fares often restrict carry-on size or boarding priority. Read the airline\u2019s official carry-on help page for your fare \u2014 policy beats seat-map folklore when a gate agent measures bags.",
+      "Ultra-low-cost and basic-economy fares often restrict carry-on size or boarding priority. Read the airline’s official carry-on help page for your fare — policy beats seat-map folklore when a gate agent measures bags.",
       "Use Pick Your Row maps to see how far you are from doors and whether you sit in a dense economy block where bin competition is fiercest. Then select seats on the airline site for the exact aircraft.",
       "When bins are full, gate-checking is normal. Keep valuables and travel documents in a personal item that fits under the seat so a last-minute gate check does not separate you from essentials."
     ],
     "sources": [
       {
-        "label": "TSA \u2014 What Can I Bring?",
+        "label": "TSA — What Can I Bring?",
         "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/all",
         "note": "U.S. Transportation Security Administration guidance on items allowed through screening (carry-on vs checked context)."
       },
       {
-        "label": "FAA \u2014 Packing tips for travelers",
+        "label": "FAA — Packing tips for travelers",
         "url": "https://www.faa.gov/travelers/fly_safe/packing",
         "note": "FAA packing and hazardous-materials awareness for travelers."
       },
       {
-        "label": "United Airlines \u2014 Carry-on baggage",
+        "label": "United Airlines — Carry-on baggage",
         "url": "https://www.united.com/ual/en/us/fly/travel/baggage/carry-on.html",
         "note": "Example major-airline official carry-on help page (policies vary by carrier and fare)."
       },
       {
-        "label": "Delta Air Lines \u2014 Carry-on baggage",
+        "label": "Delta Air Lines — Carry-on baggage",
         "url": "https://www.delta.com/us/en/baggage/carry-on-baggage",
         "note": "Example major-airline official carry-on policy overview for planning boardings and bin strategy."
       }
@@ -1657,34 +1883,34 @@
   {
     "slug": "power-outlets-and-usb-seat-planning",
     "title": "Power outlets and USB: planning seats when IFE and plugs vary",
-    "description": "How to think about seat power, USB, and IFE when availability differs by aircraft and retrofit \u2014 caveats, not guarantees.",
+    "description": "How to think about seat power, USB, and IFE when availability differs by aircraft and retrofit — caveats, not guarantees.",
     "body": [
       "In-seat power and USB are among the most retrofit-sensitive features on modern fleets. Two aircraft of the same type on the same airline can differ after cabin upgrades. Never assume every economy seat has a plug.",
-      "When power matters (work laptop, CPAP-adjacent battery planning, long-haul device drain), prefer airlines and cabin products that publicly advertise universal AC or USB-A/USB-C at the seat \u2014 then verify on the booking flow or seat map notes for your flight number.",
-      "Bulkhead and exit-row seats sometimes place power ports in non-obvious locations, or share a port between seats. If you need continuous power, an aisle seat with a visible outlet label beats a \u201cbetter\u201d window with none.",
+      "When power matters (work laptop, CPAP-adjacent battery planning, long-haul device drain), prefer airlines and cabin products that publicly advertise universal AC or USB-A/USB-C at the seat — then verify on the booking flow or seat map notes for your flight number.",
+      "Bulkhead and exit-row seats sometimes place power ports in non-obvious locations, or share a port between seats. If you need continuous power, an aisle seat with a visible outlet label beats a “better” window with none.",
       "IFE screens and wireless streaming are separate from seat power. Some cabins rely on bring-your-own-device streaming over Wi-Fi; others still have seatback screens. A dead phone battery hurts more when the cabin expects you to stream on your own device.",
       "Manufacturer and airline product pages describe typical installations, not your registration. Treat Pick Your Row notes and scores as planning heuristics: they do not inventory every USB port.",
-      "Carry a short cable and a charged power bank where airline rules allow. That hedge matters more than hunting a mythical \u201cpower row\u201d when the live map does not show outlets.",
-      "If power is a medical or work necessity, contact the airline before travel and document what the specific aircraft offers. Our schematics focus on layout geometry \u2014 exits, lavs, galleys, and cabin blocks \u2014 not electrical surveys."
+      "Carry a short cable and a charged power bank where airline rules allow. That hedge matters more than hunting a mythical “power row” when the live map does not show outlets.",
+      "If power is a medical or work necessity, contact the airline before travel and document what the specific aircraft offers. Our schematics focus on layout geometry — exits, lavs, galleys, and cabin blocks — not electrical surveys."
     ],
     "sources": [
       {
-        "label": "Boeing \u2014 787 Dreamliner passenger experience",
+        "label": "Boeing — 787 Dreamliner passenger experience",
         "url": "https://www.boeing.com/commercial/787/",
         "note": "Manufacturer public product overview for the 787 family (cabin features vary by airline installation)."
       },
       {
-        "label": "Airbus \u2014 A350 passenger experience",
+        "label": "Airbus — A350 passenger experience",
         "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350",
         "note": "Manufacturer public A350 overview; in-seat power and IFE depend on airline options."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. passenger consumer overview; useful context when marketed amenities differ from the aircraft you get."
       },
       {
-        "label": "IATA \u2014 Cabin operations / passenger experience",
+        "label": "IATA — Cabin operations / passenger experience",
         "url": "https://www.iata.org/en/programs/ops-infra/cabin/",
         "note": "IATA cabin operations program hub (industry-level; not per-seat power maps)."
       }
@@ -1693,34 +1919,34 @@
   {
     "slug": "forward-vs-aft-cabin",
     "title": "Forward vs aft cabin: where to sit on purpose",
-    "description": "Noise, boarding, lav queues, and turbulence feel different by cabin zone \u2014 how to choose forward vs aft without myths.",
+    "description": "Noise, boarding, lav queues, and turbulence feel different by cabin zone — how to choose forward vs aft without myths.",
     "body": [
       "Seat maps are not only about exit rows and windows. The same economy seat letter feels different in row 8 than in row 38 because galleys, lavatories, boarding flow, and wing structure change along the fuselage.",
       "Forward cabins usually mean earlier deplaning on narrow-bodies, shorter walks to the door you boarded, and sometimes a quieter zone if the rear galley is busy. The tradeoff is proximity to premium cabins (service traffic) and, on some aircraft, a tighter connection to the forward lav.",
-      "Aft cabins can feel more motion in turbulence, especially behind the wing on narrow-bodies, and you may wait longer to get off. They can also be less foot-traffic heavy mid-flight if the mid lav is the busy one \u2014 or worse if the only lavs are behind you.",
-      "Overwing rows sit near structure and exits. That can mean extra legroom (good) or immovable armrests and colder walls (mixed). Window alignment over the wing often shows more metal than sky \u2014 see our wing-vs-overwing guide.",
-      "Use airline and manufacturer public fleet pages for which doors and exit pairs exist on the type, then apply Pick Your Row tags (near-lav, near-galley, rear, quiet) as planning heuristics. We do not invent your registration\u2019s exact galley placement.",
-      "If you connect tightly, bias forward. If you sleep and hate galley light, bias mid-cabin away from both galleys. If you travel with kids who need lav access, mid-cabin near a lav can beat a \u201cquiet\u201d tail seat.",
-      "Always re-check the live seat map: retrofit programs move curtains and lav modules. Our schematics illustrate typical public patterns for airlines such as Wizz Air, Aer Lingus, Finnair, WestJet, Austrian, and EVA Air \u2014 not a guaranteed row inventory."
+      "Aft cabins can feel more motion in turbulence, especially behind the wing on narrow-bodies, and you may wait longer to get off. They can also be less foot-traffic heavy mid-flight if the mid lav is the busy one — or worse if the only lavs are behind you.",
+      "Overwing rows sit near structure and exits. That can mean extra legroom (good) or immovable armrests and colder walls (mixed). Window alignment over the wing often shows more metal than sky — see our wing-vs-overwing guide.",
+      "Use airline and manufacturer public fleet pages for which doors and exit pairs exist on the type, then apply Pick Your Row tags (near-lav, near-galley, rear, quiet) as planning heuristics. We do not invent your registration’s exact galley placement.",
+      "If you connect tightly, bias forward. If you sleep and hate galley light, bias mid-cabin away from both galleys. If you travel with kids who need lav access, mid-cabin near a lav can beat a “quiet” tail seat.",
+      "Always re-check the live seat map: retrofit programs move curtains and lav modules. Our schematics illustrate typical public patterns for airlines such as Wizz Air, Aer Lingus, Finnair, WestJet, Austrian, and EVA Air — not a guaranteed row inventory."
     ],
     "sources": [
       {
-        "label": "Airbus \u2014 A320 Family overview",
+        "label": "Airbus — A320 Family overview",
         "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
         "note": "Manufacturer public overview of A320-family geometry and cabin options (airline fits vary)."
       },
       {
-        "label": "Boeing \u2014 787 Dreamliner",
+        "label": "Boeing — 787 Dreamliner",
         "url": "https://www.boeing.com/commercial/787/",
         "note": "Manufacturer public 787 product page; cabin monuments differ by airline installation."
       },
       {
-        "label": "IATA \u2014 Cabin operations",
+        "label": "IATA — Cabin operations",
         "url": "https://www.iata.org/en/programs/ops-infra/cabin/",
         "note": "Industry cabin-operations hub (not per-airline seat maps)."
       },
       {
-        "label": "EASA \u2014 Passenger safety information",
+        "label": "EASA — Passenger safety information",
         "url": "https://www.easa.europa.eu/en/light/topics/passenger-safety",
         "note": "Public European passenger safety context for exits and briefings."
       }
@@ -1729,34 +1955,34 @@
   {
     "slug": "extra-legroom-upsells-explained",
     "title": "Extra-legroom upsells explained: LCC vs network carriers",
-    "description": "What \u201cexit row\u201d, \u201cstretch\u201d, \u201cpreferred\u201d, and \u201cplus\u201d usually mean \u2014 and how to compare paid legroom without scraping competitor maps.",
+    "description": "What “exit row”, “stretch”, “preferred”, and “plus” usually mean — and how to compare paid legroom without scraping competitor maps.",
     "body": [
-      "Airlines monetize the same geometry differently. An exit row on a Wizz Air A321neo, a Preferred seat on Aer Lingus short-haul, Extended Comfort on WestJet, and Finnair\u2019s dynamic business block are all responses to limited pitch \u2014 with different rules and prices.",
-      "Ultra-low-cost carriers often sell nearly every non-middle seat. \u201cExtra legroom\u201d usually means a labeled exit or bulkhead row with a higher ancillary fee, not a different seat model. Eligibility rules (age, mobility, assisting others) still apply at the door.",
+      "Airlines monetize the same geometry differently. An exit row on a Wizz Air A321neo, a Preferred seat on Aer Lingus short-haul, Extended Comfort on WestJet, and Finnair’s dynamic business block are all responses to limited pitch — with different rules and prices.",
+      "Ultra-low-cost carriers often sell nearly every non-middle seat. “Extra legroom” usually means a labeled exit or bulkhead row with a higher ancillary fee, not a different seat model. Eligibility rules (age, mobility, assisting others) still apply at the door.",
       "Network carriers may bundle legroom into branded cabins (Comfort+, Plus, Premium Economy) with fixed curtains, or sell economy-plus rows inside the main cabin. The seat can be identical foam with a few inches of pitch and earlier boarding.",
       "Bulkhead legroom is not free lunch: bassinet attachments, no under-seat storage, and tray tables in the armrest change the experience. Exit rows can forbid bags at your feet during taxi, takeoff, and landing.",
       "Compare using public facts: manufacturer family pages for typical cross-sections (3-3 vs 3-3-3), airline fleet pages for published seat counts, and the booking map for the fee on your flight number. Pick Your Row scores highlight exit and bulkhead tags; they are editorial, not fare rules.",
       "If two upsells cost similar amounts, prefer the one that also improves your other constraints (window alignment, lav distance, forward vs aft). Paying for legroom next to a busy galley is a common regret.",
-      "For EU/UK passenger-rights context when a paid seat feature is missing after an aircraft swap, rely on official consumer pages \u2014 not social media screenshots \u2014 then renegotiate with the airline."
+      "For EU/UK passenger-rights context when a paid seat feature is missing after an aircraft swap, rely on official consumer pages — not social media screenshots — then renegotiate with the airline."
     ],
     "sources": [
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU summary of air passenger rights (useful when marketed seat features change after irregular ops)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. aviation consumer protection overview."
       },
       {
-        "label": "Wizz Air \u2014 About Us / fleet",
+        "label": "Wizz Air — About Us / fleet",
         "url": "https://www.wizzair.com/en-gb/information-and-services/about-us/about-wizz",
         "note": "Public airline fleet and seat-capacity statements for an ULCC A320-family operator."
       },
       {
-        "label": "Airbus \u2014 A321neo",
+        "label": "Airbus — A321neo",
         "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
         "note": "Manufacturer A320-family overview; densities are airline options."
       }
@@ -1764,35 +1990,35 @@
   },
   {
     "slug": "cabin-retrofits-and-seat-maps",
-    "title": "Cabin retrofits and seat maps: why your \u201cusual\u201d row moved",
-    "description": "How airline cabin upgrades change row numbering, curtains, and lav modules \u2014 and how to re-plan without assuming last year\u2019s map.",
+    "title": "Cabin retrofits and seat maps: why your “usual” row moved",
+    "description": "How airline cabin upgrades change row numbering, curtains, and lav modules — and how to re-plan without assuming last year’s map.",
     "body": [
-      "Airlines continuously retrofit cabins: denser slimline seats, new premium-economy modules, moving galleys, and renumbered rows after a product launch. A seat that was perfect last year may not exist on today\u2019s registration.",
+      "Airlines continuously retrofit cabins: denser slimline seats, new premium-economy modules, moving galleys, and renumbered rows after a product launch. A seat that was perfect last year may not exist on today’s registration.",
       "Symptoms of a retrofit mismatch: the booking map shows fewer rows than a blog post, premium starts at a different row, or exit letters jump. Trust the map attached to your flight number over memory.",
       "Published fleet tables (airline sites and encyclopedia summaries) list passenger totals by subfleet. When an airline operates both a 278-seat and 321-seat A350, or a 174-seat and 189-seat 737 MAX, you are choosing among different interiors that share a type name.",
-      "Pick Your Row labels every schematic \u201ctypical\u201d and cites public capacity bands in the notes. We intentionally avoid scraping competitor HTML diagrams; we reconstruct aisle geometry from public layout patterns and manufacturer cross-sections.",
-      "Before an overnight long-haul, check whether your airline\u2019s premium-economy product is installed on that metal. A curtain on a short-haul A320 may be a soft business block that disappears on a busy flight.",
-      "If you care about power outlets or IFE, treat those as retrofit-sensitive (see our power/USB guide). Layout geometry \u2014 exits, lavs, galley zones \u2014 is more stable than electronics.",
+      "Pick Your Row labels every schematic “typical” and cites public capacity bands in the notes. We intentionally avoid scraping competitor HTML diagrams; we reconstruct aisle geometry from public layout patterns and manufacturer cross-sections.",
+      "Before an overnight long-haul, check whether your airline’s premium-economy product is installed on that metal. A curtain on a short-haul A320 may be a soft business block that disappears on a busy flight.",
+      "If you care about power outlets or IFE, treat those as retrofit-sensitive (see our power/USB guide). Layout geometry — exits, lavs, galley zones — is more stable than electronics.",
       "When irregular operations swap aircraft, re-open the seat map immediately. Your paid extra-legroom seat may map to a different physical row on the replacement type."
     ],
     "sources": [
       {
-        "label": "Finnair \u2014 Fleet",
+        "label": "Finnair — Fleet",
         "url": "https://www.finnair.com/en/flight-information/finnair-fleet",
         "note": "Example of an airline publishing multiple A350 seat capacities on an official fleet page."
       },
       {
-        "label": "EVA Air \u2014 777-300ER",
+        "label": "EVA Air — 777-300ER",
         "url": "https://www.evaair.com/en-us/fly-prepare/our-fleets/passenger-airplanes/777-300ER/",
         "note": "Official multi-config 777 totals (323 / 333 / 353) illustrating subfleet variance."
       },
       {
-        "label": "Wikipedia \u2014 WestJet fleet",
+        "label": "Wikipedia — WestJet fleet",
         "url": "https://en.wikipedia.org/wiki/WestJet",
         "note": "Public secondary summary of WestJet 737/787 passenger totals by subfleet (verify against the airline)."
       },
       {
-        "label": "ICAO \u2014 Aircraft type designators (Doc 8643)",
+        "label": "ICAO — Aircraft type designators (Doc 8643)",
         "url": "https://www.icao.int/publications/DOC8643/Pages/Search.aspx",
         "note": "Public ICAO type-designator search; useful when flight status shows a different type code after a swap."
       }
@@ -1801,35 +2027,35 @@
   {
     "slug": "choosing-seats-for-mobility-needs",
     "title": "Choosing seats with mobility needs: aisle, bulkhead, and exits",
-    "description": "Practical seat-planning notes for reduced mobility, canes, and longer boarding \u2014 without giving medical advice.",
+    "description": "Practical seat-planning notes for reduced mobility, canes, and longer boarding — without giving medical advice.",
     "body": [
-      "This guide is planning commentary, not medical or legal advice. If you need accommodations, contact the airline\u2019s special-assistance desk early and follow their documented process.",
-      "Aisle seats reduce climbing over neighbors. Bulkhead rows can offer transfer space but often lack under-seat storage and may host bassinets. Exit rows usually have strict eligibility rules \u2014 do not select an exit if you cannot perform the required assistive duties.",
-      "On narrow-bodies, a forward aisle seat shortens the walk to the door used for boarding on many flights. On wide-bodies, note which door your boarding pass indicates; \u201cforward\u201d on a 787 can still be a long cabin walk.",
-      "Lavatory proximity matters more when mobility is limited \u2014 but \u201cnear lav\u201d also means foot traffic and odor risk. A seat one or two rows away on the aisle is a common compromise on our editorial maps.",
+      "This guide is planning commentary, not medical or legal advice. If you need accommodations, contact the airline’s special-assistance desk early and follow their documented process.",
+      "Aisle seats reduce climbing over neighbors. Bulkhead rows can offer transfer space but often lack under-seat storage and may host bassinets. Exit rows usually have strict eligibility rules — do not select an exit if you cannot perform the required assistive duties.",
+      "On narrow-bodies, a forward aisle seat shortens the walk to the door used for boarding on many flights. On wide-bodies, note which door your boarding pass indicates; “forward” on a 787 can still be a long cabin walk.",
+      "Lavatory proximity matters more when mobility is limited — but “near lav” also means foot traffic and odor risk. A seat one or two rows away on the aisle is a common compromise on our editorial maps.",
       "Regulator and airline pages describe passenger rights and assistance frameworks at a high level. Use those official sources for service animal policies, wheelchair handling, and complaint processes.",
-      "Pick Your Row tags such as aisle, bulkhead, exit, and near-lav help you shortlist \u2014 then confirm armrest types, movable aisle armrests, and assistance seating with the carrier.",
+      "Pick Your Row tags such as aisle, bulkhead, exit, and near-lav help you shortlist — then confirm armrest types, movable aisle armrests, and assistance seating with the carrier.",
       "Travel with any required documentation for assistive devices. Seat choice cannot replace airline-approved handling of wheelchairs or cushions.",
       "For the specific seats U.S. rules require airlines to provide, see [disability seating rights on flights](/guides/disability-seating-rights-on-flights/)."
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Disability and passengers with reduced mobility",
+        "label": "U.S. DOT — Disability and passengers with reduced mobility",
         "url": "https://www.transportation.gov/airconsumer/disability",
         "note": "U.S. Department of Transportation disability-related air travel consumer information."
       },
       {
-        "label": "Your Europe \u2014 Reduced mobility air travel",
+        "label": "Your Europe — Reduced mobility air travel",
         "url": "https://europa.eu/youreurope/citizens/travel/transport-disability/reduced-mobility/index_en.htm",
         "note": "Official EU overview of rights for persons with reduced mobility in air travel."
       },
       {
-        "label": "UK CAA \u2014 Disabled and less mobile passengers",
+        "label": "UK CAA — Disabled and less mobile passengers",
         "url": "https://www.caa.co.uk/passengers/passengers-with-a-disability-or-reduced-mobility/",
         "note": "UK Civil Aviation Authority passenger guidance on disability and reduced mobility."
       },
       {
-        "label": "IATA \u2014 Accessibility",
+        "label": "IATA — Accessibility",
         "url": "https://www.iata.org/en/programs/passenger/accessibility/",
         "note": "IATA accessibility program hub (industry-level guidance)."
       }
@@ -2044,17 +2270,17 @@
         "note": "IATA passenger programs overview (industry context for passenger journey processes)."
       },
       {
-        "label": "Your Europe \u2014 Air passenger rights",
+        "label": "Your Europe — Air passenger rights",
         "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
         "note": "Official EU consumer summary of Regulation (EC) No 261/2004 rights (delays, cancellations, denied boarding, downgrades)."
       },
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/airconsumer/fly-rights",
         "note": "U.S. Department of Transportation aviation consumer protection overview for passengers."
       },
       {
-        "label": "EASA \u2014 EU Air Passenger Rights (European Commission)",
+        "label": "EASA — EU Air Passenger Rights (European Commission)",
         "url": "https://www.easa.europa.eu/en/light/topics/eu-air-passenger-rights-european-commission",
         "note": "EASA topic page pointing passengers to official EU air passenger rights managed by the European Commission."
       }
@@ -2220,25 +2446,27 @@
       "Which bundle includes what matters. Basic fares get a Standard seat assigned at check in. Choice lets you pick a Standard seat at booking. Choice Preferred adds Preferred seats, and Choice Extra includes Extra Legroom. Anyone can pay to move up a tier.",
       "Our picks: if you want space, an exit row window in the Extra Legroom zone is the best value seat on the plane, as long as you meet the exit row requirements. If you want a quick connection, a Preferred aisle near the front saves minutes at the gate. If you are on Basic and travelling with family, pay for selection or check in as early as allowed, because seats are assigned rather than chosen.",
       "Use our Southwest 737 schematics to see where exits and lavatories sit, then match them to the live map in the Southwest app. Our drawings are illustrative and the airline map is the final word.",
-      "Last checked 26 Oct 2026 against the linked sources. Seat rules change, so confirm on your booking before you fly."
+      "Last checked 21 November 2026 against the linked sources. Seat rules change, so confirm on your booking before you fly."
     ],
     "sources": [
       {
         "label": "Southwest assigned seating",
         "url": "https://www.southwest.com/customer-enhancements/assigned-seating/",
-        "note": "Official Southwest page describing Extra Legroom, Preferred and Standard seats and fare bundles."
+        "note": "Official Southwest page describing Extra Legroom, Preferred and Standard seats and fare bundles. Reopened 21 November 2026. A Basic fare still includes a Standard seat assigned at check in."
       },
       {
         "label": "Southwest newsroom, 27 Jan 2026",
         "url": "https://www.swamedia.com/news-and-stories/news-release/southwest-airlines-introduces-assigned-seating-and-more-offerings-for-customers-MC5YXLS6T3CVGSVEAME7UF2TLVRU",
-        "note": "Southwest release confirming the first assigned seating flights and the last open seating flight."
+        "note": "Official Southwest page describing Extra Legroom, Preferred and Standard seats and fare bundles. Reopened 21 November 2026. A Basic fare still includes a Standard seat assigned at check in."
       },
       {
         "label": "Southwest newsroom, 29 Jul 2025",
         "url": "https://www.swamedia.com/news-and-stories/news-release/choose-what-you-prefer-new-fare-bundles-extra-legroom-seats-assigned-seating-and-MCPU7PTH3IMJHRNOCDQV52ZC2U7I",
-        "note": "Southwest release announcing assigned seating for travel from 27 Jan 2026."
+        "note": "Official Southwest page describing Extra Legroom, Preferred and Standard seats and fare bundles. Reopened 21 November 2026. A Basic fare still includes a Standard seat assigned at check in."
       }
-    ]
+    ],
+    "published": "2026-10-26",
+    "updated": "2026-11-21"
   },
   {
     "slug": "do-exit-row-seats-recline",
@@ -2338,17 +2566,17 @@
     ],
     "sources": [
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA public traveler information hub (safety and consumer context; not a recline rulebook)."
       },
       {
-        "label": "U.S. DOT \u2014 Airline consumer information",
+        "label": "U.S. DOT — Airline consumer information",
         "url": "https://www.transportation.gov/airconsumer",
         "note": "Department of Transportation air consumer portal for passenger rights context."
       },
       {
-        "label": "IATA \u2014 Passenger experience",
+        "label": "IATA — Passenger experience",
         "url": "https://www.iata.org/en/youandiata/travelers/",
         "note": "Industry traveler education portal; cabin courtesy is social practice, not an IATA seat law."
       }
@@ -2396,17 +2624,17 @@
     ],
     "sources": [
       {
-        "label": "U.S. DOT \u2014 Fly Rights",
+        "label": "U.S. DOT — Fly Rights",
         "url": "https://www.transportation.gov/individuals/aviation-consumer-protection/fly-rights-guide-air-travelers",
         "note": "DOT consumer guide covering delays, cancellations, and passenger protections context."
       },
       {
-        "label": "FAA \u2014 Travelers",
+        "label": "FAA — Travelers",
         "url": "https://www.faa.gov/travelers",
         "note": "FAA traveler hub; operational delays are separate from seat maps."
       },
       {
-        "label": "U.S. eCFR \u2014 14 CFR \u00a7 121.585 Exit seating",
+        "label": "U.S. eCFR — 14 CFR § 121.585 Exit seating",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Exit seat suitability rules that can block some passengers from exit rows even when those rows look convenient."
       }
@@ -2814,6 +3042,221 @@
         "label": "14 CFR 121.585 Exit seating (eCFR)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-T/section-121.585",
         "note": "Exit seat criteria, including the age of 15 and responsibilities such as caring for small children."
+      }
+    ]
+  },
+  {
+    "slug": "basic-economy-seat-selection",
+    "title": "Basic economy seat selection: who lets you pick, and when the seat is assigned",
+    "description": "American, Delta, United, Alaska, JetBlue and Southwest: whether the cheapest fare lets you pick a seat, and when one is assigned.",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "related": [
+      "family-seating-rules",
+      "southwest-assigned-seating-guide",
+      "when-to-select-your-seats",
+      "unassigned-seats-versus-paid-selection"
+    ],
+    "compare": {
+      "heading": "Check another airline",
+      "intro": "Open the carrier hub if you want the cabin drawings that sit behind this fare rule.",
+      "links": [
+        {
+          "href": "/airlines/american/",
+          "label": "American Airlines seat maps"
+        },
+        {
+          "href": "/airlines/delta/",
+          "label": "Delta Air Lines seat maps"
+        },
+        {
+          "href": "/airlines/united/",
+          "label": "United Airlines seat maps"
+        },
+        {
+          "href": "/airlines/alaska/",
+          "label": "Alaska Airlines seat maps"
+        },
+        {
+          "href": "/airlines/jetblue/",
+          "label": "JetBlue seat maps"
+        },
+        {
+          "href": "/airlines/southwest/",
+          "label": "Southwest seat maps"
+        }
+      ]
+    },
+    "body": [
+      "On the six airline pages opened 21 November 2026, the cheapest fare does not include a free choice of a specific seat. What changes is whether you can pay to pick one before the airport, and when the carrier fills in a seat if you do not. None of those pages prints a single fee that fits every route, so this guide does not invent a price. Family seating is a separate promise and is written up on [family seating rules](/guides/family-seating-rules/).",
+      "American calls the fare Basic Economy. Its Basic Economy page says you can choose a specific seat at any time for a fee. Otherwise the seat is assigned for free at check in. AAdvantage members on a Basic Economy fare bought before May 18, 2026 can still choose complimentary seats based on status. A fare bought on or after that date does not get that status seat. American also says it cannot promise that companions on the same ticket will sit together. If you are traveling with children under 15 and do not already have seats, the same page says the system searches for seats together before the day of departure, and if space is tight it assigns seats so those children are next to at least one adult. Basic Economy boards last, typically in Group 9. The customer service plan, which says it was updated July 29, 2026, is the broader family commitment, including the instruction to skip seat selection for the whole reservation if you want that commitment on Basic Economy.",
+      "Delta now labels the fare Delta Main Basic, and the page says Basic Economy is now Delta Main Basic. The seat line says your seat will not be assigned until after you check in. If the boarding pass has no seat number, the seat is assigned at the gate before you board. A footnote on the same page says a seat assignment can be purchased in advance for a fee, or assigned for free at the airport after check in or at the gate, through Reservations, airport customer service, Delta.com, or the Fly Delta app. The page does not print a dollar amount and does not state a day count for that purchase window. It does say you are not promised a seat next to traveling companions, including family members or groups. If you are traveling with a young child and need the next seat, Delta says to contact Reservations. Delta can reassign the seat even after boarding, for operational, safety, or security reasons. Preferred seats and Delta Comfort are outside this fare.",
+      "United's Basic Economy page has two seat statements, and both were on the page opened today. The Seats section says United chooses your seat and tells you the assignment before boarding. If you are traveling with up to two children under 12, they can sit next to the first adult listed on the reservation for free. You select those seats after booking in My trips, or under Seat preferences in the United app. The rest of the party may be separated. The terms on the same page say seats are assigned prior to boarding and cannot be changed, that customers traveling together, including families, will not be able to sit together, and that advance seat assignments may be available for purchase during booking and until check in opens. Read the [family seating guide](/guides/family-seating-rules/) next to both lines, because the traveling with children page is more specific than the terms sentence. In most cases this fare boards in Group 6. United also says you can add United Economy benefits in My trips, and that add on includes selecting an available economy seat before check in.",
+      "Alaska does not use the name Basic Economy. The cheap fare is Saver. The Saver page says seats are assigned at check in. If check in does not give you a seat, it is assigned at the gate. Alaska says it cannot promise that parties of two or more will sit together, and it does not recommend Saver for a party of two or more. To pick a seat in advance you buy First Class, Premium Class, or Main Preferred. Saver boards last, in group F. A paid Premium Class or First Class seat can move you out of that boarding group. The family exception is older and separate: an Alaska newsroom post dated March 3, 2023 says children 13 and under sit next to at least one accompanying adult at no extra cost, including on Saver, if its conditions are met. That post is quoted on the family guide. It is not a promise that a group of adults stays together.",
+      "JetBlue's seats page calls the cheap fare Main Base. The fee row says there is no fee for Main and Main Flex, and a fee for Main Base. The FAQ says you may select Main Base seats at any time for a fee, and if you do not, the seats are assigned before departure. The same FAQ says base fare customers are included in automatic family seating when JetBlue has the seats, and that changing those seats brings a fee. Mosaic seat perks are excluded on a Main Base fare. The customer service plan is the stronger family wording. It says the guarantee includes Main Base, and it is quoted on the family guide.",
+      "Southwest published assigned seating for travel from January 27, 2026. The assigned seating page says a Basic fare includes a Standard seat assigned at check in. Choice lets you select a Standard seat at booking. Choice Preferred includes a Preferred seat. Choice Extra includes an Extra Legroom seat. Basic boards in Group 8. Checking in 24 hours ahead no longer chooses the seat. Row notes for the 737 are on [Southwest assigned seating](/guides/southwest-assigned-seating-guide/).",
+      "If you are alone on a short flight, a seat assigned at check in can be enough. If you need a window, an aisle, or a named person beside you, the fee or the next fare up is the decision. Confirm the aircraft before you pay for a row that a swap can move. [How to verify your aircraft type](/guides/how-to-verify-your-aircraft-type/) is the checklist. An exit row still has federal eligibility rules on a cheap fare. Read [exit row tips](/guides/exit-row-tips/) before you treat extra space as a family plan.",
+      "This page does not rank the fares. Pick Your Row is not affiliated with these airlines. The cabin drawings on each airline hub are illustrative schematics, and the airline booking flow is the seat that exists on your flight."
+    ],
+    "faq": [
+      {
+        "question": "Can I pick a basic economy seat for free?",
+        "answer": "Not on the pages opened 21 November 2026. American, Delta Main Basic, and JetBlue Main Base charge a fee to choose a seat. Southwest Basic assigns a Standard seat at check in. Alaska Saver assigns a seat at check in unless you buy First Class, Premium Class, or Main Preferred. United assigns the seat before boarding, with a paid advance assignment described in its terms."
+      },
+      {
+        "question": "When is the seat assigned if I do not pay?",
+        "answer": "American says at check in. Delta says after check in, or at the gate if the boarding pass has no seat number. United says before boarding. Alaska says at check in, or at the gate if check in does not assign one. JetBlue says before departure. Southwest says a Basic fare gets a Standard seat at check in."
+      },
+      {
+        "question": "Will my family sit together on the cheapest fare?",
+        "answer": "That is a different rule from the seat fee. American's plan includes Basic Economy if you skip seats for the whole reservation. JetBlue's plan includes Main Base. Alaska's March 2023 post includes Saver for a child 13 or under next to one adult. Delta says a Main Basic fare does not promise a companion seat. United's terms say families will not sit together, while the Seats section and the children page describe a free seat next to the first adult for up to two children under 12. The family guide quotes each page."
+      },
+      {
+        "question": "Does Southwest still use open seating?",
+        "answer": "No. Southwest says assigned seating is bookable for travel from January 27, 2026, and a Basic fare gets a Standard seat assigned at check in."
+      }
+    ],
+    "sources": [
+      {
+        "label": "American Airlines Basic Economy (opened 21 November 2026)",
+        "url": "https://www.aa.com/i18n/travel-info/experience/seats/basic-economy.jsp",
+        "note": "Paid seat choice at any time, free assignment at check in, the May 18, 2026 status cutoff, children under 15, and Group 9 boarding."
+      },
+      {
+        "label": "Delta Main Basic (opened 21 November 2026)",
+        "url": "https://www.delta.com/us/en/onboard/onboard-experience/delta-main-basic",
+        "note": "Basic Economy is now Delta Main Basic. Seat after check in or at the gate, paid advance assignment, no promised companion seat."
+      },
+      {
+        "label": "United Basic Economy (opened 21 November 2026)",
+        "url": "https://www.united.com/en/us/fly/travel/inflight/basic-economy.html",
+        "note": "Seats section and the terms on the same page, including the two children under 12 line and the purchase window until check in opens."
+      },
+      {
+        "label": "Alaska Saver fares (opened 21 November 2026)",
+        "url": "https://www.alaskaair.com/content/travel-info/flight-experience/saver",
+        "note": "Assignment at check in or the gate, no promise for parties of two or more, and boarding group F."
+      },
+      {
+        "label": "JetBlue seats (opened 21 November 2026)",
+        "url": "https://www.jetblue.com/help/seats",
+        "note": "Main Base fee, assignment before departure if you do not pay, and base fares inside automatic family seating."
+      },
+      {
+        "label": "Southwest assigned seating (opened 21 November 2026)",
+        "url": "https://www.southwest.com/customer-enhancements/assigned-seating/",
+        "note": "Basic includes a Standard seat assigned at check in. Choice, Choice Preferred, and Choice Extra add earlier selection."
+      }
+    ]
+  },
+  {
+    "slug": "family-seating-rules",
+    "title": "Which US airlines seat your child next to you at no extra cost",
+    "description": "Five US airlines guarantee a child a seat beside an adult at no extra cost on the DOT dashboard. Four do not.",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "related": [
+      "bassinet-bulkhead-seats",
+      "choosing-seats-with-kids",
+      "basic-economy-seat-selection",
+      "lap-infant-seating-rules"
+    ],
+    "compare": {
+      "heading": "Check another airline",
+      "intro": "Open the carrier hub if you want the cabin drawings that sit behind this fare rule.",
+      "links": [
+        {
+          "href": "/airlines/american/",
+          "label": "American Airlines seat maps"
+        },
+        {
+          "href": "/airlines/delta/",
+          "label": "Delta Air Lines seat maps"
+        },
+        {
+          "href": "/airlines/united/",
+          "label": "United Airlines seat maps"
+        },
+        {
+          "href": "/airlines/alaska/",
+          "label": "Alaska Airlines seat maps"
+        },
+        {
+          "href": "/airlines/jetblue/",
+          "label": "JetBlue seat maps"
+        },
+        {
+          "href": "/airlines/southwest/",
+          "label": "Southwest seat maps"
+        }
+      ]
+    },
+    "body": [
+      "On the U.S. Department of Transportation Airline Family Seating Dashboard, opened 21 November 2026, five airlines are marked yes: Alaska, American, Frontier, Hawaiian, and JetBlue. Four are marked no: Allegiant, Delta, Southwest, and United. A yes mark means the airline guarantees adjacent seats for a child 13 or under and an accompanying adult at no additional cost, for all fare types, subject to limited conditions. The dashboard is a commitment list. It does not assign your seats by itself. A bassinet, a car seat, and the cheapest fare are different questions. Those sit on [bassinet and bulkhead seats](/guides/bassinet-bulkhead-seats/), [car seats on planes](/guides/car-seats-on-planes-faa-rules/), and [basic economy seat selection](/guides/basic-economy-seat-selection/).",
+      "For an airline that assigns seats, DOT says the guarantee can depend on every one of these: the child and the adult are on the same reservation; adjacent seats are available at booking in the selected class of service; the aircraft is not swapped for a smaller aircraft; the adult either chooses seats for the whole reservation or skips seats for the whole reservation, and does not change them later; and the seat layout can actually place that many children next to the accompanying adult or adults. If those conditions are met, DOT says the airline will provide the adjacent assignments no later than the day before the flight. The dashboard also prints a shorter list for open seating. Southwest now sells assigned seats, so its assigned seating page matters more than that open seating bullet. See [Southwest assigned seating](/guides/southwest-assigned-seating-guide/).",
+      "American's customer service plan says it was updated July 29, 2026. It guarantees children 14 and under a seat adjacent to an accompanying adult at no additional cost, including Basic Economy, if everyone is on the same reservation, adjacent seats exist in that class at booking, you choose seats for the whole reservation or skip them for the whole reservation, you do not change the assignments later, the layout allows it, and the flight is not switched to a smaller aircraft. On Basic Economy the plan says to skip choosing seats for the whole reservation. If the conditions are not met, American says it will still try. The age on the plan is 14 and under. The dashboard column is worded as 13 or under. Both pages are American or DOT pages. Use 14 and under when you are talking to American.",
+      "Alaska's newsroom post dated March 3, 2023 says the airline guarantees that children 13 and under will be seated next to at least one accompanying adult at no additional cost, including for Saver fares, if the child and adult are on the same reservation, the adult chooses or skips seats for the whole reservation and does not change them, adjacent seats are available in that class at booking, the layout allows it, and the original plane is not switched to a smaller aircraft. The Saver page opened the same day as this guide still says Alaska cannot promise that parties of two or more will sit together. The 2023 post is the child and adult exception. It is not a promise that every adult in a larger party stays in one row.",
+      "Frontier's customer service plan, section 13, opened today, says that when a passenger is 13 or younger, Frontier guarantees adjacent seats for the child and an accompanying adult over 13, at no additional cost, for all fare types, if they share a reservation, adjacent seats are available at booking in that class, the adult chooses or skips seats for the whole reservation and does not change them, and the layout allows it. Frontier says it might not assign the seats immediately, and it will provide them no later than the day before departure. The section opened today does not list a smaller aircraft as a condition, so this guide does not add one.",
+      "JetBlue's customer service plan, opened today, guarantees seating children under 13 with a parent or accompanying adult at no additional cost, even on Main Base fares, if everyone is on the same reservation and adjacent seats are available in that cabin at booking, you select seats for the whole reservation or skip them, you do not change the assignments later, the layout allows it, and the aircraft is not changed to one with a different seat configuration. If those conditions are met and adjacent seats still cannot be provided, JetBlue lists three options: travel on the original flight without adjacent seats, move to the next available flight with adjacent seats at no extra cost, or cancel for a full refund to the original form of payment. The seats help page uses softer wording and says base fare customers are included in automatic assignment when seats exist. The plan is the guarantee. The help page is the booking note. Age on the plan is under 13.",
+      "Hawaiian is marked yes on the dashboard. A separate Hawaiian customer service plan was not opened on 21 November 2026, so this guide does not invent a Hawaiian sentence. Use the dashboard column, then read Hawaiian's own plan before you rely on wording that is not quoted here.",
+      "Delta is marked no. Its children and infant travel page says Delta strives to seat family members together upon request, and that if you cannot get seats together on delta.com or in the Fly Delta app you should contact reservations. The Delta Main Basic page says you are not promised a seat next to companions, including family, and that a traveler with a young child who needs the next seat should contact Reservations. United is marked no as well, and its traveling with children page is still specific: children under 12 will not have to sit by themselves. The first adult on the reservation can sit next to up to two children in the party for free, if the seats are open. You select them after booking in My trips or under Seat preferences. The rest of the party may sit elsewhere. If an unscheduled aircraft change separates the children from an adult, United says you can switch to another flight with open seats in the same cabin for free. That is a seating practice. It is not the broader guarantee the dashboard is scoring. United's Basic Economy terms, on a different page, say customers traveling together, including families, will not be able to sit together, while the Seats section of that page describes the two children under 12 exception.",
+      "Southwest and Allegiant are marked no. A Southwest customer service plan sentence that guarantees adjacent seats was not opened for this guide, so none is quoted. Southwest's assigned seating page does say a Basic fare gets a Standard seat assigned at check in, which answers a different question. Paying for Choice, or a higher bundle, is how you pick the seats yourself. Allegiant's own plan was not opened here either.",
+      "When you book on a yes airline, put the child and the adult on one reservation. Either pick seats for everyone or skip seats for everyone. American, Alaska, Frontier, and JetBlue each say the choice has to cover the whole reservation. Do not move the seats later if you want to stay inside the conditions you just met. If the cabin cannot fit that many children beside the adults, the commitment does not create seats. An exit row is the wrong backup, because exit eligibility rules exclude young children and an adult whose attention is on a small child. Read [exit row tips](/guides/exit-row-tips/) and [choosing seats with kids](/guides/choosing-seats-with-kids/) for the cabin geometry, and [lap infant seating rules](/guides/lap-infant-seating-rules/) if the child is under two and does not have a ticket.",
+      "Ages do not match across the pages. The dashboard column says 13 or under. American's plan says 14 and under. JetBlue's plan says under 13. United's children page says under 12, and only for up to two children next to the first adult. Use the airline's own age when you are dealing with that airline. Pick Your Row is not affiliated with these carriers, and a seat map on this site is an illustration, not the reservation."
+    ],
+    "faq": [
+      {
+        "question": "Which US airlines does the DOT dashboard mark yes?",
+        "answer": "On 21 November 2026 the dashboard marked Alaska, American, Frontier, Hawaiian, and JetBlue as yes for a child 13 or under next to an accompanying adult at no extra cost, on all fare types, subject to limited conditions."
+      },
+      {
+        "question": "Which airlines are marked no?",
+        "answer": "Allegiant, Delta, Southwest, and United. A no mark means that airline has not made the commitment the dashboard tracks. United still describes a free seat for up to two children under 12 next to the first adult, if the seats are open."
+      },
+      {
+        "question": "Do I have to pick seats to get the guarantee?",
+        "answer": "On American, Alaska, Frontier, and JetBlue you either choose seats for the whole reservation or skip seats for the whole reservation, and you do not change them later. American tells Basic Economy travelers to skip seats for the whole reservation. Splitting the choice, one seat picked and one left blank, steps outside those conditions."
+      },
+      {
+        "question": "Is a bassinet the same as family seating?",
+        "answer": "No. Family seating is about an adjacent seat. A bassinet is a carrier crib at a bulkhead, with its own age and weight limits, and many aircraft have only one or two. Read the bassinet guide and confirm the fitting with the airline."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DOT Airline Family Seating Dashboard (opened 21 November 2026)",
+        "url": "https://www.transportation.gov/airconsumer/airline-family-seating-dashboard",
+        "note": "Yes for Alaska, American, Frontier, Hawaiian, and JetBlue. No for Allegiant, Delta, Southwest, and United. Limited conditions are on the page."
+      },
+      {
+        "label": "American Airlines customer service plan (updated July 29, 2026)",
+        "url": "https://www.aa.com/web/i18n/customer-service/support/customer-service-plan.html",
+        "note": "Children 14 and under, including Basic Economy, and the instruction to skip seats on that fare."
+      },
+      {
+        "label": "Alaska newsroom, March 3, 2023",
+        "url": "https://news.alaskaair.com/alaska-airlines/when-you-fly-with-alaska-airlines-we-guarantee-your-family-sits-together-and-we-dont-charge-you-for-it/",
+        "note": "Children 13 and under next to at least one adult, including Saver fares, with the five conditions listed on the post."
+      },
+      {
+        "label": "Frontier customer service plan, section 13 (opened 21 November 2026)",
+        "url": "https://www.flyfrontier.com/legal/customer-service-plan",
+        "note": "Child 13 or younger and an adult over 13, assignments no later than the day before departure."
+      },
+      {
+        "label": "JetBlue customer service plan (opened 21 November 2026)",
+        "url": "https://www.jetblue.com/customer-assurance/customer-service-plan",
+        "note": "Children under 13, including Main Base, and the three options if adjacent seats still cannot be provided."
+      },
+      {
+        "label": "Delta children and infant travel (opened 21 November 2026)",
+        "url": "https://www.delta.com/us/en/children-infant-travel/overview",
+        "note": "Delta strives to seat family members together upon request and asks you to contact reservations if the website or app cannot."
+      },
+      {
+        "label": "United traveling with children (opened 21 November 2026)",
+        "url": "https://www.united.com/en/us/fly/travel/accessibility-and-assistance/traveling-with-children.html",
+        "note": "Up to two children under 12 next to the first adult for free if the seats are open, and a free cabin change after an unscheduled aircraft swap that separates them."
       }
     ]
   }

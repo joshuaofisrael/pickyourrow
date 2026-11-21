@@ -482,14 +482,26 @@ const jsonLd = [
     })),
   },
 ];
+const usSeatPolicy = new Set([
+  'delta',
+  'united',
+  'american',
+  'southwest',
+  'jetblue',
+  'alaska',
+  'hawaiian',
+  'spirit',
+  'frontier',
+]);
 const helpfulGuideSlugs = [
+  ...(usSeatPolicy.has(airline.slug) ? ['basic-economy-seat-selection', 'family-seating-rules'] : []),
+  ...(airline.slug === 'southwest' ? ['southwest-assigned-seating-guide'] : []),
+  ...(airline.slug === 'ryanair' ? ['ryanair-737-8200-seats'] : []),
   'how-to-verify-your-aircraft-type',
   'seat-map-glossary',
   'do-exit-row-seats-recline',
   'exit-row-tips',
   'how-pickyourrow-scores-work',
-  ...(airline.slug === 'southwest' ? ['southwest-assigned-seating-guide'] : []),
-  ...(airline.slug === 'ryanair' ? ['ryanair-737-8200-seats'] : []),
 ];
 const helpfulGuides = guides.filter((g) => helpfulGuideSlugs.includes(g.slug));
 const relatedReadItems = helpfulGuides.slice(0, 4).map((g) => ({

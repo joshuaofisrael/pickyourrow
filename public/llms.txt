@@ -1,6 +1,6 @@
 # Pick Your Row
 
-> Pick Your Row (pickyourrow.com) publishes original, illustrative airline seat maps and editorial best seat picks for 188 typical cabin configurations across 56 airlines and 33 aircraft types, plus 43 evergreen guides on choosing a seat. The maps are drawn from publicly known typical cabin facts, are not scraped from airlines or other seat map sites, and can differ from the aircraft on a given flight, so always confirm seats with the airline. Pick Your Row is not affiliated with, endorsed by, or sponsored by any airline.
+> Pick Your Row (pickyourrow.com) publishes original, illustrative airline seat maps and editorial best seat picks for 188 typical cabin configurations across 56 airlines and 33 aircraft types, plus 62 evergreen guides on choosing a seat. The maps are drawn from publicly known typical cabin facts, are not scraped from airlines or other seat map sites, and can differ from the aircraft on a given flight, so always confirm seats with the airline. Pick Your Row is not affiliated with, endorsed by, or sponsored by any airline.
 
 Ownership, governing law and legal contact details are on the Terms page: https://pickyourrow.com/terms/
 
@@ -18,6 +18,8 @@ Seat scores and picks are editorial opinions for planning, not guarantees and no
 
 ## Top guides
 
+- [Basic economy seat selection](https://pickyourrow.com/guides/basic-economy-seat-selection/): Who lets you pick a seat on a cheap fare, and when the airline assigns one.
+- [Family seating rules](https://pickyourrow.com/guides/family-seating-rules/): Which U.S. airlines guarantee a child a seat next to an adult at no extra cost.
 - [How to read a seat map](https://pickyourrow.com/guides/how-to-read-a-seat-map/): Plain English guide to aisles, exit rows, bulkheads and cabin codes on a seat map.
 - [Seat map glossary](https://pickyourrow.com/guides/seat-map-glossary/): Definitions of exit row, bulkhead, pitch, layout and other cabin terms.
 - [Aisle vs window](https://pickyourrow.com/guides/aisle-vs-window/): How to choose between aisle and window seats for rest, access and views.
