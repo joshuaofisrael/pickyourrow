@@ -338,5 +338,25 @@
     "sourceUrl": "https://www.aa.com/web/i18n/travel-info/experience/planes/planes.html",
     "sourceLabel": "American Airlines Our planes",
     "dateChecked": "2026-11-20"
+  },
+  {
+    "airline": "Thai Airways",
+    "aircraft": "Boeing 777 300ER 77B",
+    "cabin": "Royal Silk",
+    "pitch": "41 to 46 in",
+    "width": "21 in",
+    "sourceUrl": "https://www.thaiairways.com/en-us/content/our-fleet/",
+    "sourceLabel": "Thai Airways fleet page",
+    "dateChecked": "2026-11-21"
+  },
+  {
+    "airline": "Thai Airways",
+    "aircraft": "Boeing 777 300ER 77B",
+    "cabin": "Economy",
+    "pitch": "31 to 32 in",
+    "width": "18.33 in",
+    "sourceUrl": "https://www.thaiairways.com/en-us/content/our-fleet/",
+    "sourceLabel": "Thai Airways fleet page",
+    "dateChecked": "2026-11-21"
   }
 ]

@@ -20,8 +20,8 @@ rows.forEach((row, index) => {
     console.error(want);
     process.exit(1);
   }
-  if (row.dateChecked !== '2026-11-20') {
-    console.error(`seat pitch row ${index + 1} is not dated 2026-11-20`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(row.dateChecked) || row.dateChecked > '2026-11-21') {
+    console.error(`seat pitch row ${index + 1} has a missing or future date checked`);
     process.exit(1);
   }
 });

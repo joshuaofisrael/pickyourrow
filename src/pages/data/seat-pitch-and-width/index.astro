@@ -12,13 +12,33 @@ import rows from '../../../data/seat-pitch.json';
 const pagePath = '/data/seat-pitch-and-width/';
 const title = "Seat pitch and width by airline: numbers from each carrier's own page";
 const description =
-  'Pitch and width copied from airline pages on 20 November 2026, with a source link on every row and a CSV download.';
+  'Pitch and width copied from each airline page, with a source link and a date checked on every row.';
 
 if (description.length > 155) {
   throw new Error(`Meta description is ${description.length} characters`);
 }
 
 const published = '2026-11-20';
+const modified = '2026-11-21';
+
+function checkedLabel(iso: string): string {
+  const [year, month, day] = iso.split('-');
+  const months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+  return `${Number(day)} ${months[Number(month) - 1]} ${year}`;
+}
 const relatedSlugs = [
   'seat-pitch-and-width-explained',
   'exit-row-tips',
@@ -60,7 +80,7 @@ const faqs = [
   {
     question: 'Where do these pitch and width numbers come from?',
     answer:
-      'Each row is copied from the airline page linked in that row. The date checked column is the day we opened that page, 20 November 2026. We did not use seat map blogs, competitor diagrams, or airline PDF files.',
+      'Each row is copied from the airline page linked in that row. The date checked column is the day we opened that page. We did not use seat map blogs, competitor diagrams, or airline PDF files.',
   },
   {
     question: 'Why do some rows say not published?',
@@ -75,7 +95,7 @@ const faqs = [
   {
     question: 'How should I cite this table?',
     answer:
-      'Cite Pick Your Row, the seat pitch and width table on pickyourrow.com, checked 20 November 2026, and quote the airline page named on the row you use. The CSV download has the same rows.',
+      'Cite Pick Your Row, the seat pitch and width table on pickyourrow.com, and quote the airline page named on the row you use, including that row date. The CSV download has the same rows.',
   },
 ];
 
@@ -91,7 +111,7 @@ const jsonLd = [
     description,
     url: `https://pickyourrow.com${pagePath}`,
     datePublished: published,
-    dateModified: published,
+    dateModified: modified,
     author: PUBLISHER,
     publisher: PUBLISHER,
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://pickyourrow.com${pagePath}` },
@@ -103,7 +123,7 @@ const jsonLd = [
     name: 'Airline seat pitch and width',
     description,
     url: `https://pickyourrow.com${pagePath}`,
-    dateModified: published,
+    dateModified: modified,
     creator: PUBLISHER,
     distribution: {
       '@type': 'DataDownload',
@@ -135,11 +155,11 @@ const jsonLd = [
   <div class="wrap prose">
     <nav class="breadcrumb"><a href="/">Home</a> / Seat pitch and width</nav>
     <h1 class="page-title">{title}</h1>
-    <Byline date={published} dateLabel="20 November 2026" />
+    <Byline date={modified} dateLabel="Updated 21 November 2026" />
     <p class="lede">{description}</p>
     <Photo name="economy-cabin" variant="banner" eager />
     <p>
-      This table is the citable list. It holds only numbers we could read on an airline's own page on 20 November 2026.
+      This table is the citable list. It holds only numbers we could read on an airline's own page. The date on each row is the day that page was opened.
       {rows.length} rows cover {airlinesInTable.length} airlines. If a page did not print pitch, or did not print width, the cell says not published.
       Nothing here is estimated from a photo of a cabin.
     </p>
@@ -173,13 +193,13 @@ const jsonLd = [
 
     <h2>The table</h2>
     <p>
-      Open a carrier hub while you read a row: <a href="/airlines/delta/">Delta</a>, <a href="/airlines/jetblue/">JetBlue</a>, <a href="/airlines/american/">American</a>, <a href="/airlines/air-canada/">Air Canada</a>, or <a href="/airlines/aer-lingus/">Aer Lingus</a>.
+      Open a carrier hub while you read a row: <a href="/airlines/delta/">Delta</a>, <a href="/airlines/jetblue/">JetBlue</a>, <a href="/airlines/american/">American</a>, <a href="/airlines/air-canada/">Air Canada</a>, <a href="/airlines/thai-airways/">Thai Airways</a>, or <a href="/airlines/cathay-pacific/">Cathay Pacific</a>.
       Aircraft type pages for the jets we draw include the <a href="/aircraft/a220-100/">A220 100</a> and the <a href="/aircraft/a220-300/">A220 300</a>.
       Breeze is in the table because it publishes pitch and width. We do not draw a Breeze cabin.
     </p>
     <div class="table-scroll">
       <table class="fleet hub-fleet">
-        <caption>Airline seat pitch and width, checked 20 November 2026</caption>
+        <caption>Airline seat pitch and width, with a date checked on every row</caption>
         <thead>
           <tr>
             <th scope="col">Airline</th>
@@ -200,7 +220,7 @@ const jsonLd = [
               <td>{row.pitch}</td>
               <td>{row.width}</td>
               <td><a href={row.sourceUrl} rel="noopener noreferrer">{row.sourceLabel}</a></td>
-              <td>20 November 2026</td>
+              <td>{checkedLabel(row.dateChecked)}</td>
             </tr>
           ))}
         </tbody>
@@ -213,7 +233,7 @@ const jsonLd = [
     <aside class="cite-box" aria-label="Cite this table">
       <h2>Cite this</h2>
       <p>
-        Pick Your Row editorial team, Airline seat pitch and width, pickyourrow.com, checked 20 November 2026.
+        Pick Your Row editorial team, Airline seat pitch and width, pickyourrow.com. Use the date checked on the row you quote.
         Quote the airline page named on the row you use. Figures stay on this page until we open those airline pages again and change a number.
       </p>
     </aside>

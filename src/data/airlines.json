@@ -448,16 +448,28 @@
     "name": "Cathay Pacific",
     "iata": "CX",
     "country": "Hong Kong",
-    "blurb": "Hong Kong network carrier operating A350, 777, and A330 fleets. Business and economy layouts vary by subfleet.",
+    "blurb": "Hong Kong network carrier. The Airbus A350 900 seating plan, opened 21 November 2026, lists 38 business, 28 premium economy, 214 economy, and 280 seats in total, which matches the seat count on our A350 card. The Boeing 777 300 page opened the same day lists four layouts: 368 seats, 294 seats with first class, 438 seats with 42 business and 396 economy, and 361 seats. Our 777 card is drawn at about 396 seats, so it matches the economy count on the 438 seat version and not that version's total. Match the airline seating plan for your flight before you treat the card as your aircraft.",
     "glance": {
       "alliance": "oneworld (founding member)",
       "hubs": [
         "Hong Kong International"
       ],
-      "cabins": "Aria Suite business on retrofitted Boeing 777 aircraft, business on the Airbus A350, plus premium economy and economy on long haul widebodies",
-      "seatTip": "The same aircraft type can carry an older or newer business cabin, so check the configuration your flight shows.",
+      "cabins": "Business, premium economy, and economy on the Airbus A350 900, plus several Boeing 777 300 layouts. One of those 777 layouts also lists first class. The A330 300 card on this hub was not rechecked seat by seat on 21 November 2026.",
+      "seatTip": "The A350 900 page and our A350 card both say 280 seats. The 777 page has four different totals, and our 777 card is about 396.",
       "source": "https://www.cathaypacific.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Cathay Pacific Airbus A350 900 seating plan (opened 21 November 2026)",
+        "url": "https://www.cathaypacific.com/cx/en_US/flying-with-us/aircraft-and-fleet/airbus-a350/900.html",
+        "note": "38 business, 28 premium economy, 214 economy, 280 total."
+      },
+      {
+        "label": "Cathay Pacific Boeing 777 300 seating plan (opened 21 November 2026)",
+        "url": "https://www.cathaypacific.com/cx/en_US/flying-with-us/aircraft-and-fleet/boeing-777/300.html",
+        "note": "Totals on the page: 368, 294, 438, and 361. The 438 seat layout lists 42 business and 396 economy."
+      }
+    ]
   },
   {
     "slug": "klm",
@@ -922,16 +934,23 @@
     "name": "Thai Airways",
     "iata": "TG",
     "country": "Thailand",
-    "blurb": "Thai flag carrier hubbed at Bangkok with A350 and 787 long haul fleets plus select 777 aircraft. Premium and economy products vary by aircraft and route.",
+    "blurb": "Thai flag carrier hubbed at Bangkok. Its fleet page, opened 21 November 2026, lists the Boeing 777 300ER, the Boeing 777 200ER, the Airbus A350 900, the Boeing 787 9, the Boeing 787 8, the Airbus A330 300, the Airbus A320 200, and the Airbus A321neo. On that page the 777 300ER coded 77B is 14 aircraft and 348 seats, with 42 Royal Silk and 306 economy. The 77Y version is 3 aircraft and 303 seats, including 8 Royal First. Our 777 card uses the 348 seat count. The same page prints 77B Royal Silk pitch as 41 or 46 inches and width as 21 inches, and economy pitch as 31 or 32 inches, with the economy width cell printed as 18.33.",
     "glance": {
       "alliance": "Star Alliance (founding member)",
       "hubs": [
         "Bangkok Suvarnabhumi"
       ],
-      "cabins": "Royal First on some Boeing 777 aircraft, Royal Silk business class, Premium Economy on some of the longest routes, and Economy",
-      "seatTip": "Cabins differ sharply by aircraft type on THAI, so match the aircraft on your booking to a card below before you pick a seat.",
+      "cabins": "Royal First on the 303 seat 777 300ER version, Royal Silk, and Economy. The fleet page also lists an Airbus A350 900, Boeing 787 8, Boeing 787 9, Airbus A330 300, Airbus A320 200, and Airbus A321neo.",
+      "seatTip": "Our 777 card matches the 348 seat 77B count, not the 303 seat 77Y with Royal First. Confirm which version is on your ticket before you pick a row.",
       "source": "https://www.thaiairways.com/"
-    }
+    },
+    "sources": [
+      {
+        "label": "Thai Airways fleet page (opened 21 November 2026)",
+        "url": "https://www.thaiairways.com/en-us/content/our-fleet/",
+        "note": "77B is 14 aircraft and 348 seats. 77Y is 3 aircraft and 303 seats with 8 Royal First. Pitch and width above are the 77B table."
+      }
+    ]
   },
   {
     "slug": "lot-polish",
