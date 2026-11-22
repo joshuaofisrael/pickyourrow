@@ -28,10 +28,18 @@ const relatedPriority = [
   'aisle-vs-window',
   'bulkhead-seats',
 ];
-const relatedGuides = [
-  ...guides.filter((g) => g.slug !== slug && relatedPriority.includes(g.slug)),
-  ...guides.filter((g) => g.slug !== slug && !relatedPriority.includes(g.slug)),
-].slice(0, 4);
+const explicitRelated = ((guide as { related?: string[] }).related ?? []).filter((item) => item !== slug);
+const relatedGuides = (
+  explicitRelated.length
+    ? explicitRelated.flatMap((item) => {
+        const found = guides.find((g) => g.slug === item);
+        return found ? [found] : [];
+      })
+    : [
+        ...guides.filter((g) => g.slug !== slug && relatedPriority.includes(g.slug)),
+        ...guides.filter((g) => g.slug !== slug && !relatedPriority.includes(g.slug)),
+      ]
+).slice(0, 4);
 const relatedItems = relatedGuides.map((g) => ({
   href: `/guides/${g.slug}/`,
   title: g.title,
@@ -57,6 +65,12 @@ type FaqItem = { question: string; answer: string };
 const faqs = ((guide as { faq?: FaqItem[] }).faq ?? []) as FaqItem[];
 const datePublished = (guide as { datePublished?: string }).datePublished;
 const dateModified = (guide as { dateModified?: string }).dateModified ?? datePublished;
+const published = (guide as { published?: string }).published ?? datePublished;
+const updated = (guide as { updated?: string }).updated ?? published;
+type CompareLink = { href: string; label: string };
+const compare = (
+  guide as { compare?: { heading?: string; intro: string; links: CompareLink[] } }
+).compare;
 
 /** Link targets may contain hyphens. Visible labels and prose may not. */
 function visibleProse(text: string): string {
@@ -73,7 +87,7 @@ const jsonLd: Record<string, unknown>[] = [
     url: `https://pickyourrow.com${pagePath}`,
     author: PUBLISHER,
     publisher: PUBLISHER,
-    ...(datePublished ? { datePublished, dateModified } : {}),
+    ...((published || datePublished) ? { datePublished: published ?? datePublished, dateModified: updated ?? dateModified } : {}),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://pickyourrow.com${pagePath}`,
@@ -194,14 +208,19 @@ if (faqs.length > 0) {
     )}
 
     <CompareBox
-      heading="Check a seat map"
-      intro="When you are ready to match this guide to a cabin drawing, open an airline hub or the aircraft index."
-      links={[
-        { href: '/airlines/', label: 'Airlines directory' },
-        { href: '/aircraft/', label: 'Aircraft index' },
-        { href: '/best-seats/', label: 'Best seats directory' },
-        { href: '/guides/', label: 'All guides' },
-      ]}
+      heading={compare?.heading ?? 'Check a seat map'}
+      intro={
+        compare?.intro ??
+        'When you are ready to match this guide to a cabin drawing, open an airline hub or the aircraft index.'
+      }
+      links={
+        compare?.links ?? [
+          { href: '/airlines/', label: 'Airlines directory' },
+          { href: '/aircraft/', label: 'Aircraft index' },
+          { href: '/best-seats/', label: 'Best seats directory' },
+          { href: '/guides/', label: 'All guides' },
+        ]
+      }
     />
 
     <p class="btn-row">
