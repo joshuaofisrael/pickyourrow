@@ -1,6 +1,6 @@
 # Pick Your Row
 
-> Pick Your Row (pickyourrow.com) publishes original, illustrative airline seat maps and editorial best seat picks for 188 typical cabin configurations across 56 airlines and 33 aircraft types, plus 43 evergreen guides on choosing a seat. The maps are drawn from publicly known typical cabin facts, are not scraped from airlines or other seat map sites, and can differ from the aircraft on a given flight, so always confirm seats with the airline. Pick Your Row is not affiliated with, endorsed by, or sponsored by any airline.
+> Pick Your Row (pickyourrow.com) publishes original, illustrative airline seat maps and editorial best seat picks for 188 typical cabin configurations across 56 airlines and 33 aircraft types, plus 62 evergreen guides on choosing a seat. The maps are drawn from publicly known typical cabin facts, are not scraped from airlines or other seat map sites, and can differ from the aircraft on a given flight, so always confirm seats with the airline. Pick Your Row is not affiliated with, endorsed by, or sponsored by any airline.
 
 Ownership, governing law and legal contact details are on the Terms page: https://pickyourrow.com/terms/
 
@@ -30,6 +30,8 @@ Seat scores and picks are editorial opinions for planning, not guarantees and no
 - [How to verify your aircraft type](https://pickyourrow.com/guides/how-to-verify-your-aircraft-type/): Confirming the jet on your ticket and spotting equipment swaps.
 - [When to select your seats](https://pickyourrow.com/guides/when-to-select-your-seats/): How seat selection windows work from purchase through check in.
 - [How Pick Your Row scores work](https://pickyourrow.com/guides/how-pickyourrow-scores-work/): What the 1 to 10 editorial seat scores and tags mean.
+- [Airbus A321neo seats](https://pickyourrow.com/guides/airbus-a321neo-seat-guide/): Which rows to pick on JetBlue, American, Hawaiian, and Aer Lingus, from each airline's own pages.
+- [Airbus A220 seats](https://pickyourrow.com/guides/airbus-a220-seat-guide/): Which side has the two seat pair, and how Delta, JetBlue, Air Canada, and Breeze fit the cabin.
 
 ## Top airline hubs
 
